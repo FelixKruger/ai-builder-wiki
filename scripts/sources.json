@@ -1,0 +1,31 @@
+{
+  "high_signal": [
+    {"id": "anthropic-blog", "url": "https://www.anthropic.com/news", "kind": "blog"},
+    {"id": "openai-blog", "url": "https://openai.com/news/", "kind": "blog"},
+    {"id": "google-deepmind", "url": "https://deepmind.google/discover/blog/", "kind": "blog"},
+    {"id": "hn-frontpage", "url": "https://news.ycombinator.com/", "kind": "aggregator"},
+    {"id": "lobsters", "url": "https://lobste.rs/", "kind": "aggregator"},
+    {"id": "github-trending", "url": "https://github.com/trending?since=weekly", "kind": "aggregator"},
+    {"id": "mcp-registry", "url": "https://smithery.ai", "kind": "registry"}
+  ],
+  "medium_signal": [
+    {"id": "product-hunt", "url": "https://www.producthunt.com/topics/artificial-intelligence", "kind": "aggregator"},
+    {"id": "ai-tidbits", "url": "https://www.aitidbits.ai/", "kind": "newsletter"},
+    {"id": "interconnects", "url": "https://www.interconnects.ai/", "kind": "newsletter"},
+    {"id": "latent-space", "url": "https://www.latent.space/", "kind": "newsletter"},
+    {"id": "thursdai", "url": "https://sub.thursdai.news/", "kind": "newsletter"}
+  ],
+  "query_bank": [
+    "new agent framework 2026",
+    "MCP server release",
+    "Claude Code skill",
+    "AI coding agent benchmark",
+    "vector database 2026",
+    "voice agent platform",
+    "LLM eval framework",
+    "prompt engineering tool launch",
+    "ai-builder workflow tool",
+    "open source agent runtime"
+  ],
+  "rotation_note": "Curator rotates through query_bank one entry per day so we don't keep finding the same tools."
+}
