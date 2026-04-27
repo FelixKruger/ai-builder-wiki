@@ -1,0 +1,36 @@
+# {{ site.title }}
+
+{{ site.tagline }}
+
+**Live site:** {{ site.base_url }}
+**RSS:** {{ site.base_url }}feed.xml
+
+A curated, daily-updated wiki of the tools, models, and patterns AI power-users and builders actually reach for. Every entry is verified live before it lands.
+
+## Recently added
+
+<!-- RECENTLY_ADDED:START -->
+{% for e in recent %}
+- **[{{ e.name }}]({{ site.base_url }}#{{ e.id }})** — {{ e.summary }} *(added {{ e.added }})*
+{% endfor %}
+<!-- RECENTLY_ADDED:END -->
+
+## How it works
+
+- `data/entries.json` is the source of truth.
+- `scripts/render.py` regenerates `index.html`, `feed.xml`, and this README's "Recently added" section.
+- A curator agent (see `skills/wiki-curator/SKILL.md`) runs daily on a Beelink mini-PC, finds new tools, verifies them, and commits.
+- GitHub Pages auto-deploys on every push to `main`.
+
+## Categories
+
+{% for cat in categories %}- **[{{ cat.name }}]({{ site.base_url }}#{{ cat.id }})** ({{ counts[cat.id] }}) — {{ cat.blurb }}
+{% endfor %}
+
+## Suggest a tool
+
+[Open an issue]({{ site.repo_url }}/issues/new?title=Suggest:+&labels=suggestion) with the URL and one sentence on why it belongs.
+
+## License
+
+Content under CC-BY-4.0. Code under MIT.
