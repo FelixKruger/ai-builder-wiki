@@ -1,6 +1,6 @@
 # Daily Curator Package — AI Builder's Field Guide
 
-> **Purpose.** This file is the complete, self-contained instruction set for a Claude cowork session to keep [`https://felixkruger.github.io/ai-builder-wiki/`](https://felixkruger.github.io/ai-builder-wiki/) accurate, current, and improving — five days a week.
+> **Purpose.** This file is the complete, self-contained instruction set for a Claude cowork session to keep [`https://felixkruger.github.io/ai-builder-wiki/`](https://felixkruger.github.io/ai-builder-wiki/) accurate, current, and improving — seven days a week.
 >
 > **Hand this file to a scheduled cowork session and the wiki maintains itself.**
 
@@ -8,13 +8,12 @@
 
 ## Schedule
 
-- **Days:** Monday → Friday
-- **Time:** 06:00 UTC (cron: `0 6 * * 1-5`)
-- **Skip weekends.** The wiki's audience is mostly working builders; weekend updates don't add much signal and burn API budget.
+- **Days:** Every day (Mon–Sun)
+- **Time:** 06:00 UTC (cron: `0 6 * * *`)
 
 ## The non-negotiable daily mandate
 
-**Every weekday run MUST result in at least one meaningful improvement.** "Nothing happened today" is not a valid outcome. If no new tools clear the verification bar, the curator still:
+**Every run MUST result in at least one meaningful improvement.** "Nothing happened today" is not a valid outcome. If no new tools clear the verification bar, the curator still:
 
 1. **Refreshes** the 3 oldest entries by `last_verified`, re-checking each URL, and bumping the date.
 2. **Refines** at least one existing entry's `why_it_matters` or `summary` if a sharper framing has emerged (e.g., a new comparison point, a better one-sentence pitch).
@@ -33,7 +32,7 @@ The curator earns trust by being **harder to please than the user is**. Reject a
 - Would be the 4th+ item from the same vendor in the wiki.
 - Has a `why_it_matters` that you can't write without using a banned word ("revolutionary", "game-changing", "AI-powered", "cutting-edge", "next-generation").
 
-When in doubt, **skip**. The wiki's value is curation, not coverage. Aim for 1–2 adds per day at most; some weekdays should be pure refreshes.
+When in doubt, **skip**. The wiki's value is curation, not coverage. Aim for 1–2 adds per day at most; some days should be pure refreshes.
 
 ---
 
@@ -58,8 +57,8 @@ Repository: https://github.com/FelixKruger/ai-builder-wiki
 Live site:  https://felixkruger.github.io/ai-builder-wiki/
 Branch:     main
 
-You are running on a Mon–Fri schedule. Your job is to leave the wiki measurably
-better than you found it, every single weekday. "No changes" is not a valid
+You run every day. Your job is to leave the wiki measurably
+better than you found it, every single day. "No changes" is not a valid
 outcome — see the daily mandate below.
 
 ==== STEP 0: Orient ====
@@ -165,7 +164,7 @@ Then increment `rotation_pointer` (modulo length of query_bank).
 
 ## Sources to scan
 
-The curator rotates through `scripts/sources.json::query_bank` (currently 22 queries) one entry per weekday. It additionally checks 1–3 of these high-signal feeds per run:
+The curator rotates through `scripts/sources.json::query_bank` (currently 22 queries) one entry per day. It additionally checks 1–3 of these high-signal feeds per run:
 
 ### Tier-1 (check most days)
 
@@ -301,4 +300,4 @@ If you hit a failure you can't classify, do not push. Write the failure to the c
 1. Open https://github.com/FelixKruger/ai-builder-wiki/commits/main — there should be a `curator: ...` commit dated today.
 2. Open https://felixkruger.github.io/ai-builder-wiki/ — the `Last curated:` date in the header should be today.
 3. Open `data/curator-log.json` — the latest run should reflect what the commit message said.
-4. If the wiki has not been updated for 2+ weekdays in a row, the curator is failing silently. Read the cowork run logs and check the failure modes table above.
+4. If the wiki has not been updated for 2+ days in a row, the curator is failing silently. Read the cowork run logs and check the failure modes table above.
