@@ -2,8 +2,8 @@ name: Daily Curator
 
 on:
   schedule:
-    # 06:00 UTC Mon–Fri. GitHub cron syntax is UTC.
-    - cron: "0 6 * * 1-5"
+    # 06:00 UTC every day. GitHub cron syntax is UTC.
+    - cron: "0 6 * * *"
   workflow_dispatch: # manual "Run workflow" button in the Actions tab
 
 permissions:
