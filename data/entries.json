@@ -478,6 +478,94 @@
       "last_verified": "2026-05-11",
       "source": "human:eriks",
       "added": "2026-05-11"
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "url": "https://www.deepseek.com/",
+      "category": "foundation-models",
+      "summary": "Chinese AI lab shipping open-weight LLMs (R1, V3, V4-preview, Coder V2) with strong reasoning and aggressive pricing.",
+      "why_it_matters": "When Claude or GPT's API bill bites, DeepSeek is the open-weight escape hatch with competitive reasoning. Frequently profiled by The AI Search.",
+      "last_verified": "2026-05-11",
+      "source": "human:eriks+youtube:theAIsearch",
+      "added": "2026-05-11"
+    },
+    {
+      "id": "qwen",
+      "name": "Qwen",
+      "url": "https://huggingface.co/Qwen",
+      "category": "foundation-models",
+      "summary": "Alibaba Cloud's open-weight model family — Qwen3.6 text+multimodal, Qwen3.5 Omni (text/audio/image/video), and WebWorld agent variants.",
+      "why_it_matters": "The most prolific open-weight family in 2026 — base, coder, vision, audio, and agent specializations all maintained. First place to look for non-English fine-tunes.",
+      "last_verified": "2026-05-11",
+      "source": "human:eriks+youtube:theAIsearch",
+      "added": "2026-05-11"
+    },
+    {
+      "id": "gemma",
+      "name": "Gemma",
+      "url": "https://deepmind.google/models/gemma",
+      "category": "foundation-models",
+      "summary": "Google DeepMind's open-weight model family — Gemma 4 at 2B/4B/26B/31B parameters, runs on consumer hardware.",
+      "why_it_matters": "Google's answer to Llama and Qwen. If you want an open-weight model with first-party Google tooling (Vertex, Gemini API parity), Gemma is the path.",
+      "last_verified": "2026-05-11",
+      "source": "human:eriks+youtube:theAIsearch",
+      "added": "2026-05-11"
+    },
+    {
+      "id": "groq",
+      "name": "Groq",
+      "url": "https://groq.com/",
+      "category": "foundation-models",
+      "summary": "Inference provider with custom LPU silicon — open-weight model hosting at order-of-magnitude lower latency than GPU-based APIs.",
+      "why_it_matters": "When your agent loop is bottlenecked on per-call latency (not raw quality), Groq is the swap. Llama, Qwen, DeepSeek, and Whisper all available.",
+      "last_verified": "2026-05-11",
+      "source": "human:eriks",
+      "added": "2026-05-11"
+    },
+    {
+      "id": "together-ai",
+      "name": "Together AI",
+      "url": "https://www.together.ai/",
+      "category": "foundation-models",
+      "summary": "Production-grade inference + fine-tuning platform for open-weight models, with proprietary speculative decoding and custom kernels.",
+      "why_it_matters": "OpenRouter aggregates; Together engineers the stack. Pick Together when you need to fine-tune an OSS model and serve it at scale on the same platform.",
+      "last_verified": "2026-05-11",
+      "source": "human:eriks",
+      "added": "2026-05-11"
+    },
+    {
+      "id": "wan",
+      "name": "Wan (Alibaba)",
+      "url": "https://wan.video/",
+      "category": "voice-multimodal",
+      "summary": "Alibaba's creative AI platform — text-to-image, image-to-image, text-to-video, image-to-video, image editing in one suite.",
+      "why_it_matters": "Frequently featured by The AI Search for matching closed-model quality on video while remaining accessible. The Chinese answer to Sora and Runway.",
+      "last_verified": "2026-05-11",
+      "source": "human:eriks+youtube:theAIsearch",
+      "added": "2026-05-11"
+    },
+    {
+      "id": "mem0",
+      "name": "Mem0",
+      "url": "https://mem0.ai/",
+      "category": "rag-memory",
+      "summary": "Drop-in memory infrastructure for AI agents — automatic learning from interactions, persistent context across sessions.",
+      "why_it_matters": "If MemPalace and OB1 are the OSS DIY paths, Mem0 is the managed-service alternative. Faster to integrate when you don't want to host memory yourself.",
+      "last_verified": "2026-05-11",
+      "source": "human:eriks",
+      "added": "2026-05-11"
+    },
+    {
+      "id": "letta",
+      "name": "Letta (MemGPT)",
+      "url": "https://www.letta.com/",
+      "category": "rag-memory",
+      "summary": "Persistent-agent framework with continual learning — direct descendant of UC Berkeley's MemGPT research.",
+      "why_it_matters": "The research-backed approach to agent memory: hierarchical context, self-editing memory blocks. Different mental model from drop-in retrieval like Mem0.",
+      "last_verified": "2026-05-11",
+      "source": "human:eriks",
+      "added": "2026-05-11"
     }
   ]
 }
