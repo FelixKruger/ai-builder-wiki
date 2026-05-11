@@ -1,10 +1,10 @@
 # Automated Daily Curator — Setup
 
-> **Goal:** the wiki updates itself every weekday at 06:00 UTC, with zero machines of yours running.
+> **Goal:** the wiki updates itself every day at 06:00 UTC, with zero machines of yours running.
 >
 > **Total setup time: ~1 minute.**
 
-This replaces the cowork agent and the Beelink cron script with a free GitHub Actions cron job that calls **Gemini 2.5 Flash** (Google's free-tier model) once per weekday. GitHub runs the job on their hardware; you don't need anything turned on.
+This replaces the cowork agent and the Beelink cron script with a free GitHub Actions cron job that calls **Gemini 2.5 Flash** (Google's free-tier model) once per day. GitHub runs the job on their hardware; you don't need anything turned on.
 
 ---
 
@@ -16,7 +16,7 @@ This replaces the cowork agent and the Beelink cron script with a free GitHub Ac
 2. Sign in with any Google account.
 3. Click **"Create API key"** → pick or create a project → copy the key.
 
-Free tier: ~1500 requests/day for Gemini 2.5 Flash. The curator uses **1 request per weekday**, so you are roughly 300× under the limit. No credit card required.
+Free tier: ~1500 requests/day for Gemini 2.5 Flash. The curator uses **1 request per day**, so you are roughly 300× under the limit. No credit card required.
 
 ### Step 2 — Add the key as a repo secret
 
@@ -33,7 +33,7 @@ Free tier: ~1500 requests/day for Gemini 2.5 Flash. The curator uses **1 request
 3. Wait ~1 minute. The run should complete green.
 4. Check https://github.com/FelixKruger/ai-builder-wiki/commits/main — if the curator found 1-2 candidates or refreshed any URLs, you'll see a `curator: ...` commit.
 
-Done. From tomorrow morning the curator will run automatically at 06:00 UTC, Monday through Friday.
+Done. From tomorrow morning the curator will run automatically at 06:00 UTC, every day.
 
 ---
 
@@ -61,7 +61,7 @@ The flow:
 4. The response includes `grounding_metadata.grounding_chunks` — the actual URLs Gemini cited. The curator stores these in `data/curator-log.json::runs[].sources_checked` so every run has a full audit trail.
 5. The curator independently HTTP-verifies each candidate URL (200 required) — defense against hallucination on top of grounding.
 
-Free-tier limits: Gemini 2.5 Flash with search grounding allows ~500 grounded queries/day on the free tier. The curator uses 1 per weekday — you're ~100× under the limit.
+Free-tier limits: Gemini 2.5 Flash with search grounding allows ~500 grounded queries/day on the free tier. The curator uses 1 per day — you're ~100× under the limit.
 
 ### Alternatives if you ever outgrow Gemini's free tier
 
@@ -97,12 +97,13 @@ Switch when: free-tier limit ever bites, or when Gemini starts proposing the sam
 
 ### Change the schedule
 
-Edit `.github/workflows/curator.yml`, line `cron: "0 6 * * 1-5"`.
+Edit `.github/workflows/curator.yml`, line `cron: "0 6 * * *"`.
 
 Format is UTC. Examples:
 
-- `0 14 * * 1-5` — 14:00 UTC (10:00 EDT, 16:00 CEST) Mon–Fri
-- `0 6 * * *` — every day including weekends
+- `0 6 * * *` — 06:00 UTC every day (current default)
+- `0 14 * * *` — 14:00 UTC (10:00 EDT, 16:00 CEST) every day
+- `0 6 * * 1-5` — Mon–Fri only
 - `0 6 * * 1,3,5` — Mon, Wed, Fri only
 
 ### Use a different LLM
