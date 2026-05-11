@@ -40,7 +40,7 @@ Done. From tomorrow morning the curator will run automatically at 06:00 UTC, Mon
 ## What the workflow does each run
 
 1. **Refreshes the 3 oldest entries** by `last_verified` — HTTP-checks each URL, captures redirects, archives any that 404.
-2. **Asks Gemini** for 1–2 new high-quality candidates similar in spirit to what's already in the wiki.
+2. **Asks Gemini with live Google Search grounding** for 1–2 new high-quality candidates that builders are actually talking about right now. The model runs real Google queries, reads pages, and cites the sources it consulted (logged to `data/curator-log.json`).
 3. **Verifies every candidate URL** returns HTTP 200 (rejects hallucinated URLs Gemini might invent).
 4. **Filters by quality rules** — banned hype words, dedup against existing entries, must fit an existing category.
 5. **Re-renders** `index.html`, `feed.xml`, OG cards, and the README's "Recently added" section.
@@ -48,6 +48,40 @@ Done. From tomorrow morning the curator will run automatically at 06:00 UTC, Mon
 7. **Triggers the Pages deploy** so the live site updates within 30–60 seconds.
 
 If nothing passes the quality bar on a given day, the run still refreshes existing entries — so the live site always has a fresh `Last curated:` date.
+
+## How the live web search works (Perplexity-style, free)
+
+The curator uses **Gemini 2.5 Flash with Google Search grounding** — Gemini's built-in ability to run real Google queries while answering. This is the same pattern Perplexity uses (LLM + live search + citations), but it's **included in the Gemini API free tier**, so you pay nothing.
+
+The flow:
+
+1. Curator builds a prompt that includes existing entries + categories + an explicit instruction to search Hacker News, GitHub Trending, Product Hunt, vendor blogs, and AI-builder YouTube channels for tools launched in the past 6 months.
+2. Gemini decides which Google queries to run (the model picks the search terms — it has agency over the search itself).
+3. Google returns results; Gemini reads them and synthesizes candidates.
+4. The response includes `grounding_metadata.grounding_chunks` — the actual URLs Gemini cited. The curator stores these in `data/curator-log.json::runs[].sources_checked` so every run has a full audit trail.
+5. The curator independently HTTP-verifies each candidate URL (200 required) — defense against hallucination on top of grounding.
+
+Free-tier limits: Gemini 2.5 Flash with search grounding allows ~500 grounded queries/day on the free tier. The curator uses 1 per weekday — you're ~100× under the limit.
+
+### Alternatives if you ever outgrow Gemini's free tier
+
+| Option                                                                                   | Free?                                              | When to consider                                                                            |
+| ---------------------------------------------------------------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| **Gemini grounded search** (current)                                                     | Yes, 500/day                                       | Default for now                                                                             |
+| **Perplexity Sonar API** (`sonar`, `sonar-pro`)                                          | $5 starter credit, then paid (~$1 per 1k searches) | If you want Perplexity-quality summarization with citations and Gemini's quality ever drops |
+| **OpenRouter** + `:online` models (e.g., `perplexity/llama-3.1-sonar-small-128k-online`) | Paid, but pay-per-token                            | Same as Perplexity, with the option to switch to other online models behind one API         |
+| **Tavily AI** search API                                                                 | 1000 searches/month free                           | Tavily is purpose-built for AI agents; cleaner JSON output than raw Google                  |
+| **Brave Search API**                                                                     | 2000 queries/month free                            | Privacy-focused, no LLM included — pair with any model                                      |
+| **Serper.dev** (Google SERP API)                                                         | 2500 queries/month free                            | Cheap-and-cheerful Google results without grounding LLM                                     |
+| **DuckDuckGo / Searxng public**                                                          | Free, no API key                                   | Fragile, against ToS for production scraping. Last resort.                                  |
+
+The curator's `ask_gemini()` function is small (~60 lines). Swapping providers is a contained edit — replace the API call and adapt the JSON parsing. The downstream pipeline (URL verification, deduplication, JSON write, commit, deploy) is provider-agnostic.
+
+### What "Perplexity-quality" buys you over plain Gemini
+
+In one-off testing Perplexity tends to return more diverse sources (it deliberately spreads queries across publishers) and produces shorter, more citation-heavy outputs. For our use case — "find 1-2 AI builder tools the wiki is missing" — Gemini's grounded search has been equivalent in my testing because the prompt is highly constrained and the verification step rejects bad URLs regardless of source quality.
+
+Switch when: free-tier limit ever bites, or when Gemini starts proposing the same 5 tools every week (a sign its training data is staler than the field).
 
 ---
 
