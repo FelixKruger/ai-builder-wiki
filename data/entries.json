@@ -8,14 +8,46 @@
     "maintainer": "Felix Kruger"
   },
   "categories": [
-    {"id": "coding-agents", "name": "Coding Agents & IDEs", "blurb": "Agents that read, write, and run your code."},
-    {"id": "foundation-models", "name": "Foundation Models & APIs", "blurb": "The frontier models you call from your stack."},
-    {"id": "agent-frameworks", "name": "Agent Frameworks & SDKs", "blurb": "Glue for building autonomous, tool-using agents."},
-    {"id": "eval-observability", "name": "Evals & Observability", "blurb": "Measure what your agents actually do in production."},
-    {"id": "rag-memory", "name": "RAG, Vector Search & Memory", "blurb": "Retrieval, embeddings, and long-term context."},
-    {"id": "ui-builders", "name": "App & UI Builders", "blurb": "Generate working apps from a prompt."},
-    {"id": "voice-multimodal", "name": "Voice & Multimodal", "blurb": "Speech, vision, and real-time multimodal stacks."},
-    {"id": "mcp-tools", "name": "MCP Ecosystem", "blurb": "Servers, clients, and registries for the Model Context Protocol."}
+    {
+      "id": "coding-agents",
+      "name": "Coding Agents & IDEs",
+      "blurb": "Agents that read, write, and run your code."
+    },
+    {
+      "id": "foundation-models",
+      "name": "Foundation Models & APIs",
+      "blurb": "The frontier models you call from your stack."
+    },
+    {
+      "id": "agent-frameworks",
+      "name": "Agent Frameworks & SDKs",
+      "blurb": "Glue for building autonomous, tool-using agents."
+    },
+    {
+      "id": "eval-observability",
+      "name": "Evals & Observability",
+      "blurb": "Measure what your agents actually do in production."
+    },
+    {
+      "id": "rag-memory",
+      "name": "RAG, Vector Search & Memory",
+      "blurb": "Retrieval, embeddings, and long-term context."
+    },
+    {
+      "id": "ui-builders",
+      "name": "App & UI Builders",
+      "blurb": "Generate working apps from a prompt."
+    },
+    {
+      "id": "voice-multimodal",
+      "name": "Voice & Multimodal",
+      "blurb": "Speech, vision, and real-time multimodal stacks."
+    },
+    {
+      "id": "mcp-tools",
+      "name": "MCP Ecosystem",
+      "blurb": "Servers, clients, and registries for the Model Context Protocol."
+    }
   ],
   "entries": [
     {

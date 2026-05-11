@@ -1,26 +1,33 @@
 # {{ site.title }}
 
-{{ site.tagline }}
+> {{ site.tagline }}
 
-**Live site:** {{ site.base_url }}
-**RSS:** {{ site.base_url }}feed.xml
+**[Browse the live site →]({{ site.base_url }})** &middot; [RSS]({{ site.base_url }}feed.xml) &middot; [Suggest a tool]({{ site.repo_url }}/issues/new?title=Suggest:+&labels=suggestion)
 
-A curated, daily-updated wiki of the tools, models, and patterns AI power-users and builders actually reach for. Every entry is verified live before it lands.
+---
+
+## What this is
+
+A short, opinionated list of the AI tools, models, and frameworks that working builders actually use in practice — refreshed every day by an AI curator.
+
+No marketing copy. No "revolutionary" adjectives. No five entries from the same vendor. Every link is verified live before it lands.
+
+If you ship products on top of LLMs and want a fast scan of what's in use right now, this is for you.
+
+## What makes it different
+
+- **Curated by an AI agent, daily.** A scheduled Claude session picks up the oldest entries, re-verifies their URLs, scans high-signal news sources, and proposes at most **two additions per day**. Quality over volume.
+- **Diff-able and forkable.** The whole wiki is one JSON file (`data/entries.json`). Want to fork it for your own niche (audio AI? agents for sales? robotics?) — clone, edit one file, deploy.
+- **Per-card permalinks + OG images.** Every entry has a stable URL fragment and an auto-generated social card. Sharing a single tool to your team is one click.
+- **Plain static site.** No JS framework, no tracking, no build server beyond the daily render. Loads in under a second.
 
 ## Recently added
 
 <!-- RECENTLY_ADDED:START -->
 {% for e in recent %}
-- **[{{ e.name }}]({{ site.base_url }}#{{ e.id }})** — {{ e.summary }} *(added {{ e.added }})*
+- **[{{ e.name }}]({{ site.base_url }}#{{ e.id }})** — {{ e.summary }} _(added {{ e.added }})_
 {% endfor %}
 <!-- RECENTLY_ADDED:END -->
-
-## How it works
-
-- `data/entries.json` is the source of truth.
-- `scripts/render.py` regenerates `index.html`, `feed.xml`, and this README's "Recently added" section.
-- A curator agent (see `skills/wiki-curator/SKILL.md`) runs daily on a Beelink mini-PC, finds new tools, verifies them, and commits.
-- GitHub Pages auto-deploys on every push to `main`.
 
 ## Categories
 
@@ -29,8 +36,37 @@ A curated, daily-updated wiki of the tools, models, and patterns AI power-users 
 
 ## Suggest a tool
 
-[Open an issue]({{ site.repo_url }}/issues/new?title=Suggest:+&labels=suggestion) with the URL and one sentence on why it belongs.
+[Open an issue]({{ site.repo_url }}/issues/new?title=Suggest:+&labels=suggestion) with the URL and one sentence on why it belongs. The curator picks up suggestions on the next daily run.
+
+For faster turnaround, [open a PR]({{ site.repo_url }}/compare) editing `data/entries.json` directly. See [`CLAUDE.md`](CLAUDE.md) for the entry schema.
+
+## Fork it
+
+The whole site is a static-site generator over one JSON file. To run your own:
+
+```bash
+git clone {{ site.repo_url }}.git my-wiki
+cd my-wiki
+pip install -r requirements.txt
+# Edit data/entries.json — keep the schema in CLAUDE.md
+python scripts/render.py
+# Enable GitHub Pages: Settings → Pages → Source: GitHub Actions
+# Push to main — the deploy workflow ships it
+```
+
+For the daily curator, see [`docs/cowork-setup.md`](docs/cowork-setup.md).
+
+## How it's built
+
+| Piece | What it does |
+| --- | --- |
+| `data/entries.json` | Source of truth — every tool entry lives here |
+| `scripts/render.py` | Renders `index.html`, `feed.xml`, OG cards, and this README's "Recently added" section |
+| `templates/` | Jinja2 templates for the site, RSS, OG cards, README |
+| `skills/wiki-curator/SKILL.md` | The daily curator's playbook |
+| `docs/cowork-setup.md` | How to schedule the curator as a Claude cowork agent |
+| `.github/workflows/deploy.yml` | Builds & ships to GitHub Pages on every push to `main` |
 
 ## License
 
-Content under CC-BY-4.0. Code under MIT.
+Content under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/). Code under MIT.
