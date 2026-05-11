@@ -23,7 +23,7 @@
     <p class="meta">
       <span>Last curated: <time datetime="{{ generated_at }}">{{ generated_at_human }}</time></span>
       <span>·</span>
-      <span>{{ entries|length }} entries across {{ categories|length }} categories</span>
+      <span>{{ entries|length }} entries · {{ categories|length }} categories · {{ by_section|length }} sections</span>
       <span>·</span>
       <a href="{{ site.repo_url }}">GitHub</a>
       <span>·</span>
@@ -31,18 +31,34 @@
       <span>·</span>
       <a href="{{ site.repo_url }}/issues/new?title=Suggest:+&labels=suggestion">Suggest a tool</a>
     </p>
+
+    <div class="intent-map" aria-label="What are you trying to do?">
+      <p class="intent-prompt">What are you trying to do?</p>
+      <ul class="intent-list">
+        {% for section_name, cats in by_section %}
+          {% for cat in cats %}
+          <li><span class="intent-q">{{ cat.intent }}</span><a class="intent-a" href="#{{ cat.id }}">{{ cat.name }} →</a></li>
+          {% endfor %}
+        {% endfor %}
+      </ul>
+    </div>
   </div>
 </header>
 
 <main>
   <aside class="toc">
-    <h2>Categories</h2>
-    <ul>
-      {% for cat in categories %}
-      <li><a href="#{{ cat.id }}">{{ cat.name }} <span class="count">{{ counts[cat.id] }}</span></a></li>
-      {% endfor %}
-    </ul>
-    <h2>Recently added</h2>
+    {% for section_name, cats in by_section %}
+    <div class="toc-section">
+      <h3 class="toc-section-name"><a href="#{{ section_anchor(section_name) }}">{{ section_name }}</a></h3>
+      <ul>
+        {% for cat in cats %}
+        <li><a href="#{{ cat.id }}">{{ cat.name }} <span class="count">{{ counts[cat.id] }}</span></a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+
+    <h3 class="toc-section-name">Recently added</h3>
     <ul class="recent">
       {% for e in recent %}
       <li><a href="#{{ e.id }}">{{ e.name }}</a> <span class="date">{{ e.added }}</span></li>
@@ -51,27 +67,46 @@
   </aside>
 
   <section class="content">
-    {% for cat in categories %}
-    <section class="category" id="{{ cat.id }}">
-      <h2>{{ cat.name }}</h2>
-      <p class="cat-blurb">{{ cat.blurb }}</p>
-      <div class="cards">
-        {% for e in by_category[cat.id] %}
-        <article class="card" id="{{ e.id }}">
-          <header class="card-head">
-            <h3><a href="{{ e.url }}" rel="noopener">{{ e.name }}</a></h3>
-            <span class="verified" title="Last verified">✓ {{ e.last_verified }}</span>
-          </header>
-          <p class="summary">{{ e.summary }}</p>
-          <p class="why"><strong>Why it matters.</strong> {{ e.why_it_matters }}</p>
-          <footer class="card-foot">
-            <a class="btn" href="{{ e.url }}" rel="noopener">Open ↗</a>
-            <button class="btn copy" data-link="{{ site.base_url }}#{{ e.id }}">Copy link</button>
-            <a class="btn" href="https://twitter.com/intent/tweet?text={{ e.name|urlencode }}%20%E2%80%94%20{{ e.summary|urlencode }}&url={{ (site.base_url ~ '#' ~ e.id)|urlencode }}" target="_blank" rel="noopener">Share</a>
-          </footer>
-        </article>
-        {% endfor %}
-      </div>
+    {% for section_name, cats in by_section %}
+    <section class="section-block" id="{{ section_anchor(section_name) }}">
+      <header class="section-head">
+        <h1 class="section-heading">{{ section_name }}</h1>
+        <p class="section-blurb">
+          {% if section_name == 'Build with AI' %}For developers shipping code with — or that uses — AI.
+          {% elif section_name == 'Models & Infrastructure' %}Choosing the model and where to run it.
+          {% elif section_name == 'Build Agents' %}Glue, memory, retrieval, and tooling for autonomous agents.
+          {% elif section_name == 'Generate Media' %}Audio, video, and 3D generation — each with its own stack.
+          {% elif section_name == 'Measure & Monitor' %}Know whether what you shipped works.
+          {% else %}{{ '' }}{% endif %}
+        </p>
+      </header>
+
+      {% for cat in cats %}
+      <section class="category" id="{{ cat.id }}">
+        <header class="cat-head">
+          <h2>{{ cat.name }} <span class="cat-count">{{ counts[cat.id] }}</span></h2>
+          <p class="cat-intent">For when: <em>{{ cat.intent }}</em></p>
+          <p class="cat-blurb">{{ cat.blurb }}</p>
+        </header>
+        <div class="cards">
+          {% for e in by_category[cat.id] %}
+          <article class="card" id="{{ e.id }}">
+            <header class="card-head">
+              <h3><a href="{{ e.url }}" rel="noopener">{{ e.name }}</a></h3>
+              <span class="verified" title="Last verified">✓ {{ e.last_verified }}</span>
+            </header>
+            <p class="summary">{{ e.summary }}</p>
+            <p class="why"><strong>Why it matters.</strong> {{ e.why_it_matters }}</p>
+            <footer class="card-foot">
+              <a class="btn" href="{{ e.url }}" rel="noopener">Open ↗</a>
+              <button class="btn copy" data-link="{{ site.base_url }}#{{ e.id }}">Copy link</button>
+              <a class="btn" href="https://twitter.com/intent/tweet?text={{ e.name|urlencode }}%20%E2%80%94%20{{ e.summary|urlencode }}&url={{ (site.base_url ~ '#' ~ e.id)|urlencode }}" target="_blank" rel="noopener">Share</a>
+            </footer>
+          </article>
+          {% endfor %}
+        </div>
+      </section>
+      {% endfor %}
     </section>
     {% endfor %}
   </section>

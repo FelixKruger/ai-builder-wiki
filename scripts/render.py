@@ -50,6 +50,20 @@ def render_site(data: dict) -> None:
 
     counts = {cid: len(items) for cid, items in by_category.items()}
 
+    # Group categories by their "section" field, preserving the order they
+    # appear in entries.json. Falls back to "Other" if no section is set.
+    by_section: list[tuple[str, list]] = []
+    section_index: dict[str, int] = {}
+    for cat in categories:
+        section = cat.get("section", "Other")
+        if section not in section_index:
+            section_index[section] = len(by_section)
+            by_section.append((section, []))
+        by_section[section_index[section]][1].append(cat)
+
+    def section_anchor(name: str) -> str:
+        return "section-" + re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+
     recent_sorted = sorted(entries, key=lambda e: e.get("added", ""), reverse=True)
     recent = recent_sorted[:RECENT_LIMIT]
     for e in recent:
@@ -66,6 +80,8 @@ def render_site(data: dict) -> None:
         "categories": categories,
         "entries": entries,
         "by_category": by_category,
+        "by_section": by_section,
+        "section_anchor": section_anchor,
         "counts": counts,
         "recent": recent,
         "generated_at": now.isoformat(),
