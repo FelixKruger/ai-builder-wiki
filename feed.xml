@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>AI Builder's Field Guide — Recently Added</title>
+<link>https://felixkruger.github.io/ai-builder-wiki/</link>
+<atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
+<description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
+<lastBuildDate>Mon, 11 May 2026 13:30:13 +0000</lastBuildDate>
+
+<item>
+  <title>Claude Code</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#claude-code</link>
+  <guid isPermaLink="false">claude-code-2026-04-27</guid>
+  <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Anthropic's official terminal-native coding agent — reads your repo, edits files, runs commands, talks to MCP servers. — The reference implementation for agentic coding: full-context repo understanding, permissions model, hooks, and skills. If you're building developer agents, study how it ships.]]></description>
+</item>
+
+<item>
+  <title>Cursor</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#cursor</link>
+  <guid isPermaLink="false">cursor-2026-04-27</guid>
+  <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[AI-first VS Code fork with Composer, Tab autocomplete, and a strong agent loop. — The dominant IDE among working AI builders in 2026 — diff review UX is the bar everyone else is chasing.]]></description>
+</item>
+
+<item>
+  <title>Windsurf</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#windsurf</link>
+  <guid isPermaLink="false">windsurf-2026-04-27</guid>
+  <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Codeium's agentic IDE with Cascade — strong long-running task execution, now part of OpenAI. — Cascade pioneered the 'agent that keeps going across many turns' pattern; worth comparing against Cursor Composer for taste.]]></description>
+</item>
+
+<item>
+  <title>Aider</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#aider</link>
+  <guid isPermaLink="false">aider-2026-04-27</guid>
+  <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Open-source CLI pair-programmer — git-native, model-agnostic, and the benchmark for many leaderboards. — The polyglot baseline. If you're benchmarking your own agent, Aider's leaderboards are where the field calibrates.]]></description>
+</item>
+
+<item>
+  <title>Cline</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#cline</link>
+  <guid isPermaLink="false">cline-2026-04-27</guid>
+  <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Open-source autonomous coding agent for VS Code — plan/act modes, MCP support, BYO model. — The transparent option: every action shown and approvable. Good for understanding how an agent loop actually works.]]></description>
+</item>
+
+<item>
+  <title>Claude API (Anthropic)</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#claude-api</link>
+  <guid isPermaLink="false">claude-api-2026-04-27</guid>
+  <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Anthropic's API — Claude Opus 4.7, Sonnet 4.6, Haiku 4.5. Native tool use, prompt caching, extended thinking, files, citations. — Best-in-class for long-horizon tool use and agentic coding. Prompt caching alone often pays for the migration.]]></description>
+</item>
+
+<item>
+  <title>OpenAI API</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#openai-api</link>
+  <guid isPermaLink="false">openai-api-2026-04-27</guid>
+  <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[GPT-5 family, Realtime API, structured outputs, Responses API. — Still the broadest ecosystem and the realtime voice baseline. Responses API is the cleanest agent primitive OpenAI ships.]]></description>
+</item>
+
+<item>
+  <title>Gemini API (Google)</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#gemini-api</link>
+  <guid isPermaLink="false">gemini-api-2026-04-27</guid>
+  <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Gemini 2.5 Pro / Flash with 2M-token context, native multimodal, and grounding-with-Search. — If your workload is video, very-long-context, or needs fresh web grounding without your own RAG, start here.]]></description>
+</item>
+
+</channel>
+</rss>

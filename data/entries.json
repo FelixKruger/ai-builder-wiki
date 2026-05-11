@@ -1,0 +1,318 @@
+{
+  "schema_version": 1,
+  "site": {
+    "title": "AI Builder's Field Guide",
+    "tagline": "A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.",
+    "base_url": "https://felixkruger.github.io/ai-builder-wiki/",
+    "repo_url": "https://github.com/felixkruger/ai-builder-wiki",
+    "maintainer": "Felix Kruger"
+  },
+  "categories": [
+    {
+      "id": "coding-agents",
+      "name": "Coding Agents & IDEs",
+      "blurb": "Agents that read, write, and run your code."
+    },
+    {
+      "id": "foundation-models",
+      "name": "Foundation Models & APIs",
+      "blurb": "The frontier models you call from your stack."
+    },
+    {
+      "id": "agent-frameworks",
+      "name": "Agent Frameworks & SDKs",
+      "blurb": "Glue for building autonomous, tool-using agents."
+    },
+    {
+      "id": "eval-observability",
+      "name": "Evals & Observability",
+      "blurb": "Measure what your agents actually do in production."
+    },
+    {
+      "id": "rag-memory",
+      "name": "RAG, Vector Search & Memory",
+      "blurb": "Retrieval, embeddings, and long-term context."
+    },
+    {
+      "id": "ui-builders",
+      "name": "App & UI Builders",
+      "blurb": "Generate working apps from a prompt."
+    },
+    {
+      "id": "voice-multimodal",
+      "name": "Voice & Multimodal",
+      "blurb": "Speech, vision, and real-time multimodal stacks."
+    },
+    {
+      "id": "mcp-tools",
+      "name": "MCP Ecosystem",
+      "blurb": "Servers, clients, and registries for the Model Context Protocol."
+    }
+  ],
+  "entries": [
+    {
+      "id": "claude-code",
+      "name": "Claude Code",
+      "url": "https://claude.com/claude-code",
+      "category": "coding-agents",
+      "summary": "Anthropic's official terminal-native coding agent — reads your repo, edits files, runs commands, talks to MCP servers.",
+      "why_it_matters": "The reference implementation for agentic coding: full-context repo understanding, permissions model, hooks, and skills. If you're building developer agents, study how it ships.",
+      "last_verified": "2026-04-27",
+      "source": "seed",
+      "added": "2026-04-27"
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "url": "https://cursor.com",
+      "category": "coding-agents",
+      "summary": "AI-first VS Code fork with Composer, Tab autocomplete, and a strong agent loop.",
+      "why_it_matters": "The dominant IDE among working AI builders in 2026 — diff review UX is the bar everyone else is chasing.",
+      "last_verified": "2026-04-27",
+      "source": "seed",
+      "added": "2026-04-27"
+    },
+    {
+      "id": "windsurf",
+      "name": "Windsurf",
+      "url": "https://windsurf.com",
+      "category": "coding-agents",
+      "summary": "Codeium's agentic IDE with Cascade — strong long-running task execution, now part of OpenAI.",
+      "why_it_matters": "Cascade pioneered the 'agent that keeps going across many turns' pattern; worth comparing against Cursor Composer for taste.",
+      "last_verified": "2026-04-27",
+      "source": "seed",
+      "added": "2026-04-27"
+    },
+    {
+      "id": "aider",
+      "name": "Aider",
+      "url": "https://aider.chat",
+      "category": "coding-agents",
+      "summary": "Open-source CLI pair-programmer — git-native, model-agnostic, and the benchmark for many leaderboards.",
+      "why_it_matters": "The polyglot baseline. If you're benchmarking your own agent, Aider's leaderboards are where the field calibrates.",
+      "last_verified": "2026-04-27",
+      "source": "seed",
+      "added": "2026-04-27"
+    },
+    {
+      "id": "cline",
+      "name": "Cline",
+      "url": "https://cline.bot",
+      "category": "coding-agents",
+      "summary": "Open-source autonomous coding agent for VS Code — plan/act modes, MCP support, BYO model.",
+      "why_it_matters": "The transparent option: every action shown and approvable. Good for understanding how an agent loop actually works.",
+      "last_verified": "2026-04-27",
+      "source": "seed",
+      "added": "2026-04-27"
+    },
+    {
+      "id": "claude-api",
+      "name": "Claude API (Anthropic)",
+      "url": "https://docs.claude.com/en/api/overview",
+      "category": "foundation-models",
+      "summary": "Anthropic's API — Claude Opus 4.7, Sonnet 4.6, Haiku 4.5. Native tool use, prompt caching, extended thinking, files, citations.",
+      "why_it_matters": "Best-in-class for long-horizon tool use and agentic coding. Prompt caching alone often pays for the migration.",
+      "last_verified": "2026-04-27",
+      "source": "seed",
+      "added": "2026-04-27"
+    },
+    {
+      "id": "openai-api",
+      "name": "OpenAI API",
+      "url": "https://platform.openai.com/docs",
+      "category": "foundation-models",
+      "summary": "GPT-5 family, Realtime API, structured outputs, Responses API.",
+      "why_it_matters": "Still the broadest ecosystem and the realtime voice baseline. Responses API is the cleanest agent primitive OpenAI ships.",
+      "last_verified": "2026-04-27",
+      "source": "seed",
+      "added": "2026-04-27"
+    },
+    {
+      "id": "gemini-api",
+      "name": "Gemini API (Google)",
+      "url": "https://ai.google.dev",
+      "category": "foundation-models",
+      "summary": "Gemini 2.5 Pro / Flash with 2M-token context, native multimodal, and grounding-with-Search.",
+      "why_it_matters": "If your workload is video, very-long-context, or needs fresh web grounding without your own RAG, start here.",
+      "last_verified": "2026-04-27",
+      "source": "seed",
+      "added": "2026-04-27"
+    },
+    {
+      "id": "openrouter",
+      "name": "OpenRouter",
+      "url": "https://openrouter.ai",
+      "category": "foundation-models",
+      "summary": "Single API for hundreds of models with automatic failover and unified billing.",
+      "why_it_matters": "The pragmatic abstraction layer when you don't want to hard-code one provider. Useful for model A/B and graceful fallback.",
+      "last_verified": "2026-04-27",
+      "source": "seed",
+      "added": "2026-04-27"
+    },
+    {
+      "id": "claude-agent-sdk",
+      "name": "Claude Agent SDK",
+      "url": "https://docs.claude.com/en/api/agent-sdk/overview",
+      "category": "agent-frameworks",
+      "summary": "Anthropic's official SDK for building agents that share Claude Code's runtime — tools, MCP, hooks, subagents.",
+      "why_it_matters": "If you want Claude Code's agent harness for your own product, this is the supported path. Less reinvention than building from raw API calls.",
+      "last_verified": "2026-04-27",
+      "source": "seed",
+      "added": "2026-04-27"
+    },
+    {
+      "id": "langgraph",
+      "name": "LangGraph",
+      "url": "https://www.langchain.com/langgraph",
+      "category": "agent-frameworks",
+      "summary": "Graph-based agent orchestration from LangChain — durable execution, human-in-the-loop, time-travel debugging.",
+      "why_it_matters": "When your agent has real branching state and you need to checkpoint/replay, the graph model pays off.",
+      "last_verified": "2026-04-27",
+      "source": "seed",
+      "added": "2026-04-27"
+    },
+    {
+      "id": "mastra",
+      "name": "Mastra",
+      "url": "https://mastra.ai",
+      "category": "agent-frameworks",
+      "summary": "TypeScript-first agent framework — workflows, memory, evals, and a local dev playground.",
+      "why_it_matters": "The most ergonomic TS option in 2026 for builders who don't want to leave Node. Strong eval story baked in.",
+      "last_verified": "2026-04-27",
+      "source": "seed",
+      "added": "2026-04-27"
+    },
+    {
+      "id": "inspect",
+      "name": "Inspect (UK AISI)",
+      "url": "https://inspect.aisi.org.uk",
+      "category": "eval-observability",
+      "summary": "Open-source eval framework from the UK AI Safety Institute — used for the public capability evals you read about.",
+      "why_it_matters": "If you're publishing eval results you want anyone to reproduce, Inspect is the lingua franca.",
+      "last_verified": "2026-04-27",
+      "source": "seed",
+      "added": "2026-04-27"
+    },
+    {
+      "id": "braintrust",
+      "name": "Braintrust",
+      "url": "https://www.braintrust.dev",
+      "category": "eval-observability",
+      "summary": "Eval, logging, and prompt-playground stack used by many production AI teams.",
+      "why_it_matters": "The 'we ship LLM features and need to know if a prompt change broke things' tool — diffs across runs are first-class.",
+      "last_verified": "2026-04-27",
+      "source": "seed",
+      "added": "2026-04-27"
+    },
+    {
+      "id": "langfuse",
+      "name": "Langfuse",
+      "url": "https://langfuse.com",
+      "category": "eval-observability",
+      "summary": "Open-source LLM observability — traces, evals, prompts, self-hostable.",
+      "why_it_matters": "The default open-source pick for tracing agent runs. Self-host if your data can't leave the building.",
+      "last_verified": "2026-04-27",
+      "source": "seed",
+      "added": "2026-04-27"
+    },
+    {
+      "id": "pgvector",
+      "name": "pgvector",
+      "url": "https://github.com/pgvector/pgvector",
+      "category": "rag-memory",
+      "summary": "Vector similarity search inside Postgres. HNSW + IVFFlat indexes, just another column type.",
+      "why_it_matters": "The boring-tech RAG stack: keep your embeddings next to your relational data. Most apps don't need a dedicated vector DB.",
+      "last_verified": "2026-04-27",
+      "source": "seed",
+      "added": "2026-04-27"
+    },
+    {
+      "id": "turbopuffer",
+      "name": "turbopuffer",
+      "url": "https://turbopuffer.com",
+      "category": "rag-memory",
+      "summary": "Serverless vector + full-text search on object storage — pay per query, scales to billions of vectors.",
+      "why_it_matters": "When pgvector starts groaning and you don't want to babysit a Pinecone bill, turbopuffer is the 2026 sweet spot.",
+      "last_verified": "2026-04-27",
+      "source": "seed",
+      "added": "2026-04-27"
+    },
+    {
+      "id": "v0",
+      "name": "v0 by Vercel",
+      "url": "https://v0.app",
+      "category": "ui-builders",
+      "summary": "Generate React/Next.js UIs from prompts — full-stack mode, git sync, deploy to Vercel in one click.",
+      "why_it_matters": "Highest-fidelity prompt-to-production UI in 2026 if your stack is Next + shadcn. Treat it as a fast scaffolder, not a finisher.",
+      "last_verified": "2026-04-27",
+      "source": "seed",
+      "added": "2026-04-27"
+    },
+    {
+      "id": "lovable",
+      "name": "Lovable",
+      "url": "https://lovable.dev",
+      "category": "ui-builders",
+      "summary": "Prompt-to-app builder — full-stack, Supabase-backed, GitHub-synced.",
+      "why_it_matters": "The leading non-developer-friendly app builder. Good for testing whether an idea has shape before you spend a dev week on it.",
+      "last_verified": "2026-04-27",
+      "source": "seed",
+      "added": "2026-04-27"
+    },
+    {
+      "id": "bolt",
+      "name": "Bolt.new",
+      "url": "https://bolt.new",
+      "category": "ui-builders",
+      "summary": "StackBlitz's in-browser full-stack agent — runs Node in WebContainers, no local setup.",
+      "why_it_matters": "When the friction of 'clone, install, run' is the bottleneck on idea velocity, Bolt removes it entirely.",
+      "last_verified": "2026-04-27",
+      "source": "seed",
+      "added": "2026-04-27"
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "url": "https://elevenlabs.io",
+      "category": "voice-multimodal",
+      "summary": "TTS, voice cloning, conversational AI, and the Agents platform for realtime voice.",
+      "why_it_matters": "Still the quality bar for synthetic voice. The Agents platform is the fastest path from idea to a phone-callable voice agent.",
+      "last_verified": "2026-04-27",
+      "source": "seed",
+      "added": "2026-04-27"
+    },
+    {
+      "id": "cartesia",
+      "name": "Cartesia",
+      "url": "https://cartesia.ai",
+      "category": "voice-multimodal",
+      "summary": "Sonic — sub-100ms streaming TTS with state-space models. The realtime-voice latency leader.",
+      "why_it_matters": "If your voice agent feels laggy, the model is usually the issue. Cartesia's the default fix.",
+      "last_verified": "2026-04-27",
+      "source": "seed",
+      "added": "2026-04-27"
+    },
+    {
+      "id": "mcp-spec",
+      "name": "Model Context Protocol",
+      "url": "https://modelcontextprotocol.io",
+      "category": "mcp-tools",
+      "summary": "Open standard for connecting LLMs to tools, data, and prompts. Now supported by Claude, ChatGPT, Cursor, and most agent frameworks.",
+      "why_it_matters": "MCP won the 'how do agents talk to tools' debate. If you're building anything an agent needs to use, ship an MCP server.",
+      "last_verified": "2026-04-27",
+      "source": "seed",
+      "added": "2026-04-27"
+    },
+    {
+      "id": "smithery",
+      "name": "Smithery",
+      "url": "https://smithery.ai",
+      "category": "mcp-tools",
+      "summary": "Registry and one-click installer for MCP servers — discover, install, and host MCP servers without local config.",
+      "why_it_matters": "The npm of the MCP ecosystem in 2026. Start here when you need an MCP server before writing one.",
+      "last_verified": "2026-04-27",
+      "source": "seed",
+      "added": "2026-04-27"
+    }
+  ]
+}
