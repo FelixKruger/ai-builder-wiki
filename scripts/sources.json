@@ -24,6 +24,53 @@
     },
     { "id": "mcp-registry", "url": "https://smithery.ai", "kind": "registry" }
   ],
+  "youtube_channels": [
+    {
+      "id": "theAIsearch",
+      "name": "The AI Search",
+      "url": "https://www.youtube.com/@theAIsearch",
+      "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
+      "kind": "youtube",
+      "priority": "high",
+      "notes": "Weekly AI news roundups + specific tool deep-dives. Strong on open-weight models and Chinese AI ecosystem coverage. Hit RSS — do not scrape HTML."
+    },
+    {
+      "id": "matt-wolfe",
+      "name": "Matt Wolfe",
+      "url": "https://www.youtube.com/@mreflow",
+      "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCORIeT1hk6tYBuntEXsguLg",
+      "kind": "youtube",
+      "priority": "high",
+      "notes": "Daily tool coverage, accessible style. Good for surfacing PH-tier launches."
+    },
+    {
+      "id": "ai-explained",
+      "name": "AI Explained",
+      "url": "https://www.youtube.com/@aiexplained-official",
+      "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
+      "kind": "youtube",
+      "priority": "medium",
+      "notes": "Slower cadence, deeper analysis. Strong on benchmarks and model capability claims."
+    },
+    {
+      "id": "wes-roth",
+      "name": "Wes Roth",
+      "url": "https://www.youtube.com/@WesRoth",
+      "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCqcbQf6yw5KzRoDDcZ_wBSw",
+      "kind": "youtube",
+      "priority": "medium",
+      "notes": "AI news daily. High volume — filter for tool releases, ignore the speculation videos."
+    },
+    {
+      "id": "david-ondrej",
+      "name": "David Ondrej",
+      "url": "https://www.youtube.com/@DavidOndrej",
+      "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCcfWTRMP2LcKvDS44yITihA",
+      "kind": "youtube",
+      "priority": "low",
+      "notes": "Builder-focused tutorials. Lower signal-to-noise — use for confirmation of trending tools, not discovery."
+    }
+  ],
   "medium_signal": [
     {
       "id": "product-hunt",
