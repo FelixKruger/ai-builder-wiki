@@ -8,7 +8,7 @@
 
 ## What this is
 
-A short, opinionated list of the AI tools, models, and frameworks that working builders actually use in practice — refreshed every day by an AI curator.
+A short, opinionated list of the AI tools, models, and frameworks that working builders actually use in practice — refreshed every weekday by an AI curator.
 
 No marketing copy. No "revolutionary" adjectives. No five entries from the same vendor. Every link is verified live before it lands.
 
@@ -16,10 +16,17 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 ## What makes it different
 
-- **Curated by an AI agent, daily.** A scheduled Claude session picks up the oldest entries, re-verifies their URLs, scans high-signal news sources, and proposes at most **two additions per day**. Quality over volume.
-- **Diff-able and forkable.** The whole wiki is one JSON file (`data/entries.json`). Want to fork it for your own niche (audio AI? agents for sales? robotics?) — clone, edit one file, deploy.
+- **Curated by an AI agent, Mon–Fri.** A scheduled Claude session picks up the oldest entries, re-verifies their URLs, scans high-signal news sources, refines stale framing, and proposes at most **two additions per day**. Quality over volume.
+- **Use-case-first taxonomy.** Categories are grouped into five sections — _Build with AI_, _Models & Infrastructure_, _Build Agents_, _Generate Media_, _Measure & Monitor_ — so you can jump straight to what you actually need.
+- **Diff-able and forkable.** The whole wiki is one JSON file (`data/entries.json`). Want to fork it for your own niche — clone, edit one file, deploy.
 - **Per-card permalinks + OG images.** Every entry has a stable URL fragment and an auto-generated social card. Sharing a single tool to your team is one click.
 - **Plain static site.** No JS framework, no tracking, no build server beyond the daily render. Loads in under a second.
+
+## What are you trying to do?
+
+{% for section_name, cats in by_section %}
+{% for cat in cats %}- **{{ cat.intent }}** → [{{ cat.name }}]({{ site.base_url }}#{{ cat.id }})
+{% endfor %}{% endfor %}
 
 ## Recently added
 
@@ -29,9 +36,13 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 {% endfor %}
 <!-- RECENTLY_ADDED:END -->
 
-## Categories
+## Sections & categories
 
-{% for cat in categories %}- **[{{ cat.name }}]({{ site.base_url }}#{{ cat.id }})** ({{ counts[cat.id] }}) — {{ cat.blurb }}
+{% for section_name, cats in by_section %}
+### {{ section_name }}
+
+{% for cat in cats %}- **[{{ cat.name }}]({{ site.base_url }}#{{ cat.id }})** ({{ counts[cat.id] }}) — {{ cat.blurb }}
+{% endfor %}
 {% endfor %}
 
 ## Suggest a tool
@@ -54,17 +65,17 @@ python scripts/render.py
 # Push to main — the deploy workflow ships it
 ```
 
-For the daily curator, see [`docs/cowork-setup.md`](docs/cowork-setup.md).
+For the daily curator, see [`docs/daily-curator-package.md`](docs/daily-curator-package.md).
 
 ## How it's built
 
 | Piece | What it does |
 | --- | --- |
-| `data/entries.json` | Source of truth — every tool entry lives here |
-| `scripts/render.py` | Renders `index.html`, `feed.xml`, OG cards, and this README's "Recently added" section |
+| `data/entries.json` | Source of truth — every tool entry and category lives here |
+| `scripts/render.py` | Renders `index.html`, `feed.xml`, OG cards, and this README's auto-sections |
 | `templates/` | Jinja2 templates for the site, RSS, OG cards, README |
 | `skills/wiki-curator/SKILL.md` | The daily curator's playbook |
-| `docs/cowork-setup.md` | How to schedule the curator as a Claude cowork agent |
+| `docs/daily-curator-package.md` | Mon–Fri prompt for the scheduled Claude cowork session |
 | `.github/workflows/deploy.yml` | Builds & ships to GitHub Pages on every push to `main` |
 
 ## License
