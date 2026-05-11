@@ -24,7 +24,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 ## What are you trying to do?
 
-
 - **I want AI in my editor** → [AI Coding Tools](https://felixkruger.github.io/ai-builder-wiki/#ai-coding)
 - **I want to run many coding agents at once** → [Multi-Agent Coding](https://felixkruger.github.io/ai-builder-wiki/#multi-agent-coding)
 - **I want my AI-built UIs to stop looking generic** → [AI Design Skills](https://felixkruger.github.io/ai-builder-wiki/#ai-design-skills)
@@ -44,7 +43,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **I need 3D assets — games, AR, products** → [AI 3D](https://felixkruger.github.io/ai-builder-wiki/#ai-3d)
 
 - **I need to know if my AI works** → [Evals, Benchmarks & Observability](https://felixkruger.github.io/ai-builder-wiki/#evals)
-
 
 ## Recently added
 
@@ -70,7 +68,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 ## Sections & categories
 
-
 ### Build with AI
 
 - **[AI Coding Tools](https://felixkruger.github.io/ai-builder-wiki/#ai-coding)** (6) — Agents and IDEs that read, write, and run your code. Where you reach when you want AI inside your editor.
@@ -78,13 +75,11 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[AI Design Skills](https://felixkruger.github.io/ai-builder-wiki/#ai-design-skills)** (2) — Reusable skills and prompts that teach coding agents about visual design.
 - **[App Builders](https://felixkruger.github.io/ai-builder-wiki/#app-builders)** (3) — Generate a working full-stack app from a prompt. Prototype-to-production in minutes.
 
-
 ### Models & Infrastructure
 
 - **[Hosted Frontier APIs](https://felixkruger.github.io/ai-builder-wiki/#hosted-apis)** (3) — The closed-weight frontier models you call from your stack — Claude, GPT, Gemini.
 - **[Open-Weight Models](https://felixkruger.github.io/ai-builder-wiki/#open-weights)** (3) — Downloadable model families. Host yourself or run on any inference platform.
 - **[Inference & Hosting](https://felixkruger.github.io/ai-builder-wiki/#inference-platforms)** (4) — Where to run open-weight models in production — managed inference, fine-tuning, custom silicon.
-
 
 ### Build Agents
 
@@ -93,19 +88,15 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Retrieval & Search](https://felixkruger.github.io/ai-builder-wiki/#retrieval-search)** (3) — Vector stores, full-text search, and web search APIs. Stateless retrieval — different from memory.
 - **[MCP Ecosystem](https://felixkruger.github.io/ai-builder-wiki/#mcp-tools)** (2) — Servers, clients, and registries for the Model Context Protocol — the standard for connecting agents to tools.
 
-
 ### Generate Media
 
 - **[Voice & Audio](https://felixkruger.github.io/ai-builder-wiki/#voice-audio)** (2) — Speech synthesis, voice cloning, realtime agents, and music generation.
 - **[AI Video](https://felixkruger.github.io/ai-builder-wiki/#ai-video)** (3) — Text-to-video models and programmatic video frameworks.
 - **[AI 3D](https://felixkruger.github.io/ai-builder-wiki/#ai-3d)** (2) — Text- or image-to-3D generators and 3D asset pipelines.
 
-
 ### Measure & Monitor
 
 - **[Evals, Benchmarks & Observability](https://felixkruger.github.io/ai-builder-wiki/#evals)** (4) — Measure what your agents and models actually do. Public leaderboards and production observability.
-
-
 
 ## Suggest a tool
 
@@ -131,14 +122,14 @@ For the daily curator, see [`docs/daily-curator-package.md`](docs/daily-curator-
 
 ## How it's built
 
-| Piece | What it does |
-| --- | --- |
-| `data/entries.json` | Source of truth — every tool entry and category lives here |
-| `scripts/render.py` | Renders `index.html`, `feed.xml`, OG cards, and this README's auto-sections |
-| `templates/` | Jinja2 templates for the site, RSS, OG cards, README |
-| `skills/wiki-curator/SKILL.md` | The daily curator's playbook |
-| `docs/daily-curator-package.md` | Mon–Fri prompt for the scheduled Claude cowork session |
-| `.github/workflows/deploy.yml` | Builds & ships to GitHub Pages on every push to `main` |
+| Piece                           | What it does                                                                |
+| ------------------------------- | --------------------------------------------------------------------------- |
+| `data/entries.json`             | Source of truth — every tool entry and category lives here                  |
+| `scripts/render.py`             | Renders `index.html`, `feed.xml`, OG cards, and this README's auto-sections |
+| `templates/`                    | Jinja2 templates for the site, RSS, OG cards, README                        |
+| `skills/wiki-curator/SKILL.md`  | The daily curator's playbook                                                |
+| `docs/daily-curator-package.md` | Mon–Fri prompt for the scheduled Claude cowork session                      |
+| `.github/workflows/deploy.yml`  | Builds & ships to GitHub Pages on every push to `main`                      |
 
 ## License
 
