@@ -22,6 +22,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -118,14 +119,57 @@ def refresh_oldest(entries: list[dict], k: int = 3) -> tuple[list[str], list[dic
     return refreshed, removed
 
 
-def ask_gemini(data: dict, api_key: str) -> list[dict]:
-    """Ask Gemini for 1-2 new tool candidates. Returns list (may be empty)."""
+def parse_candidates_from_text(text: str) -> list[dict]:
+    """
+    Extract candidate JSON from a free-text response.
+    Tries: (1) direct JSON parse, (2) strip code fences, (3) regex for the
+    {"candidates": [...]} block. Returns up to 2 candidates.
+    """
+    # Strip common markdown code fences
+    cleaned = re.sub(r"^\s*```(?:json)?\s*\n?", "", text.strip())
+    cleaned = re.sub(r"\n?\s*```\s*$", "", cleaned)
+
+    # Try direct JSON parse
+    for candidate_text in (cleaned, text):
+        try:
+            obj = json.loads(candidate_text)
+            if isinstance(obj, dict) and "candidates" in obj:
+                cs = obj["candidates"]
+                if isinstance(cs, list):
+                    return cs[:2]
+            if isinstance(obj, list):
+                return obj[:2]
+        except json.JSONDecodeError:
+            pass
+
+    # Regex fallback — find the candidates array body
+    match = re.search(
+        r'"candidates"\s*:\s*(\[.*?\])',
+        cleaned,
+        re.DOTALL,
+    )
+    if match:
+        try:
+            arr = json.loads(match.group(1))
+            if isinstance(arr, list):
+                return arr[:2]
+        except json.JSONDecodeError:
+            pass
+
+    return []
+
+
+def ask_gemini(data: dict, api_key: str) -> tuple[list[dict], list[str]]:
+    """
+    Ask Gemini for 1-2 new tool candidates, grounded in live Google Search.
+    Returns (candidates, search_sources_consulted).
+    """
     try:
         from google import genai
         from google.genai import types
     except ImportError:
         print("google-genai not installed. Run: pip install google-genai", file=sys.stderr)
-        return []
+        return [], []
 
     entries = data["entries"]
     categories = data["categories"]
@@ -157,13 +201,23 @@ These are the {len(cats_compact)} categories (organized into sections):
 {json.dumps(cats_compact, indent=2)}
 
 YOUR JOB:
-Propose 1 to 2 NEW high-quality AI tools, models, agents, frameworks,
-benchmarks, or infrastructure that are similar in spirit to what's
-already in the wiki but NOT already present.
+Use Google Search to find 1 to 2 NEW high-quality AI tools, models, agents,
+frameworks, benchmarks, or infrastructure that working AI builders are
+actually talking about RIGHT NOW — and that are NOT already in the wiki.
+
+SEARCH STRATEGY (pick one or combine):
+- Search Hacker News and Lobsters for AI builder launches in the past 30 days.
+- Search GitHub Trending for AI/agent repos this week.
+- Search Product Hunt for AI tools launched this month.
+- Search recent posts on @theAIsearch, Matt Wolfe, AI Explained YouTube channels.
+- Search for "{{vendor}} announces" or "{{tool}} launched" from Anthropic, OpenAI,
+  Google, Mistral, DeepSeek, Alibaba, Tencent in the past 30 days.
+- For each finding, follow citations to a canonical homepage or GitHub repo URL.
 
 STRICT RULES:
-1. Must have a canonical homepage URL you are confident exists.
-2. Must NOT be in the existing list above (check by name and URL).
+1. Must have a canonical homepage URL that exists today (verify via the
+   search results — do not invent URLs).
+2. Must NOT be in the existing list above (check by name and by URL).
 3. Must fit one of the existing category IDs — do not invent new categories.
 4. Summary: ONE sentence, ~25 words max, factual, no marketing copy.
 5. Why-it-matters: 1-2 sentences. Compare to the obvious alternative
@@ -171,14 +225,18 @@ STRICT RULES:
 6. BANNED WORDS in summary and why_it_matters: revolutionary,
    game-changing, AI-powered, cutting-edge, next-generation,
    paradigm-shifting, supercharged, unleash, groundbreaking.
-7. Prefer broad-impact tools many builders actually use, not niche
-   experiments.
+7. Prefer broad-impact tools many builders actually use, not niche experiments.
 8. Diversity: avoid 3+ entries from the same vendor in any category.
+9. Prefer tools first surfaced in the past 6 months — the wiki should
+   stay current. Only add older tools if they're notably absent and
+   widely used.
 
 If you cannot find 1-2 high-quality candidates that pass ALL rules,
-return an empty candidates list.
+return an empty candidates list. Better to add nothing than to add noise.
 
-RESPONSE FORMAT — return ONLY valid JSON, no markdown fences, no commentary:
+RESPONSE FORMAT — output a single JSON object. You may add brief commentary
+before or after, but the JSON object MUST be parseable on its own:
+
 {{
   "candidates": [
     {{
@@ -194,30 +252,47 @@ RESPONSE FORMAT — return ONLY valid JSON, no markdown fences, no commentary:
 """
 
     client = genai.Client(api_key=api_key)
+    sources: list[str] = []
 
     try:
+        # Google Search grounding — Gemini does the live web search for us.
+        # Free on the Gemini API free tier (Flash: ~500 grounded queries/day,
+        # we use 1/day).
         response = client.models.generate_content(
             model=GEMINI_MODEL,
             contents=prompt,
             config=types.GenerateContentConfig(
-                response_mime_type="application/json",
-                temperature=0.7,
+                tools=[types.Tool(google_search=types.GoogleSearch())],
+                temperature=0.6,
             ),
         )
         text = response.text or ""
     except Exception as e:
         print(f"Gemini call failed: {e}", file=sys.stderr)
-        return []
+        return [], []
 
+    # Extract grounding citations (the URLs Gemini actually consulted).
     try:
-        result = json.loads(text)
-        candidates = result.get("candidates", [])
-        if not isinstance(candidates, list):
-            return []
-        return candidates[:2]
-    except (json.JSONDecodeError, AttributeError) as e:
-        print(f"Failed to parse Gemini JSON: {e}\nRaw: {text[:500]}", file=sys.stderr)
-        return []
+        for cand in (response.candidates or []):
+            gm = getattr(cand, "grounding_metadata", None)
+            if not gm:
+                continue
+            for chunk in (getattr(gm, "grounding_chunks", None) or []):
+                web = getattr(chunk, "web", None)
+                if web and getattr(web, "uri", None):
+                    sources.append(web.uri)
+    except Exception as e:
+        print(f"  (note) could not extract grounding sources: {e}", file=sys.stderr)
+
+    # De-duplicate sources, preserve order.
+    seen: set[str] = set()
+    sources = [s for s in sources if not (s in seen or seen.add(s))]
+    print(f"  Gemini consulted {len(sources)} web source(s) via grounded search")
+
+    candidates = parse_candidates_from_text(text)
+    if not candidates:
+        print(f"  Could not parse candidates. Raw response (first 600 chars):\n  {text[:600]}", file=sys.stderr)
+    return candidates, sources
 
 
 def has_banned_words(*texts: str) -> str | None:
@@ -289,17 +364,18 @@ def main() -> int:
     refreshed, removed = refresh_oldest(entries, k=3)
 
     # ---- Step 2: ask Gemini for candidates (skipped if no key) ----
+    search_sources: list[str] = []
     if not api_key:
         print(
             "\nStep 2: SKIPPED — GEMINI_API_KEY not set. "
             "Add a free key from https://aistudio.google.com/apikey "
-            "as a repo secret to enable new-tool discovery.",
+            "as a repo secret to enable new-tool discovery with live search.",
             file=sys.stderr,
         )
         candidates: list[dict] = []
     else:
-        print(f"\nStep 2: asking Gemini ({GEMINI_MODEL}) for new candidates")
-        candidates = ask_gemini(data, api_key)
+        print(f"\nStep 2: asking Gemini ({GEMINI_MODEL}) for new candidates (with live Google Search grounding)")
+        candidates, search_sources = ask_gemini(data, api_key)
         print(f"  Gemini returned {len(candidates)} candidate(s)")
 
     # ---- Step 3: vet + add ----
@@ -348,6 +424,8 @@ def main() -> int:
 
     # ---- Step 5: log the run ----
     log = json.loads(LOG.read_text(encoding="utf-8")) if LOG.exists() else {"runs": [], "rotation_pointer": 0}
+    sources_checked = [f"gemini:{GEMINI_MODEL}+google-search-grounding"] if api_key else ["refresh-only (no api key)"]
+    sources_checked.extend(search_sources[:20])  # cap to 20 to keep log readable
     log.setdefault("runs", []).append(
         {
             "run_id": rid,
@@ -356,8 +434,10 @@ def main() -> int:
             "added": added,
             "refreshed": refreshed,
             "removed": removed,
-            "sources_checked": [f"gemini:{GEMINI_MODEL}"],
-            "notes": "Automated GitHub Actions run.",
+            "sources_checked": sources_checked,
+            "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
+            if api_key
+            else "Automated GitHub Actions run — refresh-only (GEMINI_API_KEY not set).",
         }
     )
     LOG.write_text(json.dumps(log, indent=2) + "\n", encoding="utf-8")
