@@ -23,9 +23,7 @@
       ],
       "refreshed": [],
       "removed": [],
-      "sources_checked": [
-        "human:eriks"
-      ],
+      "sources_checked": ["human:eriks"],
       "notes": "Manual seed-add from Eriks. 17 candidates submitted; 15 verified and added; 1 skipped (grep.ai/benchmark \u2014 persistent 403, fails URL verification); ChatJimmy merged into Taalas entry (same vendor, ChatJimmy is the demo). Also expanded query_bank with 12 new queries to bias future runs toward similar tool categories: AI memory, search APIs for agents, deep-research benchmarks, coding-agent orchestrators, AI design skills, generative video / 3D, custom silicon inference, agent sandboxing."
     },
     {
@@ -56,15 +54,9 @@
       "started_at": "2026-05-11T13:59:21.373115+00:00",
       "ended_at": "2026-05-11T13:59:22.032499+00:00",
       "added": [],
-      "refreshed": [
-        "claude-code",
-        "cursor",
-        "windsurf"
-      ],
+      "refreshed": ["claude-code", "cursor", "windsurf"],
       "removed": [],
-      "sources_checked": [
-        "gemini:gemini-2.5-flash"
-      ],
+      "sources_checked": ["gemini:gemini-2.5-flash"],
       "notes": "Automated GitHub Actions run."
     },
     {
@@ -72,15 +64,9 @@
       "started_at": "2026-05-11T14:00:41.024519+00:00",
       "ended_at": "2026-05-11T14:00:41.992289+00:00",
       "added": [],
-      "refreshed": [
-        "aider",
-        "cline",
-        "claude-api"
-      ],
+      "refreshed": ["aider", "cline", "claude-api"],
       "removed": [],
-      "sources_checked": [
-        "gemini:gemini-2.5-flash"
-      ],
+      "sources_checked": ["gemini:gemini-2.5-flash"],
       "notes": "Automated GitHub Actions run."
     },
     {
