@@ -24,7 +24,7 @@ RECENT_LIMIT = 8
 
 
 def load_data() -> dict:
-    with DATA.open() as f:
+    with DATA.open(encoding="utf-8") as f:
         return json.load(f)
 
 
@@ -73,8 +73,8 @@ def render_site(data: dict) -> None:
         "generated_at_rfc": format_datetime(now),
     }
 
-    OUT_HTML.write_text(env.get_template("wiki.html.j2").render(**ctx))
-    OUT_FEED.write_text(env.get_template("feed.xml.j2").render(**ctx))
+    OUT_HTML.write_text(env.get_template("wiki.html.j2").render(**ctx), encoding="utf-8")
+    OUT_FEED.write_text(env.get_template("feed.xml.j2").render(**ctx), encoding="utf-8")
     update_readme(env, ctx)
     render_og_cards(env, data)
     print(f"Rendered {len(entries)} entries across {len(categories)} categories.")
@@ -83,10 +83,10 @@ def render_site(data: dict) -> None:
 def update_readme(env: Environment, ctx: dict) -> None:
     """Either rewrite README.md from template or splice the auto-section into existing README."""
     rendered = env.get_template("readme.md.j2").render(**ctx)
-    if not OUT_README.exists() or "<!-- RECENTLY_ADDED:START -->" not in OUT_README.read_text():
-        OUT_README.write_text(rendered)
+    if not OUT_README.exists() or "<!-- RECENTLY_ADDED:START -->" not in OUT_README.read_text(encoding="utf-8"):
+        OUT_README.write_text(rendered, encoding="utf-8")
         return
-    existing = OUT_README.read_text()
+    existing = OUT_README.read_text(encoding="utf-8")
     new_block = re.search(
         r"<!-- RECENTLY_ADDED:START -->.*?<!-- RECENTLY_ADDED:END -->",
         rendered,
@@ -98,7 +98,7 @@ def update_readme(env: Environment, ctx: dict) -> None:
         existing,
         flags=re.DOTALL,
     )
-    OUT_README.write_text(spliced)
+    OUT_README.write_text(spliced, encoding="utf-8")
 
 
 def render_og_cards(env: Environment, data: dict) -> None:
@@ -112,8 +112,8 @@ def render_og_cards(env: Environment, data: dict) -> None:
     try:
         import cairosvg  # type: ignore
         have_cairo = True
-    except ImportError:
-        pass
+    except Exception as exc:
+        print(f"  cairosvg unavailable, skipping PNGs: {exc}", file=sys.stderr)
 
     for e in data["entries"]:
         svg = template.render(
@@ -125,7 +125,7 @@ def render_og_cards(env: Environment, data: dict) -> None:
             base_url=base_url.rstrip("/").replace("https://", ""),
         )
         svg_path = OG_DIR / f"{e['id']}.svg"
-        svg_path.write_text(svg)
+        svg_path.write_text(svg, encoding="utf-8")
         if have_cairo:
             try:
                 cairosvg.svg2png(bytestring=svg.encode(), write_to=str(OG_DIR / f"{e['id']}.png"), output_width=1200, output_height=630)
@@ -141,7 +141,7 @@ def render_og_cards(env: Environment, data: dict) -> None:
         last_verified=datetime.now(timezone.utc).strftime("%Y-%m-%d"),
         base_url=base_url.rstrip("/").replace("https://", ""),
     )
-    (OG_DIR / "index.svg").write_text(index_svg)
+    (OG_DIR / "index.svg").write_text(index_svg, encoding="utf-8")
     if have_cairo:
         try:
             cairosvg.svg2png(bytestring=index_svg.encode(), write_to=str(OG_DIR / "index.png"), output_width=1200, output_height=630)
