@@ -217,11 +217,11 @@
     {
       "id": "claude-agent-sdk",
       "name": "Claude Agent SDK",
-      "url": "https://docs.claude.com/en/api/agent-sdk/overview",
+      "url": "https://code.claude.com/docs/en/agent-sdk/overview",
       "category": "agent-frameworks",
       "summary": "Anthropic's official SDK for building agents that share Claude Code's runtime — tools, MCP, hooks, subagents.",
       "why_it_matters": "If you want Claude Code's agent harness for your own product, this is the supported path. Less reinvention than building from raw API calls.",
-      "last_verified": "2026-04-27",
+      "last_verified": "2026-05-11",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -232,18 +232,18 @@
       "category": "agent-frameworks",
       "summary": "Graph-based agent orchestration from LangChain — durable execution, human-in-the-loop, time-travel debugging.",
       "why_it_matters": "When your agent has real branching state and you need to checkpoint/replay, the graph model pays off.",
-      "last_verified": "2026-04-27",
+      "last_verified": "2026-05-11",
       "source": "seed",
       "added": "2026-04-27"
     },
     {
       "id": "mastra",
       "name": "Mastra",
-      "url": "https://mastra.ai",
+      "url": "https://mastra.ai/",
       "category": "agent-frameworks",
       "summary": "TypeScript-first agent framework — workflows, memory, evals, and a local dev playground.",
       "why_it_matters": "The most ergonomic TS option in 2026 for builders who don't want to leave Node. Strong eval story baked in.",
-      "last_verified": "2026-04-27",
+      "last_verified": "2026-05-11",
       "source": "seed",
       "added": "2026-04-27"
     },
