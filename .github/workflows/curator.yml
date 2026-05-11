@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: write
+  actions: write # required for `gh workflow run` dispatch of the Pages deploy
 
 concurrency:
   group: curator
@@ -60,6 +61,4 @@ jobs:
         if: success()
         env:
           GH_TOKEN: ${{ github.token }}
-        run: |
-          gh workflow run "Deploy to GitHub Pages" || \
-          echo "Deploy workflow trigger failed (likely no changes pushed; safe to ignore)."
+        run: gh workflow run "Deploy to GitHub Pages" --ref main
