@@ -25,6 +25,29 @@
       "removed": [],
       "sources_checked": ["human:eriks"],
       "notes": "Manual seed-add from Eriks. 17 candidates submitted; 15 verified and added; 1 skipped (grep.ai/benchmark — persistent 403, fails URL verification); ChatJimmy merged into Taalas entry (same vendor, ChatJimmy is the demo). Also expanded query_bank with 12 new queries to bias future runs toward similar tool categories: AI memory, search APIs for agents, deep-research benchmarks, coding-agent orchestrators, AI design skills, generative video / 3D, custom silicon inference, agent sandboxing."
+    },
+    {
+      "run_id": "2026-05-11-1540",
+      "started_at": "2026-05-11T15:40:00Z",
+      "ended_at": "2026-05-11T15:55:00Z",
+      "added": [
+        "deepseek",
+        "qwen",
+        "gemma",
+        "groq",
+        "together-ai",
+        "wan",
+        "mem0",
+        "letta"
+      ],
+      "refreshed": [],
+      "removed": [],
+      "sources_checked": [
+        "youtube:theAIsearch (RSS feed, last 15 videos)",
+        "huggingface.co/Qwen",
+        "deepmind.google/models/gemma"
+      ],
+      "notes": "User-directed run: take everything useful from @theAIsearch YouTube channel + find what others are talking about. Pulled channel RSS (channel_id UCIgnGlGkVRhd4qNFcEwLL4A); extracted recurring foundation-model and video-gen mentions (DeepSeek V4, Qwen 3.6, Gemma 4, Wan); rounded out with widely-discussed open-inference platforms (Groq, Together AI) and memory tools (Mem0, Letta). Also added youtube_channels section to sources.json with 5 channels (theAIsearch high-priority, Matt Wolfe high, AI Explained med, Wes Roth med, David Ondrej low). Created docs/daily-curator-package.md as the canonical Mon-Fri prompt for cowork sessions."
     }
   ],
   "rotation_pointer": 0
