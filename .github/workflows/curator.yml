@@ -1,0 +1,65 @@
+name: Daily Curator
+
+on:
+  schedule:
+    # 06:00 UTC Mon–Fri. GitHub cron syntax is UTC.
+    - cron: "0 6 * * 1-5"
+  workflow_dispatch: # manual "Run workflow" button in the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: curator
+  cancel-in-progress: false
+
+jobs:
+  curate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Run curator
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scripts/curator.py
+
+      - name: Re-render site
+        run: python scripts/render.py
+
+      - name: Commit and push if anything changed
+        run: |
+          if [[ -z $(git status --porcelain data/ archive/ index.html feed.xml README.md static/og/) ]]; then
+            echo "No tracked changes; exiting clean."
+            rm -f .curator-message
+            exit 0
+          fi
+          git add data/ archive/ README.md feed.xml 2>/dev/null || true
+          if [[ -f .curator-message ]]; then
+            git commit -F .curator-message
+            rm -f .curator-message
+          else
+            git commit -m "curator: scheduled run"
+          fi
+          git push origin main
+
+      - name: Trigger Pages deploy
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh workflow run "Deploy to GitHub Pages" || \
+          echo "Deploy workflow trigger failed (likely no changes pushed; safe to ignore)."
