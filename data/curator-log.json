@@ -1,1 +1,31 @@
-{ "runs": [], "rotation_pointer": 0 }
+{
+  "runs": [
+    {
+      "run_id": "2026-05-11-1340",
+      "started_at": "2026-05-11T13:40:00Z",
+      "ended_at": "2026-05-11T13:55:00Z",
+      "added": [
+        "mempalace",
+        "ob1",
+        "you-com-api",
+        "deepresearch-bench",
+        "zed-ai",
+        "conductor-build",
+        "paseo",
+        "sandcastle",
+        "taalas",
+        "hyperframes",
+        "remotion",
+        "tripo3d",
+        "hunyuan3d-2",
+        "impeccable-style",
+        "claude-design-skill-prompt"
+      ],
+      "refreshed": [],
+      "removed": [],
+      "sources_checked": ["human:eriks"],
+      "notes": "Manual seed-add from Eriks. 17 candidates submitted; 15 verified and added; 1 skipped (grep.ai/benchmark — persistent 403, fails URL verification); ChatJimmy merged into Taalas entry (same vendor, ChatJimmy is the demo). Also expanded query_bank with 12 new queries to bias future runs toward similar tool categories: AI memory, search APIs for agents, deep-research benchmarks, coding-agent orchestrators, AI design skills, generative video / 3D, custom silicon inference, agent sandboxing."
+    }
+  ],
+  "rotation_pointer": 0
+}

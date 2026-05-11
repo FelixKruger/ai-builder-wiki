@@ -25,21 +25,21 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
-- **[Claude Code](https://felixkruger.github.io/ai-builder-wiki/#claude-code)** — Anthropic's official terminal-native coding agent — reads your repo, edits files, runs commands, talks to MCP servers. _(added 2026-04-27)_
+- **[MemPalace](https://felixkruger.github.io/ai-builder-wiki/#mempalace)** — Open-source local AI memory system — stores conversation history as verbatim text with semantic retrieval. _(added 2026-05-11)_
 
-- **[Cursor](https://felixkruger.github.io/ai-builder-wiki/#cursor)** — AI-first VS Code fork with Composer, Tab autocomplete, and a strong agent loop. _(added 2026-04-27)_
+- **[OB1](https://felixkruger.github.io/ai-builder-wiki/#ob1)** — Self-hosted shared memory database — lets multiple AI tools read and write one persistent memory without vendor lock-in. _(added 2026-05-11)_
 
-- **[Windsurf](https://felixkruger.github.io/ai-builder-wiki/#windsurf)** — Codeium's agentic IDE with Cascade — strong long-running task execution, now part of OpenAI. _(added 2026-04-27)_
+- **[You.com Search API](https://felixkruger.github.io/ai-builder-wiki/#you-com-api)** — Web search API engineered for AI agents — 300ms p99 latency, real-time indexing across 10M+ news sources. _(added 2026-05-11)_
 
-- **[Aider](https://felixkruger.github.io/ai-builder-wiki/#aider)** — Open-source CLI pair-programmer — git-native, model-agnostic, and the benchmark for many leaderboards. _(added 2026-04-27)_
+- **[DeepResearch-Bench](https://felixkruger.github.io/ai-builder-wiki/#deepresearch-bench)** — Open benchmark and leaderboard for deep-research agents (Claude, OpenAI, Gemini, and OSS) — hosted by muset-ai on Hugging Face Spaces. _(added 2026-05-11)_
 
-- **[Cline](https://felixkruger.github.io/ai-builder-wiki/#cline)** — Open-source autonomous coding agent for VS Code — plan/act modes, MCP support, BYO model. _(added 2026-04-27)_
+- **[Zed AI](https://felixkruger.github.io/ai-builder-wiki/#zed-ai)** — Rust-native code editor with agentic editing, real-time collaboration, and the open Agent Client Protocol (ACP). _(added 2026-05-11)_
 
-- **[Claude API (Anthropic)](https://felixkruger.github.io/ai-builder-wiki/#claude-api)** — Anthropic's API — Claude Opus 4.7, Sonnet 4.6, Haiku 4.5. Native tool use, prompt caching, extended thinking, files, citations. _(added 2026-04-27)_
+- **[Conductor](https://felixkruger.github.io/ai-builder-wiki/#conductor-build)** — Mac app that runs a fleet of Claude Code and Codex agents in parallel git worktrees, then helps you review and merge their work. _(added 2026-05-11)_
 
-- **[OpenAI API](https://felixkruger.github.io/ai-builder-wiki/#openai-api)** — GPT-5 family, Realtime API, structured outputs, Responses API. _(added 2026-04-27)_
+- **[Paseo](https://felixkruger.github.io/ai-builder-wiki/#paseo)** — Unified runner for Claude Code, Codex, OpenCode, and others — accessible from phone, desktop, or terminal. _(added 2026-05-11)_
 
-- **[Gemini API (Google)](https://felixkruger.github.io/ai-builder-wiki/#gemini-api)** — Gemini 2.5 Pro / Flash with 2M-token context, native multimodal, and grounding-with-Search. _(added 2026-04-27)_
+- **[Sandcastle](https://felixkruger.github.io/ai-builder-wiki/#sandcastle)** — TypeScript library by Matt Pocock for orchestrating AI coding agents in isolated sandboxes — one function call handles lifecycle and branch merging. _(added 2026-05-11)_
 
 <!-- RECENTLY_ADDED:END -->
 

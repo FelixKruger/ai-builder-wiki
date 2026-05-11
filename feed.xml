@@ -5,70 +5,70 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Mon, 11 May 2026 13:30:13 +0000</lastBuildDate>
+<lastBuildDate>Mon, 11 May 2026 13:39:21 +0000</lastBuildDate>
 
 <item>
-  <title>Claude Code</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#claude-code</link>
-  <guid isPermaLink="false">claude-code-2026-04-27</guid>
-  <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Anthropic's official terminal-native coding agent — reads your repo, edits files, runs commands, talks to MCP servers. — The reference implementation for agentic coding: full-context repo understanding, permissions model, hooks, and skills. If you're building developer agents, study how it ships.]]></description>
+  <title>MemPalace</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#mempalace</link>
+  <guid isPermaLink="false">mempalace-2026-05-11</guid>
+  <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Open-source local AI memory system — stores conversation history as verbatim text with semantic retrieval. — Hits 96.6% R@5 on LongMemEval with zero API calls. If you want agent memory that doesn't leak to a vendor, this is the open-source baseline.]]></description>
 </item>
 
 <item>
-  <title>Cursor</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#cursor</link>
-  <guid isPermaLink="false">cursor-2026-04-27</guid>
-  <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[AI-first VS Code fork with Composer, Tab autocomplete, and a strong agent loop. — The dominant IDE among working AI builders in 2026 — diff review UX is the bar everyone else is chasing.]]></description>
+  <title>OB1</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#ob1</link>
+  <guid isPermaLink="false">ob1-2026-05-11</guid>
+  <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Self-hosted shared memory database — lets multiple AI tools read and write one persistent memory without vendor lock-in. — Bridges the memory silos: Claude, Cursor, and ChatGPT each have their own. OB1 is the memory backbone that unifies them.]]></description>
 </item>
 
 <item>
-  <title>Windsurf</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#windsurf</link>
-  <guid isPermaLink="false">windsurf-2026-04-27</guid>
-  <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Codeium's agentic IDE with Cascade — strong long-running task execution, now part of OpenAI. — Cascade pioneered the 'agent that keeps going across many turns' pattern; worth comparing against Cursor Composer for taste.]]></description>
+  <title>You.com Search API</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#you-com-api</link>
+  <guid isPermaLink="false">you-com-api-2026-05-11</guid>
+  <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Web search API engineered for AI agents — 300ms p99 latency, real-time indexing across 10M+ news sources. — When you need fresh web grounding inside an agent and Tavily or Exa feels slow, You.com's latency is the differentiator.]]></description>
 </item>
 
 <item>
-  <title>Aider</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#aider</link>
-  <guid isPermaLink="false">aider-2026-04-27</guid>
-  <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Open-source CLI pair-programmer — git-native, model-agnostic, and the benchmark for many leaderboards. — The polyglot baseline. If you're benchmarking your own agent, Aider's leaderboards are where the field calibrates.]]></description>
+  <title>DeepResearch-Bench</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#deepresearch-bench</link>
+  <guid isPermaLink="false">deepresearch-bench-2026-05-11</guid>
+  <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Open benchmark and leaderboard for deep-research agents (Claude, OpenAI, Gemini, and OSS) — hosted by muset-ai on Hugging Face Spaces. — If you're shipping a research agent or deciding which deep-research product to integrate, this is the public scoreboard to read first.]]></description>
 </item>
 
 <item>
-  <title>Cline</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#cline</link>
-  <guid isPermaLink="false">cline-2026-04-27</guid>
-  <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Open-source autonomous coding agent for VS Code — plan/act modes, MCP support, BYO model. — The transparent option: every action shown and approvable. Good for understanding how an agent loop actually works.]]></description>
+  <title>Zed AI</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#zed-ai</link>
+  <guid isPermaLink="false">zed-ai-2026-05-11</guid>
+  <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Rust-native code editor with agentic editing, real-time collaboration, and the open Agent Client Protocol (ACP). — The performance-first alternative to Cursor and Windsurf. 120 fps render, open prediction model (Zeta), and ACP make agent behavior auditable.]]></description>
 </item>
 
 <item>
-  <title>Claude API (Anthropic)</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#claude-api</link>
-  <guid isPermaLink="false">claude-api-2026-04-27</guid>
-  <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Anthropic's API — Claude Opus 4.7, Sonnet 4.6, Haiku 4.5. Native tool use, prompt caching, extended thinking, files, citations. — Best-in-class for long-horizon tool use and agentic coding. Prompt caching alone often pays for the migration.]]></description>
+  <title>Conductor</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#conductor-build</link>
+  <guid isPermaLink="false">conductor-build-2026-05-11</guid>
+  <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Mac app that runs a fleet of Claude Code and Codex agents in parallel git worktrees, then helps you review and merge their work. — Single-machine multi-agent orchestration with native macOS UX. The 'one developer, many parallel agents' workflow distilled into a desktop app.]]></description>
 </item>
 
 <item>
-  <title>OpenAI API</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#openai-api</link>
-  <guid isPermaLink="false">openai-api-2026-04-27</guid>
-  <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[GPT-5 family, Realtime API, structured outputs, Responses API. — Still the broadest ecosystem and the realtime voice baseline. Responses API is the cleanest agent primitive OpenAI ships.]]></description>
+  <title>Paseo</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#paseo</link>
+  <guid isPermaLink="false">paseo-2026-05-11</guid>
+  <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Unified runner for Claude Code, Codex, OpenCode, and others — accessible from phone, desktop, or terminal. — If you switch between coding agents and devices, Paseo is the connector. Picks up where Claude.ai's mobile leaves off for power users.]]></description>
 </item>
 
 <item>
-  <title>Gemini API (Google)</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#gemini-api</link>
-  <guid isPermaLink="false">gemini-api-2026-04-27</guid>
-  <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Gemini 2.5 Pro / Flash with 2M-token context, native multimodal, and grounding-with-Search. — If your workload is video, very-long-context, or needs fresh web grounding without your own RAG, start here.]]></description>
+  <title>Sandcastle</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#sandcastle</link>
+  <guid isPermaLink="false">sandcastle-2026-05-11</guid>
+  <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[TypeScript library by Matt Pocock for orchestrating AI coding agents in isolated sandboxes — one function call handles lifecycle and branch merging. — If you're building a product that spawns coding agents, Sandcastle removes the boilerplate around containers and merge UX.]]></description>
 </item>
 
 </channel>
