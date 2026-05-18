@@ -50,6 +50,10 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 - **[Suno v5](https://felixkruger.github.io/ai-builder-wiki/#suno-v5)** — Suno v5 is an AI music generation tool that creates full-length tracks with human-like vocals across various genres. _(added 2026-05-18)_
 
+- **[Baton](https://felixkruger.github.io/ai-builder-wiki/#baton)** — Baton is a desktop application that provides a unified interface for developing and managing multiple AI coding agents and their associated worktrees. _(added 2026-05-18)_
+
+- **[Statewright](https://felixkruger.github.io/ai-builder-wiki/#statewright)** — Statewright utilizes visual state machines to enhance the reliability of AI agents by formally restricting their tool access, iteration limits, and valid transitions within a workflow. _(added 2026-05-18)_
+
 - **[MemPalace](https://felixkruger.github.io/ai-builder-wiki/#mempalace)** — Open-source local AI memory system — stores conversation history as verbatim text with semantic retrieval. _(added 2026-05-11)_
 
 - **[OB1](https://felixkruger.github.io/ai-builder-wiki/#ob1)** — Self-hosted shared memory database — lets multiple AI tools read and write one persistent memory without vendor lock-in. _(added 2026-05-11)_
@@ -59,10 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[DeepResearch-Bench](https://felixkruger.github.io/ai-builder-wiki/#deepresearch-bench)** — Open benchmark and leaderboard for deep-research agents (Claude, OpenAI, Gemini, and OSS) — hosted by muset-ai on Hugging Face Spaces. _(added 2026-05-11)_
 
 - **[Zed AI](https://felixkruger.github.io/ai-builder-wiki/#zed-ai)** — Rust-native code editor with agentic editing, real-time collaboration, and the open Agent Client Protocol (ACP). _(added 2026-05-11)_
-
-- **[Conductor](https://felixkruger.github.io/ai-builder-wiki/#conductor-build)** — Mac app that runs a fleet of Claude Code and Codex agents in parallel git worktrees, then helps you review and merge their work. _(added 2026-05-11)_
-
-- **[Paseo](https://felixkruger.github.io/ai-builder-wiki/#paseo)** — Unified runner for Claude Code, Codex, OpenCode, and others — accessible from phone, desktop, or terminal. _(added 2026-05-11)_
 
 <!-- RECENTLY_ADDED:END -->
 

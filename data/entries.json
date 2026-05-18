@@ -221,7 +221,7 @@
       "category": "agent-frameworks",
       "summary": "Anthropic's official SDK for building agents that share Claude Code's runtime — tools, MCP, hooks, subagents.",
       "why_it_matters": "If you want Claude Code's agent harness for your own product, this is the supported path. Less reinvention than building from raw API calls.",
-      "last_verified": "2026-05-11",
+      "last_verified": "2026-05-18",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -232,7 +232,7 @@
       "category": "agent-frameworks",
       "summary": "Graph-based agent orchestration from LangChain — durable execution, human-in-the-loop, time-travel debugging.",
       "why_it_matters": "When your agent has real branching state and you need to checkpoint/replay, the graph model pays off.",
-      "last_verified": "2026-05-11",
+      "last_verified": "2026-05-18",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -243,7 +243,7 @@
       "category": "agent-frameworks",
       "summary": "TypeScript-first agent framework — workflows, memory, evals, and a local dev playground.",
       "why_it_matters": "The most ergonomic TS option in 2026 for builders who don't want to leave Node. Strong eval story baked in.",
-      "last_verified": "2026-05-11",
+      "last_verified": "2026-05-18",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -641,6 +641,28 @@
       "why_it_matters": "This tool allows creators to produce original, royalty-free music efficiently, providing a cost-effective alternative to traditional music production.",
       "last_verified": "2026-05-18",
       "source": "curator:2026-05-18-0634",
+      "added": "2026-05-18"
+    },
+    {
+      "id": "baton",
+      "name": "Baton",
+      "url": "https://getbaton.dev/",
+      "category": "multi-agent-coding",
+      "summary": "Baton is a desktop application that provides a unified interface for developing and managing multiple AI coding agents and their associated worktrees.",
+      "why_it_matters": "It simplifies the orchestration of several AI coding agents, offering a more organized and efficient workflow compared to manually managing them across disparate development environments.",
+      "last_verified": "2026-05-18",
+      "source": "curator:2026-05-18-0933",
+      "added": "2026-05-18"
+    },
+    {
+      "id": "statewright",
+      "name": "Statewright",
+      "url": "https://statewright.ai/",
+      "category": "agent-frameworks",
+      "summary": "Statewright utilizes visual state machines to enhance the reliability of AI agents by formally restricting their tool access, iteration limits, and valid transitions within a workflow.",
+      "why_it_matters": "This approach improves agent reliability by reducing the problem complexity for smaller models, offering an alternative to relying on larger models or extensive prompting for robust agent behavior.",
+      "last_verified": "2026-05-18",
+      "source": "curator:2026-05-18-0933",
       "added": "2026-05-18"
     }
   ]

@@ -5,7 +5,7 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Mon, 18 May 2026 06:35:08 +0000</lastBuildDate>
+<lastBuildDate>Mon, 18 May 2026 09:33:30 +0000</lastBuildDate>
 
 <item>
   <title>Suno v5</title>
@@ -13,6 +13,22 @@
   <guid isPermaLink="false">suno-v5-2026-05-18</guid>
   <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Suno v5 is an AI music generation tool that creates full-length tracks with human-like vocals across various genres. — This tool allows creators to produce original, royalty-free music efficiently, providing a cost-effective alternative to traditional music production.]]></description>
+</item>
+
+<item>
+  <title>Baton</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#baton</link>
+  <guid isPermaLink="false">baton-2026-05-18</guid>
+  <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Baton is a desktop application that provides a unified interface for developing and managing multiple AI coding agents and their associated worktrees. — It simplifies the orchestration of several AI coding agents, offering a more organized and efficient workflow compared to manually managing them across disparate development environments.]]></description>
+</item>
+
+<item>
+  <title>Statewright</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#statewright</link>
+  <guid isPermaLink="false">statewright-2026-05-18</guid>
+  <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Statewright utilizes visual state machines to enhance the reliability of AI agents by formally restricting their tool access, iteration limits, and valid transitions within a workflow. — This approach improves agent reliability by reducing the problem complexity for smaller models, offering an alternative to relying on larger models or extensive prompting for robust agent behavior.]]></description>
 </item>
 
 <item>
@@ -53,22 +69,6 @@
   <guid isPermaLink="false">zed-ai-2026-05-11</guid>
   <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Rust-native code editor with agentic editing, real-time collaboration, and the open Agent Client Protocol (ACP). — The performance-first alternative to Cursor and Windsurf. 120 fps render, open prediction model (Zeta), and ACP make agent behavior auditable.]]></description>
-</item>
-
-<item>
-  <title>Conductor</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#conductor-build</link>
-  <guid isPermaLink="false">conductor-build-2026-05-11</guid>
-  <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Mac app that runs a fleet of Claude Code and Codex agents in parallel git worktrees, then helps you review and merge their work. — Single-machine multi-agent orchestration with native macOS UX. The 'one developer, many parallel agents' workflow distilled into a desktop app.]]></description>
-</item>
-
-<item>
-  <title>Paseo</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#paseo</link>
-  <guid isPermaLink="false">paseo-2026-05-11</guid>
-  <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Unified runner for Claude Code, Codex, OpenCode, and others — accessible from phone, desktop, or terminal. — If you switch between coding agents and devices, Paseo is the connector. Picks up where Claude.ai's mobile leaves off for power users.]]></description>
 </item>
 
 </channel>
