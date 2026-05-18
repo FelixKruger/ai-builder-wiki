@@ -48,6 +48,8 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Suno v5](https://felixkruger.github.io/ai-builder-wiki/#suno-v5)** — Suno v5 is an AI music generation tool that creates full-length tracks with human-like vocals across various genres. _(added 2026-05-18)_
+
 - **[MemPalace](https://felixkruger.github.io/ai-builder-wiki/#mempalace)** — Open-source local AI memory system — stores conversation history as verbatim text with semantic retrieval. _(added 2026-05-11)_
 
 - **[OB1](https://felixkruger.github.io/ai-builder-wiki/#ob1)** — Self-hosted shared memory database — lets multiple AI tools read and write one persistent memory without vendor lock-in. _(added 2026-05-11)_
@@ -61,8 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Conductor](https://felixkruger.github.io/ai-builder-wiki/#conductor-build)** — Mac app that runs a fleet of Claude Code and Codex agents in parallel git worktrees, then helps you review and merge their work. _(added 2026-05-11)_
 
 - **[Paseo](https://felixkruger.github.io/ai-builder-wiki/#paseo)** — Unified runner for Claude Code, Codex, OpenCode, and others — accessible from phone, desktop, or terminal. _(added 2026-05-11)_
-
-- **[Sandcastle](https://felixkruger.github.io/ai-builder-wiki/#sandcastle)** — TypeScript library by Matt Pocock for orchestrating AI coding agents in isolated sandboxes — one function call handles lifecycle and branch merging. _(added 2026-05-11)_
 
 <!-- RECENTLY_ADDED:END -->
 

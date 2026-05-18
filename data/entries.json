@@ -188,7 +188,7 @@
       "category": "hosted-apis",
       "summary": "GPT-5 family, Realtime API, structured outputs, Responses API.",
       "why_it_matters": "Still the broadest ecosystem and the realtime voice baseline. Responses API is the cleanest agent primitive OpenAI ships.",
-      "last_verified": "2026-05-11",
+      "last_verified": "2026-05-18",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -199,7 +199,7 @@
       "category": "hosted-apis",
       "summary": "Gemini 2.5 Pro / Flash with 2M-token context, native multimodal, and grounding-with-Search.",
       "why_it_matters": "If your workload is video, very-long-context, or needs fresh web grounding without your own RAG, start here.",
-      "last_verified": "2026-05-11",
+      "last_verified": "2026-05-18",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -210,7 +210,7 @@
       "category": "inference-platforms",
       "summary": "Single API for hundreds of models with automatic failover and unified billing.",
       "why_it_matters": "The pragmatic abstraction layer when you don't want to hard-code one provider. Useful for model A/B and graceful fallback.",
-      "last_verified": "2026-05-11",
+      "last_verified": "2026-05-18",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -631,6 +631,17 @@
       "last_verified": "2026-05-11",
       "source": "human:eriks",
       "added": "2026-05-11"
+    },
+    {
+      "id": "suno-v5",
+      "name": "Suno v5",
+      "url": "https://suno.com/",
+      "category": "voice-audio",
+      "summary": "Suno v5 is an AI music generation tool that creates full-length tracks with human-like vocals across various genres.",
+      "why_it_matters": "This tool allows creators to produce original, royalty-free music efficiently, providing a cost-effective alternative to traditional music production.",
+      "last_verified": "2026-05-18",
+      "source": "curator:2026-05-18-0634",
+      "added": "2026-05-18"
     }
   ]
 }

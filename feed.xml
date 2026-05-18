@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Sun, 17 May 2026 08:04:16 +0000</lastBuildDate>
+<lastBuildDate>Mon, 18 May 2026 06:35:08 +0000</lastBuildDate>
+
+<item>
+  <title>Suno v5</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#suno-v5</link>
+  <guid isPermaLink="false">suno-v5-2026-05-18</guid>
+  <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Suno v5 is an AI music generation tool that creates full-length tracks with human-like vocals across various genres. — This tool allows creators to produce original, royalty-free music efficiently, providing a cost-effective alternative to traditional music production.]]></description>
+</item>
 
 <item>
   <title>MemPalace</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">paseo-2026-05-11</guid>
   <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Unified runner for Claude Code, Codex, OpenCode, and others — accessible from phone, desktop, or terminal. — If you switch between coding agents and devices, Paseo is the connector. Picks up where Claude.ai's mobile leaves off for power users.]]></description>
-</item>
-
-<item>
-  <title>Sandcastle</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#sandcastle</link>
-  <guid isPermaLink="false">sandcastle-2026-05-11</guid>
-  <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[TypeScript library by Matt Pocock for orchestrating AI coding agents in isolated sandboxes — one function call handles lifecycle and branch merging. — If you're building a product that spawns coding agents, Sandcastle removes the boilerplate around containers and merge UX.]]></description>
 </item>
 
 </channel>
