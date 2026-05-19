@@ -48,6 +48,10 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Helicone](https://felixkruger.github.io/ai-builder-wiki/#helicone)** — Helicone provides logging, monitoring, and debugging for large language model applications to help builders understand and optimize their AI usage. _(added 2026-05-19)_
+
+- **[OpenSwarm](https://felixkruger.github.io/ai-builder-wiki/#openswarm)** — OpenSwarm is an open-source multi-agent system that orchestrates specialized AI agents to create diverse deliverables from a single terminal prompt. _(added 2026-05-19)_
+
 - **[Suno v5](https://felixkruger.github.io/ai-builder-wiki/#suno-v5)** — Suno v5 is an AI music generation tool that creates full-length tracks with human-like vocals across various genres. _(added 2026-05-18)_
 
 - **[Baton](https://felixkruger.github.io/ai-builder-wiki/#baton)** — Baton is a desktop application that provides a unified interface for developing and managing multiple AI coding agents and their associated worktrees. _(added 2026-05-18)_
@@ -59,10 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[OB1](https://felixkruger.github.io/ai-builder-wiki/#ob1)** — Self-hosted shared memory database — lets multiple AI tools read and write one persistent memory without vendor lock-in. _(added 2026-05-11)_
 
 - **[You.com Search API](https://felixkruger.github.io/ai-builder-wiki/#you-com-api)** — Web search API engineered for AI agents — 300ms p99 latency, real-time indexing across 10M+ news sources. _(added 2026-05-11)_
-
-- **[DeepResearch-Bench](https://felixkruger.github.io/ai-builder-wiki/#deepresearch-bench)** — Open benchmark and leaderboard for deep-research agents (Claude, OpenAI, Gemini, and OSS) — hosted by muset-ai on Hugging Face Spaces. _(added 2026-05-11)_
-
-- **[Zed AI](https://felixkruger.github.io/ai-builder-wiki/#zed-ai)** — Rust-native code editor with agentic editing, real-time collaboration, and the open Agent Client Protocol (ACP). _(added 2026-05-11)_
 
 <!-- RECENTLY_ADDED:END -->
 
