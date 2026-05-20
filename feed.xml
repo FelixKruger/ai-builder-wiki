@@ -5,7 +5,23 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Tue, 19 May 2026 08:53:54 +0000</lastBuildDate>
+<lastBuildDate>Wed, 20 May 2026 08:48:25 +0000</lastBuildDate>
+
+<item>
+  <title>Hermes Agent</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#hermes-agent</link>
+  <guid isPermaLink="false">hermes-agent-2026-05-20</guid>
+  <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Hermes Agent is an open-source framework for building self-improving AI agents designed for long-term, personalized collaboration. — It emphasizes reliability and self-evolving skills, allowing agents to learn from feedback and adapt over time, contrasting with agents requiring constant manual refinement.]]></description>
+</item>
+
+<item>
+  <title>Microsoft Agent Framework</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#microsoft-agent-framework</link>
+  <guid isPermaLink="false">microsoft-agent-framework-2026-05-20</guid>
+  <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[The Microsoft Agent Framework is an open, multi-language framework for building and orchestrating production-grade AI agents and multi-agent workflows. — It provides a consistent foundation for agent systems across Python and .NET, supporting various LLM ecosystems for developers taking agents from prototype to production.]]></description>
+</item>
 
 <item>
   <title>Helicone</title>
@@ -53,22 +69,6 @@
   <guid isPermaLink="false">mempalace-2026-05-11</guid>
   <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Open-source local AI memory system — stores conversation history as verbatim text with semantic retrieval. — Hits 96.6% R@5 on LongMemEval with zero API calls. If you want agent memory that doesn't leak to a vendor, this is the open-source baseline.]]></description>
-</item>
-
-<item>
-  <title>OB1</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#ob1</link>
-  <guid isPermaLink="false">ob1-2026-05-11</guid>
-  <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Self-hosted shared memory database — lets multiple AI tools read and write one persistent memory without vendor lock-in. — Bridges the memory silos: Claude, Cursor, and ChatGPT each have their own. OB1 is the memory backbone that unifies them.]]></description>
-</item>
-
-<item>
-  <title>You.com Search API</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#you-com-api</link>
-  <guid isPermaLink="false">you-com-api-2026-05-11</guid>
-  <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Web search API engineered for AI agents — 300ms p99 latency, real-time indexing across 10M+ news sources. — When you need fresh web grounding inside an agent and Tavily or Exa feels slow, You.com's latency is the differentiator.]]></description>
 </item>
 
 </channel>

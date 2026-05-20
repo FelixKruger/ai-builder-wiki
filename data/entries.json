@@ -419,7 +419,7 @@
       "category": "evals",
       "summary": "Open benchmark and leaderboard for deep-research agents (Claude, OpenAI, Gemini, and OSS) — hosted by muset-ai on Hugging Face Spaces.",
       "why_it_matters": "If you're shipping a research agent or deciding which deep-research product to integrate, this is the public scoreboard to read first.",
-      "last_verified": "2026-05-11",
+      "last_verified": "2026-05-20",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -430,7 +430,7 @@
       "category": "ai-coding",
       "summary": "Rust-native code editor with agentic editing, real-time collaboration, and the open Agent Client Protocol (ACP).",
       "why_it_matters": "The performance-first alternative to Cursor and Windsurf. 120 fps render, open prediction model (Zeta), and ACP make agent behavior auditable.",
-      "last_verified": "2026-05-11",
+      "last_verified": "2026-05-20",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -441,7 +441,7 @@
       "category": "multi-agent-coding",
       "summary": "Mac app that runs a fleet of Claude Code and Codex agents in parallel git worktrees, then helps you review and merge their work.",
       "why_it_matters": "Single-machine multi-agent orchestration with native macOS UX. The 'one developer, many parallel agents' workflow distilled into a desktop app.",
-      "last_verified": "2026-05-11",
+      "last_verified": "2026-05-20",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -686,6 +686,28 @@
       "last_verified": "2026-05-19",
       "source": "curator:2026-05-19-0853",
       "added": "2026-05-19"
+    },
+    {
+      "id": "hermes-agent",
+      "name": "Hermes Agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "category": "agent-frameworks",
+      "summary": "Hermes Agent is an open-source framework for building self-improving AI agents designed for long-term, personalized collaboration.",
+      "why_it_matters": "It emphasizes reliability and self-evolving skills, allowing agents to learn from feedback and adapt over time, contrasting with agents requiring constant manual refinement.",
+      "last_verified": "2026-05-20",
+      "source": "curator:2026-05-20-0848",
+      "added": "2026-05-20"
+    },
+    {
+      "id": "microsoft-agent-framework",
+      "name": "Microsoft Agent Framework",
+      "url": "https://github.com/microsoft/agent-framework",
+      "category": "multi-agent-coding",
+      "summary": "The Microsoft Agent Framework is an open, multi-language framework for building and orchestrating production-grade AI agents and multi-agent workflows.",
+      "why_it_matters": "It provides a consistent foundation for agent systems across Python and .NET, supporting various LLM ecosystems for developers taking agents from prototype to production.",
+      "last_verified": "2026-05-20",
+      "source": "curator:2026-05-20-0848",
+      "added": "2026-05-20"
     }
   ]
 }
