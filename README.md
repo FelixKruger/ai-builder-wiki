@@ -48,6 +48,10 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Hermes Agent](https://felixkruger.github.io/ai-builder-wiki/#hermes-agent)** — Hermes Agent is an open-source framework for building self-improving AI agents designed for long-term, personalized collaboration. _(added 2026-05-20)_
+
+- **[Microsoft Agent Framework](https://felixkruger.github.io/ai-builder-wiki/#microsoft-agent-framework)** — The Microsoft Agent Framework is an open, multi-language framework for building and orchestrating production-grade AI agents and multi-agent workflows. _(added 2026-05-20)_
+
 - **[Helicone](https://felixkruger.github.io/ai-builder-wiki/#helicone)** — Helicone provides logging, monitoring, and debugging for large language model applications to help builders understand and optimize their AI usage. _(added 2026-05-19)_
 
 - **[OpenSwarm](https://felixkruger.github.io/ai-builder-wiki/#openswarm)** — OpenSwarm is an open-source multi-agent system that orchestrates specialized AI agents to create diverse deliverables from a single terminal prompt. _(added 2026-05-19)_
@@ -59,10 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Statewright](https://felixkruger.github.io/ai-builder-wiki/#statewright)** — Statewright utilizes visual state machines to enhance the reliability of AI agents by formally restricting their tool access, iteration limits, and valid transitions within a workflow. _(added 2026-05-18)_
 
 - **[MemPalace](https://felixkruger.github.io/ai-builder-wiki/#mempalace)** — Open-source local AI memory system — stores conversation history as verbatim text with semantic retrieval. _(added 2026-05-11)_
-
-- **[OB1](https://felixkruger.github.io/ai-builder-wiki/#ob1)** — Self-hosted shared memory database — lets multiple AI tools read and write one persistent memory without vendor lock-in. _(added 2026-05-11)_
-
-- **[You.com Search API](https://felixkruger.github.io/ai-builder-wiki/#you-com-api)** — Web search API engineered for AI agents — 300ms p99 latency, real-time indexing across 10M+ news sources. _(added 2026-05-11)_
 
 <!-- RECENTLY_ADDED:END -->
 
