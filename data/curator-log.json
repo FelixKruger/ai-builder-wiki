@@ -302,6 +302,22 @@
         "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMNwsxXmyRwsQ6t4vIFdKeOIWjc6UacgLy4GseFTSWOBZhWpsf_oYFRjssjAqI3tktbzUQFmuBCUN_4U4G22Fv7JeIPsG0fGgkuO2_zFcdF8jP6EAnOURbhjWdbaP8cE2zt5gEVRYk"
       ],
       "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
+    },
+    {
+      "run_id": "2026-05-21-0850",
+      "started_at": "2026-05-21T08:50:36.478334+00:00",
+      "ended_at": "2026-05-21T08:51:15.517489+00:00",
+      "added": [],
+      "refreshed": [
+        "paseo",
+        "sandcastle",
+        "taalas"
+      ],
+      "removed": [],
+      "sources_checked": [
+        "gemini:gemini-2.5-flash+google-search-grounding"
+      ],
+      "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
     }
   ],
   "rotation_pointer": 0
