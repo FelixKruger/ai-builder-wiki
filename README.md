@@ -48,6 +48,8 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[OpenHands](https://felixkruger.github.io/ai-builder-wiki/#openhands)** — An open-source platform for autonomous AI software development agents capable of modifying code, running commands, and browsing the web. _(added 2026-05-22)_
+
 - **[Hermes Agent](https://felixkruger.github.io/ai-builder-wiki/#hermes-agent)** — Hermes Agent is an open-source framework for building self-improving AI agents designed for long-term, personalized collaboration. _(added 2026-05-20)_
 
 - **[Microsoft Agent Framework](https://felixkruger.github.io/ai-builder-wiki/#microsoft-agent-framework)** — The Microsoft Agent Framework is an open, multi-language framework for building and orchestrating production-grade AI agents and multi-agent workflows. _(added 2026-05-20)_
@@ -61,8 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Baton](https://felixkruger.github.io/ai-builder-wiki/#baton)** — Baton is a desktop application that provides a unified interface for developing and managing multiple AI coding agents and their associated worktrees. _(added 2026-05-18)_
 
 - **[Statewright](https://felixkruger.github.io/ai-builder-wiki/#statewright)** — Statewright utilizes visual state machines to enhance the reliability of AI agents by formally restricting their tool access, iteration limits, and valid transitions within a workflow. _(added 2026-05-18)_
-
-- **[MemPalace](https://felixkruger.github.io/ai-builder-wiki/#mempalace)** — Open-source local AI memory system — stores conversation history as verbatim text with semantic retrieval. _(added 2026-05-11)_
 
 <!-- RECENTLY_ADDED:END -->
 

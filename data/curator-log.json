@@ -318,6 +318,29 @@
         "gemini:gemini-2.5-flash+google-search-grounding"
       ],
       "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
+    },
+    {
+      "run_id": "2026-05-22-0844",
+      "started_at": "2026-05-22T08:44:07.263547+00:00",
+      "ended_at": "2026-05-22T08:44:40.611395+00:00",
+      "added": [
+        "openhands"
+      ],
+      "refreshed": [
+        "hyperframes",
+        "remotion",
+        "tripo3d"
+      ],
+      "removed": [],
+      "sources_checked": [
+        "gemini:gemini-2.5-flash+google-search-grounding",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqaKoddR4uNWinIo1JR6n2ZvlEEHKaw7Fybe7ZTqg9g0PLchVXxk21tqkE4nkxUWOHTl1BpGK4ehEsMpxJjXaBCq9G5kfhABcW00XLiNzg4YhKayRkWV5mSI_u83XDwOy27hDX11NH",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgQppFRdg0FMCK0NJZxgAXeF3oYsGJ6l_N7x9GcGAa3AY_L2Ae6FqKC_5_JkbvQ4RmDbjMnfpzTXDCz0WEF0WrlGHS-0lG5qffvplt5T0BWBqAfdwEL2AeWDA0zo21cVPiOWeaQbG9Exk-y89N4Lv1233XjUWzrQPB2ratguDpVEXy4sNxNNx62U-q2e4ARrvk6vkeDDlH6LYEayHsp5Y=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfMiRa4RJW6DgDw7-UbpVqY3S6a5Ls98xxrXfzQlKW_zwQUGEGjo_vIC3Lvvl093KXMzqo4cpD7EhpIwUtW_c4lihsfrEPAvX2mrdbZfnDH18JAAQ-b3btFRSzKIeig6rFAGHfyMEyl7n1AN6jPbqh_sQQRAQAwLQ4jDnzqOwB9hcAH7T1h35E763pPSppfK2X",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEDhPgufIzFzLMJNwYPCjz-gWBMQSSGgdXzkSJsTTIT_p-h6p0quaqcyFwCnzcg6LYfbVFWlQk_6Din48SuoaoOSeITqGVK5OAaWZlJmGCaNUguc_L2eqSIN88w7i1j3-vDQbvxhowK_9Wzjat2lQ19e-jcDIEa8-d5aUK31nDAudEXvO-aw==",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFU_909NmgOdvWKMK9xFR-RFCTfNJw3hv2gPQk1EOQWYY2ZV9_9l1c3Bms02oPqj0zb072EYi4LUUj5YgUXKcfLCJa8Gtv1oouyMCG-9BQfXI5GPjIWCXwngMyLezApQIDhsZv0nRuqMwkzBlVpdYDmDmtvuYbpTIw7j_QsA2_Aq9jShw4PKnFrK8yzy5sC5rE0DJ5zV85lgSauCYu_RqyyrhebTmZhBq8cMtXr0miDeycD3lqyuqonpx18hg=="
+      ],
+      "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
     }
   ],
   "rotation_pointer": 0
