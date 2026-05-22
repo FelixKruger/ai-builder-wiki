@@ -485,7 +485,7 @@
       "category": "ai-video",
       "summary": "HeyGen's open-source HTML-based video rendering framework with first-class AI agent support (Apache 2.0).",
       "why_it_matters": "Remotion needs React and a build step; HyperFrames lets an agent author videos as plain HTML. Better fit for LLM agents that already speak HTML fluently.",
-      "last_verified": "2026-05-11",
+      "last_verified": "2026-05-22",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -496,18 +496,18 @@
       "category": "ai-video",
       "summary": "React-based framework for creating videos programmatically using CSS, Canvas, SVG, and WebGL.",
       "why_it_matters": "The most mature programmatic-video stack. Treat video as a React app, render in CI. Source-available — commercial use needs a license.",
-      "last_verified": "2026-05-11",
+      "last_verified": "2026-05-22",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
     {
       "id": "tripo3d",
       "name": "Tripo3D",
-      "url": "https://tripo3d.ai/",
+      "url": "https://www.tripo3d.ai/",
       "category": "ai-3d",
       "summary": "Text, image, or sketch to production-ready 3D assets — texturing, rigging, and animation in one workflow.",
       "why_it_matters": "The all-in-one 3D generator for game, AR, and product pipelines. Beats single-feature competitors when you need riggable output, not just a mesh.",
-      "last_verified": "2026-05-11",
+      "last_verified": "2026-05-22",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -708,6 +708,17 @@
       "last_verified": "2026-05-20",
       "source": "curator:2026-05-20-0848",
       "added": "2026-05-20"
+    },
+    {
+      "id": "openhands",
+      "name": "OpenHands",
+      "url": "https://github.com/invariantlabs-ai/OpenDevin",
+      "category": "multi-agent-coding",
+      "summary": "An open-source platform for autonomous AI software development agents capable of modifying code, running commands, and browsing the web.",
+      "why_it_matters": "It provides an open-source option for builders seeking autonomous coding agents, offering capabilities similar to proprietary solutions like Devin.",
+      "last_verified": "2026-05-22",
+      "source": "curator:2026-05-22-0844",
+      "added": "2026-05-22"
     }
   ]
 }
