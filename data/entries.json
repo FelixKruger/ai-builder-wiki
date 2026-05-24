@@ -551,7 +551,7 @@
       "category": "open-weights",
       "summary": "Chinese AI lab shipping open-weight LLMs (R1, V3, V4-preview, Coder V2) with strong reasoning and aggressive pricing.",
       "why_it_matters": "When Claude or GPT's API bill bites, DeepSeek is the open-weight escape hatch with competitive reasoning. Frequently profiled by The AI Search.",
-      "last_verified": "2026-05-11",
+      "last_verified": "2026-05-24",
       "source": "human:eriks+youtube:theAIsearch",
       "added": "2026-05-11"
     },
@@ -562,18 +562,18 @@
       "category": "open-weights",
       "summary": "Alibaba Cloud's open-weight model family — Qwen3.6 text+multimodal, Qwen3.5 Omni (text/audio/image/video), and WebWorld agent variants.",
       "why_it_matters": "The most prolific open-weight family in 2026 — base, coder, vision, audio, and agent specializations all maintained. First place to look for non-English fine-tunes.",
-      "last_verified": "2026-05-11",
+      "last_verified": "2026-05-24",
       "source": "human:eriks+youtube:theAIsearch",
       "added": "2026-05-11"
     },
     {
       "id": "gemma",
       "name": "Gemma",
-      "url": "https://deepmind.google/models/gemma",
+      "url": "https://deepmind.google/models/gemma/",
       "category": "open-weights",
       "summary": "Google DeepMind's open-weight model family — Gemma 4 at 2B/4B/26B/31B parameters, runs on consumer hardware.",
       "why_it_matters": "Google's answer to Llama and Qwen. If you want an open-weight model with first-party Google tooling (Vertex, Gemini API parity), Gemma is the path.",
-      "last_verified": "2026-05-11",
+      "last_verified": "2026-05-24",
       "source": "human:eriks+youtube:theAIsearch",
       "added": "2026-05-11"
     },
