@@ -584,7 +584,7 @@
       "category": "inference-platforms",
       "summary": "Inference provider with custom LPU silicon — open-weight model hosting at order-of-magnitude lower latency than GPU-based APIs.",
       "why_it_matters": "When your agent loop is bottlenecked on per-call latency (not raw quality), Groq is the swap. Llama, Qwen, DeepSeek, and Whisper all available.",
-      "last_verified": "2026-05-11",
+      "last_verified": "2026-05-25",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -595,7 +595,7 @@
       "category": "inference-platforms",
       "summary": "Production-grade inference + fine-tuning platform for open-weight models, with proprietary speculative decoding and custom kernels.",
       "why_it_matters": "OpenRouter aggregates; Together engineers the stack. Pick Together when you need to fine-tune an OSS model and serve it at scale on the same platform.",
-      "last_verified": "2026-05-11",
+      "last_verified": "2026-05-25",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -606,7 +606,7 @@
       "category": "ai-video",
       "summary": "Alibaba's creative AI platform — text-to-image, image-to-image, text-to-video, image-to-video, image editing in one suite.",
       "why_it_matters": "Frequently featured by The AI Search for matching closed-model quality on video while remaining accessible. The Chinese answer to Sora and Runway.",
-      "last_verified": "2026-05-11",
+      "last_verified": "2026-05-25",
       "source": "human:eriks+youtube:theAIsearch",
       "added": "2026-05-11"
     },
@@ -719,6 +719,28 @@
       "last_verified": "2026-05-22",
       "source": "curator:2026-05-22-0844",
       "added": "2026-05-22"
+    },
+    {
+      "id": "crewai",
+      "name": "CrewAI",
+      "url": "https://crewai.com/",
+      "category": "multi-agent-coding",
+      "summary": "CrewAI is a framework for orchestrating role-playing, autonomous AI agents, designed to simplify multi-agent teamwork and collaborative intelligence.",
+      "why_it_matters": "Unlike single-agent frameworks, CrewAI focuses on enabling seamless coordination among multiple agents to tackle complex tasks, streamlining multi-agent system development.",
+      "last_verified": "2026-05-25",
+      "source": "curator:2026-05-25-0942",
+      "added": "2026-05-25"
+    },
+    {
+      "id": "dify",
+      "name": "Dify",
+      "url": "https://dify.ai/",
+      "category": "agent-frameworks",
+      "summary": "Dify is a low-code platform offering an all-in-one toolchain for building, deploying, and managing AI applications with agentic and retrieval-augmented workflows.",
+      "why_it_matters": "It provides a visual workflow builder to orchestrate tool-using agents, distinguishing it from code-centric agent frameworks by simplifying AI application development.",
+      "last_verified": "2026-05-25",
+      "source": "curator:2026-05-25-0942",
+      "added": "2026-05-25"
     }
   ]
 }
