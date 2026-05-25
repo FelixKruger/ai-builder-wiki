@@ -48,6 +48,10 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[CrewAI](https://felixkruger.github.io/ai-builder-wiki/#crewai)** — CrewAI is a framework for orchestrating role-playing, autonomous AI agents, designed to simplify multi-agent teamwork and collaborative intelligence. _(added 2026-05-25)_
+
+- **[Dify](https://felixkruger.github.io/ai-builder-wiki/#dify)** — Dify is a low-code platform offering an all-in-one toolchain for building, deploying, and managing AI applications with agentic and retrieval-augmented workflows. _(added 2026-05-25)_
+
 - **[OpenHands](https://felixkruger.github.io/ai-builder-wiki/#openhands)** — An open-source platform for autonomous AI software development agents capable of modifying code, running commands, and browsing the web. _(added 2026-05-22)_
 
 - **[Hermes Agent](https://felixkruger.github.io/ai-builder-wiki/#hermes-agent)** — Hermes Agent is an open-source framework for building self-improving AI agents designed for long-term, personalized collaboration. _(added 2026-05-20)_
@@ -59,10 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[OpenSwarm](https://felixkruger.github.io/ai-builder-wiki/#openswarm)** — OpenSwarm is an open-source multi-agent system that orchestrates specialized AI agents to create diverse deliverables from a single terminal prompt. _(added 2026-05-19)_
 
 - **[Suno v5](https://felixkruger.github.io/ai-builder-wiki/#suno-v5)** — Suno v5 is an AI music generation tool that creates full-length tracks with human-like vocals across various genres. _(added 2026-05-18)_
-
-- **[Baton](https://felixkruger.github.io/ai-builder-wiki/#baton)** — Baton is a desktop application that provides a unified interface for developing and managing multiple AI coding agents and their associated worktrees. _(added 2026-05-18)_
-
-- **[Statewright](https://felixkruger.github.io/ai-builder-wiki/#statewright)** — Statewright utilizes visual state machines to enhance the reliability of AI agents by formally restricting their tool access, iteration limits, and valid transitions within a workflow. _(added 2026-05-18)_
 
 <!-- RECENTLY_ADDED:END -->
 

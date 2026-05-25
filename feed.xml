@@ -5,7 +5,23 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Sun, 24 May 2026 08:11:41 +0000</lastBuildDate>
+<lastBuildDate>Mon, 25 May 2026 09:42:38 +0000</lastBuildDate>
+
+<item>
+  <title>CrewAI</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#crewai</link>
+  <guid isPermaLink="false">crewai-2026-05-25</guid>
+  <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[CrewAI is a framework for orchestrating role-playing, autonomous AI agents, designed to simplify multi-agent teamwork and collaborative intelligence. — Unlike single-agent frameworks, CrewAI focuses on enabling seamless coordination among multiple agents to tackle complex tasks, streamlining multi-agent system development.]]></description>
+</item>
+
+<item>
+  <title>Dify</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#dify</link>
+  <guid isPermaLink="false">dify-2026-05-25</guid>
+  <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Dify is a low-code platform offering an all-in-one toolchain for building, deploying, and managing AI applications with agentic and retrieval-augmented workflows. — It provides a visual workflow builder to orchestrate tool-using agents, distinguishing it from code-centric agent frameworks by simplifying AI application development.]]></description>
+</item>
 
 <item>
   <title>OpenHands</title>
@@ -53,22 +69,6 @@
   <guid isPermaLink="false">suno-v5-2026-05-18</guid>
   <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Suno v5 is an AI music generation tool that creates full-length tracks with human-like vocals across various genres. — This tool allows creators to produce original, royalty-free music efficiently, providing a cost-effective alternative to traditional music production.]]></description>
-</item>
-
-<item>
-  <title>Baton</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#baton</link>
-  <guid isPermaLink="false">baton-2026-05-18</guid>
-  <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Baton is a desktop application that provides a unified interface for developing and managing multiple AI coding agents and their associated worktrees. — It simplifies the orchestration of several AI coding agents, offering a more organized and efficient workflow compared to manually managing them across disparate development environments.]]></description>
-</item>
-
-<item>
-  <title>Statewright</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#statewright</link>
-  <guid isPermaLink="false">statewright-2026-05-18</guid>
-  <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Statewright utilizes visual state machines to enhance the reliability of AI agents by formally restricting their tool access, iteration limits, and valid transitions within a workflow. — This approach improves agent reliability by reducing the problem complexity for smaller models, offering an alternative to relying on larger models or extensive prompting for robust agent behavior.]]></description>
 </item>
 
 </channel>
