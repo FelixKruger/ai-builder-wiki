@@ -48,6 +48,10 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[CodeWhale](https://felixkruger.github.io/ai-builder-wiki/#codewhale)** — CodeWhale is a terminal-based AI coding agent designed for DeepSeek models, engineered for prefix-cache stability. _(added 2026-05-26)_
+
+- **[Open Design](https://felixkruger.github.io/ai-builder-wiki/#open-design)** — Open Design is a local-first, open-source alternative to Claude Design, offering skills and design systems for generating various prototypes and media. _(added 2026-05-26)_
+
 - **[CrewAI](https://felixkruger.github.io/ai-builder-wiki/#crewai)** — CrewAI is a framework for orchestrating role-playing, autonomous AI agents, designed to simplify multi-agent teamwork and collaborative intelligence. _(added 2026-05-25)_
 
 - **[Dify](https://felixkruger.github.io/ai-builder-wiki/#dify)** — Dify is a low-code platform offering an all-in-one toolchain for building, deploying, and managing AI applications with agentic and retrieval-augmented workflows. _(added 2026-05-25)_
@@ -59,10 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Microsoft Agent Framework](https://felixkruger.github.io/ai-builder-wiki/#microsoft-agent-framework)** — The Microsoft Agent Framework is an open, multi-language framework for building and orchestrating production-grade AI agents and multi-agent workflows. _(added 2026-05-20)_
 
 - **[Helicone](https://felixkruger.github.io/ai-builder-wiki/#helicone)** — Helicone provides logging, monitoring, and debugging for large language model applications to help builders understand and optimize their AI usage. _(added 2026-05-19)_
-
-- **[OpenSwarm](https://felixkruger.github.io/ai-builder-wiki/#openswarm)** — OpenSwarm is an open-source multi-agent system that orchestrates specialized AI agents to create diverse deliverables from a single terminal prompt. _(added 2026-05-19)_
-
-- **[Suno v5](https://felixkruger.github.io/ai-builder-wiki/#suno-v5)** — Suno v5 is an AI music generation tool that creates full-length tracks with human-like vocals across various genres. _(added 2026-05-18)_
 
 <!-- RECENTLY_ADDED:END -->
 

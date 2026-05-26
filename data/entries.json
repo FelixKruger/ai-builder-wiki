@@ -254,7 +254,7 @@
       "category": "evals",
       "summary": "Open-source eval framework from the UK AI Safety Institute — used for the public capability evals you read about.",
       "why_it_matters": "If you're publishing eval results you want anyone to reproduce, Inspect is the lingua franca.",
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-05-26",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -617,7 +617,7 @@
       "category": "agent-memory",
       "summary": "Drop-in memory infrastructure for AI agents — automatic learning from interactions, persistent context across sessions.",
       "why_it_matters": "If MemPalace and OB1 are the OSS DIY paths, Mem0 is the managed-service alternative. Faster to integrate when you don't want to host memory yourself.",
-      "last_verified": "2026-05-11",
+      "last_verified": "2026-05-26",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -628,7 +628,7 @@
       "category": "agent-memory",
       "summary": "Persistent-agent framework with continual learning — direct descendant of UC Berkeley's MemGPT research.",
       "why_it_matters": "The research-backed approach to agent memory: hierarchical context, self-editing memory blocks. Different mental model from drop-in retrieval like Mem0.",
-      "last_verified": "2026-05-11",
+      "last_verified": "2026-05-26",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -741,6 +741,28 @@
       "last_verified": "2026-05-25",
       "source": "curator:2026-05-25-0942",
       "added": "2026-05-25"
+    },
+    {
+      "id": "codewhale",
+      "name": "CodeWhale",
+      "url": "https://github.com/Hmbown/CodeWhale",
+      "category": "ai-coding",
+      "summary": "CodeWhale is a terminal-based AI coding agent designed for DeepSeek models, engineered for prefix-cache stability.",
+      "why_it_matters": "It provides a specialized coding agent optimized for DeepSeek models, offering a stable terminal experience for developers.",
+      "last_verified": "2026-05-26",
+      "source": "curator:2026-05-26-0703",
+      "added": "2026-05-26"
+    },
+    {
+      "id": "open-design",
+      "name": "Open Design",
+      "url": "https://github.com/nexu-io/open-design",
+      "category": "ai-design-skills",
+      "summary": "Open Design is a local-first, open-source alternative to Claude Design, offering skills and design systems for generating various prototypes and media.",
+      "why_it_matters": "It provides an open-source, local alternative for AI-driven design generation, expanding options beyond proprietary tools like Claude Design.",
+      "last_verified": "2026-05-26",
+      "source": "curator:2026-05-26-0703",
+      "added": "2026-05-26"
     }
   ]
 }

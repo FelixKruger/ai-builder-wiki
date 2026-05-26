@@ -5,7 +5,23 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Mon, 25 May 2026 09:42:38 +0000</lastBuildDate>
+<lastBuildDate>Tue, 26 May 2026 07:03:39 +0000</lastBuildDate>
+
+<item>
+  <title>CodeWhale</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#codewhale</link>
+  <guid isPermaLink="false">codewhale-2026-05-26</guid>
+  <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[CodeWhale is a terminal-based AI coding agent designed for DeepSeek models, engineered for prefix-cache stability. — It provides a specialized coding agent optimized for DeepSeek models, offering a stable terminal experience for developers.]]></description>
+</item>
+
+<item>
+  <title>Open Design</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#open-design</link>
+  <guid isPermaLink="false">open-design-2026-05-26</guid>
+  <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Open Design is a local-first, open-source alternative to Claude Design, offering skills and design systems for generating various prototypes and media. — It provides an open-source, local alternative for AI-driven design generation, expanding options beyond proprietary tools like Claude Design.]]></description>
+</item>
 
 <item>
   <title>CrewAI</title>
@@ -53,22 +69,6 @@
   <guid isPermaLink="false">helicone-2026-05-19</guid>
   <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Helicone provides logging, monitoring, and debugging for large language model applications to help builders understand and optimize their AI usage. — It offers detailed insights into LLM calls, including latency and cost, providing a more focused observability solution than broader eval platforms.]]></description>
-</item>
-
-<item>
-  <title>OpenSwarm</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#openswarm</link>
-  <guid isPermaLink="false">openswarm-2026-05-19</guid>
-  <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[OpenSwarm is an open-source multi-agent system that orchestrates specialized AI agents to create diverse deliverables from a single terminal prompt. — Unlike single-agent coding tools, OpenSwarm coordinates multiple specialist agents for tasks beyond code, such as research, documents, and media generation.]]></description>
-</item>
-
-<item>
-  <title>Suno v5</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#suno-v5</link>
-  <guid isPermaLink="false">suno-v5-2026-05-18</guid>
-  <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Suno v5 is an AI music generation tool that creates full-length tracks with human-like vocals across various genres. — This tool allows creators to produce original, royalty-free music efficiently, providing a cost-effective alternative to traditional music production.]]></description>
 </item>
 
 </channel>
