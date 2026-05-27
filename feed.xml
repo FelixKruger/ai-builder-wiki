@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Tue, 26 May 2026 07:03:39 +0000</lastBuildDate>
+<lastBuildDate>Wed, 27 May 2026 07:17:32 +0000</lastBuildDate>
+
+<item>
+  <title>Google Antigravity</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#google-antigravity</link>
+  <guid isPermaLink="false">google-antigravity-2026-05-27</guid>
+  <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[An agent-first development platform and IDE by Google for building and orchestrating autonomous AI agents across editor, terminal, and browser. — It shifts from traditional AI code assistance to a system where AI agents operate with greater autonomy, providing an abstracted UI for managing parallel subagents and scheduled tasks.]]></description>
+</item>
 
 <item>
   <title>CodeWhale</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">microsoft-agent-framework-2026-05-20</guid>
   <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[The Microsoft Agent Framework is an open, multi-language framework for building and orchestrating production-grade AI agents and multi-agent workflows. — It provides a consistent foundation for agent systems across Python and .NET, supporting various LLM ecosystems for developers taking agents from prototype to production.]]></description>
-</item>
-
-<item>
-  <title>Helicone</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#helicone</link>
-  <guid isPermaLink="false">helicone-2026-05-19</guid>
-  <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Helicone provides logging, monitoring, and debugging for large language model applications to help builders understand and optimize their AI usage. — It offers detailed insights into LLM calls, including latency and cost, providing a more focused observability solution than broader eval platforms.]]></description>
 </item>
 
 </channel>

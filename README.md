@@ -48,6 +48,8 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Google Antigravity](https://felixkruger.github.io/ai-builder-wiki/#google-antigravity)** — An agent-first development platform and IDE by Google for building and orchestrating autonomous AI agents across editor, terminal, and browser. _(added 2026-05-27)_
+
 - **[CodeWhale](https://felixkruger.github.io/ai-builder-wiki/#codewhale)** — CodeWhale is a terminal-based AI coding agent designed for DeepSeek models, engineered for prefix-cache stability. _(added 2026-05-26)_
 
 - **[Open Design](https://felixkruger.github.io/ai-builder-wiki/#open-design)** — Open Design is a local-first, open-source alternative to Claude Design, offering skills and design systems for generating various prototypes and media. _(added 2026-05-26)_
@@ -61,8 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Hermes Agent](https://felixkruger.github.io/ai-builder-wiki/#hermes-agent)** — Hermes Agent is an open-source framework for building self-improving AI agents designed for long-term, personalized collaboration. _(added 2026-05-20)_
 
 - **[Microsoft Agent Framework](https://felixkruger.github.io/ai-builder-wiki/#microsoft-agent-framework)** — The Microsoft Agent Framework is an open, multi-language framework for building and orchestrating production-grade AI agents and multi-agent workflows. _(added 2026-05-20)_
-
-- **[Helicone](https://felixkruger.github.io/ai-builder-wiki/#helicone)** — Helicone provides logging, monitoring, and debugging for large language model applications to help builders understand and optimize their AI usage. _(added 2026-05-19)_
 
 <!-- RECENTLY_ADDED:END -->
 

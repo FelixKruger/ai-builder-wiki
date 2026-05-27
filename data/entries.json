@@ -265,7 +265,7 @@
       "category": "evals",
       "summary": "Eval, logging, and prompt-playground stack used by many production AI teams.",
       "why_it_matters": "The 'we ship LLM features and need to know if a prompt change broke things' tool — diffs across runs are first-class.",
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-05-27",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -276,7 +276,7 @@
       "category": "evals",
       "summary": "Open-source LLM observability — traces, evals, prompts, self-hostable.",
       "why_it_matters": "The default open-source pick for tracing agent runs. Self-host if your data can't leave the building.",
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-05-27",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -287,7 +287,7 @@
       "category": "retrieval-search",
       "summary": "Vector similarity search inside Postgres. HNSW + IVFFlat indexes, just another column type.",
       "why_it_matters": "The boring-tech RAG stack: keep your embeddings next to your relational data. Most apps don't need a dedicated vector DB.",
-      "last_verified": "2026-05-13",
+      "last_verified": "2026-05-27",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -763,6 +763,17 @@
       "last_verified": "2026-05-26",
       "source": "curator:2026-05-26-0703",
       "added": "2026-05-26"
+    },
+    {
+      "id": "google-antigravity",
+      "name": "Google Antigravity",
+      "url": "https://antigravity.google/",
+      "category": "app-builders",
+      "summary": "An agent-first development platform and IDE by Google for building and orchestrating autonomous AI agents across editor, terminal, and browser.",
+      "why_it_matters": "It shifts from traditional AI code assistance to a system where AI agents operate with greater autonomy, providing an abstracted UI for managing parallel subagents and scheduled tasks.",
+      "last_verified": "2026-05-27",
+      "source": "curator:2026-05-27-0717",
+      "added": "2026-05-27"
     }
   ]
 }
