@@ -298,7 +298,7 @@
       "category": "retrieval-search",
       "summary": "Serverless vector + full-text search on object storage — pay per query, scales to billions of vectors.",
       "why_it_matters": "When pgvector starts groaning and you don't want to babysit a Pinecone bill, turbopuffer is the 2026 sweet spot.",
-      "last_verified": "2026-05-13",
+      "last_verified": "2026-05-28",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -309,7 +309,7 @@
       "category": "app-builders",
       "summary": "Generate React/Next.js UIs from prompts — full-stack mode, git sync, deploy to Vercel in one click.",
       "why_it_matters": "Highest-fidelity prompt-to-production UI in 2026 if your stack is Next + shadcn. Treat it as a fast scaffolder, not a finisher.",
-      "last_verified": "2026-05-13",
+      "last_verified": "2026-05-28",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -320,7 +320,7 @@
       "category": "app-builders",
       "summary": "Prompt-to-app builder — full-stack, Supabase-backed, GitHub-synced.",
       "why_it_matters": "The leading non-developer-friendly app builder. Good for testing whether an idea has shape before you spend a dev week on it.",
-      "last_verified": "2026-05-14",
+      "last_verified": "2026-05-28",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -774,6 +774,28 @@
       "last_verified": "2026-05-27",
       "source": "curator:2026-05-27-0717",
       "added": "2026-05-27"
+    },
+    {
+      "id": "opencode",
+      "name": "OpenCode",
+      "url": "https://github.com/anomalyco/opencode",
+      "category": "ai-coding",
+      "summary": "OpenCode is an open-source, terminal-based AI coding agent that integrates with Git for commit-level code edits and supports over 100 languages.",
+      "why_it_matters": "Unlike commercial AI coding assistants, OpenCode offers a free, self-hosted option with broad language support and deep codebase context for developers.",
+      "last_verified": "2026-05-28",
+      "source": "curator:2026-05-28-0710",
+      "added": "2026-05-28"
+    },
+    {
+      "id": "rampart",
+      "name": "RAMPART (Microsoft)",
+      "url": "https://github.com/microsoft/rampart",
+      "category": "evals",
+      "summary": "RAMPART is a Pytest-native, open-source framework from Microsoft for testing the safety and security of AI agents during development.",
+      "why_it_matters": "It provides a structured way to red-team AI agents early in the development lifecycle, complementing existing observability tools by focusing on security vulnerabilities.",
+      "last_verified": "2026-05-28",
+      "source": "curator:2026-05-28-0710",
+      "added": "2026-05-28"
     }
   ]
 }
