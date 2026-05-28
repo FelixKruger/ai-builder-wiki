@@ -5,7 +5,23 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Wed, 27 May 2026 07:17:32 +0000</lastBuildDate>
+<lastBuildDate>Thu, 28 May 2026 07:10:50 +0000</lastBuildDate>
+
+<item>
+  <title>OpenCode</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#opencode</link>
+  <guid isPermaLink="false">opencode-2026-05-28</guid>
+  <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[OpenCode is an open-source, terminal-based AI coding agent that integrates with Git for commit-level code edits and supports over 100 languages. — Unlike commercial AI coding assistants, OpenCode offers a free, self-hosted option with broad language support and deep codebase context for developers.]]></description>
+</item>
+
+<item>
+  <title>RAMPART (Microsoft)</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#rampart</link>
+  <guid isPermaLink="false">rampart-2026-05-28</guid>
+  <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[RAMPART is a Pytest-native, open-source framework from Microsoft for testing the safety and security of AI agents during development. — It provides a structured way to red-team AI agents early in the development lifecycle, complementing existing observability tools by focusing on security vulnerabilities.]]></description>
+</item>
 
 <item>
   <title>Google Antigravity</title>
@@ -53,22 +69,6 @@
   <guid isPermaLink="false">openhands-2026-05-22</guid>
   <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[An open-source platform for autonomous AI software development agents capable of modifying code, running commands, and browsing the web. — It provides an open-source option for builders seeking autonomous coding agents, offering capabilities similar to proprietary solutions like Devin.]]></description>
-</item>
-
-<item>
-  <title>Hermes Agent</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#hermes-agent</link>
-  <guid isPermaLink="false">hermes-agent-2026-05-20</guid>
-  <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Hermes Agent is an open-source framework for building self-improving AI agents designed for long-term, personalized collaboration. — It emphasizes reliability and self-evolving skills, allowing agents to learn from feedback and adapt over time, contrasting with agents requiring constant manual refinement.]]></description>
-</item>
-
-<item>
-  <title>Microsoft Agent Framework</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#microsoft-agent-framework</link>
-  <guid isPermaLink="false">microsoft-agent-framework-2026-05-20</guid>
-  <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[The Microsoft Agent Framework is an open, multi-language framework for building and orchestrating production-grade AI agents and multi-agent workflows. — It provides a consistent foundation for agent systems across Python and .NET, supporting various LLM ecosystems for developers taking agents from prototype to production.]]></description>
 </item>
 
 </channel>
