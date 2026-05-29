@@ -331,7 +331,7 @@
       "category": "app-builders",
       "summary": "StackBlitz's in-browser full-stack agent — runs Node in WebContainers, no local setup.",
       "why_it_matters": "When the friction of 'clone, install, run' is the bottleneck on idea velocity, Bolt removes it entirely.",
-      "last_verified": "2026-05-14",
+      "last_verified": "2026-05-29",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -342,18 +342,18 @@
       "category": "voice-audio",
       "summary": "TTS, voice cloning, conversational AI, and the Agents platform for realtime voice.",
       "why_it_matters": "Still the quality bar for synthetic voice. The Agents platform is the fastest path from idea to a phone-callable voice agent.",
-      "last_verified": "2026-05-14",
+      "last_verified": "2026-05-29",
       "source": "seed",
       "added": "2026-04-27"
     },
     {
       "id": "cartesia",
       "name": "Cartesia",
-      "url": "https://cartesia.ai/sonic",
+      "url": "https://www.cartesia.ai/sonic",
       "category": "voice-audio",
       "summary": "Sonic — sub-100ms streaming TTS with state-space models. The realtime-voice latency leader.",
       "why_it_matters": "If your voice agent feels laggy, the model is usually the issue. Cartesia's the default fix.",
-      "last_verified": "2026-05-15",
+      "last_verified": "2026-05-29",
       "source": "seed",
       "added": "2026-04-27"
     },
