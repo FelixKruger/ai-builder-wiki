@@ -5,7 +5,23 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Fri, 29 May 2026 07:10:57 +0000</lastBuildDate>
+<lastBuildDate>Sat, 30 May 2026 06:54:53 +0000</lastBuildDate>
+
+<item>
+  <title>OpenClaw</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#openclaw</link>
+  <guid isPermaLink="false">openclaw-2026-05-30</guid>
+  <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[OpenClaw is a free and open-source personal AI assistant that runs locally on users' devices, connecting AI models to numerous integrations. — It offers a privacy-focused, local-first approach to AI assistance with extensive integration capabilities and self-extending skill development, contrasting with cloud-dependent alternatives.]]></description>
+</item>
+
+<item>
+  <title>Mistral Vibe</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#mistral-vibe</link>
+  <guid isPermaLink="false">mistral-vibe-2026-05-30</guid>
+  <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Mistral Vibe is a unified AI agent platform for work and coding, designed for long-running, multi-step tasks across various environments. — It integrates diverse productivity and coding functions into a single agent, enabling comprehensive automation of complex workflows beyond simple conversational AI.]]></description>
+</item>
 
 <item>
   <title>OpenCode</title>
@@ -53,22 +69,6 @@
   <guid isPermaLink="false">crewai-2026-05-25</guid>
   <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[CrewAI is a framework for orchestrating role-playing, autonomous AI agents, designed to simplify multi-agent teamwork and collaborative intelligence. — Unlike single-agent frameworks, CrewAI focuses on enabling seamless coordination among multiple agents to tackle complex tasks, streamlining multi-agent system development.]]></description>
-</item>
-
-<item>
-  <title>Dify</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#dify</link>
-  <guid isPermaLink="false">dify-2026-05-25</guid>
-  <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Dify is a low-code platform offering an all-in-one toolchain for building, deploying, and managing AI applications with agentic and retrieval-augmented workflows. — It provides a visual workflow builder to orchestrate tool-using agents, distinguishing it from code-centric agent frameworks by simplifying AI application development.]]></description>
-</item>
-
-<item>
-  <title>OpenHands</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#openhands</link>
-  <guid isPermaLink="false">openhands-2026-05-22</guid>
-  <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[An open-source platform for autonomous AI software development agents capable of modifying code, running commands, and browsing the web. — It provides an open-source option for builders seeking autonomous coding agents, offering capabilities similar to proprietary solutions like Devin.]]></description>
 </item>
 
 </channel>
