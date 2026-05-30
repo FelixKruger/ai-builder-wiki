@@ -48,6 +48,10 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[OpenClaw](https://felixkruger.github.io/ai-builder-wiki/#openclaw)** — OpenClaw is a free and open-source personal AI assistant that runs locally on users' devices, connecting AI models to numerous integrations. _(added 2026-05-30)_
+
+- **[Mistral Vibe](https://felixkruger.github.io/ai-builder-wiki/#mistral-vibe)** — Mistral Vibe is a unified AI agent platform for work and coding, designed for long-running, multi-step tasks across various environments. _(added 2026-05-30)_
+
 - **[OpenCode](https://felixkruger.github.io/ai-builder-wiki/#opencode)** — OpenCode is an open-source, terminal-based AI coding agent that integrates with Git for commit-level code edits and supports over 100 languages. _(added 2026-05-28)_
 
 - **[RAMPART (Microsoft)](https://felixkruger.github.io/ai-builder-wiki/#rampart)** — RAMPART is a Pytest-native, open-source framework from Microsoft for testing the safety and security of AI agents during development. _(added 2026-05-28)_
@@ -59,10 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Open Design](https://felixkruger.github.io/ai-builder-wiki/#open-design)** — Open Design is a local-first, open-source alternative to Claude Design, offering skills and design systems for generating various prototypes and media. _(added 2026-05-26)_
 
 - **[CrewAI](https://felixkruger.github.io/ai-builder-wiki/#crewai)** — CrewAI is a framework for orchestrating role-playing, autonomous AI agents, designed to simplify multi-agent teamwork and collaborative intelligence. _(added 2026-05-25)_
-
-- **[Dify](https://felixkruger.github.io/ai-builder-wiki/#dify)** — Dify is a low-code platform offering an all-in-one toolchain for building, deploying, and managing AI applications with agentic and retrieval-augmented workflows. _(added 2026-05-25)_
-
-- **[OpenHands](https://felixkruger.github.io/ai-builder-wiki/#openhands)** — An open-source platform for autonomous AI software development agents capable of modifying code, running commands, and browsing the web. _(added 2026-05-22)_
 
 <!-- RECENTLY_ADDED:END -->
 
