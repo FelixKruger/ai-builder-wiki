@@ -133,7 +133,7 @@
       "category": "ai-coding",
       "summary": "AI-first VS Code fork with Composer, Tab autocomplete, and a strong agent loop.",
       "why_it_matters": "The dominant IDE among working AI builders in 2026 — diff review UX is the bar everyone else is chasing.",
-      "last_verified": "2026-05-16",
+      "last_verified": "2026-05-31",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -144,7 +144,7 @@
       "category": "ai-coding",
       "summary": "Codeium's agentic IDE with Cascade — strong long-running task execution, now part of OpenAI.",
       "why_it_matters": "Cascade pioneered the 'agent that keeps going across many turns' pattern; worth comparing against Cursor Composer for taste.",
-      "last_verified": "2026-05-16",
+      "last_verified": "2026-05-31",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -155,7 +155,7 @@
       "category": "ai-coding",
       "summary": "Open-source CLI pair-programmer — git-native, model-agnostic, and the benchmark for many leaderboards.",
       "why_it_matters": "The polyglot baseline. If you're benchmarking your own agent, Aider's leaderboards are where the field calibrates.",
-      "last_verified": "2026-05-17",
+      "last_verified": "2026-05-31",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -818,6 +818,28 @@
       "last_verified": "2026-05-30",
       "source": "curator:2026-05-30-0654",
       "added": "2026-05-30"
+    },
+    {
+      "id": "velo",
+      "name": "Velo",
+      "url": "https://usevelo.ai/",
+      "category": "ai-video",
+      "summary": "Velo is an AI video creation platform that transforms raw screen recordings into polished, shareable video messages with automated scripts and AI avatars.",
+      "why_it_matters": "It simplifies video production for demos and explainers by automating scriptwriting and avatar generation, reducing the need for extensive editing compared to traditional video tools.",
+      "last_verified": "2026-05-31",
+      "source": "curator:2026-05-31-0711",
+      "added": "2026-05-31"
+    },
+    {
+      "id": "kilo-code",
+      "name": "Kilo Code",
+      "url": "https://www.kilocode.com/en_GB",
+      "category": "ai-coding",
+      "summary": "Kilo Code is an open-source AI coding agent for IDEs and CLI that generates code, automates tasks, and debugs across over 500 models.",
+      "why_it_matters": "It offers an open and flexible alternative to proprietary AI coding assistants by supporting a wide range of models and providing deep integration into developer workflows.",
+      "last_verified": "2026-05-31",
+      "source": "curator:2026-05-31-0711",
+      "added": "2026-05-31"
     }
   ]
 }

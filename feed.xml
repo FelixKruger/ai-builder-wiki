@@ -5,7 +5,23 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Sat, 30 May 2026 06:54:53 +0000</lastBuildDate>
+<lastBuildDate>Sun, 31 May 2026 07:11:34 +0000</lastBuildDate>
+
+<item>
+  <title>Velo</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#velo</link>
+  <guid isPermaLink="false">velo-2026-05-31</guid>
+  <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Velo is an AI video creation platform that transforms raw screen recordings into polished, shareable video messages with automated scripts and AI avatars. — It simplifies video production for demos and explainers by automating scriptwriting and avatar generation, reducing the need for extensive editing compared to traditional video tools.]]></description>
+</item>
+
+<item>
+  <title>Kilo Code</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#kilo-code</link>
+  <guid isPermaLink="false">kilo-code-2026-05-31</guid>
+  <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Kilo Code is an open-source AI coding agent for IDEs and CLI that generates code, automates tasks, and debugs across over 500 models. — It offers an open and flexible alternative to proprietary AI coding assistants by supporting a wide range of models and providing deep integration into developer workflows.]]></description>
+</item>
 
 <item>
   <title>OpenClaw</title>
@@ -53,22 +69,6 @@
   <guid isPermaLink="false">codewhale-2026-05-26</guid>
   <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[CodeWhale is a terminal-based AI coding agent designed for DeepSeek models, engineered for prefix-cache stability. — It provides a specialized coding agent optimized for DeepSeek models, offering a stable terminal experience for developers.]]></description>
-</item>
-
-<item>
-  <title>Open Design</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#open-design</link>
-  <guid isPermaLink="false">open-design-2026-05-26</guid>
-  <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Open Design is a local-first, open-source alternative to Claude Design, offering skills and design systems for generating various prototypes and media. — It provides an open-source, local alternative for AI-driven design generation, expanding options beyond proprietary tools like Claude Design.]]></description>
-</item>
-
-<item>
-  <title>CrewAI</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#crewai</link>
-  <guid isPermaLink="false">crewai-2026-05-25</guid>
-  <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[CrewAI is a framework for orchestrating role-playing, autonomous AI agents, designed to simplify multi-agent teamwork and collaborative intelligence. — Unlike single-agent frameworks, CrewAI focuses on enabling seamless coordination among multiple agents to tackle complex tasks, streamlining multi-agent system development.]]></description>
 </item>
 
 </channel>

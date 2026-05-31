@@ -48,6 +48,10 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Velo](https://felixkruger.github.io/ai-builder-wiki/#velo)** — Velo is an AI video creation platform that transforms raw screen recordings into polished, shareable video messages with automated scripts and AI avatars. _(added 2026-05-31)_
+
+- **[Kilo Code](https://felixkruger.github.io/ai-builder-wiki/#kilo-code)** — Kilo Code is an open-source AI coding agent for IDEs and CLI that generates code, automates tasks, and debugs across over 500 models. _(added 2026-05-31)_
+
 - **[OpenClaw](https://felixkruger.github.io/ai-builder-wiki/#openclaw)** — OpenClaw is a free and open-source personal AI assistant that runs locally on users' devices, connecting AI models to numerous integrations. _(added 2026-05-30)_
 
 - **[Mistral Vibe](https://felixkruger.github.io/ai-builder-wiki/#mistral-vibe)** — Mistral Vibe is a unified AI agent platform for work and coding, designed for long-running, multi-step tasks across various environments. _(added 2026-05-30)_
@@ -59,10 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Google Antigravity](https://felixkruger.github.io/ai-builder-wiki/#google-antigravity)** — An agent-first development platform and IDE by Google for building and orchestrating autonomous AI agents across editor, terminal, and browser. _(added 2026-05-27)_
 
 - **[CodeWhale](https://felixkruger.github.io/ai-builder-wiki/#codewhale)** — CodeWhale is a terminal-based AI coding agent designed for DeepSeek models, engineered for prefix-cache stability. _(added 2026-05-26)_
-
-- **[Open Design](https://felixkruger.github.io/ai-builder-wiki/#open-design)** — Open Design is a local-first, open-source alternative to Claude Design, offering skills and design systems for generating various prototypes and media. _(added 2026-05-26)_
-
-- **[CrewAI](https://felixkruger.github.io/ai-builder-wiki/#crewai)** — CrewAI is a framework for orchestrating role-playing, autonomous AI agents, designed to simplify multi-agent teamwork and collaborative intelligence. _(added 2026-05-25)_
 
 <!-- RECENTLY_ADDED:END -->
 
