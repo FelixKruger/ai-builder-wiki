@@ -5,7 +5,23 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Sun, 31 May 2026 07:11:34 +0000</lastBuildDate>
+<lastBuildDate>Mon, 01 Jun 2026 07:34:50 +0000</lastBuildDate>
+
+<item>
+  <title>DeepEval</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#deepeval</link>
+  <guid isPermaLink="false">deepeval-2026-06-01</guid>
+  <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[DeepEval is an open-source, Python-first LLM evaluation framework that provides a pytest-native testing experience for AI applications. — It offers over 50 research-backed metrics for evaluating RAG, agents, and chatbots, enabling developers to integrate LLM evaluation into CI/CD workflows.]]></description>
+</item>
+
+<item>
+  <title>Luma Dream Machine</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#luma-dream-machine</link>
+  <guid isPermaLink="false">luma-dream-machine-2026-06-01</guid>
+  <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Luma Dream Machine generates realistic, high-quality videos from text or image prompts, with capabilities like cinematic camera movements. — It offers native 1080p output and a Draft Mode for previewing low-resolution shots, which helps creators iterate efficiently and save resources.]]></description>
+</item>
 
 <item>
   <title>Velo</title>
@@ -53,22 +69,6 @@
   <guid isPermaLink="false">rampart-2026-05-28</guid>
   <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[RAMPART is a Pytest-native, open-source framework from Microsoft for testing the safety and security of AI agents during development. — It provides a structured way to red-team AI agents early in the development lifecycle, complementing existing observability tools by focusing on security vulnerabilities.]]></description>
-</item>
-
-<item>
-  <title>Google Antigravity</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#google-antigravity</link>
-  <guid isPermaLink="false">google-antigravity-2026-05-27</guid>
-  <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[An agent-first development platform and IDE by Google for building and orchestrating autonomous AI agents across editor, terminal, and browser. — It shifts from traditional AI code assistance to a system where AI agents operate with greater autonomy, providing an abstracted UI for managing parallel subagents and scheduled tasks.]]></description>
-</item>
-
-<item>
-  <title>CodeWhale</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#codewhale</link>
-  <guid isPermaLink="false">codewhale-2026-05-26</guid>
-  <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[CodeWhale is a terminal-based AI coding agent designed for DeepSeek models, engineered for prefix-cache stability. — It provides a specialized coding agent optimized for DeepSeek models, offering a stable terminal experience for developers.]]></description>
 </item>
 
 </channel>
