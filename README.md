@@ -48,6 +48,10 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[DeepEval](https://felixkruger.github.io/ai-builder-wiki/#deepeval)** — DeepEval is an open-source, Python-first LLM evaluation framework that provides a pytest-native testing experience for AI applications. _(added 2026-06-01)_
+
+- **[Luma Dream Machine](https://felixkruger.github.io/ai-builder-wiki/#luma-dream-machine)** — Luma Dream Machine generates realistic, high-quality videos from text or image prompts, with capabilities like cinematic camera movements. _(added 2026-06-01)_
+
 - **[Velo](https://felixkruger.github.io/ai-builder-wiki/#velo)** — Velo is an AI video creation platform that transforms raw screen recordings into polished, shareable video messages with automated scripts and AI avatars. _(added 2026-05-31)_
 
 - **[Kilo Code](https://felixkruger.github.io/ai-builder-wiki/#kilo-code)** — Kilo Code is an open-source AI coding agent for IDEs and CLI that generates code, automates tasks, and debugs across over 500 models. _(added 2026-05-31)_
@@ -59,10 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[OpenCode](https://felixkruger.github.io/ai-builder-wiki/#opencode)** — OpenCode is an open-source, terminal-based AI coding agent that integrates with Git for commit-level code edits and supports over 100 languages. _(added 2026-05-28)_
 
 - **[RAMPART (Microsoft)](https://felixkruger.github.io/ai-builder-wiki/#rampart)** — RAMPART is a Pytest-native, open-source framework from Microsoft for testing the safety and security of AI agents during development. _(added 2026-05-28)_
-
-- **[Google Antigravity](https://felixkruger.github.io/ai-builder-wiki/#google-antigravity)** — An agent-first development platform and IDE by Google for building and orchestrating autonomous AI agents across editor, terminal, and browser. _(added 2026-05-27)_
-
-- **[CodeWhale](https://felixkruger.github.io/ai-builder-wiki/#codewhale)** — CodeWhale is a terminal-based AI coding agent designed for DeepSeek models, engineered for prefix-cache stability. _(added 2026-05-26)_
 
 <!-- RECENTLY_ADDED:END -->
 
