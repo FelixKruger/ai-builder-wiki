@@ -166,7 +166,7 @@
       "category": "ai-coding",
       "summary": "Open-source autonomous coding agent for VS Code — plan/act modes, MCP support, BYO model.",
       "why_it_matters": "The transparent option: every action shown and approvable. Good for understanding how an agent loop actually works.",
-      "last_verified": "2026-05-17",
+      "last_verified": "2026-06-01",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -177,7 +177,7 @@
       "category": "hosted-apis",
       "summary": "Anthropic's API — Claude Opus 4.7, Sonnet 4.6, Haiku 4.5. Native tool use, prompt caching, extended thinking, files, citations.",
       "why_it_matters": "Best-in-class for long-horizon tool use and agentic coding. Prompt caching alone often pays for the migration.",
-      "last_verified": "2026-05-17",
+      "last_verified": "2026-06-01",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -188,7 +188,7 @@
       "category": "hosted-apis",
       "summary": "GPT-5 family, Realtime API, structured outputs, Responses API.",
       "why_it_matters": "Still the broadest ecosystem and the realtime voice baseline. Responses API is the cleanest agent primitive OpenAI ships.",
-      "last_verified": "2026-05-18",
+      "last_verified": "2026-06-01",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -840,6 +840,28 @@
       "last_verified": "2026-05-31",
       "source": "curator:2026-05-31-0711",
       "added": "2026-05-31"
+    },
+    {
+      "id": "deepeval",
+      "name": "DeepEval",
+      "url": "https://github.com/confident-ai/deepeval",
+      "category": "evals",
+      "summary": "DeepEval is an open-source, Python-first LLM evaluation framework that provides a pytest-native testing experience for AI applications.",
+      "why_it_matters": "It offers over 50 research-backed metrics for evaluating RAG, agents, and chatbots, enabling developers to integrate LLM evaluation into CI/CD workflows.",
+      "last_verified": "2026-06-01",
+      "source": "curator:2026-06-01-0733",
+      "added": "2026-06-01"
+    },
+    {
+      "id": "luma-dream-machine",
+      "name": "Luma Dream Machine",
+      "url": "https://lumalabs.ai/app",
+      "category": "ai-video",
+      "summary": "Luma Dream Machine generates realistic, high-quality videos from text or image prompts, with capabilities like cinematic camera movements.",
+      "why_it_matters": "It offers native 1080p output and a Draft Mode for previewing low-resolution shots, which helps creators iterate efficiently and save resources.",
+      "last_verified": "2026-06-01",
+      "source": "curator:2026-06-01-0733",
+      "added": "2026-06-01"
     }
   ]
 }
