@@ -199,7 +199,7 @@
       "category": "hosted-apis",
       "summary": "Gemini 2.5 Pro / Flash with 2M-token context, native multimodal, and grounding-with-Search.",
       "why_it_matters": "If your workload is video, very-long-context, or needs fresh web grounding without your own RAG, start here.",
-      "last_verified": "2026-05-18",
+      "last_verified": "2026-06-02",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -210,7 +210,7 @@
       "category": "inference-platforms",
       "summary": "Single API for hundreds of models with automatic failover and unified billing.",
       "why_it_matters": "The pragmatic abstraction layer when you don't want to hard-code one provider. Useful for model A/B and graceful fallback.",
-      "last_verified": "2026-05-18",
+      "last_verified": "2026-06-02",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -221,7 +221,7 @@
       "category": "agent-frameworks",
       "summary": "Anthropic's official SDK for building agents that share Claude Code's runtime — tools, MCP, hooks, subagents.",
       "why_it_matters": "If you want Claude Code's agent harness for your own product, this is the supported path. Less reinvention than building from raw API calls.",
-      "last_verified": "2026-05-18",
+      "last_verified": "2026-06-02",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -862,6 +862,28 @@
       "last_verified": "2026-06-01",
       "source": "curator:2026-06-01-0733",
       "added": "2026-06-01"
+    },
+    {
+      "id": "markitdown",
+      "name": "Markitdown (Microsoft)",
+      "url": "https://github.com/microsoft/markitdown",
+      "category": "ai-coding",
+      "summary": "A lightweight Python tool that converts various document formats like PDFs, Word, and Excel into clean Markdown for AI processing.",
+      "why_it_matters": "This tool simplifies preparing unstructured data for AI, enabling coding agents to more effectively analyze and summarize content compared to feeding raw, complex document formats. It addresses a common data preparation bottleneck for AI builders.",
+      "last_verified": "2026-06-02",
+      "source": "curator:2026-06-02-0728",
+      "added": "2026-06-02"
+    },
+    {
+      "id": "coremem",
+      "name": "CoreMem",
+      "url": "https://coremem.app/",
+      "category": "agent-memory",
+      "summary": "CoreMem allows users to build and share portable collections of context, or 'mems,' with any AI agent via URL, extensions, or the Model Context Protocol.",
+      "why_it_matters": "It provides a persistent and shareable memory layer, solving the problem of AI agents losing context across different sessions or when switching between various tools. This is crucial for building reliable and consistent agentic workflows.",
+      "last_verified": "2026-06-02",
+      "source": "curator:2026-06-02-0728",
+      "added": "2026-06-02"
     }
   ]
 }
