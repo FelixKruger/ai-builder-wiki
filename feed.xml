@@ -5,7 +5,23 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Mon, 01 Jun 2026 07:34:50 +0000</lastBuildDate>
+<lastBuildDate>Tue, 02 Jun 2026 07:28:52 +0000</lastBuildDate>
+
+<item>
+  <title>Markitdown (Microsoft)</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#markitdown</link>
+  <guid isPermaLink="false">markitdown-2026-06-02</guid>
+  <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[A lightweight Python tool that converts various document formats like PDFs, Word, and Excel into clean Markdown for AI processing. — This tool simplifies preparing unstructured data for AI, enabling coding agents to more effectively analyze and summarize content compared to feeding raw, complex document formats. It addresses a common data preparation bottleneck for AI builders.]]></description>
+</item>
+
+<item>
+  <title>CoreMem</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#coremem</link>
+  <guid isPermaLink="false">coremem-2026-06-02</guid>
+  <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[CoreMem allows users to build and share portable collections of context, or 'mems,' with any AI agent via URL, extensions, or the Model Context Protocol. — It provides a persistent and shareable memory layer, solving the problem of AI agents losing context across different sessions or when switching between various tools. This is crucial for building reliable and consistent agentic workflows.]]></description>
+</item>
 
 <item>
   <title>DeepEval</title>
@@ -53,22 +69,6 @@
   <guid isPermaLink="false">mistral-vibe-2026-05-30</guid>
   <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Mistral Vibe is a unified AI agent platform for work and coding, designed for long-running, multi-step tasks across various environments. — It integrates diverse productivity and coding functions into a single agent, enabling comprehensive automation of complex workflows beyond simple conversational AI.]]></description>
-</item>
-
-<item>
-  <title>OpenCode</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#opencode</link>
-  <guid isPermaLink="false">opencode-2026-05-28</guid>
-  <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[OpenCode is an open-source, terminal-based AI coding agent that integrates with Git for commit-level code edits and supports over 100 languages. — Unlike commercial AI coding assistants, OpenCode offers a free, self-hosted option with broad language support and deep codebase context for developers.]]></description>
-</item>
-
-<item>
-  <title>RAMPART (Microsoft)</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#rampart</link>
-  <guid isPermaLink="false">rampart-2026-05-28</guid>
-  <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[RAMPART is a Pytest-native, open-source framework from Microsoft for testing the safety and security of AI agents during development. — It provides a structured way to red-team AI agents early in the development lifecycle, complementing existing observability tools by focusing on security vulnerabilities.]]></description>
 </item>
 
 </channel>
