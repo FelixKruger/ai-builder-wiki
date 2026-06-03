@@ -5,7 +5,23 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Tue, 02 Jun 2026 07:28:52 +0000</lastBuildDate>
+<lastBuildDate>Wed, 03 Jun 2026 07:32:11 +0000</lastBuildDate>
+
+<item>
+  <title>Rayfin</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#rayfin</link>
+  <guid isPermaLink="false">rayfin-2026-06-03</guid>
+  <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[An open-source SDK and CLI that enables developers and coding agents to define and deploy complete application backends in code. — It simplifies backend development by automating database, authentication, and API provisioning, allowing rapid movement from prototype to production with enterprise-grade security on Microsoft Fabric.]]></description>
+</item>
+
+<item>
+  <title>SubQ (by Subquadratic)</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#subq</link>
+  <guid isPermaLink="false">subq-2026-06-03</guid>
+  <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[A large language model built on a fully sub-quadratic sparse-attention architecture, offering a native 12 million token context window. — It provides significantly increased context windows and faster inference at a much lower cost than traditional transformer-based models, making long-context reasoning practical for agents.]]></description>
+</item>
 
 <item>
   <title>Markitdown (Microsoft)</title>
@@ -53,22 +69,6 @@
   <guid isPermaLink="false">kilo-code-2026-05-31</guid>
   <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Kilo Code is an open-source AI coding agent for IDEs and CLI that generates code, automates tasks, and debugs across over 500 models. — It offers an open and flexible alternative to proprietary AI coding assistants by supporting a wide range of models and providing deep integration into developer workflows.]]></description>
-</item>
-
-<item>
-  <title>OpenClaw</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#openclaw</link>
-  <guid isPermaLink="false">openclaw-2026-05-30</guid>
-  <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[OpenClaw is a free and open-source personal AI assistant that runs locally on users' devices, connecting AI models to numerous integrations. — It offers a privacy-focused, local-first approach to AI assistance with extensive integration capabilities and self-extending skill development, contrasting with cloud-dependent alternatives.]]></description>
-</item>
-
-<item>
-  <title>Mistral Vibe</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#mistral-vibe</link>
-  <guid isPermaLink="false">mistral-vibe-2026-05-30</guid>
-  <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Mistral Vibe is a unified AI agent platform for work and coding, designed for long-running, multi-step tasks across various environments. — It integrates diverse productivity and coding functions into a single agent, enabling comprehensive automation of complex workflows beyond simple conversational AI.]]></description>
 </item>
 
 </channel>
