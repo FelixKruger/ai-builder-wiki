@@ -232,7 +232,7 @@
       "category": "agent-frameworks",
       "summary": "Graph-based agent orchestration from LangChain — durable execution, human-in-the-loop, time-travel debugging.",
       "why_it_matters": "When your agent has real branching state and you need to checkpoint/replay, the graph model pays off.",
-      "last_verified": "2026-05-18",
+      "last_verified": "2026-06-03",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -243,7 +243,7 @@
       "category": "agent-frameworks",
       "summary": "TypeScript-first agent framework — workflows, memory, evals, and a local dev playground.",
       "why_it_matters": "The most ergonomic TS option in 2026 for builders who don't want to leave Node. Strong eval story baked in.",
-      "last_verified": "2026-05-18",
+      "last_verified": "2026-06-03",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -639,7 +639,7 @@
       "category": "voice-audio",
       "summary": "Suno v5 is an AI music generation tool that creates full-length tracks with human-like vocals across various genres.",
       "why_it_matters": "This tool allows creators to produce original, royalty-free music efficiently, providing a cost-effective alternative to traditional music production.",
-      "last_verified": "2026-05-18",
+      "last_verified": "2026-06-03",
       "source": "curator:2026-05-18-0634",
       "added": "2026-05-18"
     },
@@ -884,6 +884,28 @@
       "last_verified": "2026-06-02",
       "source": "curator:2026-06-02-0728",
       "added": "2026-06-02"
+    },
+    {
+      "id": "rayfin",
+      "name": "Rayfin",
+      "url": "https://github.com/microsoft/rayfin",
+      "category": "app-builders",
+      "summary": "An open-source SDK and CLI that enables developers and coding agents to define and deploy complete application backends in code.",
+      "why_it_matters": "It simplifies backend development by automating database, authentication, and API provisioning, allowing rapid movement from prototype to production with enterprise-grade security on Microsoft Fabric.",
+      "last_verified": "2026-06-03",
+      "source": "curator:2026-06-03-0731",
+      "added": "2026-06-03"
+    },
+    {
+      "id": "subq",
+      "name": "SubQ (by Subquadratic)",
+      "url": "https://subquadratic.com/",
+      "category": "hosted-apis",
+      "summary": "A large language model built on a fully sub-quadratic sparse-attention architecture, offering a native 12 million token context window.",
+      "why_it_matters": "It provides significantly increased context windows and faster inference at a much lower cost than traditional transformer-based models, making long-context reasoning practical for agents.",
+      "last_verified": "2026-06-03",
+      "source": "curator:2026-06-03-0731",
+      "added": "2026-06-03"
     }
   ]
 }

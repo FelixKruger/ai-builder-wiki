@@ -48,6 +48,10 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Rayfin](https://felixkruger.github.io/ai-builder-wiki/#rayfin)** — An open-source SDK and CLI that enables developers and coding agents to define and deploy complete application backends in code. _(added 2026-06-03)_
+
+- **[SubQ (by Subquadratic)](https://felixkruger.github.io/ai-builder-wiki/#subq)** — A large language model built on a fully sub-quadratic sparse-attention architecture, offering a native 12 million token context window. _(added 2026-06-03)_
+
 - **[Markitdown (Microsoft)](https://felixkruger.github.io/ai-builder-wiki/#markitdown)** — A lightweight Python tool that converts various document formats like PDFs, Word, and Excel into clean Markdown for AI processing. _(added 2026-06-02)_
 
 - **[CoreMem](https://felixkruger.github.io/ai-builder-wiki/#coremem)** — CoreMem allows users to build and share portable collections of context, or 'mems,' with any AI agent via URL, extensions, or the Model Context Protocol. _(added 2026-06-02)_
@@ -59,10 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Velo](https://felixkruger.github.io/ai-builder-wiki/#velo)** — Velo is an AI video creation platform that transforms raw screen recordings into polished, shareable video messages with automated scripts and AI avatars. _(added 2026-05-31)_
 
 - **[Kilo Code](https://felixkruger.github.io/ai-builder-wiki/#kilo-code)** — Kilo Code is an open-source AI coding agent for IDEs and CLI that generates code, automates tasks, and debugs across over 500 models. _(added 2026-05-31)_
-
-- **[OpenClaw](https://felixkruger.github.io/ai-builder-wiki/#openclaw)** — OpenClaw is a free and open-source personal AI assistant that runs locally on users' devices, connecting AI models to numerous integrations. _(added 2026-05-30)_
-
-- **[Mistral Vibe](https://felixkruger.github.io/ai-builder-wiki/#mistral-vibe)** — Mistral Vibe is a unified AI agent platform for work and coding, designed for long-running, multi-step tasks across various environments. _(added 2026-05-30)_
 
 <!-- RECENTLY_ADDED:END -->
 
