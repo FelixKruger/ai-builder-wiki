@@ -386,7 +386,7 @@
       "category": "agent-memory",
       "summary": "Open-source local AI memory system — stores conversation history as verbatim text with semantic retrieval.",
       "why_it_matters": "Hits 96.6% R@5 on LongMemEval with zero API calls. If you want agent memory that doesn't leak to a vendor, this is the open-source baseline.",
-      "last_verified": "2026-05-19",
+      "last_verified": "2026-06-04",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -650,7 +650,7 @@
       "category": "multi-agent-coding",
       "summary": "Baton is a desktop application that provides a unified interface for developing and managing multiple AI coding agents and their associated worktrees.",
       "why_it_matters": "It simplifies the orchestration of several AI coding agents, offering a more organized and efficient workflow compared to manually managing them across disparate development environments.",
-      "last_verified": "2026-05-18",
+      "last_verified": "2026-06-04",
       "source": "curator:2026-05-18-0933",
       "added": "2026-05-18"
     },
@@ -661,7 +661,7 @@
       "category": "agent-frameworks",
       "summary": "Statewright utilizes visual state machines to enhance the reliability of AI agents by formally restricting their tool access, iteration limits, and valid transitions within a workflow.",
       "why_it_matters": "This approach improves agent reliability by reducing the problem complexity for smaller models, offering an alternative to relying on larger models or extensive prompting for robust agent behavior.",
-      "last_verified": "2026-05-18",
+      "last_verified": "2026-06-04",
       "source": "curator:2026-05-18-0933",
       "added": "2026-05-18"
     },
