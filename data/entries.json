@@ -397,7 +397,7 @@
       "category": "agent-memory",
       "summary": "Self-hosted shared memory database — lets multiple AI tools read and write one persistent memory without vendor lock-in.",
       "why_it_matters": "Bridges the memory silos: Claude, Cursor, and ChatGPT each have their own. OB1 is the memory backbone that unifies them.",
-      "last_verified": "2026-05-19",
+      "last_verified": "2026-06-05",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -408,7 +408,7 @@
       "category": "retrieval-search",
       "summary": "Web search API engineered for AI agents — 300ms p99 latency, real-time indexing across 10M+ news sources.",
       "why_it_matters": "When you need fresh web grounding inside an agent and Tavily or Exa feels slow, You.com's latency is the differentiator.",
-      "last_verified": "2026-05-19",
+      "last_verified": "2026-06-05",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -672,7 +672,7 @@
       "category": "evals",
       "summary": "Helicone provides logging, monitoring, and debugging for large language model applications to help builders understand and optimize their AI usage.",
       "why_it_matters": "It offers detailed insights into LLM calls, including latency and cost, providing a more focused observability solution than broader eval platforms.",
-      "last_verified": "2026-05-19",
+      "last_verified": "2026-06-05",
       "source": "curator:2026-05-19-0853",
       "added": "2026-05-19"
     },
