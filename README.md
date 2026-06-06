@@ -48,6 +48,10 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[SwarmClaw](https://felixkruger.github.io/ai-builder-wiki/#swarmclaw)** — SwarmClaw is an open-source, self-hosted runtime and multi-agent framework for orchestrating autonomous AI agent swarms with memory and skills. _(added 2026-06-06)_
+
+- **[Headroom](https://felixkruger.github.io/ai-builder-wiki/#headroom)** — Headroom compresses agent tool outputs, logs, files, and RAG chunks to reduce LLM token usage while maintaining response quality. _(added 2026-06-06)_
+
 - **[Rayfin](https://felixkruger.github.io/ai-builder-wiki/#rayfin)** — An open-source SDK and CLI that enables developers and coding agents to define and deploy complete application backends in code. _(added 2026-06-03)_
 
 - **[SubQ (by Subquadratic)](https://felixkruger.github.io/ai-builder-wiki/#subq)** — A large language model built on a fully sub-quadratic sparse-attention architecture, offering a native 12 million token context window. _(added 2026-06-03)_
@@ -59,10 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[DeepEval](https://felixkruger.github.io/ai-builder-wiki/#deepeval)** — DeepEval is an open-source, Python-first LLM evaluation framework that provides a pytest-native testing experience for AI applications. _(added 2026-06-01)_
 
 - **[Luma Dream Machine](https://felixkruger.github.io/ai-builder-wiki/#luma-dream-machine)** — Luma Dream Machine generates realistic, high-quality videos from text or image prompts, with capabilities like cinematic camera movements. _(added 2026-06-01)_
-
-- **[Velo](https://felixkruger.github.io/ai-builder-wiki/#velo)** — Velo is an AI video creation platform that transforms raw screen recordings into polished, shareable video messages with automated scripts and AI avatars. _(added 2026-05-31)_
-
-- **[Kilo Code](https://felixkruger.github.io/ai-builder-wiki/#kilo-code)** — Kilo Code is an open-source AI coding agent for IDEs and CLI that generates code, automates tasks, and debugs across over 500 models. _(added 2026-05-31)_
 
 <!-- RECENTLY_ADDED:END -->
 
