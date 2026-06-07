@@ -441,7 +441,7 @@
       "category": "multi-agent-coding",
       "summary": "Mac app that runs a fleet of Claude Code and Codex agents in parallel git worktrees, then helps you review and merge their work.",
       "why_it_matters": "Single-machine multi-agent orchestration with native macOS UX. The 'one developer, many parallel agents' workflow distilled into a desktop app.",
-      "last_verified": "2026-05-20",
+      "last_verified": "2026-06-07",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -694,7 +694,7 @@
       "category": "agent-frameworks",
       "summary": "Hermes Agent is an open-source framework for building self-improving AI agents designed for long-term, personalized collaboration.",
       "why_it_matters": "It emphasizes reliability and self-evolving skills, allowing agents to learn from feedback and adapt over time, contrasting with agents requiring constant manual refinement.",
-      "last_verified": "2026-05-20",
+      "last_verified": "2026-06-07",
       "source": "curator:2026-05-20-0848",
       "added": "2026-05-20"
     },
@@ -705,7 +705,7 @@
       "category": "multi-agent-coding",
       "summary": "The Microsoft Agent Framework is an open, multi-language framework for building and orchestrating production-grade AI agents and multi-agent workflows.",
       "why_it_matters": "It provides a consistent foundation for agent systems across Python and .NET, supporting various LLM ecosystems for developers taking agents from prototype to production.",
-      "last_verified": "2026-05-20",
+      "last_verified": "2026-06-07",
       "source": "curator:2026-05-20-0848",
       "added": "2026-05-20"
     },
