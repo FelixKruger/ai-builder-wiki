@@ -133,4 +133,6 @@ For the daily curator, see [`docs/daily-curator-package.md`](docs/daily-curator-
 
 ## License
 
-Content under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/). Code under MIT.
+Content under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/). Code under MIT. 
+
+Build faster!
