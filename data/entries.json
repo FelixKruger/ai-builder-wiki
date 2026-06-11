@@ -518,7 +518,7 @@
       "category": "ai-3d",
       "summary": "Tencent's open 3D asset generator — two-stage pipeline with flow-based diffusion transformer for shape and separate texture synthesis.",
       "why_it_matters": "Open weights for high-resolution textured 3D. Can also re-texture handcrafted meshes — useful when Tripo3D's hosted workflow isn't an option.",
-      "last_verified": "2026-05-23",
+      "last_verified": "2026-06-11",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -529,7 +529,7 @@
       "category": "ai-design-skills",
       "summary": "Design skill for Claude Code, Cursor, and Gemini CLI — 23 commands to push AI-generated UIs past generic defaults.",
       "why_it_matters": "Most AI-built UIs look the same because the agents lack design vocabulary. Impeccable installs that vocabulary as a reusable skill.",
-      "last_verified": "2026-05-23",
+      "last_verified": "2026-06-11",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -716,7 +716,7 @@
       "category": "multi-agent-coding",
       "summary": "An open-source platform for autonomous AI software development agents capable of modifying code, running commands, and browsing the web.",
       "why_it_matters": "It provides an open-source option for builders seeking autonomous coding agents, offering capabilities similar to proprietary solutions like Devin.",
-      "last_verified": "2026-05-22",
+      "last_verified": "2026-06-11",
       "source": "curator:2026-05-22-0844",
       "added": "2026-05-22"
     },
