@@ -540,7 +540,7 @@
       "category": "ai-design-skills",
       "summary": "Public gist of a Claude system prompt for design and prototyping — HTML artifacts, design systems, animation, asset verification.",
       "why_it_matters": "A worked example of turning a coding agent into a design partner. Steal the structure for your own design skill or compare to Impeccable.",
-      "last_verified": "2026-05-23",
+      "last_verified": "2026-06-12",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -551,7 +551,7 @@
       "category": "open-weights",
       "summary": "Chinese AI lab shipping open-weight LLMs (R1, V3, V4-preview, Coder V2) with strong reasoning and aggressive pricing.",
       "why_it_matters": "When Claude or GPT's API bill bites, DeepSeek is the open-weight escape hatch with competitive reasoning. Frequently profiled by The AI Search.",
-      "last_verified": "2026-05-24",
+      "last_verified": "2026-06-12",
       "source": "human:eriks+youtube:theAIsearch",
       "added": "2026-05-11"
     },
@@ -562,7 +562,7 @@
       "category": "open-weights",
       "summary": "Alibaba Cloud's open-weight model family — Qwen3.6 text+multimodal, Qwen3.5 Omni (text/audio/image/video), and WebWorld agent variants.",
       "why_it_matters": "The most prolific open-weight family in 2026 — base, coder, vision, audio, and agent specializations all maintained. First place to look for non-English fine-tunes.",
-      "last_verified": "2026-05-24",
+      "last_verified": "2026-06-12",
       "source": "human:eriks+youtube:theAIsearch",
       "added": "2026-05-11"
     },
@@ -928,6 +928,28 @@
       "last_verified": "2026-06-06",
       "source": "curator:2026-06-06-0657",
       "added": "2026-06-06"
+    },
+    {
+      "id": "zep-ai",
+      "name": "Zep",
+      "url": "https://www.getzep.com/",
+      "category": "agent-memory",
+      "summary": "Zep is a long-term memory store for conversational AI applications, using temporal context graphs to manage facts and their validity over time.",
+      "why_it_matters": "It provides production-scale agent memory with temporal reasoning, allowing agents to track how facts change, which is crucial for complex, evolving workflows.",
+      "last_verified": "2026-06-12",
+      "source": "curator:2026-06-12-0728",
+      "added": "2026-06-12"
+    },
+    {
+      "id": "maxim-ai",
+      "name": "Maxim AI",
+      "url": "https://maxim.ai/",
+      "category": "evals",
+      "summary": "Maxim AI is an end-to-end platform for AI simulation, evaluation, and observability, integrating pre-production testing with production monitoring.",
+      "why_it_matters": "Unlike other tools that cover one or two stages, Maxim AI unifies the entire AI quality lifecycle, enabling a systematic approach to agent reliability.",
+      "last_verified": "2026-06-12",
+      "source": "curator:2026-06-12-0728",
+      "added": "2026-06-12"
     }
   ]
 }

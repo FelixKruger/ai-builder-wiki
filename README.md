@@ -48,6 +48,10 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Zep](https://felixkruger.github.io/ai-builder-wiki/#zep-ai)** — Zep is a long-term memory store for conversational AI applications, using temporal context graphs to manage facts and their validity over time. _(added 2026-06-12)_
+
+- **[Maxim AI](https://felixkruger.github.io/ai-builder-wiki/#maxim-ai)** — Maxim AI is an end-to-end platform for AI simulation, evaluation, and observability, integrating pre-production testing with production monitoring. _(added 2026-06-12)_
+
 - **[SwarmClaw](https://felixkruger.github.io/ai-builder-wiki/#swarmclaw)** — SwarmClaw is an open-source, self-hosted runtime and multi-agent framework for orchestrating autonomous AI agent swarms with memory and skills. _(added 2026-06-06)_
 
 - **[Headroom](https://felixkruger.github.io/ai-builder-wiki/#headroom)** — Headroom compresses agent tool outputs, logs, files, and RAG chunks to reduce LLM token usage while maintaining response quality. _(added 2026-06-06)_
@@ -59,10 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Markitdown (Microsoft)](https://felixkruger.github.io/ai-builder-wiki/#markitdown)** — A lightweight Python tool that converts various document formats like PDFs, Word, and Excel into clean Markdown for AI processing. _(added 2026-06-02)_
 
 - **[CoreMem](https://felixkruger.github.io/ai-builder-wiki/#coremem)** — CoreMem allows users to build and share portable collections of context, or 'mems,' with any AI agent via URL, extensions, or the Model Context Protocol. _(added 2026-06-02)_
-
-- **[DeepEval](https://felixkruger.github.io/ai-builder-wiki/#deepeval)** — DeepEval is an open-source, Python-first LLM evaluation framework that provides a pytest-native testing experience for AI applications. _(added 2026-06-01)_
-
-- **[Luma Dream Machine](https://felixkruger.github.io/ai-builder-wiki/#luma-dream-machine)** — Luma Dream Machine generates realistic, high-quality videos from text or image prompts, with capabilities like cinematic camera movements. _(added 2026-06-01)_
 
 <!-- RECENTLY_ADDED:END -->
 
