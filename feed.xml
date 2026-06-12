@@ -5,7 +5,23 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Thu, 11 Jun 2026 07:30:31 +0000</lastBuildDate>
+<lastBuildDate>Fri, 12 Jun 2026 07:28:51 +0000</lastBuildDate>
+
+<item>
+  <title>Zep</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#zep-ai</link>
+  <guid isPermaLink="false">zep-ai-2026-06-12</guid>
+  <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Zep is a long-term memory store for conversational AI applications, using temporal context graphs to manage facts and their validity over time. — It provides production-scale agent memory with temporal reasoning, allowing agents to track how facts change, which is crucial for complex, evolving workflows.]]></description>
+</item>
+
+<item>
+  <title>Maxim AI</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#maxim-ai</link>
+  <guid isPermaLink="false">maxim-ai-2026-06-12</guid>
+  <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Maxim AI is an end-to-end platform for AI simulation, evaluation, and observability, integrating pre-production testing with production monitoring. — Unlike other tools that cover one or two stages, Maxim AI unifies the entire AI quality lifecycle, enabling a systematic approach to agent reliability.]]></description>
+</item>
 
 <item>
   <title>SwarmClaw</title>
@@ -53,22 +69,6 @@
   <guid isPermaLink="false">coremem-2026-06-02</guid>
   <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[CoreMem allows users to build and share portable collections of context, or 'mems,' with any AI agent via URL, extensions, or the Model Context Protocol. — It provides a persistent and shareable memory layer, solving the problem of AI agents losing context across different sessions or when switching between various tools. This is crucial for building reliable and consistent agentic workflows.]]></description>
-</item>
-
-<item>
-  <title>DeepEval</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#deepeval</link>
-  <guid isPermaLink="false">deepeval-2026-06-01</guid>
-  <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[DeepEval is an open-source, Python-first LLM evaluation framework that provides a pytest-native testing experience for AI applications. — It offers over 50 research-backed metrics for evaluating RAG, agents, and chatbots, enabling developers to integrate LLM evaluation into CI/CD workflows.]]></description>
-</item>
-
-<item>
-  <title>Luma Dream Machine</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#luma-dream-machine</link>
-  <guid isPermaLink="false">luma-dream-machine-2026-06-01</guid>
-  <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Luma Dream Machine generates realistic, high-quality videos from text or image prompts, with capabilities like cinematic camera movements. — It offers native 1080p output and a Draft Mode for previewing low-resolution shots, which helps creators iterate efficiently and save resources.]]></description>
 </item>
 
 </channel>
