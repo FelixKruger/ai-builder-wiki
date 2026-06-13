@@ -745,6 +745,28 @@
         "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLN3mnrLU94tzyv-6417ETVA9r6-htZ8amfQzEskA3619Z8MsojOPySXjxNodsvODkbeH-RaItDBFtKiZEIoO0gpXzM1wS-kIrWCqc76abQ3DYkcPe4lfhCaNpAJowDh3Yf53oLfcAQvdyRh0AuIa2P9VDB2mseIN87VS4S2eXpYANWms="
       ],
       "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
+    },
+    {
+      "run_id": "2026-06-13-0711",
+      "started_at": "2026-06-13T07:11:12.082913+00:00",
+      "ended_at": "2026-06-13T07:11:35.900347+00:00",
+      "added": [
+        "minimi-ai",
+        "browse-sh"
+      ],
+      "refreshed": [
+        "gemma",
+        "groq",
+        "together-ai"
+      ],
+      "removed": [],
+      "sources_checked": [
+        "gemini:gemini-2.5-flash+google-search-grounding",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrRMdrhgpebm5PeJI61EpF2Xi7Ns1-TS2fxNERUJXtl299hkod-bcHIuYEtup_2GL_iav361e8Wrcp50CxsCg2R07InYtHufYGBmc2GRYa1lThEGFgTYuM",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEahrmvg80nR_FHplxvTjRXnaVRfMf_fW6_E9_VLNuVXi-h8KFXSU8_IxlvQhR2r0zOD-JddWNzQrqEbDAauuHl2txc5eK01RQ8U-X7wOd1uiDka46JIIYMiYspxJTQYVbLDs2KaW3Qx-oFk6FHIzePE11QXBgRlFdmeDtvPvUomzCsop0dFL_qeazDnAKlq1kpLU8u50vYCNzvpkLl",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVZunjAr8Mo_b89PbhDbN9bLY2lPnheq0C2Keg-hhSraiBePniYewCELenYBbpry2v0F2n73bzp8b73P86vUtarQTY-MqkbIeR0l8_FXFs2EandXZHz-RV_QvT0E-WbEZziMAJuO2sgOhbYrnttri3fbzjkLn_uexPbVWEtFO6D2onsAGXxGl1pz2va0tl3wdJDqAaU7FPvY40DQJrTATG7btJQgYepZg18kMuxH04-c_cGogM2Q2NrPR1zmd3q-XAlmDj"
+      ],
+      "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
     }
   ],
   "rotation_pointer": 0

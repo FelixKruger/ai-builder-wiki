@@ -48,6 +48,10 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Minimi](https://felixkruger.github.io/ai-builder-wiki/#minimi-ai)** — Minimi provides ambient memory for Claude, capturing insights from Mac interactions and storing them as local embeddings. _(added 2026-06-13)_
+
+- **[Browse.sh](https://felixkruger.github.io/ai-builder-wiki/#browse-sh)** — Browse.sh provides web automation capabilities, enabling AI agents to interact with and extract information from websites. _(added 2026-06-13)_
+
 - **[Zep](https://felixkruger.github.io/ai-builder-wiki/#zep-ai)** — Zep is a long-term memory store for conversational AI applications, using temporal context graphs to manage facts and their validity over time. _(added 2026-06-12)_
 
 - **[Maxim AI](https://felixkruger.github.io/ai-builder-wiki/#maxim-ai)** — Maxim AI is an end-to-end platform for AI simulation, evaluation, and observability, integrating pre-production testing with production monitoring. _(added 2026-06-12)_
@@ -59,10 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Rayfin](https://felixkruger.github.io/ai-builder-wiki/#rayfin)** — An open-source SDK and CLI that enables developers and coding agents to define and deploy complete application backends in code. _(added 2026-06-03)_
 
 - **[SubQ (by Subquadratic)](https://felixkruger.github.io/ai-builder-wiki/#subq)** — A large language model built on a fully sub-quadratic sparse-attention architecture, offering a native 12 million token context window. _(added 2026-06-03)_
-
-- **[Markitdown (Microsoft)](https://felixkruger.github.io/ai-builder-wiki/#markitdown)** — A lightweight Python tool that converts various document formats like PDFs, Word, and Excel into clean Markdown for AI processing. _(added 2026-06-02)_
-
-- **[CoreMem](https://felixkruger.github.io/ai-builder-wiki/#coremem)** — CoreMem allows users to build and share portable collections of context, or 'mems,' with any AI agent via URL, extensions, or the Model Context Protocol. _(added 2026-06-02)_
 
 <!-- RECENTLY_ADDED:END -->
 
