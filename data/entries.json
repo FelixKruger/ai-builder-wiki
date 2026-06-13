@@ -573,7 +573,7 @@
       "category": "open-weights",
       "summary": "Google DeepMind's open-weight model family — Gemma 4 at 2B/4B/26B/31B parameters, runs on consumer hardware.",
       "why_it_matters": "Google's answer to Llama and Qwen. If you want an open-weight model with first-party Google tooling (Vertex, Gemini API parity), Gemma is the path.",
-      "last_verified": "2026-05-24",
+      "last_verified": "2026-06-13",
       "source": "human:eriks+youtube:theAIsearch",
       "added": "2026-05-11"
     },
@@ -584,7 +584,7 @@
       "category": "inference-platforms",
       "summary": "Inference provider with custom LPU silicon — open-weight model hosting at order-of-magnitude lower latency than GPU-based APIs.",
       "why_it_matters": "When your agent loop is bottlenecked on per-call latency (not raw quality), Groq is the swap. Llama, Qwen, DeepSeek, and Whisper all available.",
-      "last_verified": "2026-05-25",
+      "last_verified": "2026-06-13",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -595,7 +595,7 @@
       "category": "inference-platforms",
       "summary": "Production-grade inference + fine-tuning platform for open-weight models, with proprietary speculative decoding and custom kernels.",
       "why_it_matters": "OpenRouter aggregates; Together engineers the stack. Pick Together when you need to fine-tune an OSS model and serve it at scale on the same platform.",
-      "last_verified": "2026-05-25",
+      "last_verified": "2026-06-13",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -950,6 +950,28 @@
       "last_verified": "2026-06-12",
       "source": "curator:2026-06-12-0728",
       "added": "2026-06-12"
+    },
+    {
+      "id": "minimi-ai",
+      "name": "Minimi",
+      "url": "https://minimi.ai/",
+      "category": "agent-memory",
+      "summary": "Minimi provides ambient memory for Claude, capturing insights from Mac interactions and storing them as local embeddings.",
+      "why_it_matters": "Unlike Claude's built-in memory, Minimi offers a shared, persistent memory that works across various AI tools, not just Claude, and processes information locally.",
+      "last_verified": "2026-06-13",
+      "source": "curator:2026-06-13-0711",
+      "added": "2026-06-13"
+    },
+    {
+      "id": "browse-sh",
+      "name": "Browse.sh",
+      "url": "https://browse.sh/",
+      "category": "retrieval-search",
+      "summary": "Browse.sh provides web automation capabilities, enabling AI agents to interact with and extract information from websites.",
+      "why_it_matters": "This tool provides agents with web automation and retrieval capabilities, enabling them to interact with the internet beyond simple search.",
+      "last_verified": "2026-06-13",
+      "source": "curator:2026-06-13-0711",
+      "added": "2026-06-13"
     }
   ]
 }
