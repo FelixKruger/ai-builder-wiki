@@ -5,7 +5,23 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Fri, 12 Jun 2026 07:28:51 +0000</lastBuildDate>
+<lastBuildDate>Sat, 13 Jun 2026 07:11:36 +0000</lastBuildDate>
+
+<item>
+  <title>Minimi</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#minimi-ai</link>
+  <guid isPermaLink="false">minimi-ai-2026-06-13</guid>
+  <pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Minimi provides ambient memory for Claude, capturing insights from Mac interactions and storing them as local embeddings. — Unlike Claude's built-in memory, Minimi offers a shared, persistent memory that works across various AI tools, not just Claude, and processes information locally.]]></description>
+</item>
+
+<item>
+  <title>Browse.sh</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#browse-sh</link>
+  <guid isPermaLink="false">browse-sh-2026-06-13</guid>
+  <pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Browse.sh provides web automation capabilities, enabling AI agents to interact with and extract information from websites. — This tool provides agents with web automation and retrieval capabilities, enabling them to interact with the internet beyond simple search.]]></description>
+</item>
 
 <item>
   <title>Zep</title>
@@ -53,22 +69,6 @@
   <guid isPermaLink="false">subq-2026-06-03</guid>
   <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[A large language model built on a fully sub-quadratic sparse-attention architecture, offering a native 12 million token context window. — It provides significantly increased context windows and faster inference at a much lower cost than traditional transformer-based models, making long-context reasoning practical for agents.]]></description>
-</item>
-
-<item>
-  <title>Markitdown (Microsoft)</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#markitdown</link>
-  <guid isPermaLink="false">markitdown-2026-06-02</guid>
-  <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[A lightweight Python tool that converts various document formats like PDFs, Word, and Excel into clean Markdown for AI processing. — This tool simplifies preparing unstructured data for AI, enabling coding agents to more effectively analyze and summarize content compared to feeding raw, complex document formats. It addresses a common data preparation bottleneck for AI builders.]]></description>
-</item>
-
-<item>
-  <title>CoreMem</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#coremem</link>
-  <guid isPermaLink="false">coremem-2026-06-02</guid>
-  <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[CoreMem allows users to build and share portable collections of context, or 'mems,' with any AI agent via URL, extensions, or the Model Context Protocol. — It provides a persistent and shareable memory layer, solving the problem of AI agents losing context across different sessions or when switching between various tools. This is crucial for building reliable and consistent agentic workflows.]]></description>
 </item>
 
 </channel>
