@@ -48,6 +48,10 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Atoms](https://felixkruger.github.io/ai-builder-wiki/#atoms-ai)** — Atoms is an AI-native platform that uses a team of specialized AI agents to build, deploy, and scale full-stack applications from natural language descriptions. _(added 2026-06-14)_
+
+- **[Publora](https://felixkruger.github.io/ai-builder-wiki/#publora)** — Publora is a social media API and MCP server for AI agents, enabling programmatic scheduling and publishing of content across 10 platforms from a single endpoint. _(added 2026-06-14)_
+
 - **[Minimi](https://felixkruger.github.io/ai-builder-wiki/#minimi-ai)** — Minimi provides ambient memory for Claude, capturing insights from Mac interactions and storing them as local embeddings. _(added 2026-06-13)_
 
 - **[Browse.sh](https://felixkruger.github.io/ai-builder-wiki/#browse-sh)** — Browse.sh provides web automation capabilities, enabling AI agents to interact with and extract information from websites. _(added 2026-06-13)_
@@ -59,10 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[SwarmClaw](https://felixkruger.github.io/ai-builder-wiki/#swarmclaw)** — SwarmClaw is an open-source, self-hosted runtime and multi-agent framework for orchestrating autonomous AI agent swarms with memory and skills. _(added 2026-06-06)_
 
 - **[Headroom](https://felixkruger.github.io/ai-builder-wiki/#headroom)** — Headroom compresses agent tool outputs, logs, files, and RAG chunks to reduce LLM token usage while maintaining response quality. _(added 2026-06-06)_
-
-- **[Rayfin](https://felixkruger.github.io/ai-builder-wiki/#rayfin)** — An open-source SDK and CLI that enables developers and coding agents to define and deploy complete application backends in code. _(added 2026-06-03)_
-
-- **[SubQ (by Subquadratic)](https://felixkruger.github.io/ai-builder-wiki/#subq)** — A large language model built on a fully sub-quadratic sparse-attention architecture, offering a native 12 million token context window. _(added 2026-06-03)_
 
 <!-- RECENTLY_ADDED:END -->
 
