@@ -606,7 +606,7 @@
       "category": "ai-video",
       "summary": "Alibaba's creative AI platform — text-to-image, image-to-image, text-to-video, image-to-video, image editing in one suite.",
       "why_it_matters": "Frequently featured by The AI Search for matching closed-model quality on video while remaining accessible. The Chinese answer to Sora and Runway.",
-      "last_verified": "2026-05-25",
+      "last_verified": "2026-06-14",
       "source": "human:eriks+youtube:theAIsearch",
       "added": "2026-05-11"
     },
@@ -727,7 +727,7 @@
       "category": "multi-agent-coding",
       "summary": "CrewAI is a framework for orchestrating role-playing, autonomous AI agents, designed to simplify multi-agent teamwork and collaborative intelligence.",
       "why_it_matters": "Unlike single-agent frameworks, CrewAI focuses on enabling seamless coordination among multiple agents to tackle complex tasks, streamlining multi-agent system development.",
-      "last_verified": "2026-05-25",
+      "last_verified": "2026-06-14",
       "source": "curator:2026-05-25-0942",
       "added": "2026-05-25"
     },
@@ -738,7 +738,7 @@
       "category": "agent-frameworks",
       "summary": "Dify is a low-code platform offering an all-in-one toolchain for building, deploying, and managing AI applications with agentic and retrieval-augmented workflows.",
       "why_it_matters": "It provides a visual workflow builder to orchestrate tool-using agents, distinguishing it from code-centric agent frameworks by simplifying AI application development.",
-      "last_verified": "2026-05-25",
+      "last_verified": "2026-06-14",
       "source": "curator:2026-05-25-0942",
       "added": "2026-05-25"
     },
@@ -972,6 +972,28 @@
       "last_verified": "2026-06-13",
       "source": "curator:2026-06-13-0711",
       "added": "2026-06-13"
+    },
+    {
+      "id": "atoms-ai",
+      "name": "Atoms",
+      "url": "https://atoms.ai/",
+      "category": "app-builders",
+      "summary": "Atoms is an AI-native platform that uses a team of specialized AI agents to build, deploy, and scale full-stack applications from natural language descriptions.",
+      "why_it_matters": "It enables rapid prototyping and deployment of functional applications, offering a complete business building workflow from idea to live product, unlike simpler code generation tools.",
+      "last_verified": "2026-06-14",
+      "source": "curator:2026-06-14-0727",
+      "added": "2026-06-14"
+    },
+    {
+      "id": "publora",
+      "name": "Publora",
+      "url": "https://publora.com/",
+      "category": "mcp-tools",
+      "summary": "Publora is a social media API and MCP server for AI agents, enabling programmatic scheduling and publishing of content across 10 platforms from a single endpoint.",
+      "why_it_matters": "It simplifies social media management for AI agents by providing a unified API and MCP integration, eliminating the need to wire multiple OAuth flows for different platforms.",
+      "last_verified": "2026-06-14",
+      "source": "curator:2026-06-14-0727",
+      "added": "2026-06-14"
     }
   ]
 }
