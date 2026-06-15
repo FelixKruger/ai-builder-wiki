@@ -254,7 +254,7 @@
       "category": "evals",
       "summary": "Open-source eval framework from the UK AI Safety Institute — used for the public capability evals you read about.",
       "why_it_matters": "If you're publishing eval results you want anyone to reproduce, Inspect is the lingua franca.",
-      "last_verified": "2026-05-26",
+      "last_verified": "2026-06-15",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -617,7 +617,7 @@
       "category": "agent-memory",
       "summary": "Drop-in memory infrastructure for AI agents — automatic learning from interactions, persistent context across sessions.",
       "why_it_matters": "If MemPalace and OB1 are the OSS DIY paths, Mem0 is the managed-service alternative. Faster to integrate when you don't want to host memory yourself.",
-      "last_verified": "2026-05-26",
+      "last_verified": "2026-06-15",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -628,7 +628,7 @@
       "category": "agent-memory",
       "summary": "Persistent-agent framework with continual learning — direct descendant of UC Berkeley's MemGPT research.",
       "why_it_matters": "The research-backed approach to agent memory: hierarchical context, self-editing memory blocks. Different mental model from drop-in retrieval like Mem0.",
-      "last_verified": "2026-05-26",
+      "last_verified": "2026-06-15",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -994,6 +994,28 @@
       "last_verified": "2026-06-14",
       "source": "curator:2026-06-14-0727",
       "added": "2026-06-14"
+    },
+    {
+      "id": "ollama",
+      "name": "Ollama",
+      "url": "https://ollama.com/",
+      "category": "inference-platforms",
+      "summary": "Ollama allows developers to run large language models locally on their own machines, providing a self-hosted AI experience.",
+      "why_it_matters": "It offers a way to experiment with and deploy open-weight models without cloud costs, contrasting with hosted inference platforms like Groq or Together AI.",
+      "last_verified": "2026-06-15",
+      "source": "curator:2026-06-15-0744",
+      "added": "2026-06-15"
+    },
+    {
+      "id": "bitboard",
+      "name": "BitBoard",
+      "url": "https://bitboard.work/",
+      "category": "evals",
+      "summary": "BitBoard provides an analytics workspace specifically designed for monitoring and understanding the performance of AI agents.",
+      "why_it_matters": "It offers specialized observability for agentic workflows, a more targeted approach compared to general-purpose eval tools like Langfuse or Braintrust.",
+      "last_verified": "2026-06-15",
+      "source": "curator:2026-06-15-0744",
+      "added": "2026-06-15"
     }
   ]
 }
