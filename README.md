@@ -48,6 +48,10 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Ollama](https://felixkruger.github.io/ai-builder-wiki/#ollama)** — Ollama allows developers to run large language models locally on their own machines, providing a self-hosted AI experience. _(added 2026-06-15)_
+
+- **[BitBoard](https://felixkruger.github.io/ai-builder-wiki/#bitboard)** — BitBoard provides an analytics workspace specifically designed for monitoring and understanding the performance of AI agents. _(added 2026-06-15)_
+
 - **[Atoms](https://felixkruger.github.io/ai-builder-wiki/#atoms-ai)** — Atoms is an AI-native platform that uses a team of specialized AI agents to build, deploy, and scale full-stack applications from natural language descriptions. _(added 2026-06-14)_
 
 - **[Publora](https://felixkruger.github.io/ai-builder-wiki/#publora)** — Publora is a social media API and MCP server for AI agents, enabling programmatic scheduling and publishing of content across 10 platforms from a single endpoint. _(added 2026-06-14)_
@@ -59,10 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Zep](https://felixkruger.github.io/ai-builder-wiki/#zep-ai)** — Zep is a long-term memory store for conversational AI applications, using temporal context graphs to manage facts and their validity over time. _(added 2026-06-12)_
 
 - **[Maxim AI](https://felixkruger.github.io/ai-builder-wiki/#maxim-ai)** — Maxim AI is an end-to-end platform for AI simulation, evaluation, and observability, integrating pre-production testing with production monitoring. _(added 2026-06-12)_
-
-- **[SwarmClaw](https://felixkruger.github.io/ai-builder-wiki/#swarmclaw)** — SwarmClaw is an open-source, self-hosted runtime and multi-agent framework for orchestrating autonomous AI agent swarms with memory and skills. _(added 2026-06-06)_
-
-- **[Headroom](https://felixkruger.github.io/ai-builder-wiki/#headroom)** — Headroom compresses agent tool outputs, logs, files, and RAG chunks to reduce LLM token usage while maintaining response quality. _(added 2026-06-06)_
 
 <!-- RECENTLY_ADDED:END -->
 
