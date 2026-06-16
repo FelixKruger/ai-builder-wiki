@@ -48,6 +48,10 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[LMCache](https://felixkruger.github.io/ai-builder-wiki/#lmcache)** — LMCache is an open-source inference caching system designed to enhance language model serving efficiency by reducing redundant computations. _(added 2026-06-16)_
+
+- **[Skills (Vercel)](https://felixkruger.github.io/ai-builder-wiki/#vercel-skills)** — Skills is an open registry and CLI tool by Vercel for installing and managing capability packages to extend AI agent functionalities. _(added 2026-06-16)_
+
 - **[Ollama](https://felixkruger.github.io/ai-builder-wiki/#ollama)** — Ollama allows developers to run large language models locally on their own machines, providing a self-hosted AI experience. _(added 2026-06-15)_
 
 - **[BitBoard](https://felixkruger.github.io/ai-builder-wiki/#bitboard)** — BitBoard provides an analytics workspace specifically designed for monitoring and understanding the performance of AI agents. _(added 2026-06-15)_
@@ -59,10 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Minimi](https://felixkruger.github.io/ai-builder-wiki/#minimi-ai)** — Minimi provides ambient memory for Claude, capturing insights from Mac interactions and storing them as local embeddings. _(added 2026-06-13)_
 
 - **[Browse.sh](https://felixkruger.github.io/ai-builder-wiki/#browse-sh)** — Browse.sh provides web automation capabilities, enabling AI agents to interact with and extract information from websites. _(added 2026-06-13)_
-
-- **[Zep](https://felixkruger.github.io/ai-builder-wiki/#zep-ai)** — Zep is a long-term memory store for conversational AI applications, using temporal context graphs to manage facts and their validity over time. _(added 2026-06-12)_
-
-- **[Maxim AI](https://felixkruger.github.io/ai-builder-wiki/#maxim-ai)** — Maxim AI is an end-to-end platform for AI simulation, evaluation, and observability, integrating pre-production testing with production monitoring. _(added 2026-06-12)_
 
 <!-- RECENTLY_ADDED:END -->
 

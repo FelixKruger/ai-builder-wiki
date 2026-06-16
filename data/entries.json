@@ -265,7 +265,7 @@
       "category": "evals",
       "summary": "Eval, logging, and prompt-playground stack used by many production AI teams.",
       "why_it_matters": "The 'we ship LLM features and need to know if a prompt change broke things' tool — diffs across runs are first-class.",
-      "last_verified": "2026-05-27",
+      "last_verified": "2026-06-16",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -749,7 +749,7 @@
       "category": "ai-coding",
       "summary": "CodeWhale is a terminal-based AI coding agent designed for DeepSeek models, engineered for prefix-cache stability.",
       "why_it_matters": "It provides a specialized coding agent optimized for DeepSeek models, offering a stable terminal experience for developers.",
-      "last_verified": "2026-05-26",
+      "last_verified": "2026-06-16",
       "source": "curator:2026-05-26-0703",
       "added": "2026-05-26"
     },
@@ -760,7 +760,7 @@
       "category": "ai-design-skills",
       "summary": "Open Design is a local-first, open-source alternative to Claude Design, offering skills and design systems for generating various prototypes and media.",
       "why_it_matters": "It provides an open-source, local alternative for AI-driven design generation, expanding options beyond proprietary tools like Claude Design.",
-      "last_verified": "2026-05-26",
+      "last_verified": "2026-06-16",
       "source": "curator:2026-05-26-0703",
       "added": "2026-05-26"
     },
@@ -1016,6 +1016,28 @@
       "last_verified": "2026-06-15",
       "source": "curator:2026-06-15-0744",
       "added": "2026-06-15"
+    },
+    {
+      "id": "lmcache",
+      "name": "LMCache",
+      "url": "https://github.com/LMCache/LMCache",
+      "category": "inference-platforms",
+      "summary": "LMCache is an open-source inference caching system designed to enhance language model serving efficiency by reducing redundant computations.",
+      "why_it_matters": "It optimizes the cost and latency of running LLMs in production, offering a critical component for scaling AI applications more efficiently than uncached inference.",
+      "last_verified": "2026-06-16",
+      "source": "curator:2026-06-16-0747",
+      "added": "2026-06-16"
+    },
+    {
+      "id": "vercel-skills",
+      "name": "Skills (Vercel)",
+      "url": "https://skills.github.com/",
+      "category": "mcp-tools",
+      "summary": "Skills is an open registry and CLI tool by Vercel for installing and managing capability packages to extend AI agent functionalities.",
+      "why_it_matters": "It standardizes and simplifies the process of adding tools to AI agents, fostering a reusable ecosystem for agent builders and promoting interoperability.",
+      "last_verified": "2026-06-16",
+      "source": "curator:2026-06-16-0747",
+      "added": "2026-06-16"
     }
   ]
 }
