@@ -48,6 +48,10 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[AgentOps](https://felixkruger.github.io/ai-builder-wiki/#agentops)** — AgentOps is an observability platform specifically designed to monitor, evaluate, and debug AI agentic workflows and LLM applications. _(added 2026-06-17)_
+
+- **[LlamaIndex](https://felixkruger.github.io/ai-builder-wiki/#llamaindex)** — LlamaIndex is a data framework for LLM applications, providing tools to ingest, structure, and access private or domain-specific data for context-aware AI agents. _(added 2026-06-17)_
+
 - **[LMCache](https://felixkruger.github.io/ai-builder-wiki/#lmcache)** — LMCache is an open-source inference caching system designed to enhance language model serving efficiency by reducing redundant computations. _(added 2026-06-16)_
 
 - **[Skills (Vercel)](https://felixkruger.github.io/ai-builder-wiki/#vercel-skills)** — Skills is an open registry and CLI tool by Vercel for installing and managing capability packages to extend AI agent functionalities. _(added 2026-06-16)_
@@ -59,10 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Atoms](https://felixkruger.github.io/ai-builder-wiki/#atoms-ai)** — Atoms is an AI-native platform that uses a team of specialized AI agents to build, deploy, and scale full-stack applications from natural language descriptions. _(added 2026-06-14)_
 
 - **[Publora](https://felixkruger.github.io/ai-builder-wiki/#publora)** — Publora is a social media API and MCP server for AI agents, enabling programmatic scheduling and publishing of content across 10 platforms from a single endpoint. _(added 2026-06-14)_
-
-- **[Minimi](https://felixkruger.github.io/ai-builder-wiki/#minimi-ai)** — Minimi provides ambient memory for Claude, capturing insights from Mac interactions and storing them as local embeddings. _(added 2026-06-13)_
-
-- **[Browse.sh](https://felixkruger.github.io/ai-builder-wiki/#browse-sh)** — Browse.sh provides web automation capabilities, enabling AI agents to interact with and extract information from websites. _(added 2026-06-13)_
 
 <!-- RECENTLY_ADDED:END -->
 
