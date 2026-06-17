@@ -276,7 +276,7 @@
       "category": "evals",
       "summary": "Open-source LLM observability — traces, evals, prompts, self-hostable.",
       "why_it_matters": "The default open-source pick for tracing agent runs. Self-host if your data can't leave the building.",
-      "last_verified": "2026-05-27",
+      "last_verified": "2026-06-17",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -287,7 +287,7 @@
       "category": "retrieval-search",
       "summary": "Vector similarity search inside Postgres. HNSW + IVFFlat indexes, just another column type.",
       "why_it_matters": "The boring-tech RAG stack: keep your embeddings next to your relational data. Most apps don't need a dedicated vector DB.",
-      "last_verified": "2026-05-27",
+      "last_verified": "2026-06-17",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -771,7 +771,7 @@
       "category": "app-builders",
       "summary": "An agent-first development platform and IDE by Google for building and orchestrating autonomous AI agents across editor, terminal, and browser.",
       "why_it_matters": "It shifts from traditional AI code assistance to a system where AI agents operate with greater autonomy, providing an abstracted UI for managing parallel subagents and scheduled tasks.",
-      "last_verified": "2026-05-27",
+      "last_verified": "2026-06-17",
       "source": "curator:2026-05-27-0717",
       "added": "2026-05-27"
     },
@@ -1038,6 +1038,28 @@
       "last_verified": "2026-06-16",
       "source": "curator:2026-06-16-0747",
       "added": "2026-06-16"
+    },
+    {
+      "id": "agentops",
+      "name": "AgentOps",
+      "url": "https://www.agentops.ai/",
+      "category": "evals",
+      "summary": "AgentOps is an observability platform specifically designed to monitor, evaluate, and debug AI agentic workflows and LLM applications.",
+      "why_it_matters": "It offers specialized tracing and logging for complex agent interactions, providing deeper insights compared to general LLM observability tools.",
+      "last_verified": "2026-06-17",
+      "source": "curator:2026-06-17-0738",
+      "added": "2026-06-17"
+    },
+    {
+      "id": "llamaindex",
+      "name": "LlamaIndex",
+      "url": "https://www.llamaindex.ai/",
+      "category": "agent-frameworks",
+      "summary": "LlamaIndex is a data framework for LLM applications, providing tools to ingest, structure, and access private or domain-specific data for context-aware AI agents.",
+      "why_it_matters": "It simplifies the integration of external data with LLMs for retrieval-augmented generation (RAG), serving as a foundational framework for many data-aware agent applications.",
+      "last_verified": "2026-06-17",
+      "source": "curator:2026-06-17-0738",
+      "added": "2026-06-17"
     }
   ]
 }
