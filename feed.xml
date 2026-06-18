@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Wed, 17 Jun 2026 07:39:21 +0000</lastBuildDate>
+<lastBuildDate>Thu, 18 Jun 2026 07:31:28 +0000</lastBuildDate>
+
+<item>
+  <title>OpenMontage</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#openmontage</link>
+  <guid isPermaLink="false">openmontage-2026-06-18</guid>
+  <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[An open-source, agentic video production system that includes pipelines, tools, and agent skills for comprehensive video generation. — It allows AI coding assistants to manage entire video production workflows, offering a more complete solution than typical text-to-video models.]]></description>
+</item>
 
 <item>
   <title>AgentOps</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">atoms-ai-2026-06-14</guid>
   <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Atoms is an AI-native platform that uses a team of specialized AI agents to build, deploy, and scale full-stack applications from natural language descriptions. — It enables rapid prototyping and deployment of functional applications, offering a complete business building workflow from idea to live product, unlike simpler code generation tools.]]></description>
-</item>
-
-<item>
-  <title>Publora</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#publora</link>
-  <guid isPermaLink="false">publora-2026-06-14</guid>
-  <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Publora is a social media API and MCP server for AI agents, enabling programmatic scheduling and publishing of content across 10 platforms from a single endpoint. — It simplifies social media management for AI agents by providing a unified API and MCP integration, eliminating the need to wire multiple OAuth flows for different platforms.]]></description>
 </item>
 
 </channel>

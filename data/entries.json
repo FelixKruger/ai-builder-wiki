@@ -298,7 +298,7 @@
       "category": "retrieval-search",
       "summary": "Serverless vector + full-text search on object storage — pay per query, scales to billions of vectors.",
       "why_it_matters": "When pgvector starts groaning and you don't want to babysit a Pinecone bill, turbopuffer is the 2026 sweet spot.",
-      "last_verified": "2026-05-28",
+      "last_verified": "2026-06-18",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -309,7 +309,7 @@
       "category": "app-builders",
       "summary": "Generate React/Next.js UIs from prompts — full-stack mode, git sync, deploy to Vercel in one click.",
       "why_it_matters": "Highest-fidelity prompt-to-production UI in 2026 if your stack is Next + shadcn. Treat it as a fast scaffolder, not a finisher.",
-      "last_verified": "2026-05-28",
+      "last_verified": "2026-06-18",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -320,7 +320,7 @@
       "category": "app-builders",
       "summary": "Prompt-to-app builder — full-stack, Supabase-backed, GitHub-synced.",
       "why_it_matters": "The leading non-developer-friendly app builder. Good for testing whether an idea has shape before you spend a dev week on it.",
-      "last_verified": "2026-05-28",
+      "last_verified": "2026-06-18",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -1060,6 +1060,17 @@
       "last_verified": "2026-06-17",
       "source": "curator:2026-06-17-0738",
       "added": "2026-06-17"
+    },
+    {
+      "id": "openmontage",
+      "name": "OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "category": "ai-video",
+      "summary": "An open-source, agentic video production system that includes pipelines, tools, and agent skills for comprehensive video generation.",
+      "why_it_matters": "It allows AI coding assistants to manage entire video production workflows, offering a more complete solution than typical text-to-video models.",
+      "last_verified": "2026-06-18",
+      "source": "curator:2026-06-18-0730",
+      "added": "2026-06-18"
     }
   ]
 }
