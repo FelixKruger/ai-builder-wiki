@@ -331,7 +331,7 @@
       "category": "app-builders",
       "summary": "StackBlitz's in-browser full-stack agent — runs Node in WebContainers, no local setup.",
       "why_it_matters": "When the friction of 'clone, install, run' is the bottleneck on idea velocity, Bolt removes it entirely.",
-      "last_verified": "2026-05-29",
+      "last_verified": "2026-06-19",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -782,7 +782,7 @@
       "category": "ai-coding",
       "summary": "OpenCode is an open-source, terminal-based AI coding agent that integrates with Git for commit-level code edits and supports over 100 languages.",
       "why_it_matters": "Unlike commercial AI coding assistants, OpenCode offers a free, self-hosted option with broad language support and deep codebase context for developers.",
-      "last_verified": "2026-05-28",
+      "last_verified": "2026-06-19",
       "source": "curator:2026-05-28-0710",
       "added": "2026-05-28"
     },
@@ -793,7 +793,7 @@
       "category": "evals",
       "summary": "RAMPART is a Pytest-native, open-source framework from Microsoft for testing the safety and security of AI agents during development.",
       "why_it_matters": "It provides a structured way to red-team AI agents early in the development lifecycle, complementing existing observability tools by focusing on security vulnerabilities.",
-      "last_verified": "2026-05-28",
+      "last_verified": "2026-06-19",
       "source": "curator:2026-05-28-0710",
       "added": "2026-05-28"
     },
@@ -1071,6 +1071,28 @@
       "last_verified": "2026-06-18",
       "source": "curator:2026-06-18-0730",
       "added": "2026-06-18"
+    },
+    {
+      "id": "oh-my-pi",
+      "name": "Oh-My-Pi (omp)",
+      "url": "https://github.com/can1357/oh-my-pi",
+      "category": "ai-coding",
+      "summary": "A terminal AI code agent, forked from Mario Zechner's Pi, featuring an integrated development toolchain and a code-first workflow.",
+      "why_it_matters": "It enhances AI coding by deeply integrating with Language Server Protocols, debuggers, and shells, addressing common pain points for agents in development environments.",
+      "last_verified": "2026-06-19",
+      "source": "curator:2026-06-19-0742",
+      "added": "2026-06-19"
+    },
+    {
+      "id": "codebase-memory-mcp",
+      "name": "Codebase Memory MCP",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "category": "mcp-tools",
+      "summary": "A high-performance Model Context Protocol (MCP) server designed for indexing codebases into a persistent knowledge graph.",
+      "why_it_matters": "It enables coding agents to quickly query entire codebases as context, significantly improving efficiency and reducing token costs for code-related tasks.",
+      "last_verified": "2026-06-19",
+      "source": "curator:2026-06-19-0742",
+      "added": "2026-06-19"
     }
   ]
 }
