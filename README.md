@@ -48,6 +48,10 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Oh-My-Pi (omp)](https://felixkruger.github.io/ai-builder-wiki/#oh-my-pi)** — A terminal AI code agent, forked from Mario Zechner's Pi, featuring an integrated development toolchain and a code-first workflow. _(added 2026-06-19)_
+
+- **[Codebase Memory MCP](https://felixkruger.github.io/ai-builder-wiki/#codebase-memory-mcp)** — A high-performance Model Context Protocol (MCP) server designed for indexing codebases into a persistent knowledge graph. _(added 2026-06-19)_
+
 - **[OpenMontage](https://felixkruger.github.io/ai-builder-wiki/#openmontage)** — An open-source, agentic video production system that includes pipelines, tools, and agent skills for comprehensive video generation. _(added 2026-06-18)_
 
 - **[AgentOps](https://felixkruger.github.io/ai-builder-wiki/#agentops)** — AgentOps is an observability platform specifically designed to monitor, evaluate, and debug AI agentic workflows and LLM applications. _(added 2026-06-17)_
@@ -59,10 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Skills (Vercel)](https://felixkruger.github.io/ai-builder-wiki/#vercel-skills)** — Skills is an open registry and CLI tool by Vercel for installing and managing capability packages to extend AI agent functionalities. _(added 2026-06-16)_
 
 - **[Ollama](https://felixkruger.github.io/ai-builder-wiki/#ollama)** — Ollama allows developers to run large language models locally on their own machines, providing a self-hosted AI experience. _(added 2026-06-15)_
-
-- **[BitBoard](https://felixkruger.github.io/ai-builder-wiki/#bitboard)** — BitBoard provides an analytics workspace specifically designed for monitoring and understanding the performance of AI agents. _(added 2026-06-15)_
-
-- **[Atoms](https://felixkruger.github.io/ai-builder-wiki/#atoms-ai)** — Atoms is an AI-native platform that uses a team of specialized AI agents to build, deploy, and scale full-stack applications from natural language descriptions. _(added 2026-06-14)_
 
 <!-- RECENTLY_ADDED:END -->
 

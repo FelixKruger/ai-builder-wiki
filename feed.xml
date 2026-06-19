@@ -5,7 +5,23 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Thu, 18 Jun 2026 07:31:28 +0000</lastBuildDate>
+<lastBuildDate>Fri, 19 Jun 2026 07:42:45 +0000</lastBuildDate>
+
+<item>
+  <title>Oh-My-Pi (omp)</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#oh-my-pi</link>
+  <guid isPermaLink="false">oh-my-pi-2026-06-19</guid>
+  <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[A terminal AI code agent, forked from Mario Zechner's Pi, featuring an integrated development toolchain and a code-first workflow. — It enhances AI coding by deeply integrating with Language Server Protocols, debuggers, and shells, addressing common pain points for agents in development environments.]]></description>
+</item>
+
+<item>
+  <title>Codebase Memory MCP</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#codebase-memory-mcp</link>
+  <guid isPermaLink="false">codebase-memory-mcp-2026-06-19</guid>
+  <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[A high-performance Model Context Protocol (MCP) server designed for indexing codebases into a persistent knowledge graph. — It enables coding agents to quickly query entire codebases as context, significantly improving efficiency and reducing token costs for code-related tasks.]]></description>
+</item>
 
 <item>
   <title>OpenMontage</title>
@@ -53,22 +69,6 @@
   <guid isPermaLink="false">ollama-2026-06-15</guid>
   <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Ollama allows developers to run large language models locally on their own machines, providing a self-hosted AI experience. — It offers a way to experiment with and deploy open-weight models without cloud costs, contrasting with hosted inference platforms like Groq or Together AI.]]></description>
-</item>
-
-<item>
-  <title>BitBoard</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#bitboard</link>
-  <guid isPermaLink="false">bitboard-2026-06-15</guid>
-  <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[BitBoard provides an analytics workspace specifically designed for monitoring and understanding the performance of AI agents. — It offers specialized observability for agentic workflows, a more targeted approach compared to general-purpose eval tools like Langfuse or Braintrust.]]></description>
-</item>
-
-<item>
-  <title>Atoms</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#atoms-ai</link>
-  <guid isPermaLink="false">atoms-ai-2026-06-14</guid>
-  <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Atoms is an AI-native platform that uses a team of specialized AI agents to build, deploy, and scale full-stack applications from natural language descriptions. — It enables rapid prototyping and deployment of functional applications, offering a complete business building workflow from idea to live product, unlike simpler code generation tools.]]></description>
 </item>
 
 </channel>
