@@ -904,6 +904,27 @@
         "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHclwDowbt2EvIUwrfFTwlgYUdDuA6eXy1JbHo0Mm-vXumJFOh-_wxeZ_1Zd9HzvyK5-Zi7vFeWWGulOR4yFtNEgjOyPy7kZwnxhER3ggELLh3j4s76hw=="
       ],
       "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
+    },
+    {
+      "run_id": "2026-06-20-0712",
+      "started_at": "2026-06-20T07:12:57.310933+00:00",
+      "ended_at": "2026-06-20T07:13:45.905723+00:00",
+      "added": [
+        "perplexity-computer"
+      ],
+      "refreshed": [
+        "elevenlabs",
+        "cartesia",
+        "claude-code"
+      ],
+      "removed": [],
+      "sources_checked": [
+        "gemini:gemini-2.5-flash+google-search-grounding",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuY9tX5ws2eAztHcH_RpKSij2dmN19wgwpY9kIbwSkXPHTliZoLbSEAVMM1EXsDcAXipDbVcdySH-IA7N4JNtylrc6KtnXoNJGXfq5fLgXs2geiF958yCkqBIpq65TfzGQSVpPZaNPxtck46PU1IkJsYw7gDhQz4AqsypL5Polniq1CCIhGnWiqBO78WEdCr9HfWlOJmOcpqEmyq0OERmJigKTUxf72F8QaiCUEjw=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEya06zsBp-JtTAP4sQ7hbncS0ag2WPaXYSMejFzqU0e0HANAJIhUHLRNu-HEW39j-fyefeRjYIY2xXsSvPtZKaN9gzdPecBuWiEQHuDqXJwNy9AVEqOreMaaNwdnzJ_hrByt1V3cg=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeM_R0ZzVJFVJeOjuX9mgLnfzD7gEDTVUQVDggPLL4v1F_lb-PHK5pK2VMqnUNS6dZZlnhMTTpMhHv9mBT8RXLcKsCsrur5OHvp-ENjeUbQ9TTiyof4AIuJMVEq4dDjzkOxCvsR-NQcedoBqTfapfcbbeoZwYamDH_wna0Fw=="
+      ],
+      "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
     }
   ],
   "rotation_pointer": 0

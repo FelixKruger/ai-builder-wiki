@@ -48,6 +48,8 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Perplexity Computer](https://felixkruger.github.io/ai-builder-wiki/#perplexity-computer)** — Perplexity Computer is a multi-model AI system that unifies frontier models to create and execute complex, long-running workflows. _(added 2026-06-20)_
+
 - **[Oh-My-Pi (omp)](https://felixkruger.github.io/ai-builder-wiki/#oh-my-pi)** — A terminal AI code agent, forked from Mario Zechner's Pi, featuring an integrated development toolchain and a code-first workflow. _(added 2026-06-19)_
 
 - **[Codebase Memory MCP](https://felixkruger.github.io/ai-builder-wiki/#codebase-memory-mcp)** — A high-performance Model Context Protocol (MCP) server designed for indexing codebases into a persistent knowledge graph. _(added 2026-06-19)_
@@ -61,8 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[LMCache](https://felixkruger.github.io/ai-builder-wiki/#lmcache)** — LMCache is an open-source inference caching system designed to enhance language model serving efficiency by reducing redundant computations. _(added 2026-06-16)_
 
 - **[Skills (Vercel)](https://felixkruger.github.io/ai-builder-wiki/#vercel-skills)** — Skills is an open registry and CLI tool by Vercel for installing and managing capability packages to extend AI agent functionalities. _(added 2026-06-16)_
-
-- **[Ollama](https://felixkruger.github.io/ai-builder-wiki/#ollama)** — Ollama allows developers to run large language models locally on their own machines, providing a self-hosted AI experience. _(added 2026-06-15)_
 
 <!-- RECENTLY_ADDED:END -->
 
