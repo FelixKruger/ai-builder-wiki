@@ -122,7 +122,7 @@
       "category": "ai-coding",
       "summary": "Anthropic's official terminal-native coding agent — reads your repo, edits files, runs commands, talks to MCP servers.",
       "why_it_matters": "The reference implementation for agentic coding: full-context repo understanding, permissions model, hooks, and skills. If you're building developer agents, study how it ships.",
-      "last_verified": "2026-05-30",
+      "last_verified": "2026-06-20",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -342,7 +342,7 @@
       "category": "voice-audio",
       "summary": "TTS, voice cloning, conversational AI, and the Agents platform for realtime voice.",
       "why_it_matters": "Still the quality bar for synthetic voice. The Agents platform is the fastest path from idea to a phone-callable voice agent.",
-      "last_verified": "2026-05-29",
+      "last_verified": "2026-06-20",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -353,7 +353,7 @@
       "category": "voice-audio",
       "summary": "Sonic — sub-100ms streaming TTS with state-space models. The realtime-voice latency leader.",
       "why_it_matters": "If your voice agent feels laggy, the model is usually the issue. Cartesia's the default fix.",
-      "last_verified": "2026-05-29",
+      "last_verified": "2026-06-20",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -1093,6 +1093,17 @@
       "last_verified": "2026-06-19",
       "source": "curator:2026-06-19-0742",
       "added": "2026-06-19"
+    },
+    {
+      "id": "perplexity-computer",
+      "name": "Perplexity Computer",
+      "url": "https://www.perplexity.ai/",
+      "category": "multi-agent-coding",
+      "summary": "Perplexity Computer is a multi-model AI system that unifies frontier models to create and execute complex, long-running workflows.",
+      "why_it_matters": "Unlike traditional chatbots or single-task agents, it orchestrates specialized AI models to handle entire projects, providing a comprehensive solution for complex automation.",
+      "last_verified": "2026-06-20",
+      "source": "curator:2026-06-20-0712",
+      "added": "2026-06-20"
     }
   ]
 }

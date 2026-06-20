@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Fri, 19 Jun 2026 07:42:45 +0000</lastBuildDate>
+<lastBuildDate>Sat, 20 Jun 2026 07:13:46 +0000</lastBuildDate>
+
+<item>
+  <title>Perplexity Computer</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#perplexity-computer</link>
+  <guid isPermaLink="false">perplexity-computer-2026-06-20</guid>
+  <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Perplexity Computer is a multi-model AI system that unifies frontier models to create and execute complex, long-running workflows. — Unlike traditional chatbots or single-task agents, it orchestrates specialized AI models to handle entire projects, providing a comprehensive solution for complex automation.]]></description>
+</item>
 
 <item>
   <title>Oh-My-Pi (omp)</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">vercel-skills-2026-06-16</guid>
   <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Skills is an open registry and CLI tool by Vercel for installing and managing capability packages to extend AI agent functionalities. — It standardizes and simplifies the process of adding tools to AI agents, fostering a reusable ecosystem for agent builders and promoting interoperability.]]></description>
-</item>
-
-<item>
-  <title>Ollama</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#ollama</link>
-  <guid isPermaLink="false">ollama-2026-06-15</guid>
-  <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Ollama allows developers to run large language models locally on their own machines, providing a self-hosted AI experience. — It offers a way to experiment with and deploy open-weight models without cloud costs, contrasting with hosted inference platforms like Groq or Together AI.]]></description>
 </item>
 
 </channel>
