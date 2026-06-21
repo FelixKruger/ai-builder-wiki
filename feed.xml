@@ -5,7 +5,23 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Sat, 20 Jun 2026 07:13:46 +0000</lastBuildDate>
+<lastBuildDate>Sun, 21 Jun 2026 07:30:26 +0000</lastBuildDate>
+
+<item>
+  <title>Kimi K2.6</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#kimi-k2-6</link>
+  <guid isPermaLink="false">kimi-k2-6-2026-06-21</guid>
+  <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Kimi K2.6 is an open-source, multimodal agentic model from Moonshot AI, excelling in long-horizon coding, coding-driven design, and orchestrating large agent swarms. — This model pushes the boundaries for open-weight capabilities in complex, multi-step coding and agentic tasks, offering advanced features comparable to some closed-source frontier models.]]></description>
+</item>
+
+<item>
+  <title>Whacka</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#whacka</link>
+  <guid isPermaLink="false">whacka-2026-06-21</guid>
+  <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Whacka is a mobile-first AI app builder that generates functional progressive web apps from natural language prompts, enabling fast creation and sharing. — Unlike many AI app builders that often target desktop workflows or larger enterprise applications, Whacka focuses on phone-native creation of small, focused utilities for rapid deployment and sharing.]]></description>
+</item>
 
 <item>
   <title>Perplexity Computer</title>
@@ -53,22 +69,6 @@
   <guid isPermaLink="false">llamaindex-2026-06-17</guid>
   <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[LlamaIndex is a data framework for LLM applications, providing tools to ingest, structure, and access private or domain-specific data for context-aware AI agents. — It simplifies the integration of external data with LLMs for retrieval-augmented generation (RAG), serving as a foundational framework for many data-aware agent applications.]]></description>
-</item>
-
-<item>
-  <title>LMCache</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#lmcache</link>
-  <guid isPermaLink="false">lmcache-2026-06-16</guid>
-  <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[LMCache is an open-source inference caching system designed to enhance language model serving efficiency by reducing redundant computations. — It optimizes the cost and latency of running LLMs in production, offering a critical component for scaling AI applications more efficiently than uncached inference.]]></description>
-</item>
-
-<item>
-  <title>Skills (Vercel)</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#vercel-skills</link>
-  <guid isPermaLink="false">vercel-skills-2026-06-16</guid>
-  <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Skills is an open registry and CLI tool by Vercel for installing and managing capability packages to extend AI agent functionalities. — It standardizes and simplifies the process of adding tools to AI agents, fostering a reusable ecosystem for agent builders and promoting interoperability.]]></description>
 </item>
 
 </channel>
