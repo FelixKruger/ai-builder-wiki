@@ -364,7 +364,7 @@
       "category": "mcp-tools",
       "summary": "Open standard for connecting LLMs to tools, data, and prompts. Now supported by Claude, ChatGPT, Cursor, and most agent frameworks.",
       "why_it_matters": "MCP won the 'how do agents talk to tools' debate. If you're building anything an agent needs to use, ship an MCP server.",
-      "last_verified": "2026-05-30",
+      "last_verified": "2026-06-21",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -375,7 +375,7 @@
       "category": "mcp-tools",
       "summary": "Registry and one-click installer for MCP servers — discover, install, and host MCP servers without local config.",
       "why_it_matters": "The npm of the MCP ecosystem in 2026. Start here when you need an MCP server before writing one.",
-      "last_verified": "2026-05-30",
+      "last_verified": "2026-06-21",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -804,7 +804,7 @@
       "category": "agent-frameworks",
       "summary": "OpenClaw is a free and open-source personal AI assistant that runs locally on users' devices, connecting AI models to numerous integrations.",
       "why_it_matters": "It offers a privacy-focused, local-first approach to AI assistance with extensive integration capabilities and self-extending skill development, contrasting with cloud-dependent alternatives.",
-      "last_verified": "2026-05-30",
+      "last_verified": "2026-06-21",
       "source": "curator:2026-05-30-0654",
       "added": "2026-05-30"
     },
@@ -1104,6 +1104,28 @@
       "last_verified": "2026-06-20",
       "source": "curator:2026-06-20-0712",
       "added": "2026-06-20"
+    },
+    {
+      "id": "kimi-k2-6",
+      "name": "Kimi K2.6",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2.6",
+      "category": "open-weights",
+      "summary": "Kimi K2.6 is an open-source, multimodal agentic model from Moonshot AI, excelling in long-horizon coding, coding-driven design, and orchestrating large agent swarms.",
+      "why_it_matters": "This model pushes the boundaries for open-weight capabilities in complex, multi-step coding and agentic tasks, offering advanced features comparable to some closed-source frontier models.",
+      "last_verified": "2026-06-21",
+      "source": "curator:2026-06-21-0729",
+      "added": "2026-06-21"
+    },
+    {
+      "id": "whacka",
+      "name": "Whacka",
+      "url": "https://whacka.app/",
+      "category": "app-builders",
+      "summary": "Whacka is a mobile-first AI app builder that generates functional progressive web apps from natural language prompts, enabling fast creation and sharing.",
+      "why_it_matters": "Unlike many AI app builders that often target desktop workflows or larger enterprise applications, Whacka focuses on phone-native creation of small, focused utilities for rapid deployment and sharing.",
+      "last_verified": "2026-06-21",
+      "source": "curator:2026-06-21-0729",
+      "added": "2026-06-21"
     }
   ]
 }
