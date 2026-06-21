@@ -48,6 +48,10 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Kimi K2.6](https://felixkruger.github.io/ai-builder-wiki/#kimi-k2-6)** — Kimi K2.6 is an open-source, multimodal agentic model from Moonshot AI, excelling in long-horizon coding, coding-driven design, and orchestrating large agent swarms. _(added 2026-06-21)_
+
+- **[Whacka](https://felixkruger.github.io/ai-builder-wiki/#whacka)** — Whacka is a mobile-first AI app builder that generates functional progressive web apps from natural language prompts, enabling fast creation and sharing. _(added 2026-06-21)_
+
 - **[Perplexity Computer](https://felixkruger.github.io/ai-builder-wiki/#perplexity-computer)** — Perplexity Computer is a multi-model AI system that unifies frontier models to create and execute complex, long-running workflows. _(added 2026-06-20)_
 
 - **[Oh-My-Pi (omp)](https://felixkruger.github.io/ai-builder-wiki/#oh-my-pi)** — A terminal AI code agent, forked from Mario Zechner's Pi, featuring an integrated development toolchain and a code-first workflow. _(added 2026-06-19)_
@@ -59,10 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[AgentOps](https://felixkruger.github.io/ai-builder-wiki/#agentops)** — AgentOps is an observability platform specifically designed to monitor, evaluate, and debug AI agentic workflows and LLM applications. _(added 2026-06-17)_
 
 - **[LlamaIndex](https://felixkruger.github.io/ai-builder-wiki/#llamaindex)** — LlamaIndex is a data framework for LLM applications, providing tools to ingest, structure, and access private or domain-specific data for context-aware AI agents. _(added 2026-06-17)_
-
-- **[LMCache](https://felixkruger.github.io/ai-builder-wiki/#lmcache)** — LMCache is an open-source inference caching system designed to enhance language model serving efficiency by reducing redundant computations. _(added 2026-06-16)_
-
-- **[Skills (Vercel)](https://felixkruger.github.io/ai-builder-wiki/#vercel-skills)** — Skills is an open registry and CLI tool by Vercel for installing and managing capability packages to extend AI agent functionalities. _(added 2026-06-16)_
 
 <!-- RECENTLY_ADDED:END -->
 
