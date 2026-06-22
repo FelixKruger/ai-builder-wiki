@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Sun, 21 Jun 2026 07:30:26 +0000</lastBuildDate>
+<lastBuildDate>Mon, 22 Jun 2026 07:46:56 +0000</lastBuildDate>
+
+<item>
+  <title>Claude Opus 4.8</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#claude-opus-4-8</link>
+  <guid isPermaLink="false">claude-opus-4-8-2026-06-22</guid>
+  <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Anthropic released Claude Opus 4.8, its most capable publicly available model, offering improved performance in coding, agentic skills, and long-horizon reasoning. — This model provides enhanced capabilities for complex tasks and agentic workflows, setting a new benchmark for frontier models available through the Claude API.]]></description>
+</item>
 
 <item>
   <title>Kimi K2.6</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">agentops-2026-06-17</guid>
   <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[AgentOps is an observability platform specifically designed to monitor, evaluate, and debug AI agentic workflows and LLM applications. — It offers specialized tracing and logging for complex agent interactions, providing deeper insights compared to general LLM observability tools.]]></description>
-</item>
-
-<item>
-  <title>LlamaIndex</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#llamaindex</link>
-  <guid isPermaLink="false">llamaindex-2026-06-17</guid>
-  <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[LlamaIndex is a data framework for LLM applications, providing tools to ingest, structure, and access private or domain-specific data for context-aware AI agents. — It simplifies the integration of external data with LLMs for retrieval-augmented generation (RAG), serving as a foundational framework for many data-aware agent applications.]]></description>
 </item>
 
 </channel>
