@@ -48,6 +48,8 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Claude Opus 4.8](https://felixkruger.github.io/ai-builder-wiki/#claude-opus-4-8)** — Anthropic released Claude Opus 4.8, its most capable publicly available model, offering improved performance in coding, agentic skills, and long-horizon reasoning. _(added 2026-06-22)_
+
 - **[Kimi K2.6](https://felixkruger.github.io/ai-builder-wiki/#kimi-k2-6)** — Kimi K2.6 is an open-source, multimodal agentic model from Moonshot AI, excelling in long-horizon coding, coding-driven design, and orchestrating large agent swarms. _(added 2026-06-21)_
 
 - **[Whacka](https://felixkruger.github.io/ai-builder-wiki/#whacka)** — Whacka is a mobile-first AI app builder that generates functional progressive web apps from natural language prompts, enabling fast creation and sharing. _(added 2026-06-21)_
@@ -61,8 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[OpenMontage](https://felixkruger.github.io/ai-builder-wiki/#openmontage)** — An open-source, agentic video production system that includes pipelines, tools, and agent skills for comprehensive video generation. _(added 2026-06-18)_
 
 - **[AgentOps](https://felixkruger.github.io/ai-builder-wiki/#agentops)** — AgentOps is an observability platform specifically designed to monitor, evaluate, and debug AI agentic workflows and LLM applications. _(added 2026-06-17)_
-
-- **[LlamaIndex](https://felixkruger.github.io/ai-builder-wiki/#llamaindex)** — LlamaIndex is a data framework for LLM applications, providing tools to ingest, structure, and access private or domain-specific data for context-aware AI agents. _(added 2026-06-17)_
 
 <!-- RECENTLY_ADDED:END -->
 
