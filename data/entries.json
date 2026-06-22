@@ -133,18 +133,18 @@
       "category": "ai-coding",
       "summary": "AI-first VS Code fork with Composer, Tab autocomplete, and a strong agent loop.",
       "why_it_matters": "The dominant IDE among working AI builders in 2026 — diff review UX is the bar everyone else is chasing.",
-      "last_verified": "2026-05-31",
+      "last_verified": "2026-06-22",
       "source": "seed",
       "added": "2026-04-27"
     },
     {
       "id": "windsurf",
       "name": "Windsurf",
-      "url": "https://windsurf.com/",
+      "url": "https://devin.ai/desktop",
       "category": "ai-coding",
       "summary": "Codeium's agentic IDE with Cascade — strong long-running task execution, now part of OpenAI.",
       "why_it_matters": "Cascade pioneered the 'agent that keeps going across many turns' pattern; worth comparing against Cursor Composer for taste.",
-      "last_verified": "2026-05-31",
+      "last_verified": "2026-06-22",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -815,7 +815,7 @@
       "category": "agent-frameworks",
       "summary": "Mistral Vibe is a unified AI agent platform for work and coding, designed for long-running, multi-step tasks across various environments.",
       "why_it_matters": "It integrates diverse productivity and coding functions into a single agent, enabling comprehensive automation of complex workflows beyond simple conversational AI.",
-      "last_verified": "2026-05-30",
+      "last_verified": "2026-06-22",
       "source": "curator:2026-05-30-0654",
       "added": "2026-05-30"
     },
@@ -1126,6 +1126,17 @@
       "last_verified": "2026-06-21",
       "source": "curator:2026-06-21-0729",
       "added": "2026-06-21"
+    },
+    {
+      "id": "claude-opus-4-8",
+      "name": "Claude Opus 4.8",
+      "url": "https://www.anthropic.com/news/claude-opus-4-8",
+      "category": "hosted-apis",
+      "summary": "Anthropic released Claude Opus 4.8, its most capable publicly available model, offering improved performance in coding, agentic skills, and long-horizon reasoning.",
+      "why_it_matters": "This model provides enhanced capabilities for complex tasks and agentic workflows, setting a new benchmark for frontier models available through the Claude API.",
+      "last_verified": "2026-06-22",
+      "source": "curator:2026-06-22-0746",
+      "added": "2026-06-22"
     }
   ]
 }
