@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Wed, 24 Jun 2026 07:03:03 +0000</lastBuildDate>
+<lastBuildDate>Thu, 25 Jun 2026 07:03:55 +0000</lastBuildDate>
+
+<item>
+  <title>Mindstone Rebel</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#mindstone-rebel</link>
+  <guid isPermaLink="false">mindstone-rebel-2026-06-25</guid>
+  <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Mindstone Rebel is a desktop AI workspace that unifies agent memory, files, meetings, and tools to facilitate agentic workflows. — It provides a comprehensive environment for orchestrating AI agents across various data sources and tools, offering a more integrated approach compared to fragmented agent development.]]></description>
+</item>
 
 <item>
   <title>Claude Opus 4.8</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">openmontage-2026-06-18</guid>
   <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[An open-source, agentic video production system that includes pipelines, tools, and agent skills for comprehensive video generation. — It allows AI coding assistants to manage entire video production workflows, offering a more complete solution than typical text-to-video models.]]></description>
-</item>
-
-<item>
-  <title>AgentOps</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#agentops</link>
-  <guid isPermaLink="false">agentops-2026-06-17</guid>
-  <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[AgentOps is an observability platform specifically designed to monitor, evaluate, and debug AI agentic workflows and LLM applications. — It offers specialized tracing and logging for complex agent interactions, providing deeper insights compared to general LLM observability tools.]]></description>
 </item>
 
 </channel>

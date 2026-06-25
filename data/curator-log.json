@@ -1006,6 +1006,31 @@
         "gemini:gemini-2.5-flash+google-search-grounding"
       ],
       "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
+    },
+    {
+      "run_id": "2026-06-25-0703",
+      "started_at": "2026-06-25T07:03:12.358767+00:00",
+      "ended_at": "2026-06-25T07:03:55.428072+00:00",
+      "added": [
+        "mindstone-rebel"
+      ],
+      "refreshed": [
+        "deepeval",
+        "luma-dream-machine",
+        "gemini-api"
+      ],
+      "removed": [],
+      "sources_checked": [
+        "gemini:gemini-2.5-flash+google-search-grounding",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8t562sSQCkCKxOg0tTZb5Nwo0pHmPg5skgoCXNkOsbL4-D-dhps1eCBFGMm0STZGCY43q5Pp55J2rUvUZgp1AYriuhLmvUTc4RAzbE4ebwAcZbhJePfU3z-YU0ZvvPw2wu8lbnUCfkBCkGz7NZTou7rSvorpA3S6y1r3sRZfwg8LUTcLqCnoBbQ==",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFistVkGNVrOxZ4ZLoau-MskTdmHS4_MP8akCoc2I-88VFxYrBKNisEsSrNRorCS3PPjLTzegd7lrYupo8esslfkuMl9_b6JakkGUHY7wkIlBLmBb7s2KnFUzs=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6hqaCTVh_YI_c0Lr6DWj2kkpFCT1nKttEhYDua5sLQe72agw_aPs030Sn4JUpK6iz2SWi_dZX0b7r8x3ePvxZt6JjF1W9URKE8iBQyI0uKC__1jeNqAygo23-tNnjv5-kaoTd4wLZm9ez7pdz",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7erYlbEUAuzkAz6Bbh7lPQ8IZKOu-jOO0fFa6Hlbxdxy9qdGCc8pSNOPmV_nLNHgGlaDNw-cl-iPlotMA7exteawlIp2H3AxFNq69w6jcMfg3MniTUUzehCvjZrNRhZIKQzBEHOaTtP2Z3zQeTNH6",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq93qP09LicTirXsgov8lwzXLFh2xuQrkE3klKiw4A_Fm4haUgsh8i5SxPxiskzAPbbgx4bZo7sL9HvyRc3aGl2i26xXF5j1an4DOiZWNcH-OLzo-vcNU8HDIApZLbaEhzyWcVAiHd7ug=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG27uyUiOfbEtlCI9SfPgqQFrxmbKEmSxqQEP-IGVQzw82b-oZKwr-askiJx7dHxJVZ4tYQF6XF3hbbcjAq_ORvctrZokI2Rcq_XiTXfpXg-VgAdKKMXmndqA==",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpoBC24ZiKmccTueTDEVTahoXR4JL95OyRZvQXS9oIcOoBfb8rfA48aDVPRPOirrWmMiqC-B-s8Pzv3p1xUKDKTHG7nYXCGxWzMS48bL3C1G6iGUvdcZ0lwIj4O_JaY0Gh_rjTVbais7z5EeUPOp55BYuY3yzIb4JKrokOfQ8yXyEqNwb20mUdA2eOXFX1W9QBirR5j3IBkpu7PbWrDkKDm7BuxKCQoAB4Wpau"
+      ],
+      "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
     }
   ],
   "rotation_pointer": 0
