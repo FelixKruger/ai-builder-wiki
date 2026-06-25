@@ -48,6 +48,8 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Mindstone Rebel](https://felixkruger.github.io/ai-builder-wiki/#mindstone-rebel)** — Mindstone Rebel is a desktop AI workspace that unifies agent memory, files, meetings, and tools to facilitate agentic workflows. _(added 2026-06-25)_
+
 - **[Claude Opus 4.8](https://felixkruger.github.io/ai-builder-wiki/#claude-opus-4-8)** — Anthropic released Claude Opus 4.8, its most capable publicly available model, offering improved performance in coding, agentic skills, and long-horizon reasoning. _(added 2026-06-22)_
 
 - **[Kimi K2.6](https://felixkruger.github.io/ai-builder-wiki/#kimi-k2-6)** — Kimi K2.6 is an open-source, multimodal agentic model from Moonshot AI, excelling in long-horizon coding, coding-driven design, and orchestrating large agent swarms. _(added 2026-06-21)_
@@ -61,8 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Codebase Memory MCP](https://felixkruger.github.io/ai-builder-wiki/#codebase-memory-mcp)** — A high-performance Model Context Protocol (MCP) server designed for indexing codebases into a persistent knowledge graph. _(added 2026-06-19)_
 
 - **[OpenMontage](https://felixkruger.github.io/ai-builder-wiki/#openmontage)** — An open-source, agentic video production system that includes pipelines, tools, and agent skills for comprehensive video generation. _(added 2026-06-18)_
-
-- **[AgentOps](https://felixkruger.github.io/ai-builder-wiki/#agentops)** — AgentOps is an observability platform specifically designed to monitor, evaluate, and debug AI agentic workflows and LLM applications. _(added 2026-06-17)_
 
 <!-- RECENTLY_ADDED:END -->
 
