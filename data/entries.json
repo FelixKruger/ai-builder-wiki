@@ -199,7 +199,7 @@
       "category": "hosted-apis",
       "summary": "Gemini 2.5 Pro / Flash with 2M-token context, native multimodal, and grounding-with-Search.",
       "why_it_matters": "If your workload is video, very-long-context, or needs fresh web grounding without your own RAG, start here.",
-      "last_verified": "2026-06-02",
+      "last_verified": "2026-06-25",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -848,7 +848,7 @@
       "category": "evals",
       "summary": "DeepEval is an open-source, Python-first LLM evaluation framework that provides a pytest-native testing experience for AI applications.",
       "why_it_matters": "It offers over 50 research-backed metrics for evaluating RAG, agents, and chatbots, enabling developers to integrate LLM evaluation into CI/CD workflows.",
-      "last_verified": "2026-06-01",
+      "last_verified": "2026-06-25",
       "source": "curator:2026-06-01-0733",
       "added": "2026-06-01"
     },
@@ -859,7 +859,7 @@
       "category": "ai-video",
       "summary": "Luma Dream Machine generates realistic, high-quality videos from text or image prompts, with capabilities like cinematic camera movements.",
       "why_it_matters": "It offers native 1080p output and a Draft Mode for previewing low-resolution shots, which helps creators iterate efficiently and save resources.",
-      "last_verified": "2026-06-01",
+      "last_verified": "2026-06-25",
       "source": "curator:2026-06-01-0733",
       "added": "2026-06-01"
     },
@@ -1137,6 +1137,17 @@
       "last_verified": "2026-06-22",
       "source": "curator:2026-06-22-0746",
       "added": "2026-06-22"
+    },
+    {
+      "id": "mindstone-rebel",
+      "name": "Mindstone Rebel",
+      "url": "https://www.mindstone.com/",
+      "category": "multi-agent-coding",
+      "summary": "Mindstone Rebel is a desktop AI workspace that unifies agent memory, files, meetings, and tools to facilitate agentic workflows.",
+      "why_it_matters": "It provides a comprehensive environment for orchestrating AI agents across various data sources and tools, offering a more integrated approach compared to fragmented agent development.",
+      "last_verified": "2026-06-25",
+      "source": "curator:2026-06-25-0703",
+      "added": "2026-06-25"
     }
   ]
 }
