@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Thu, 25 Jun 2026 07:03:55 +0000</lastBuildDate>
+<lastBuildDate>Fri, 26 Jun 2026 07:10:16 +0000</lastBuildDate>
+
+<item>
+  <title>OpenKnowledge</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#openknowledge</link>
+  <guid isPermaLink="false">openknowledge-2026-06-26</guid>
+  <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[OpenKnowledge is an open-source markdown editor that integrates directly with AI coding agents like Claude and Codex, available as a MacOS app or web UI. — It offers a Notion-like experience for collaborative markdown editing with built-in AI agent support, contrasting with existing editors that often require community plugins for deep AI integration.]]></description>
+</item>
 
 <item>
   <title>Mindstone Rebel</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">codebase-memory-mcp-2026-06-19</guid>
   <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[A high-performance Model Context Protocol (MCP) server designed for indexing codebases into a persistent knowledge graph. — It enables coding agents to quickly query entire codebases as context, significantly improving efficiency and reducing token costs for code-related tasks.]]></description>
-</item>
-
-<item>
-  <title>OpenMontage</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#openmontage</link>
-  <guid isPermaLink="false">openmontage-2026-06-18</guid>
-  <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[An open-source, agentic video production system that includes pipelines, tools, and agent skills for comprehensive video generation. — It allows AI coding assistants to manage entire video production workflows, offering a more complete solution than typical text-to-video models.]]></description>
 </item>
 
 </channel>
