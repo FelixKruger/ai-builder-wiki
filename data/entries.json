@@ -210,7 +210,7 @@
       "category": "inference-platforms",
       "summary": "Single API for hundreds of models with automatic failover and unified billing.",
       "why_it_matters": "The pragmatic abstraction layer when you don't want to hard-code one provider. Useful for model A/B and graceful fallback.",
-      "last_verified": "2026-06-02",
+      "last_verified": "2026-06-26",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -221,7 +221,7 @@
       "category": "agent-frameworks",
       "summary": "Anthropic's official SDK for building agents that share Claude Code's runtime — tools, MCP, hooks, subagents.",
       "why_it_matters": "If you want Claude Code's agent harness for your own product, this is the supported path. Less reinvention than building from raw API calls.",
-      "last_verified": "2026-06-02",
+      "last_verified": "2026-06-26",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -870,7 +870,7 @@
       "category": "ai-coding",
       "summary": "A lightweight Python tool that converts various document formats like PDFs, Word, and Excel into clean Markdown for AI processing.",
       "why_it_matters": "This tool simplifies preparing unstructured data for AI, enabling coding agents to more effectively analyze and summarize content compared to feeding raw, complex document formats. It addresses a common data preparation bottleneck for AI builders.",
-      "last_verified": "2026-06-02",
+      "last_verified": "2026-06-26",
       "source": "curator:2026-06-02-0728",
       "added": "2026-06-02"
     },
@@ -1148,6 +1148,17 @@
       "last_verified": "2026-06-25",
       "source": "curator:2026-06-25-0703",
       "added": "2026-06-25"
+    },
+    {
+      "id": "openknowledge",
+      "name": "OpenKnowledge",
+      "url": "https://openknowledge.ai/",
+      "category": "ai-coding",
+      "summary": "OpenKnowledge is an open-source markdown editor that integrates directly with AI coding agents like Claude and Codex, available as a MacOS app or web UI.",
+      "why_it_matters": "It offers a Notion-like experience for collaborative markdown editing with built-in AI agent support, contrasting with existing editors that often require community plugins for deep AI integration.",
+      "last_verified": "2026-06-26",
+      "source": "curator:2026-06-26-0709",
+      "added": "2026-06-26"
     }
   ]
 }
