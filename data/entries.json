@@ -232,7 +232,7 @@
       "category": "agent-frameworks",
       "summary": "Graph-based agent orchestration from LangChain — durable execution, human-in-the-loop, time-travel debugging.",
       "why_it_matters": "When your agent has real branching state and you need to checkpoint/replay, the graph model pays off.",
-      "last_verified": "2026-06-03",
+      "last_verified": "2026-06-27",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -243,7 +243,7 @@
       "category": "agent-frameworks",
       "summary": "TypeScript-first agent framework — workflows, memory, evals, and a local dev playground.",
       "why_it_matters": "The most ergonomic TS option in 2026 for builders who don't want to leave Node. Strong eval story baked in.",
-      "last_verified": "2026-06-03",
+      "last_verified": "2026-06-27",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -881,7 +881,7 @@
       "category": "agent-memory",
       "summary": "CoreMem allows users to build and share portable collections of context, or 'mems,' with any AI agent via URL, extensions, or the Model Context Protocol.",
       "why_it_matters": "It provides a persistent and shareable memory layer, solving the problem of AI agents losing context across different sessions or when switching between various tools. This is crucial for building reliable and consistent agentic workflows.",
-      "last_verified": "2026-06-02",
+      "last_verified": "2026-06-27",
       "source": "curator:2026-06-02-0728",
       "added": "2026-06-02"
     },
@@ -1159,6 +1159,17 @@
       "last_verified": "2026-06-26",
       "source": "curator:2026-06-26-0709",
       "added": "2026-06-26"
+    },
+    {
+      "id": "vercel-eve",
+      "name": "Eve (Vercel)",
+      "url": "https://github.com/vercel/eve",
+      "category": "agent-frameworks",
+      "summary": "Eve is an open-source TypeScript framework for building, deploying, and operating durable AI agents with a filesystem-first architecture.",
+      "why_it_matters": "It offers a streamlined, Vercel-native approach to agent development, simplifying deployment and integrating core capabilities through a file-based structure, distinguishing it from general-purpose frameworks.",
+      "last_verified": "2026-06-27",
+      "source": "curator:2026-06-27-0657",
+      "added": "2026-06-27"
     }
   ]
 }
