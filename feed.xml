@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Fri, 26 Jun 2026 07:10:16 +0000</lastBuildDate>
+<lastBuildDate>Sat, 27 Jun 2026 06:58:15 +0000</lastBuildDate>
+
+<item>
+  <title>Eve (Vercel)</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#vercel-eve</link>
+  <guid isPermaLink="false">vercel-eve-2026-06-27</guid>
+  <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Eve is an open-source TypeScript framework for building, deploying, and operating durable AI agents with a filesystem-first architecture. — It offers a streamlined, Vercel-native approach to agent development, simplifying deployment and integrating core capabilities through a file-based structure, distinguishing it from general-purpose frameworks.]]></description>
+</item>
 
 <item>
   <title>OpenKnowledge</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">oh-my-pi-2026-06-19</guid>
   <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[A terminal AI code agent, forked from Mario Zechner's Pi, featuring an integrated development toolchain and a code-first workflow. — It enhances AI coding by deeply integrating with Language Server Protocols, debuggers, and shells, addressing common pain points for agents in development environments.]]></description>
-</item>
-
-<item>
-  <title>Codebase Memory MCP</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#codebase-memory-mcp</link>
-  <guid isPermaLink="false">codebase-memory-mcp-2026-06-19</guid>
-  <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[A high-performance Model Context Protocol (MCP) server designed for indexing codebases into a persistent knowledge graph. — It enables coding agents to quickly query entire codebases as context, significantly improving efficiency and reducing token costs for code-related tasks.]]></description>
 </item>
 
 </channel>
