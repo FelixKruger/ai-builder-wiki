@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Sat, 27 Jun 2026 06:58:15 +0000</lastBuildDate>
+<lastBuildDate>Sun, 28 Jun 2026 07:14:29 +0000</lastBuildDate>
+
+<item>
+  <title>Heron</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#heron</link>
+  <guid isPermaLink="false">heron-2026-06-28</guid>
+  <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[An open-source passive network analyzer and AI agent auditor that uses eBPF to observe TLS-encrypted LLM calls and reconstruct agent activity. — It provides deep observability into AI agent behavior and LLM traffic at the network level, allowing debugging and verification without modifying agent code or introducing proxies.]]></description>
+</item>
 
 <item>
   <title>Eve (Vercel)</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">perplexity-computer-2026-06-20</guid>
   <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Perplexity Computer is a multi-model AI system that unifies frontier models to create and execute complex, long-running workflows. — Unlike traditional chatbots or single-task agents, it orchestrates specialized AI models to handle entire projects, providing a comprehensive solution for complex automation.]]></description>
-</item>
-
-<item>
-  <title>Oh-My-Pi (omp)</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#oh-my-pi</link>
-  <guid isPermaLink="false">oh-my-pi-2026-06-19</guid>
-  <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[A terminal AI code agent, forked from Mario Zechner's Pi, featuring an integrated development toolchain and a code-first workflow. — It enhances AI coding by deeply integrating with Language Server Protocols, debuggers, and shells, addressing common pain points for agents in development environments.]]></description>
 </item>
 
 </channel>

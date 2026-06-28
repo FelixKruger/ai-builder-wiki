@@ -48,6 +48,8 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Heron](https://felixkruger.github.io/ai-builder-wiki/#heron)** — An open-source passive network analyzer and AI agent auditor that uses eBPF to observe TLS-encrypted LLM calls and reconstruct agent activity. _(added 2026-06-28)_
+
 - **[Eve (Vercel)](https://felixkruger.github.io/ai-builder-wiki/#vercel-eve)** — Eve is an open-source TypeScript framework for building, deploying, and operating durable AI agents with a filesystem-first architecture. _(added 2026-06-27)_
 
 - **[OpenKnowledge](https://felixkruger.github.io/ai-builder-wiki/#openknowledge)** — OpenKnowledge is an open-source markdown editor that integrates directly with AI coding agents like Claude and Codex, available as a MacOS app or web UI. _(added 2026-06-26)_
@@ -61,8 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Whacka](https://felixkruger.github.io/ai-builder-wiki/#whacka)** — Whacka is a mobile-first AI app builder that generates functional progressive web apps from natural language prompts, enabling fast creation and sharing. _(added 2026-06-21)_
 
 - **[Perplexity Computer](https://felixkruger.github.io/ai-builder-wiki/#perplexity-computer)** — Perplexity Computer is a multi-model AI system that unifies frontier models to create and execute complex, long-running workflows. _(added 2026-06-20)_
-
-- **[Oh-My-Pi (omp)](https://felixkruger.github.io/ai-builder-wiki/#oh-my-pi)** — A terminal AI code agent, forked from Mario Zechner's Pi, featuring an integrated development toolchain and a code-first workflow. _(added 2026-06-19)_
 
 <!-- RECENTLY_ADDED:END -->
 
