@@ -639,7 +639,7 @@
       "category": "voice-audio",
       "summary": "Suno v5 is an AI music generation tool that creates full-length tracks with human-like vocals across various genres.",
       "why_it_matters": "This tool allows creators to produce original, royalty-free music efficiently, providing a cost-effective alternative to traditional music production.",
-      "last_verified": "2026-06-03",
+      "last_verified": "2026-06-28",
       "source": "curator:2026-05-18-0634",
       "added": "2026-05-18"
     },
@@ -892,7 +892,7 @@
       "category": "app-builders",
       "summary": "An open-source SDK and CLI that enables developers and coding agents to define and deploy complete application backends in code.",
       "why_it_matters": "It simplifies backend development by automating database, authentication, and API provisioning, allowing rapid movement from prototype to production with enterprise-grade security on Microsoft Fabric.",
-      "last_verified": "2026-06-03",
+      "last_verified": "2026-06-28",
       "source": "curator:2026-06-03-0731",
       "added": "2026-06-03"
     },
@@ -903,7 +903,7 @@
       "category": "hosted-apis",
       "summary": "A large language model built on a fully sub-quadratic sparse-attention architecture, offering a native 12 million token context window.",
       "why_it_matters": "It provides significantly increased context windows and faster inference at a much lower cost than traditional transformer-based models, making long-context reasoning practical for agents.",
-      "last_verified": "2026-06-03",
+      "last_verified": "2026-06-28",
       "source": "curator:2026-06-03-0731",
       "added": "2026-06-03"
     },
@@ -1170,6 +1170,17 @@
       "last_verified": "2026-06-27",
       "source": "curator:2026-06-27-0657",
       "added": "2026-06-27"
+    },
+    {
+      "id": "heron",
+      "name": "Heron",
+      "url": "https://github.com/Netis/heron",
+      "category": "evals",
+      "summary": "An open-source passive network analyzer and AI agent auditor that uses eBPF to observe TLS-encrypted LLM calls and reconstruct agent activity.",
+      "why_it_matters": "It provides deep observability into AI agent behavior and LLM traffic at the network level, allowing debugging and verification without modifying agent code or introducing proxies.",
+      "last_verified": "2026-06-28",
+      "source": "curator:2026-06-28-0713",
+      "added": "2026-06-28"
     }
   ]
 }
