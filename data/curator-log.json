@@ -1112,6 +1112,26 @@
         "gemini:gemini-2.5-flash+google-search-grounding"
       ],
       "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
+    },
+    {
+      "run_id": "2026-06-30-0709",
+      "started_at": "2026-06-30T07:09:28.923870+00:00",
+      "ended_at": "2026-06-30T07:10:23.902509+00:00",
+      "added": [
+        "warp-terminal"
+      ],
+      "refreshed": [
+        "ob1",
+        "you-com-api",
+        "helicone"
+      ],
+      "removed": [],
+      "sources_checked": [
+        "gemini:gemini-2.5-flash+google-search-grounding",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWQy2x_FG0Jt946FdHRXnDySlIxP9WBV3tveQzCa4zcQMyFb9C88V56E-dOqVGP_l1VCvMmEtSvUQaFanFMOuVk4i9ExOAZKmCi04zK_XiwqKvSfcCRSX4Q1lB7oQaGcax8ZkgUg2rWLweI5mYCtqwP1j6WnvykrUja73LKc8-LmZ0xp9RZxBIAfMHedNSRfa7YPud_cMeJQ85eTiOLHNcaA==",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5cy-jeyuW_Pfw6lbICm04T4GDkJKJFo1iFcyvD2fBYUBeqwImGz4Z0TFZ-bCShd2zB0mFWELq1at-ckVRU4-UsKV87YorA1r6roEcyv5CY7TzBO-9nkSedenomeZV0ixNEHWKqqDPFVtoAk6Z-IMcShBk7stqjBiYEWwuGfOMfT-753cmk0mSnw=="
+      ],
+      "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
     }
   ],
   "rotation_pointer": 0
