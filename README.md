@@ -48,6 +48,8 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Warp](https://felixkruger.github.io/ai-builder-wiki/#warp-terminal)** — Warp is a modern terminal that integrates AI to translate natural language into shell commands and execute multi-step tasks. _(added 2026-06-30)_
+
 - **[Heron](https://felixkruger.github.io/ai-builder-wiki/#heron)** — An open-source passive network analyzer and AI agent auditor that uses eBPF to observe TLS-encrypted LLM calls and reconstruct agent activity. _(added 2026-06-28)_
 
 - **[Eve (Vercel)](https://felixkruger.github.io/ai-builder-wiki/#vercel-eve)** — Eve is an open-source TypeScript framework for building, deploying, and operating durable AI agents with a filesystem-first architecture. _(added 2026-06-27)_
@@ -61,8 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Kimi K2.6](https://felixkruger.github.io/ai-builder-wiki/#kimi-k2-6)** — Kimi K2.6 is an open-source, multimodal agentic model from Moonshot AI, excelling in long-horizon coding, coding-driven design, and orchestrating large agent swarms. _(added 2026-06-21)_
 
 - **[Whacka](https://felixkruger.github.io/ai-builder-wiki/#whacka)** — Whacka is a mobile-first AI app builder that generates functional progressive web apps from natural language prompts, enabling fast creation and sharing. _(added 2026-06-21)_
-
-- **[Perplexity Computer](https://felixkruger.github.io/ai-builder-wiki/#perplexity-computer)** — Perplexity Computer is a multi-model AI system that unifies frontier models to create and execute complex, long-running workflows. _(added 2026-06-20)_
 
 <!-- RECENTLY_ADDED:END -->
 

@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Mon, 29 Jun 2026 07:29:38 +0000</lastBuildDate>
+<lastBuildDate>Tue, 30 Jun 2026 07:10:24 +0000</lastBuildDate>
+
+<item>
+  <title>Warp</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#warp-terminal</link>
+  <guid isPermaLink="false">warp-terminal-2026-06-30</guid>
+  <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Warp is a modern terminal that integrates AI to translate natural language into shell commands and execute multi-step tasks. — It enhances command-line workflows with AI, allowing engineers to interact with the terminal more naturally and automate complex operations.]]></description>
+</item>
 
 <item>
   <title>Heron</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">whacka-2026-06-21</guid>
   <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Whacka is a mobile-first AI app builder that generates functional progressive web apps from natural language prompts, enabling fast creation and sharing. — Unlike many AI app builders that often target desktop workflows or larger enterprise applications, Whacka focuses on phone-native creation of small, focused utilities for rapid deployment and sharing.]]></description>
-</item>
-
-<item>
-  <title>Perplexity Computer</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#perplexity-computer</link>
-  <guid isPermaLink="false">perplexity-computer-2026-06-20</guid>
-  <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Perplexity Computer is a multi-model AI system that unifies frontier models to create and execute complex, long-running workflows. — Unlike traditional chatbots or single-task agents, it orchestrates specialized AI models to handle entire projects, providing a comprehensive solution for complex automation.]]></description>
 </item>
 
 </channel>
