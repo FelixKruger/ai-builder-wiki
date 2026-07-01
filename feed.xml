@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Tue, 30 Jun 2026 07:10:24 +0000</lastBuildDate>
+<lastBuildDate>Wed, 01 Jul 2026 07:21:48 +0000</lastBuildDate>
+
+<item>
+  <title>Open Knowledge Format (OKF)</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#open-knowledge-format</link>
+  <guid isPermaLink="false">open-knowledge-format-2026-07-01</guid>
+  <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Open Knowledge Format (OKF) is an open, vendor-neutral specification from Google Cloud that formalizes organizational knowledge as markdown files with YAML frontmatter for AI agents and humans. — OKF provides a standardized, interoperable way for AI agents to access curated knowledge, unlike fragmented existing systems, and supports version-controlled, human-readable context.]]></description>
+</item>
 
 <item>
   <title>Warp</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">kimi-k2-6-2026-06-21</guid>
   <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Kimi K2.6 is an open-source, multimodal agentic model from Moonshot AI, excelling in long-horizon coding, coding-driven design, and orchestrating large agent swarms. — This model pushes the boundaries for open-weight capabilities in complex, multi-step coding and agentic tasks, offering advanced features comparable to some closed-source frontier models.]]></description>
-</item>
-
-<item>
-  <title>Whacka</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#whacka</link>
-  <guid isPermaLink="false">whacka-2026-06-21</guid>
-  <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Whacka is a mobile-first AI app builder that generates functional progressive web apps from natural language prompts, enabling fast creation and sharing. — Unlike many AI app builders that often target desktop workflows or larger enterprise applications, Whacka focuses on phone-native creation of small, focused utilities for rapid deployment and sharing.]]></description>
 </item>
 
 </channel>

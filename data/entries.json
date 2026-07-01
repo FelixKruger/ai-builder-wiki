@@ -419,7 +419,7 @@
       "category": "evals",
       "summary": "Open benchmark and leaderboard for deep-research agents (Claude, OpenAI, Gemini, and OSS) — hosted by muset-ai on Hugging Face Spaces.",
       "why_it_matters": "If you're shipping a research agent or deciding which deep-research product to integrate, this is the public scoreboard to read first.",
-      "last_verified": "2026-06-06",
+      "last_verified": "2026-07-01",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -430,7 +430,7 @@
       "category": "ai-coding",
       "summary": "Rust-native code editor with agentic editing, real-time collaboration, and the open Agent Client Protocol (ACP).",
       "why_it_matters": "The performance-first alternative to Cursor and Windsurf. 120 fps render, open prediction model (Zeta), and ACP make agent behavior auditable.",
-      "last_verified": "2026-06-06",
+      "last_verified": "2026-07-01",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -683,7 +683,7 @@
       "category": "multi-agent-coding",
       "summary": "OpenSwarm is an open-source multi-agent system that orchestrates specialized AI agents to create diverse deliverables from a single terminal prompt.",
       "why_it_matters": "Unlike single-agent coding tools, OpenSwarm coordinates multiple specialist agents for tasks beyond code, such as research, documents, and media generation.",
-      "last_verified": "2026-06-06",
+      "last_verified": "2026-07-01",
       "source": "curator:2026-05-19-0853",
       "added": "2026-05-19"
     },
@@ -1192,6 +1192,17 @@
       "last_verified": "2026-06-30",
       "source": "curator:2026-06-30-0709",
       "added": "2026-06-30"
+    },
+    {
+      "id": "open-knowledge-format",
+      "name": "Open Knowledge Format (OKF)",
+      "url": "https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf",
+      "category": "agent-memory",
+      "summary": "Open Knowledge Format (OKF) is an open, vendor-neutral specification from Google Cloud that formalizes organizational knowledge as markdown files with YAML frontmatter for AI agents and humans.",
+      "why_it_matters": "OKF provides a standardized, interoperable way for AI agents to access curated knowledge, unlike fragmented existing systems, and supports version-controlled, human-readable context.",
+      "last_verified": "2026-07-01",
+      "source": "curator:2026-07-01-0721",
+      "added": "2026-07-01"
     }
   ]
 }
