@@ -48,6 +48,8 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Open Knowledge Format (OKF)](https://felixkruger.github.io/ai-builder-wiki/#open-knowledge-format)** — Open Knowledge Format (OKF) is an open, vendor-neutral specification from Google Cloud that formalizes organizational knowledge as markdown files with YAML frontmatter for AI agents and humans. _(added 2026-07-01)_
+
 - **[Warp](https://felixkruger.github.io/ai-builder-wiki/#warp-terminal)** — Warp is a modern terminal that integrates AI to translate natural language into shell commands and execute multi-step tasks. _(added 2026-06-30)_
 
 - **[Heron](https://felixkruger.github.io/ai-builder-wiki/#heron)** — An open-source passive network analyzer and AI agent auditor that uses eBPF to observe TLS-encrypted LLM calls and reconstruct agent activity. _(added 2026-06-28)_
@@ -61,8 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Claude Opus 4.8](https://felixkruger.github.io/ai-builder-wiki/#claude-opus-4-8)** — Anthropic released Claude Opus 4.8, its most capable publicly available model, offering improved performance in coding, agentic skills, and long-horizon reasoning. _(added 2026-06-22)_
 
 - **[Kimi K2.6](https://felixkruger.github.io/ai-builder-wiki/#kimi-k2-6)** — Kimi K2.6 is an open-source, multimodal agentic model from Moonshot AI, excelling in long-horizon coding, coding-driven design, and orchestrating large agent swarms. _(added 2026-06-21)_
-
-- **[Whacka](https://felixkruger.github.io/ai-builder-wiki/#whacka)** — Whacka is a mobile-first AI app builder that generates functional progressive web apps from natural language prompts, enabling fast creation and sharing. _(added 2026-06-21)_
 
 <!-- RECENTLY_ADDED:END -->
 
