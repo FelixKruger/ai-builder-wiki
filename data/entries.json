@@ -441,7 +441,7 @@
       "category": "multi-agent-coding",
       "summary": "Mac app that runs a fleet of Claude Code and Codex agents in parallel git worktrees, then helps you review and merge their work.",
       "why_it_matters": "Single-machine multi-agent orchestration with native macOS UX. The 'one developer, many parallel agents' workflow distilled into a desktop app.",
-      "last_verified": "2026-06-07",
+      "last_verified": "2026-07-02",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -914,18 +914,18 @@
       "category": "multi-agent-coding",
       "summary": "SwarmClaw is an open-source, self-hosted runtime and multi-agent framework for orchestrating autonomous AI agent swarms with memory and skills.",
       "why_it_matters": "It provides a comprehensive platform for deploying and managing complex multi-agent systems, offering a self-hosted alternative to other multi-agent frameworks.",
-      "last_verified": "2026-06-06",
+      "last_verified": "2026-07-02",
       "source": "curator:2026-06-06-0657",
       "added": "2026-06-06"
     },
     {
       "id": "headroom",
       "name": "Headroom",
-      "url": "https://github.com/chopratejas/headroom",
+      "url": "https://github.com/headroomlabs-ai/headroom",
       "category": "mcp-tools",
       "summary": "Headroom compresses agent tool outputs, logs, files, and RAG chunks to reduce LLM token usage while maintaining response quality.",
       "why_it_matters": "It optimizes token efficiency for agents, which can significantly lower costs and improve performance compared to sending uncompressed data to LLMs.",
-      "last_verified": "2026-06-06",
+      "last_verified": "2026-07-02",
       "source": "curator:2026-06-06-0657",
       "added": "2026-06-06"
     },
