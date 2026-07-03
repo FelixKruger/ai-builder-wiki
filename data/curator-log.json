@@ -1175,6 +1175,27 @@
         "gemini:gemini-2.5-flash+google-search-grounding"
       ],
       "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
+    },
+    {
+      "run_id": "2026-07-03-0841",
+      "started_at": "2026-07-03T08:41:28.895404+00:00",
+      "ended_at": "2026-07-03T08:42:00.339046+00:00",
+      "added": [
+        "openbmb-agentverse",
+        "pydantic-logfire"
+      ],
+      "refreshed": [
+        "hermes-agent",
+        "microsoft-agent-framework",
+        "paseo"
+      ],
+      "removed": [],
+      "sources_checked": [
+        "gemini:gemini-2.5-flash+google-search-grounding",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErE974cDGkAT-3P7125EscI7XJVuwUUZ-58PNAWPqTrk3__-vvThkbArflenvAEHRXpLQQwXTadiT5XakHwCEqNAVCzD1pdHrknR1SfWl6nWf2ozNVK5MdzBiBJ5xaDXA=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtW2g8mS58YVSYxSn_sS1U0TKyWmOhH7Lg9wgTQ5L_51TvMQESEEVwGt-QPiImhKnyiUcq9vsxIu2FVGlthrEqG64qrtokScwb1QjW4lnDnUXZCaXL1zXu83Rvt40mct7DUq7TfPg0jENWeDGdmn1OcXuN-KSDkA=="
+      ],
+      "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
     }
   ],
   "rotation_pointer": 0
