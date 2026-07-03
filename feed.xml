@@ -5,7 +5,23 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Thu, 02 Jul 2026 07:00:40 +0000</lastBuildDate>
+<lastBuildDate>Fri, 03 Jul 2026 08:42:00 +0000</lastBuildDate>
+
+<item>
+  <title>AgentVerse (OpenBMB)</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#openbmb-agentverse</link>
+  <guid isPermaLink="false">openbmb-agentverse-2026-07-03</guid>
+  <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[AgentVerse is an open-source framework designed for deploying multiple LLM-based agents in task-solving and simulation applications. — It offers a structured approach for building and evaluating multi-agent systems, providing a comprehensive environment for complex AI workflows.]]></description>
+</item>
+
+<item>
+  <title>Logfire (Pydantic)</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#pydantic-logfire</link>
+  <guid isPermaLink="false">pydantic-logfire-2026-07-03</guid>
+  <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Logfire is an AI observability platform from Pydantic, capturing LLM calls, agent runs, and tool invocations with detailed metrics. — It provides comprehensive tracing and conversation panels for debugging, offering a unified platform to understand and improve LLM and agent application behavior.]]></description>
+</item>
 
 <item>
   <title>Open Knowledge Format (OKF)</title>
@@ -53,22 +69,6 @@
   <guid isPermaLink="false">mindstone-rebel-2026-06-25</guid>
   <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Mindstone Rebel is a desktop AI workspace that unifies agent memory, files, meetings, and tools to facilitate agentic workflows. — It provides a comprehensive environment for orchestrating AI agents across various data sources and tools, offering a more integrated approach compared to fragmented agent development.]]></description>
-</item>
-
-<item>
-  <title>Claude Opus 4.8</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#claude-opus-4-8</link>
-  <guid isPermaLink="false">claude-opus-4-8-2026-06-22</guid>
-  <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Anthropic released Claude Opus 4.8, its most capable publicly available model, offering improved performance in coding, agentic skills, and long-horizon reasoning. — This model provides enhanced capabilities for complex tasks and agentic workflows, setting a new benchmark for frontier models available through the Claude API.]]></description>
-</item>
-
-<item>
-  <title>Kimi K2.6</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#kimi-k2-6</link>
-  <guid isPermaLink="false">kimi-k2-6-2026-06-21</guid>
-  <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Kimi K2.6 is an open-source, multimodal agentic model from Moonshot AI, excelling in long-horizon coding, coding-driven design, and orchestrating large agent swarms. — This model pushes the boundaries for open-weight capabilities in complex, multi-step coding and agentic tasks, offering advanced features comparable to some closed-source frontier models.]]></description>
 </item>
 
 </channel>

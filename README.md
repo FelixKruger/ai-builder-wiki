@@ -48,6 +48,10 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[AgentVerse (OpenBMB)](https://felixkruger.github.io/ai-builder-wiki/#openbmb-agentverse)** — AgentVerse is an open-source framework designed for deploying multiple LLM-based agents in task-solving and simulation applications. _(added 2026-07-03)_
+
+- **[Logfire (Pydantic)](https://felixkruger.github.io/ai-builder-wiki/#pydantic-logfire)** — Logfire is an AI observability platform from Pydantic, capturing LLM calls, agent runs, and tool invocations with detailed metrics. _(added 2026-07-03)_
+
 - **[Open Knowledge Format (OKF)](https://felixkruger.github.io/ai-builder-wiki/#open-knowledge-format)** — Open Knowledge Format (OKF) is an open, vendor-neutral specification from Google Cloud that formalizes organizational knowledge as markdown files with YAML frontmatter for AI agents and humans. _(added 2026-07-01)_
 
 - **[Warp](https://felixkruger.github.io/ai-builder-wiki/#warp-terminal)** — Warp is a modern terminal that integrates AI to translate natural language into shell commands and execute multi-step tasks. _(added 2026-06-30)_
@@ -59,10 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[OpenKnowledge](https://felixkruger.github.io/ai-builder-wiki/#openknowledge)** — OpenKnowledge is an open-source markdown editor that integrates directly with AI coding agents like Claude and Codex, available as a MacOS app or web UI. _(added 2026-06-26)_
 
 - **[Mindstone Rebel](https://felixkruger.github.io/ai-builder-wiki/#mindstone-rebel)** — Mindstone Rebel is a desktop AI workspace that unifies agent memory, files, meetings, and tools to facilitate agentic workflows. _(added 2026-06-25)_
-
-- **[Claude Opus 4.8](https://felixkruger.github.io/ai-builder-wiki/#claude-opus-4-8)** — Anthropic released Claude Opus 4.8, its most capable publicly available model, offering improved performance in coding, agentic skills, and long-horizon reasoning. _(added 2026-06-22)_
-
-- **[Kimi K2.6](https://felixkruger.github.io/ai-builder-wiki/#kimi-k2-6)** — Kimi K2.6 is an open-source, multimodal agentic model from Moonshot AI, excelling in long-horizon coding, coding-driven design, and orchestrating large agent swarms. _(added 2026-06-21)_
 
 <!-- RECENTLY_ADDED:END -->
 
