@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Fri, 03 Jul 2026 08:42:00 +0000</lastBuildDate>
+<lastBuildDate>Sat, 04 Jul 2026 08:16:21 +0000</lastBuildDate>
+
+<item>
+  <title>Hyper</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#hyper-ai</link>
+  <guid isPermaLink="false">hyper-ai-2026-07-04</guid>
+  <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Hyper is a shared company brain that integrates internal information to enhance AI agents and automations by providing persistent, context-rich knowledge. — It addresses the critical challenge of context loss for AI agents, allowing them to retain company-specific information across sessions and improve performance on long-horizon tasks.]]></description>
+</item>
 
 <item>
   <title>AgentVerse (OpenBMB)</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">openknowledge-2026-06-26</guid>
   <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[OpenKnowledge is an open-source markdown editor that integrates directly with AI coding agents like Claude and Codex, available as a MacOS app or web UI. — It offers a Notion-like experience for collaborative markdown editing with built-in AI agent support, contrasting with existing editors that often require community plugins for deep AI integration.]]></description>
-</item>
-
-<item>
-  <title>Mindstone Rebel</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#mindstone-rebel</link>
-  <guid isPermaLink="false">mindstone-rebel-2026-06-25</guid>
-  <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Mindstone Rebel is a desktop AI workspace that unifies agent memory, files, meetings, and tools to facilitate agentic workflows. — It provides a comprehensive environment for orchestrating AI agents across various data sources and tools, offering a more integrated approach compared to fragmented agent development.]]></description>
 </item>
 
 </channel>
