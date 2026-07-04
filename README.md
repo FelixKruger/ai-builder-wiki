@@ -48,6 +48,8 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Hyper](https://felixkruger.github.io/ai-builder-wiki/#hyper-ai)** — Hyper is a shared company brain that integrates internal information to enhance AI agents and automations by providing persistent, context-rich knowledge. _(added 2026-07-04)_
+
 - **[AgentVerse (OpenBMB)](https://felixkruger.github.io/ai-builder-wiki/#openbmb-agentverse)** — AgentVerse is an open-source framework designed for deploying multiple LLM-based agents in task-solving and simulation applications. _(added 2026-07-03)_
 
 - **[Logfire (Pydantic)](https://felixkruger.github.io/ai-builder-wiki/#pydantic-logfire)** — Logfire is an AI observability platform from Pydantic, capturing LLM calls, agent runs, and tool invocations with detailed metrics. _(added 2026-07-03)_
@@ -61,8 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Eve (Vercel)](https://felixkruger.github.io/ai-builder-wiki/#vercel-eve)** — Eve is an open-source TypeScript framework for building, deploying, and operating durable AI agents with a filesystem-first architecture. _(added 2026-06-27)_
 
 - **[OpenKnowledge](https://felixkruger.github.io/ai-builder-wiki/#openknowledge)** — OpenKnowledge is an open-source markdown editor that integrates directly with AI coding agents like Claude and Codex, available as a MacOS app or web UI. _(added 2026-06-26)_
-
-- **[Mindstone Rebel](https://felixkruger.github.io/ai-builder-wiki/#mindstone-rebel)** — Mindstone Rebel is a desktop AI workspace that unifies agent memory, files, meetings, and tools to facilitate agentic workflows. _(added 2026-06-25)_
 
 <!-- RECENTLY_ADDED:END -->
 
