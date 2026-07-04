@@ -463,7 +463,7 @@
       "category": "multi-agent-coding",
       "summary": "TypeScript library by Matt Pocock for orchestrating AI coding agents in isolated sandboxes — one function call handles lifecycle and branch merging.",
       "why_it_matters": "If you're building a product that spawns coding agents, Sandcastle removes the boilerplate around containers and merge UX.",
-      "last_verified": "2026-06-09",
+      "last_verified": "2026-07-04",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -474,7 +474,7 @@
       "category": "inference-platforms",
       "summary": "Compiles AI models directly into custom silicon — model weights and parameters live on the chip, eliminating memory retrieval.",
       "why_it_matters": "Their ChatJimmy demo hits ~17K tokens/sec/user vs. ~1,800 on GPUs. Hardware bet that 'the model is the computer' — worth watching if inference cost dominates your stack.",
-      "last_verified": "2026-06-09",
+      "last_verified": "2026-07-04",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -485,7 +485,7 @@
       "category": "ai-video",
       "summary": "HeyGen's open-source HTML-based video rendering framework with first-class AI agent support (Apache 2.0).",
       "why_it_matters": "Remotion needs React and a build step; HyperFrames lets an agent author videos as plain HTML. Better fit for LLM agents that already speak HTML fluently.",
-      "last_verified": "2026-06-10",
+      "last_verified": "2026-07-04",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -1225,6 +1225,17 @@
       "last_verified": "2026-07-03",
       "source": "curator:2026-07-03-0841",
       "added": "2026-07-03"
+    },
+    {
+      "id": "hyper-ai",
+      "name": "Hyper",
+      "url": "https://heyhyper.ai/",
+      "category": "agent-memory",
+      "summary": "Hyper is a shared company brain that integrates internal information to enhance AI agents and automations by providing persistent, context-rich knowledge.",
+      "why_it_matters": "It addresses the critical challenge of context loss for AI agents, allowing them to retain company-specific information across sessions and improve performance on long-horizon tasks.",
+      "last_verified": "2026-07-04",
+      "source": "curator:2026-07-04-0815",
+      "added": "2026-07-04"
     }
   ]
 }
