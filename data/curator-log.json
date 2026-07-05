@@ -1217,6 +1217,26 @@
         "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF67ornW2xuCnrgF25mgT_L5IVz4qCfWqMDGw4sWy0PRO-jZLlVVXQcwwo5kKKo9KuScf7XIgXNCe7j3U6YJhbJMyvsHojM_9SHU3FqU67-V-DgamCn8vj_qKND73XLZ1JVCThK_Igi"
       ],
       "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
+    },
+    {
+      "run_id": "2026-07-05-0834",
+      "started_at": "2026-07-05T08:34:24.723059+00:00",
+      "ended_at": "2026-07-05T08:35:07.627209+00:00",
+      "added": [
+        "omniroute"
+      ],
+      "refreshed": [
+        "remotion",
+        "tripo3d",
+        "hunyuan3d-2"
+      ],
+      "removed": [],
+      "sources_checked": [
+        "gemini:gemini-2.5-flash+google-search-grounding",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFE64M8GzWp9ynOTKb-7aQFr11QkpdZOgboaOgHHkvxluNnlzMC3uZBBCgV0hi2zsnuNShHs1ClHtIkS8LHNl2u2goD9D4omVvACP3IcZt1tD9lWEOsI-rqIdMTtf6p1rhI",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkBx0SA-FS3ccIwSTVHhp2gjNU30bLSPN30IeH9JSq7IValbLtpsNlagoR96Ips6yTKY2uUvWpePgq9f8fL1JnvYbG2h_4x7Qttw30jNZ0YvI3ZjSqg3M="
+      ],
+      "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
     }
   ],
   "rotation_pointer": 0

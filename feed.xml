@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Sat, 04 Jul 2026 08:16:21 +0000</lastBuildDate>
+<lastBuildDate>Sun, 05 Jul 2026 08:35:07 +0000</lastBuildDate>
+
+<item>
+  <title>OmniRoute</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#omniroute</link>
+  <guid isPermaLink="false">omniroute-2026-07-05</guid>
+  <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[OmniRoute is a free AI gateway that provides a single endpoint to access over 231 AI model providers with token compression and auto-fallback. — It simplifies multi-model integration, optimizes inference costs through token savings, and enhances reliability by intelligently routing requests and handling failures.]]></description>
+</item>
 
 <item>
   <title>Hyper</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">vercel-eve-2026-06-27</guid>
   <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Eve is an open-source TypeScript framework for building, deploying, and operating durable AI agents with a filesystem-first architecture. — It offers a streamlined, Vercel-native approach to agent development, simplifying deployment and integrating core capabilities through a file-based structure, distinguishing it from general-purpose frameworks.]]></description>
-</item>
-
-<item>
-  <title>OpenKnowledge</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#openknowledge</link>
-  <guid isPermaLink="false">openknowledge-2026-06-26</guid>
-  <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[OpenKnowledge is an open-source markdown editor that integrates directly with AI coding agents like Claude and Codex, available as a MacOS app or web UI. — It offers a Notion-like experience for collaborative markdown editing with built-in AI agent support, contrasting with existing editors that often require community plugins for deep AI integration.]]></description>
 </item>
 
 </channel>
