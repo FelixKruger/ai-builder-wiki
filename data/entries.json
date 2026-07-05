@@ -496,7 +496,7 @@
       "category": "ai-video",
       "summary": "React-based framework for creating videos programmatically using CSS, Canvas, SVG, and WebGL.",
       "why_it_matters": "The most mature programmatic-video stack. Treat video as a React app, render in CI. Source-available — commercial use needs a license.",
-      "last_verified": "2026-06-10",
+      "last_verified": "2026-07-05",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -507,7 +507,7 @@
       "category": "ai-3d",
       "summary": "Text, image, or sketch to production-ready 3D assets — texturing, rigging, and animation in one workflow.",
       "why_it_matters": "The all-in-one 3D generator for game, AR, and product pipelines. Beats single-feature competitors when you need riggable output, not just a mesh.",
-      "last_verified": "2026-06-10",
+      "last_verified": "2026-07-05",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -518,7 +518,7 @@
       "category": "ai-3d",
       "summary": "Tencent's open 3D asset generator — two-stage pipeline with flow-based diffusion transformer for shape and separate texture synthesis.",
       "why_it_matters": "Open weights for high-resolution textured 3D. Can also re-texture handcrafted meshes — useful when Tripo3D's hosted workflow isn't an option.",
-      "last_verified": "2026-06-11",
+      "last_verified": "2026-07-05",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -1236,6 +1236,17 @@
       "last_verified": "2026-07-04",
       "source": "curator:2026-07-04-0815",
       "added": "2026-07-04"
+    },
+    {
+      "id": "omniroute",
+      "name": "OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "category": "inference-platforms",
+      "summary": "OmniRoute is a free AI gateway that provides a single endpoint to access over 231 AI model providers with token compression and auto-fallback.",
+      "why_it_matters": "It simplifies multi-model integration, optimizes inference costs through token savings, and enhances reliability by intelligently routing requests and handling failures.",
+      "last_verified": "2026-07-05",
+      "source": "curator:2026-07-05-0834",
+      "added": "2026-07-05"
     }
   ]
 }
