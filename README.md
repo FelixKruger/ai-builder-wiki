@@ -48,6 +48,8 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[OmniRoute](https://felixkruger.github.io/ai-builder-wiki/#omniroute)** — OmniRoute is a free AI gateway that provides a single endpoint to access over 231 AI model providers with token compression and auto-fallback. _(added 2026-07-05)_
+
 - **[Hyper](https://felixkruger.github.io/ai-builder-wiki/#hyper-ai)** — Hyper is a shared company brain that integrates internal information to enhance AI agents and automations by providing persistent, context-rich knowledge. _(added 2026-07-04)_
 
 - **[AgentVerse (OpenBMB)](https://felixkruger.github.io/ai-builder-wiki/#openbmb-agentverse)** — AgentVerse is an open-source framework designed for deploying multiple LLM-based agents in task-solving and simulation applications. _(added 2026-07-03)_
@@ -61,8 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Heron](https://felixkruger.github.io/ai-builder-wiki/#heron)** — An open-source passive network analyzer and AI agent auditor that uses eBPF to observe TLS-encrypted LLM calls and reconstruct agent activity. _(added 2026-06-28)_
 
 - **[Eve (Vercel)](https://felixkruger.github.io/ai-builder-wiki/#vercel-eve)** — Eve is an open-source TypeScript framework for building, deploying, and operating durable AI agents with a filesystem-first architecture. _(added 2026-06-27)_
-
-- **[OpenKnowledge](https://felixkruger.github.io/ai-builder-wiki/#openknowledge)** — OpenKnowledge is an open-source markdown editor that integrates directly with AI coding agents like Claude and Codex, available as a MacOS app or web UI. _(added 2026-06-26)_
 
 <!-- RECENTLY_ADDED:END -->
 
