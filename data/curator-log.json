@@ -1237,6 +1237,27 @@
         "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkBx0SA-FS3ccIwSTVHhp2gjNU30bLSPN30IeH9JSq7IValbLtpsNlagoR96Ips6yTKY2uUvWpePgq9f8fL1JnvYbG2h_4x7Qttw30jNZ0YvI3ZjSqg3M="
       ],
       "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
+    },
+    {
+      "run_id": "2026-07-06-0947",
+      "started_at": "2026-07-06T09:47:21.959442+00:00",
+      "ended_at": "2026-07-06T09:47:48.401609+00:00",
+      "added": [
+        "meetily-ai"
+      ],
+      "refreshed": [
+        "impeccable-style",
+        "openhands",
+        "claude-design-skill-prompt"
+      ],
+      "removed": [],
+      "sources_checked": [
+        "gemini:gemini-2.5-flash+google-search-grounding",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtKTEHZ3QKu0EX42Ev7hB78f5fWAJuy8Uzwv-QTDdyDc2BRvkhlJw4RFPMQFGn1096gIKRmv7AwJt3QE9EZ-b3uDX54xLHK78uDN1mN-ImZHeA5Zhyw3REgEyRacfblrC_GSEbPxfzxWES",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLfi2a0pxSS6yu5cIXvlvc3yyyyU8OLwIxy9goPXJD8NuQDEZJafmATPZQSyEjlvM_lABG0iZ7mtZR_pwIL7sFY5Oc5mJ_Y6iDdsiVDZp-hn3GnKOeiw==",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdg5ck88twmwsxGhf15X1oyB6Z6Wk08Z1wfF8bTZ3oqQ0P5-nc1jifklTMYgWhN2TKxtLfC9KqAF25TpZICpuk5pPTc1Bcoce4n4p-Jruemw=="
+      ],
+      "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
     }
   ],
   "rotation_pointer": 0

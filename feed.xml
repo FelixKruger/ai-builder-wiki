@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Sun, 05 Jul 2026 08:35:07 +0000</lastBuildDate>
+<lastBuildDate>Mon, 06 Jul 2026 09:47:48 +0000</lastBuildDate>
+
+<item>
+  <title>Meetily</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#meetily-ai</link>
+  <guid isPermaLink="false">meetily-ai-2026-07-06</guid>
+  <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Meetily is a self-hosted, open-source AI meeting assistant providing live transcription, speaker diarization, and summarization. — It offers 100% local processing, ensuring privacy for meeting notes without relying on cloud services, unlike many commercial alternatives.]]></description>
+</item>
 
 <item>
   <title>OmniRoute</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">heron-2026-06-28</guid>
   <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[An open-source passive network analyzer and AI agent auditor that uses eBPF to observe TLS-encrypted LLM calls and reconstruct agent activity. — It provides deep observability into AI agent behavior and LLM traffic at the network level, allowing debugging and verification without modifying agent code or introducing proxies.]]></description>
-</item>
-
-<item>
-  <title>Eve (Vercel)</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#vercel-eve</link>
-  <guid isPermaLink="false">vercel-eve-2026-06-27</guid>
-  <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Eve is an open-source TypeScript framework for building, deploying, and operating durable AI agents with a filesystem-first architecture. — It offers a streamlined, Vercel-native approach to agent development, simplifying deployment and integrating core capabilities through a file-based structure, distinguishing it from general-purpose frameworks.]]></description>
 </item>
 
 </channel>
