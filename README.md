@@ -48,6 +48,8 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Meetily](https://felixkruger.github.io/ai-builder-wiki/#meetily-ai)** — Meetily is a self-hosted, open-source AI meeting assistant providing live transcription, speaker diarization, and summarization. _(added 2026-07-06)_
+
 - **[OmniRoute](https://felixkruger.github.io/ai-builder-wiki/#omniroute)** — OmniRoute is a free AI gateway that provides a single endpoint to access over 231 AI model providers with token compression and auto-fallback. _(added 2026-07-05)_
 
 - **[Hyper](https://felixkruger.github.io/ai-builder-wiki/#hyper-ai)** — Hyper is a shared company brain that integrates internal information to enhance AI agents and automations by providing persistent, context-rich knowledge. _(added 2026-07-04)_
@@ -61,8 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Warp](https://felixkruger.github.io/ai-builder-wiki/#warp-terminal)** — Warp is a modern terminal that integrates AI to translate natural language into shell commands and execute multi-step tasks. _(added 2026-06-30)_
 
 - **[Heron](https://felixkruger.github.io/ai-builder-wiki/#heron)** — An open-source passive network analyzer and AI agent auditor that uses eBPF to observe TLS-encrypted LLM calls and reconstruct agent activity. _(added 2026-06-28)_
-
-- **[Eve (Vercel)](https://felixkruger.github.io/ai-builder-wiki/#vercel-eve)** — Eve is an open-source TypeScript framework for building, deploying, and operating durable AI agents with a filesystem-first architecture. _(added 2026-06-27)_
 
 <!-- RECENTLY_ADDED:END -->
 
