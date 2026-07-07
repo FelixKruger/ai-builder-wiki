@@ -48,6 +48,10 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Google ADK (Agent Development Kit)](https://felixkruger.github.io/ai-builder-wiki/#google-adk)** — Google's Agent Development Kit (ADK) is an open-source, code-first framework for building, evaluating, and deploying sophisticated AI agents, optimized for the Google ecosystem. _(added 2026-07-07)_
+
+- **[NVIDIA Dynamo](https://felixkruger.github.io/ai-builder-wiki/#nvidia-dynamo)** — NVIDIA Dynamo is an open-source distributed inference framework for serving large language models efficiently across multi-node GPU environments. _(added 2026-07-07)_
+
 - **[Meetily](https://felixkruger.github.io/ai-builder-wiki/#meetily-ai)** — Meetily is a self-hosted, open-source AI meeting assistant providing live transcription, speaker diarization, and summarization. _(added 2026-07-06)_
 
 - **[OmniRoute](https://felixkruger.github.io/ai-builder-wiki/#omniroute)** — OmniRoute is a free AI gateway that provides a single endpoint to access over 231 AI model providers with token compression and auto-fallback. _(added 2026-07-05)_
@@ -59,10 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Logfire (Pydantic)](https://felixkruger.github.io/ai-builder-wiki/#pydantic-logfire)** — Logfire is an AI observability platform from Pydantic, capturing LLM calls, agent runs, and tool invocations with detailed metrics. _(added 2026-07-03)_
 
 - **[Open Knowledge Format (OKF)](https://felixkruger.github.io/ai-builder-wiki/#open-knowledge-format)** — Open Knowledge Format (OKF) is an open, vendor-neutral specification from Google Cloud that formalizes organizational knowledge as markdown files with YAML frontmatter for AI agents and humans. _(added 2026-07-01)_
-
-- **[Warp](https://felixkruger.github.io/ai-builder-wiki/#warp-terminal)** — Warp is a modern terminal that integrates AI to translate natural language into shell commands and execute multi-step tasks. _(added 2026-06-30)_
-
-- **[Heron](https://felixkruger.github.io/ai-builder-wiki/#heron)** — An open-source passive network analyzer and AI agent auditor that uses eBPF to observe TLS-encrypted LLM calls and reconstruct agent activity. _(added 2026-06-28)_
 
 <!-- RECENTLY_ADDED:END -->
 
