@@ -5,7 +5,23 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Mon, 06 Jul 2026 09:47:48 +0000</lastBuildDate>
+<lastBuildDate>Tue, 07 Jul 2026 08:59:51 +0000</lastBuildDate>
+
+<item>
+  <title>Google ADK (Agent Development Kit)</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#google-adk</link>
+  <guid isPermaLink="false">google-adk-2026-07-07</guid>
+  <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Google's Agent Development Kit (ADK) is an open-source, code-first framework for building, evaluating, and deploying sophisticated AI agents, optimized for the Google ecosystem. — ADK provides a modular approach to agent development, enabling flexible orchestration of multi-agent systems and integrating with Google Cloud services for enterprise-scale deployment. This offers a comprehensive solution for developers already using Google's stack, similar to how Microsoft Agent Framework caters to its ecosystem.]]></description>
+</item>
+
+<item>
+  <title>NVIDIA Dynamo</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#nvidia-dynamo</link>
+  <guid isPermaLink="false">nvidia-dynamo-2026-07-07</guid>
+  <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[NVIDIA Dynamo is an open-source distributed inference framework for serving large language models efficiently across multi-node GPU environments. — It significantly boosts throughput and reduces latency for LLM inference by introducing innovations like disaggregated prefill and decode, dynamic GPU scheduling, and KV cache management. This provides a high-performance solution for scaling generative AI models in production, offering a specialized alternative to general-purpose inference solutions.]]></description>
+</item>
 
 <item>
   <title>Meetily</title>
@@ -53,22 +69,6 @@
   <guid isPermaLink="false">open-knowledge-format-2026-07-01</guid>
   <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Open Knowledge Format (OKF) is an open, vendor-neutral specification from Google Cloud that formalizes organizational knowledge as markdown files with YAML frontmatter for AI agents and humans. — OKF provides a standardized, interoperable way for AI agents to access curated knowledge, unlike fragmented existing systems, and supports version-controlled, human-readable context.]]></description>
-</item>
-
-<item>
-  <title>Warp</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#warp-terminal</link>
-  <guid isPermaLink="false">warp-terminal-2026-06-30</guid>
-  <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Warp is a modern terminal that integrates AI to translate natural language into shell commands and execute multi-step tasks. — It enhances command-line workflows with AI, allowing engineers to interact with the terminal more naturally and automate complex operations.]]></description>
-</item>
-
-<item>
-  <title>Heron</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#heron</link>
-  <guid isPermaLink="false">heron-2026-06-28</guid>
-  <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[An open-source passive network analyzer and AI agent auditor that uses eBPF to observe TLS-encrypted LLM calls and reconstruct agent activity. — It provides deep observability into AI agent behavior and LLM traffic at the network level, allowing debugging and verification without modifying agent code or introducing proxies.]]></description>
 </item>
 
 </channel>

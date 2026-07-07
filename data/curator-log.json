@@ -1258,6 +1258,32 @@
         "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdg5ck88twmwsxGhf15X1oyB6Z6Wk08Z1wfF8bTZ3oqQ0P5-nc1jifklTMYgWhN2TKxtLfC9KqAF25TpZICpuk5pPTc1Bcoce4n4p-Jruemw=="
       ],
       "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
+    },
+    {
+      "run_id": "2026-07-07-0859",
+      "started_at": "2026-07-07T08:59:12.243825+00:00",
+      "ended_at": "2026-07-07T08:59:51.301959+00:00",
+      "added": [
+        "google-adk",
+        "nvidia-dynamo"
+      ],
+      "refreshed": [
+        "deepseek",
+        "qwen",
+        "zep-ai"
+      ],
+      "removed": [],
+      "sources_checked": [
+        "gemini:gemini-2.5-flash+google-search-grounding",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQDpBmBjWJbIhllOFo3BI9Z6vUlpdqw-Xl4fVpV5oPk3GDlfQSuAic-MyI75y3-gYs36PS83zktQTrjQjfoxi4CGtdSPvh7tkNNxMPR4mEg1dJUQYRBOyY3ZsOzQ==",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmeTiA3wMyjgPrJA85anQw7bFiLc_2-fVHr_t-dScZL-szsetcwXF3zNAB8y_RdqbHOP-5bTeHshrty58dNwP908xcNqJFWaXGg1R0WH4bsLYMhJWRs2SIpLsU8FShTsyljC-qzsepFlercgkQzSdLYFck2OtIWxoa5B18gy5h7bAh",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOqan3xC-w_eogMdTrk4_hJlbdjzFaWfurOTtn3CFTd3oYAioVsGv2FMmw0VXcqVSk06Ms4RK3Eafe1jqGbLXkRgblD4mOgb_5ew33052byPUYZ75HgheSY1sjG9lazfv_MXx38PdtJZhZ-U5pvxaPp5POl50=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAVxIkaFH01tS4KgGxhbQOVC7_oNi3CsZMuuI4RGD9ZPYBL1vmXdOidGUeMD2J972GLHr3HEM-VCzUw_XPg8kYwNxDpswzM9WlOHwc9gpE_qoywzUWqQ==",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEz5cgGfY10rAFA9KuwVm4KonB21LSl056xjDKtW2Wxh_XJISktmmQYW_RVn4zbXpMwnbWc4B59DP_L-_zGFLP_EGc0D22oPOBopfMxyy7boHiP5kMChiNhtO7yfXJIJbncC1v03slQVlWoXwZ_04scfYwBfBqkrv3w_aNT8cngxgI03mbqk4OQIM_rDxqzk7XX_WtA6VEzziivm7V9_LlziBg_oUFTxFHZ9H8MblbWdd6PuYwyib6qAD0xePuqUsDOA_DfzA==",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHn9ErcEsGmzv1NFRBxmVBRb-C0tQDLCeyPq8WQiY_ma0qM5tY-qrYJDCE4VamG75dkZDm6DrNSdyJLIjzivHLjvvseMDKIEaEOVIS58u1M-aR2HwhQUNOwEz5rCeXTOpECoiHMG0Czf4ChEJ2xvdXJFk5WcxbMNhhxRfDu9u4h1AOKgS8w0TDiJyaS1F2J1aRXnssRtWu-JIa24Hg3sA-1oFXLLxbI9lmREk-3mXExboXvUFE_bXYqktYGDEQ=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTPCFep3SB_kU1OaHr3apA6dpdn0xjGSvbe-MTo-uBMb64Z_kanjerHZ7gZ4qVmhogkGSlMdfrxvjlBS2sbCvyVZIly7T8UZHXCviycNuAF7MDGf7NnjX7deaQ2IjZg3tPzfQAHkp5VY8i8SHQxQFOd3aOUwF6PLFqFLtBl0ZFG1Wm8xTCT80="
+      ],
+      "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
     }
   ],
   "rotation_pointer": 0
