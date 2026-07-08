@@ -573,7 +573,7 @@
       "category": "open-weights",
       "summary": "Google DeepMind's open-weight model family — Gemma 4 at 2B/4B/26B/31B parameters, runs on consumer hardware.",
       "why_it_matters": "Google's answer to Llama and Qwen. If you want an open-weight model with first-party Google tooling (Vertex, Gemini API parity), Gemma is the path.",
-      "last_verified": "2026-06-13",
+      "last_verified": "2026-07-08",
       "source": "human:eriks+youtube:theAIsearch",
       "added": "2026-05-11"
     },
@@ -584,7 +584,7 @@
       "category": "inference-platforms",
       "summary": "Inference provider with custom LPU silicon — open-weight model hosting at order-of-magnitude lower latency than GPU-based APIs.",
       "why_it_matters": "When your agent loop is bottlenecked on per-call latency (not raw quality), Groq is the swap. Llama, Qwen, DeepSeek, and Whisper all available.",
-      "last_verified": "2026-06-13",
+      "last_verified": "2026-07-08",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -947,7 +947,7 @@
       "category": "evals",
       "summary": "Maxim AI is an end-to-end platform for AI simulation, evaluation, and observability, integrating pre-production testing with production monitoring.",
       "why_it_matters": "Unlike other tools that cover one or two stages, Maxim AI unifies the entire AI quality lifecycle, enabling a systematic approach to agent reliability.",
-      "last_verified": "2026-06-12",
+      "last_verified": "2026-07-08",
       "source": "curator:2026-06-12-0728",
       "added": "2026-06-12"
     },
@@ -1280,6 +1280,28 @@
       "last_verified": "2026-07-07",
       "source": "curator:2026-07-07-0859",
       "added": "2026-07-07"
+    },
+    {
+      "id": "firecrawl",
+      "name": "Firecrawl",
+      "url": "https://www.firecrawl.dev/",
+      "category": "retrieval-search",
+      "summary": "A web scraping and data extraction API designed to provide clean, structured web content for AI agents and developers.",
+      "why_it_matters": "It streamlines the process of feeding high-quality, structured web data to AI agents, enhancing their ability to perform accurate information retrieval.",
+      "last_verified": "2026-07-08",
+      "source": "curator:2026-07-08-0801",
+      "added": "2026-07-08"
+    },
+    {
+      "id": "termi-protocol",
+      "name": "Termi Protocol",
+      "url": "https://termiprotocol.com/",
+      "category": "evals",
+      "summary": "A 3D simulation environment for visualizing, monitoring, and debugging AI agent workflows.",
+      "why_it_matters": "It offers a unique visual approach to understanding complex agent interactions, providing more intuitive insights than traditional log-based debugging for multi-agent systems.",
+      "last_verified": "2026-07-08",
+      "source": "curator:2026-07-08-0801",
+      "added": "2026-07-08"
     }
   ]
 }

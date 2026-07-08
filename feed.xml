@@ -5,7 +5,23 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Tue, 07 Jul 2026 08:59:51 +0000</lastBuildDate>
+<lastBuildDate>Wed, 08 Jul 2026 08:02:31 +0000</lastBuildDate>
+
+<item>
+  <title>Firecrawl</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#firecrawl</link>
+  <guid isPermaLink="false">firecrawl-2026-07-08</guid>
+  <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[A web scraping and data extraction API designed to provide clean, structured web content for AI agents and developers. — It streamlines the process of feeding high-quality, structured web data to AI agents, enhancing their ability to perform accurate information retrieval.]]></description>
+</item>
+
+<item>
+  <title>Termi Protocol</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#termi-protocol</link>
+  <guid isPermaLink="false">termi-protocol-2026-07-08</guid>
+  <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[A 3D simulation environment for visualizing, monitoring, and debugging AI agent workflows. — It offers a unique visual approach to understanding complex agent interactions, providing more intuitive insights than traditional log-based debugging for multi-agent systems.]]></description>
+</item>
 
 <item>
   <title>Google ADK (Agent Development Kit)</title>
@@ -53,22 +69,6 @@
   <guid isPermaLink="false">openbmb-agentverse-2026-07-03</guid>
   <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[AgentVerse is an open-source framework designed for deploying multiple LLM-based agents in task-solving and simulation applications. — It offers a structured approach for building and evaluating multi-agent systems, providing a comprehensive environment for complex AI workflows.]]></description>
-</item>
-
-<item>
-  <title>Logfire (Pydantic)</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#pydantic-logfire</link>
-  <guid isPermaLink="false">pydantic-logfire-2026-07-03</guid>
-  <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Logfire is an AI observability platform from Pydantic, capturing LLM calls, agent runs, and tool invocations with detailed metrics. — It provides comprehensive tracing and conversation panels for debugging, offering a unified platform to understand and improve LLM and agent application behavior.]]></description>
-</item>
-
-<item>
-  <title>Open Knowledge Format (OKF)</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#open-knowledge-format</link>
-  <guid isPermaLink="false">open-knowledge-format-2026-07-01</guid>
-  <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Open Knowledge Format (OKF) is an open, vendor-neutral specification from Google Cloud that formalizes organizational knowledge as markdown files with YAML frontmatter for AI agents and humans. — OKF provides a standardized, interoperable way for AI agents to access curated knowledge, unlike fragmented existing systems, and supports version-controlled, human-readable context.]]></description>
 </item>
 
 </channel>
