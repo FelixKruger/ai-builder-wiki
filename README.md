@@ -48,6 +48,10 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Firecrawl](https://felixkruger.github.io/ai-builder-wiki/#firecrawl)** — A web scraping and data extraction API designed to provide clean, structured web content for AI agents and developers. _(added 2026-07-08)_
+
+- **[Termi Protocol](https://felixkruger.github.io/ai-builder-wiki/#termi-protocol)** — A 3D simulation environment for visualizing, monitoring, and debugging AI agent workflows. _(added 2026-07-08)_
+
 - **[Google ADK (Agent Development Kit)](https://felixkruger.github.io/ai-builder-wiki/#google-adk)** — Google's Agent Development Kit (ADK) is an open-source, code-first framework for building, evaluating, and deploying sophisticated AI agents, optimized for the Google ecosystem. _(added 2026-07-07)_
 
 - **[NVIDIA Dynamo](https://felixkruger.github.io/ai-builder-wiki/#nvidia-dynamo)** — NVIDIA Dynamo is an open-source distributed inference framework for serving large language models efficiently across multi-node GPU environments. _(added 2026-07-07)_
@@ -59,10 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Hyper](https://felixkruger.github.io/ai-builder-wiki/#hyper-ai)** — Hyper is a shared company brain that integrates internal information to enhance AI agents and automations by providing persistent, context-rich knowledge. _(added 2026-07-04)_
 
 - **[AgentVerse (OpenBMB)](https://felixkruger.github.io/ai-builder-wiki/#openbmb-agentverse)** — AgentVerse is an open-source framework designed for deploying multiple LLM-based agents in task-solving and simulation applications. _(added 2026-07-03)_
-
-- **[Logfire (Pydantic)](https://felixkruger.github.io/ai-builder-wiki/#pydantic-logfire)** — Logfire is an AI observability platform from Pydantic, capturing LLM calls, agent runs, and tool invocations with detailed metrics. _(added 2026-07-03)_
-
-- **[Open Knowledge Format (OKF)](https://felixkruger.github.io/ai-builder-wiki/#open-knowledge-format)** — Open Knowledge Format (OKF) is an open, vendor-neutral specification from Google Cloud that formalizes organizational knowledge as markdown files with YAML frontmatter for AI agents and humans. _(added 2026-07-01)_
 
 <!-- RECENTLY_ADDED:END -->
 
