@@ -48,6 +48,10 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[GitHub Copilot](https://felixkruger.github.io/ai-builder-wiki/#github-copilot)** — GitHub Copilot is an AI coding assistant that provides inline code completions, chat, and agent capabilities across various IDEs. _(added 2026-07-09)_
+
+- **[vLLM](https://felixkruger.github.io/ai-builder-wiki/#vllm)** — vLLM is an open-source library for efficient LLM inference, known for its PagedAttention mechanism that optimizes GPU memory usage and throughput. _(added 2026-07-09)_
+
 - **[Firecrawl](https://felixkruger.github.io/ai-builder-wiki/#firecrawl)** — A web scraping and data extraction API designed to provide clean, structured web content for AI agents and developers. _(added 2026-07-08)_
 
 - **[Termi Protocol](https://felixkruger.github.io/ai-builder-wiki/#termi-protocol)** — A 3D simulation environment for visualizing, monitoring, and debugging AI agent workflows. _(added 2026-07-08)_
@@ -59,10 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Meetily](https://felixkruger.github.io/ai-builder-wiki/#meetily-ai)** — Meetily is a self-hosted, open-source AI meeting assistant providing live transcription, speaker diarization, and summarization. _(added 2026-07-06)_
 
 - **[OmniRoute](https://felixkruger.github.io/ai-builder-wiki/#omniroute)** — OmniRoute is a free AI gateway that provides a single endpoint to access over 231 AI model providers with token compression and auto-fallback. _(added 2026-07-05)_
-
-- **[Hyper](https://felixkruger.github.io/ai-builder-wiki/#hyper-ai)** — Hyper is a shared company brain that integrates internal information to enhance AI agents and automations by providing persistent, context-rich knowledge. _(added 2026-07-04)_
-
-- **[AgentVerse (OpenBMB)](https://felixkruger.github.io/ai-builder-wiki/#openbmb-agentverse)** — AgentVerse is an open-source framework designed for deploying multiple LLM-based agents in task-solving and simulation applications. _(added 2026-07-03)_
 
 <!-- RECENTLY_ADDED:END -->
 

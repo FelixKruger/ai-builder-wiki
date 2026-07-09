@@ -1303,6 +1303,30 @@
         "gemini:gemini-2.5-flash+google-search-grounding"
       ],
       "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
+    },
+    {
+      "run_id": "2026-07-09-0907",
+      "started_at": "2026-07-09T09:07:49.913939+00:00",
+      "ended_at": "2026-07-09T09:08:31.894797+00:00",
+      "added": [
+        "github-copilot",
+        "vllm"
+      ],
+      "refreshed": [
+        "together-ai",
+        "minimi-ai",
+        "browse-sh"
+      ],
+      "removed": [],
+      "sources_checked": [
+        "gemini:gemini-2.5-flash+google-search-grounding",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkgKwbl4NRk-EEEkgRKzEF3XNliW0CRSpP0iIfn481ZS_YBD0eBsRrePjnKzQyU3ocbcwJor3wV5pUiOV2mXDNu6vhKCLW7LEXuaqMcZNGqk8Os5F6BhRNsN1f7hT3GiB19pZ5rMHH1yWxuKtUcXP3eYeQHDTE3caP09ybEe7jRwQsvbMQUiSwfY8=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7-PZ3ubHIUl3nsI_i_3zCVnE2e3MqlINieXx9TaNnZspW66aVQMLAjJGXlYdZBRJMArT9VgeBZX9k042rmkrEgLcHZp7hMveLZjhAjvceoPV1qPy1frm_YUizJgwzej7ij8j7YoOA6EMGzDyy6n7_Q_EJfTItTuah7MWjvSfOFcwj3KD8yMPZSdyn8elZCdD4wX6wMpzosHlV0dbFtmKQiFrrS_KVcR49InRe4GQBofkW",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJEmc8_9yMV3PF-F0EphpCE_rueWw1I-urj65cp36ZGXRXKmR4tA5kxh143ChriFLXuzM5l4X0yiSJBqsaugeRUYjzu2OMTujoW76h1nw6WBouD1gAsrGmGRXEQrmYb3uzCscM3fgbeHqB8W-zUT6RQoTn4IMZv9oQuAdhNfyQGzSCkVpTCbnSqPnDmR9mMyX--NPTxLMDnedXwhWTXQ3wsVnm7WI=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQzxgnmmVN3yAS_krTKFp7ycYQ0o0_TLJdR1v1mS_1CHlZHDguuwcycVII4mEyvbIhnULolV49Azc1KGmzLF_D8cqeQyptSsXTn12eAs1HVNL1ek6V76riM831vhKFqPvPy0Mu800=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfmp0rBC8CD-F0Oa9Hl0FRoBzq0OiBX0eNfi_rGeuJVH-zinRCq-NHtpeKhvBIN7G2xNQ-ongaLhUwLM3vpr-ehbgH6B_60vkE-tKQgyN0UGMthBsfTCloEiL4TJfNenF0QM29QdehhDZ8ToCY7IrzUCfTik57eQ2CNmf4x6PrfPU="
+      ],
+      "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
     }
   ],
   "rotation_pointer": 0

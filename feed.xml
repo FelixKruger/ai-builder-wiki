@@ -5,7 +5,23 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Wed, 08 Jul 2026 08:02:31 +0000</lastBuildDate>
+<lastBuildDate>Thu, 09 Jul 2026 09:08:32 +0000</lastBuildDate>
+
+<item>
+  <title>GitHub Copilot</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#github-copilot</link>
+  <guid isPermaLink="false">github-copilot-2026-07-09</guid>
+  <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[GitHub Copilot is an AI coding assistant that provides inline code completions, chat, and agent capabilities across various IDEs. — It is one of the most widely adopted AI coding tools, offering broad IDE support and an agent mode for multi-file changes and task automation, unlike many standalone AI IDEs.]]></description>
+</item>
+
+<item>
+  <title>vLLM</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#vllm</link>
+  <guid isPermaLink="false">vllm-2026-07-09</guid>
+  <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[vLLM is an open-source library for efficient LLM inference, known for its PagedAttention mechanism that optimizes GPU memory usage and throughput. — It significantly improves GPU utilization and throughput for serving large language models in production, offering better performance than simpler inference solutions for high-concurrency workloads.]]></description>
+</item>
 
 <item>
   <title>Firecrawl</title>
@@ -53,22 +69,6 @@
   <guid isPermaLink="false">omniroute-2026-07-05</guid>
   <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[OmniRoute is a free AI gateway that provides a single endpoint to access over 231 AI model providers with token compression and auto-fallback. — It simplifies multi-model integration, optimizes inference costs through token savings, and enhances reliability by intelligently routing requests and handling failures.]]></description>
-</item>
-
-<item>
-  <title>Hyper</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#hyper-ai</link>
-  <guid isPermaLink="false">hyper-ai-2026-07-04</guid>
-  <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Hyper is a shared company brain that integrates internal information to enhance AI agents and automations by providing persistent, context-rich knowledge. — It addresses the critical challenge of context loss for AI agents, allowing them to retain company-specific information across sessions and improve performance on long-horizon tasks.]]></description>
-</item>
-
-<item>
-  <title>AgentVerse (OpenBMB)</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#openbmb-agentverse</link>
-  <guid isPermaLink="false">openbmb-agentverse-2026-07-03</guid>
-  <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[AgentVerse is an open-source framework designed for deploying multiple LLM-based agents in task-solving and simulation applications. — It offers a structured approach for building and evaluating multi-agent systems, providing a comprehensive environment for complex AI workflows.]]></description>
 </item>
 
 </channel>

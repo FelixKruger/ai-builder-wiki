@@ -595,7 +595,7 @@
       "category": "inference-platforms",
       "summary": "Production-grade inference + fine-tuning platform for open-weight models, with proprietary speculative decoding and custom kernels.",
       "why_it_matters": "OpenRouter aggregates; Together engineers the stack. Pick Together when you need to fine-tune an OSS model and serve it at scale on the same platform.",
-      "last_verified": "2026-06-13",
+      "last_verified": "2026-07-09",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -958,7 +958,7 @@
       "category": "agent-memory",
       "summary": "Minimi provides ambient memory for Claude, capturing insights from Mac interactions and storing them as local embeddings.",
       "why_it_matters": "Unlike Claude's built-in memory, Minimi offers a shared, persistent memory that works across various AI tools, not just Claude, and processes information locally.",
-      "last_verified": "2026-06-13",
+      "last_verified": "2026-07-09",
       "source": "curator:2026-06-13-0711",
       "added": "2026-06-13"
     },
@@ -969,7 +969,7 @@
       "category": "retrieval-search",
       "summary": "Browse.sh provides web automation capabilities, enabling AI agents to interact with and extract information from websites.",
       "why_it_matters": "This tool provides agents with web automation and retrieval capabilities, enabling them to interact with the internet beyond simple search.",
-      "last_verified": "2026-06-13",
+      "last_verified": "2026-07-09",
       "source": "curator:2026-06-13-0711",
       "added": "2026-06-13"
     },
@@ -1302,6 +1302,28 @@
       "last_verified": "2026-07-08",
       "source": "curator:2026-07-08-0801",
       "added": "2026-07-08"
+    },
+    {
+      "id": "github-copilot",
+      "name": "GitHub Copilot",
+      "url": "https://github.com/features/copilot/",
+      "category": "ai-coding",
+      "summary": "GitHub Copilot is an AI coding assistant that provides inline code completions, chat, and agent capabilities across various IDEs.",
+      "why_it_matters": "It is one of the most widely adopted AI coding tools, offering broad IDE support and an agent mode for multi-file changes and task automation, unlike many standalone AI IDEs.",
+      "last_verified": "2026-07-09",
+      "source": "curator:2026-07-09-0907",
+      "added": "2026-07-09"
+    },
+    {
+      "id": "vllm",
+      "name": "vLLM",
+      "url": "https://github.com/vllm-project/vllm",
+      "category": "inference-platforms",
+      "summary": "vLLM is an open-source library for efficient LLM inference, known for its PagedAttention mechanism that optimizes GPU memory usage and throughput.",
+      "why_it_matters": "It significantly improves GPU utilization and throughput for serving large language models in production, offering better performance than simpler inference solutions for high-concurrency workloads.",
+      "last_verified": "2026-07-09",
+      "source": "curator:2026-07-09-0907",
+      "added": "2026-07-09"
     }
   ]
 }
