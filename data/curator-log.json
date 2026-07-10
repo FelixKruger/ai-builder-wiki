@@ -1327,6 +1327,28 @@
         "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfmp0rBC8CD-F0Oa9Hl0FRoBzq0OiBX0eNfi_rGeuJVH-zinRCq-NHtpeKhvBIN7G2xNQ-ongaLhUwLM3vpr-ehbgH6B_60vkE-tKQgyN0UGMthBsfTCloEiL4TJfNenF0QM29QdehhDZ8ToCY7IrzUCfTik57eQ2CNmf4x6PrfPU="
       ],
       "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
+    },
+    {
+      "run_id": "2026-07-10-0853",
+      "started_at": "2026-07-10T08:53:59.408851+00:00",
+      "ended_at": "2026-07-10T08:54:34.691819+00:00",
+      "added": [
+        "office-cli",
+        "earthpilot-jacobian-lens"
+      ],
+      "refreshed": [
+        "wan",
+        "crewai",
+        "dify"
+      ],
+      "removed": [],
+      "sources_checked": [
+        "gemini:gemini-2.5-flash+google-search-grounding",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSKMCJbn80H2EljIr6JtOLuVizBBAdPmZNTad1bmkCilrEGEifXt0AGzVZuCLHOUW42qWYP8XKqAu4qZEa9-r_MCf1A70hja7W-uomeSXvLjuoI-Ck9w==",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQnHUZ4wBk09CnFPX28iyD0AJkSbWhRojLRGf84rTH73Ye_nmShgq4sm-X44Ibrw-hOvVInJ4L169iI9EbsI5Ij939rf51NYICjJ6MS7uR5VsZc2lX",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPpUjszxI09XpxJ1BQpVum4V88hDI1BOY3yvYkgVJ0UrF-B-JRACC1Tn-vwyy8LYVHGXo31JWaHETFlKQeBPRmbNYNStUjHD4pssF_p92qH0uYH9k8HMw8wz_kwW8w2KrZHwqon2EK"
+      ],
+      "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
     }
   ],
   "rotation_pointer": 0

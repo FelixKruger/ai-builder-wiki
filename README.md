@@ -48,6 +48,10 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[OfficeCLI](https://felixkruger.github.io/ai-builder-wiki/#office-cli)** — OfficeCLI is an open-source command-line interface enabling AI agents to read, edit, and automate Microsoft Word, Excel, and PowerPoint files without requiring Office installation. _(added 2026-07-10)_
+
+- **[Earthpilot (Jacobian Lens)](https://felixkruger.github.io/ai-builder-wiki/#earthpilot-jacobian-lens)** — Earthpilot offers a web-based tool allowing users to visualize and edit the internal thought processes of open-source LLMs before they generate a response. _(added 2026-07-10)_
+
 - **[GitHub Copilot](https://felixkruger.github.io/ai-builder-wiki/#github-copilot)** — GitHub Copilot is an AI coding assistant that provides inline code completions, chat, and agent capabilities across various IDEs. _(added 2026-07-09)_
 
 - **[vLLM](https://felixkruger.github.io/ai-builder-wiki/#vllm)** — vLLM is an open-source library for efficient LLM inference, known for its PagedAttention mechanism that optimizes GPU memory usage and throughput. _(added 2026-07-09)_
@@ -59,10 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Google ADK (Agent Development Kit)](https://felixkruger.github.io/ai-builder-wiki/#google-adk)** — Google's Agent Development Kit (ADK) is an open-source, code-first framework for building, evaluating, and deploying sophisticated AI agents, optimized for the Google ecosystem. _(added 2026-07-07)_
 
 - **[NVIDIA Dynamo](https://felixkruger.github.io/ai-builder-wiki/#nvidia-dynamo)** — NVIDIA Dynamo is an open-source distributed inference framework for serving large language models efficiently across multi-node GPU environments. _(added 2026-07-07)_
-
-- **[Meetily](https://felixkruger.github.io/ai-builder-wiki/#meetily-ai)** — Meetily is a self-hosted, open-source AI meeting assistant providing live transcription, speaker diarization, and summarization. _(added 2026-07-06)_
-
-- **[OmniRoute](https://felixkruger.github.io/ai-builder-wiki/#omniroute)** — OmniRoute is a free AI gateway that provides a single endpoint to access over 231 AI model providers with token compression and auto-fallback. _(added 2026-07-05)_
 
 <!-- RECENTLY_ADDED:END -->
 
