@@ -5,7 +5,23 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Thu, 09 Jul 2026 09:08:32 +0000</lastBuildDate>
+<lastBuildDate>Fri, 10 Jul 2026 08:54:34 +0000</lastBuildDate>
+
+<item>
+  <title>OfficeCLI</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#office-cli</link>
+  <guid isPermaLink="false">office-cli-2026-07-10</guid>
+  <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[OfficeCLI is an open-source command-line interface enabling AI agents to read, edit, and automate Microsoft Word, Excel, and PowerPoint files without requiring Office installation. — This tool provides agents with direct, programmatic access to common office document formats, extending their utility beyond code-centric tasks to broader business process automation, unlike general coding agents.]]></description>
+</item>
+
+<item>
+  <title>Earthpilot (Jacobian Lens)</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#earthpilot-jacobian-lens</link>
+  <guid isPermaLink="false">earthpilot-jacobian-lens-2026-07-10</guid>
+  <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Earthpilot offers a web-based tool allowing users to visualize and edit the internal thought processes of open-source LLMs before they generate a response. — This provides a novel way to debug and understand LLM reasoning at a deeper level than traditional evaluations, enabling direct intervention in the model's internal state for enhanced control and alignment.]]></description>
+</item>
 
 <item>
   <title>GitHub Copilot</title>
@@ -53,22 +69,6 @@
   <guid isPermaLink="false">nvidia-dynamo-2026-07-07</guid>
   <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[NVIDIA Dynamo is an open-source distributed inference framework for serving large language models efficiently across multi-node GPU environments. — It significantly boosts throughput and reduces latency for LLM inference by introducing innovations like disaggregated prefill and decode, dynamic GPU scheduling, and KV cache management. This provides a high-performance solution for scaling generative AI models in production, offering a specialized alternative to general-purpose inference solutions.]]></description>
-</item>
-
-<item>
-  <title>Meetily</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#meetily-ai</link>
-  <guid isPermaLink="false">meetily-ai-2026-07-06</guid>
-  <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Meetily is a self-hosted, open-source AI meeting assistant providing live transcription, speaker diarization, and summarization. — It offers 100% local processing, ensuring privacy for meeting notes without relying on cloud services, unlike many commercial alternatives.]]></description>
-</item>
-
-<item>
-  <title>OmniRoute</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#omniroute</link>
-  <guid isPermaLink="false">omniroute-2026-07-05</guid>
-  <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[OmniRoute is a free AI gateway that provides a single endpoint to access over 231 AI model providers with token compression and auto-fallback. — It simplifies multi-model integration, optimizes inference costs through token savings, and enhances reliability by intelligently routing requests and handling failures.]]></description>
 </item>
 
 </channel>
