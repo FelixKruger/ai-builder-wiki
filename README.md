@@ -48,6 +48,8 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Memory OS](https://felixkruger.github.io/ai-builder-wiki/#memory-os)** — Memory OS is a 7-layer, local-first memory operating system designed for Hermes Agent, providing persistent, surgically token-efficient memory. _(added 2026-07-11)_
+
 - **[OfficeCLI](https://felixkruger.github.io/ai-builder-wiki/#office-cli)** — OfficeCLI is an open-source command-line interface enabling AI agents to read, edit, and automate Microsoft Word, Excel, and PowerPoint files without requiring Office installation. _(added 2026-07-10)_
 
 - **[Earthpilot (Jacobian Lens)](https://felixkruger.github.io/ai-builder-wiki/#earthpilot-jacobian-lens)** — Earthpilot offers a web-based tool allowing users to visualize and edit the internal thought processes of open-source LLMs before they generate a response. _(added 2026-07-10)_
@@ -61,8 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Termi Protocol](https://felixkruger.github.io/ai-builder-wiki/#termi-protocol)** — A 3D simulation environment for visualizing, monitoring, and debugging AI agent workflows. _(added 2026-07-08)_
 
 - **[Google ADK (Agent Development Kit)](https://felixkruger.github.io/ai-builder-wiki/#google-adk)** — Google's Agent Development Kit (ADK) is an open-source, code-first framework for building, evaluating, and deploying sophisticated AI agents, optimized for the Google ecosystem. _(added 2026-07-07)_
-
-- **[NVIDIA Dynamo](https://felixkruger.github.io/ai-builder-wiki/#nvidia-dynamo)** — NVIDIA Dynamo is an open-source distributed inference framework for serving large language models efficiently across multi-node GPU environments. _(added 2026-07-07)_
 
 <!-- RECENTLY_ADDED:END -->
 
