@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Fri, 10 Jul 2026 08:54:34 +0000</lastBuildDate>
+<lastBuildDate>Sat, 11 Jul 2026 07:28:09 +0000</lastBuildDate>
+
+<item>
+  <title>Memory OS</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#memory-os</link>
+  <guid isPermaLink="false">memory-os-2026-07-11</guid>
+  <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Memory OS is a 7-layer, local-first memory operating system designed for Hermes Agent, providing persistent, surgically token-efficient memory. — It addresses context loss in agentic AI by offering a private, provider-agnostic, and highly structured memory infrastructure that runs entirely on the user's machine.]]></description>
+</item>
 
 <item>
   <title>OfficeCLI</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">google-adk-2026-07-07</guid>
   <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Google's Agent Development Kit (ADK) is an open-source, code-first framework for building, evaluating, and deploying sophisticated AI agents, optimized for the Google ecosystem. — ADK provides a modular approach to agent development, enabling flexible orchestration of multi-agent systems and integrating with Google Cloud services for enterprise-scale deployment. This offers a comprehensive solution for developers already using Google's stack, similar to how Microsoft Agent Framework caters to its ecosystem.]]></description>
-</item>
-
-<item>
-  <title>NVIDIA Dynamo</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#nvidia-dynamo</link>
-  <guid isPermaLink="false">nvidia-dynamo-2026-07-07</guid>
-  <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[NVIDIA Dynamo is an open-source distributed inference framework for serving large language models efficiently across multi-node GPU environments. — It significantly boosts throughput and reduces latency for LLM inference by introducing innovations like disaggregated prefill and decode, dynamic GPU scheduling, and KV cache management. This provides a high-performance solution for scaling generative AI models in production, offering a specialized alternative to general-purpose inference solutions.]]></description>
 </item>
 
 </channel>
