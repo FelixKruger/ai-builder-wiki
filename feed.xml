@@ -5,7 +5,23 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Sat, 11 Jul 2026 07:28:09 +0000</lastBuildDate>
+<lastBuildDate>Sun, 12 Jul 2026 07:52:20 +0000</lastBuildDate>
+
+<item>
+  <title>Strix</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#strix</link>
+  <guid isPermaLink="false">strix-2026-07-12</guid>
+  <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Strix is an AI pentesting tool designed to autonomously identify and exploit vulnerabilities in running applications. — It provides an automated approach to security evaluation, offering a proactive way to test application resilience against AI-driven attacks, complementing traditional security tools.]]></description>
+</item>
+
+<item>
+  <title>Agency-agents</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#agency-agents</link>
+  <guid isPermaLink="false">agency-agents-2026-07-12</guid>
+  <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Agency-agents is a framework for orchestrating a large number of AI agents to collaboratively solve complex tasks. — It explores the paradigm of multi-agent systems, enabling the creation of complex AI workflows where individual agents contribute to a larger objective, a key direction in AI development.]]></description>
+</item>
 
 <item>
   <title>Memory OS</title>
@@ -53,22 +69,6 @@
   <guid isPermaLink="false">firecrawl-2026-07-08</guid>
   <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[A web scraping and data extraction API designed to provide clean, structured web content for AI agents and developers. — It streamlines the process of feeding high-quality, structured web data to AI agents, enhancing their ability to perform accurate information retrieval.]]></description>
-</item>
-
-<item>
-  <title>Termi Protocol</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#termi-protocol</link>
-  <guid isPermaLink="false">termi-protocol-2026-07-08</guid>
-  <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[A 3D simulation environment for visualizing, monitoring, and debugging AI agent workflows. — It offers a unique visual approach to understanding complex agent interactions, providing more intuitive insights than traditional log-based debugging for multi-agent systems.]]></description>
-</item>
-
-<item>
-  <title>Google ADK (Agent Development Kit)</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#google-adk</link>
-  <guid isPermaLink="false">google-adk-2026-07-07</guid>
-  <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Google's Agent Development Kit (ADK) is an open-source, code-first framework for building, evaluating, and deploying sophisticated AI agents, optimized for the Google ecosystem. — ADK provides a modular approach to agent development, enabling flexible orchestration of multi-agent systems and integrating with Google Cloud services for enterprise-scale deployment. This offers a comprehensive solution for developers already using Google's stack, similar to how Microsoft Agent Framework caters to its ecosystem.]]></description>
 </item>
 
 </channel>
