@@ -48,6 +48,10 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Strix](https://felixkruger.github.io/ai-builder-wiki/#strix)** — Strix is an AI pentesting tool designed to autonomously identify and exploit vulnerabilities in running applications. _(added 2026-07-12)_
+
+- **[Agency-agents](https://felixkruger.github.io/ai-builder-wiki/#agency-agents)** — Agency-agents is a framework for orchestrating a large number of AI agents to collaboratively solve complex tasks. _(added 2026-07-12)_
+
 - **[Memory OS](https://felixkruger.github.io/ai-builder-wiki/#memory-os)** — Memory OS is a 7-layer, local-first memory operating system designed for Hermes Agent, providing persistent, surgically token-efficient memory. _(added 2026-07-11)_
 
 - **[OfficeCLI](https://felixkruger.github.io/ai-builder-wiki/#office-cli)** — OfficeCLI is an open-source command-line interface enabling AI agents to read, edit, and automate Microsoft Word, Excel, and PowerPoint files without requiring Office installation. _(added 2026-07-10)_
@@ -59,10 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[vLLM](https://felixkruger.github.io/ai-builder-wiki/#vllm)** — vLLM is an open-source library for efficient LLM inference, known for its PagedAttention mechanism that optimizes GPU memory usage and throughput. _(added 2026-07-09)_
 
 - **[Firecrawl](https://felixkruger.github.io/ai-builder-wiki/#firecrawl)** — A web scraping and data extraction API designed to provide clean, structured web content for AI agents and developers. _(added 2026-07-08)_
-
-- **[Termi Protocol](https://felixkruger.github.io/ai-builder-wiki/#termi-protocol)** — A 3D simulation environment for visualizing, monitoring, and debugging AI agent workflows. _(added 2026-07-08)_
-
-- **[Google ADK (Agent Development Kit)](https://felixkruger.github.io/ai-builder-wiki/#google-adk)** — Google's Agent Development Kit (ADK) is an open-source, code-first framework for building, evaluating, and deploying sophisticated AI agents, optimized for the Google ecosystem. _(added 2026-07-07)_
 
 <!-- RECENTLY_ADDED:END -->
 
