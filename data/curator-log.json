@@ -1397,6 +1397,28 @@
         "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVB4Dua0nLcuWeQIceoo3UZ-jDX4p3qZX6MpEtBP1LpTv_c-rZJ_vcCxNwpWp3HD1p8SoLJdz8cmglVnbfH0ZXuMOllLLlCOgMFsgaIx6rWjMdgOLAUXf2kwuxa_Vptdyzcum2qw=="
       ],
       "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
+    },
+    {
+      "run_id": "2026-07-13-0838",
+      "started_at": "2026-07-13T08:38:33.157208+00:00",
+      "ended_at": "2026-07-13T08:38:58.863050+00:00",
+      "added": [
+        "colibri",
+        "context-dev"
+      ],
+      "refreshed": [
+        "bitboard",
+        "braintrust",
+        "codewhale"
+      ],
+      "removed": [],
+      "sources_checked": [
+        "gemini:gemini-2.5-flash+google-search-grounding",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMPjEJo6Lk1KkcBH-et_qfBJAgHgOWnETX_my4pQ8vYjkiP6ctkzpqN9xKED-wkG5InlxL5z-iPw3EO1p_Nu7aVf6_SVHeDsAlIGJW_7-p7lww0chPSw0=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpw6GhdraIa_vOCXKa3WBvIBy54jl4Taqin_xbNs7H1fnehX-xbijD7AxgyK1wZjH1BFB1R33-FXDTV5GHAvdyqFjKILVZ8Y-Wcl6gHCqk5eM=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyFpDd8bzZRnJRzGZz_XpUCReSEkgiJjLuGZk6LNTubkK-2elH7vx6FuU0tllwA_ezzUa_uBXhFL1Nid_GdVhOl4i3N29GgtHdsCvXtkXk1gbptbyi0kUnMyy7tRrJK7o="
+      ],
+      "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
     }
   ],
   "rotation_pointer": 0
