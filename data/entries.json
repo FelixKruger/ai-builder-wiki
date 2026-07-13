@@ -265,7 +265,7 @@
       "category": "evals",
       "summary": "Eval, logging, and prompt-playground stack used by many production AI teams.",
       "why_it_matters": "The 'we ship LLM features and need to know if a prompt change broke things' tool — diffs across runs are first-class.",
-      "last_verified": "2026-06-16",
+      "last_verified": "2026-07-13",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -749,7 +749,7 @@
       "category": "ai-coding",
       "summary": "CodeWhale is a terminal-based AI coding agent designed for DeepSeek models, engineered for prefix-cache stability.",
       "why_it_matters": "It provides a specialized coding agent optimized for DeepSeek models, offering a stable terminal experience for developers.",
-      "last_verified": "2026-06-16",
+      "last_verified": "2026-07-13",
       "source": "curator:2026-05-26-0703",
       "added": "2026-05-26"
     },
@@ -1013,7 +1013,7 @@
       "category": "evals",
       "summary": "BitBoard provides an analytics workspace specifically designed for monitoring and understanding the performance of AI agents.",
       "why_it_matters": "It offers specialized observability for agentic workflows, a more targeted approach compared to general-purpose eval tools like Langfuse or Braintrust.",
-      "last_verified": "2026-06-15",
+      "last_verified": "2026-07-13",
       "source": "curator:2026-06-15-0744",
       "added": "2026-06-15"
     },
@@ -1379,6 +1379,28 @@
       "last_verified": "2026-07-12",
       "source": "curator:2026-07-12-0751",
       "added": "2026-07-12"
+    },
+    {
+      "id": "colibri",
+      "name": "Colibri",
+      "url": "https://github.com/JustVugg/colibri",
+      "category": "inference-platforms",
+      "summary": "Colibri is a pure C, zero-dependency engine designed to run large open-weight models like GLM-5.2 (744B MoE) on consumer machines with limited RAM.",
+      "why_it_matters": "It enables efficient local execution of very large open-weight models on standard hardware, significantly lowering the barrier to entry for developers to experiment with powerful models without cloud infrastructure.",
+      "last_verified": "2026-07-13",
+      "source": "curator:2026-07-13-0838",
+      "added": "2026-07-13"
+    },
+    {
+      "id": "context-dev",
+      "name": "Context.dev",
+      "url": "https://www.context.dev/",
+      "category": "retrieval-search",
+      "summary": "Context.dev provides an API to extract structured data from any website, enabling agents and applications to programmatically access web content.",
+      "why_it_matters": "It offers a standardized way for AI agents to gather and process information from the web, crucial for tasks requiring up-to-date or specific data that traditional search engines may not structure effectively.",
+      "last_verified": "2026-07-13",
+      "source": "curator:2026-07-13-0838",
+      "added": "2026-07-13"
     }
   ]
 }
