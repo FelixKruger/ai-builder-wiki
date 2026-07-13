@@ -48,6 +48,10 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Colibri](https://felixkruger.github.io/ai-builder-wiki/#colibri)** — Colibri is a pure C, zero-dependency engine designed to run large open-weight models like GLM-5.2 (744B MoE) on consumer machines with limited RAM. _(added 2026-07-13)_
+
+- **[Context.dev](https://felixkruger.github.io/ai-builder-wiki/#context-dev)** — Context.dev provides an API to extract structured data from any website, enabling agents and applications to programmatically access web content. _(added 2026-07-13)_
+
 - **[Strix](https://felixkruger.github.io/ai-builder-wiki/#strix)** — Strix is an AI pentesting tool designed to autonomously identify and exploit vulnerabilities in running applications. _(added 2026-07-12)_
 
 - **[Agency-agents](https://felixkruger.github.io/ai-builder-wiki/#agency-agents)** — Agency-agents is a framework for orchestrating a large number of AI agents to collaboratively solve complex tasks. _(added 2026-07-12)_
@@ -59,10 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Earthpilot (Jacobian Lens)](https://felixkruger.github.io/ai-builder-wiki/#earthpilot-jacobian-lens)** — Earthpilot offers a web-based tool allowing users to visualize and edit the internal thought processes of open-source LLMs before they generate a response. _(added 2026-07-10)_
 
 - **[GitHub Copilot](https://felixkruger.github.io/ai-builder-wiki/#github-copilot)** — GitHub Copilot is an AI coding assistant that provides inline code completions, chat, and agent capabilities across various IDEs. _(added 2026-07-09)_
-
-- **[vLLM](https://felixkruger.github.io/ai-builder-wiki/#vllm)** — vLLM is an open-source library for efficient LLM inference, known for its PagedAttention mechanism that optimizes GPU memory usage and throughput. _(added 2026-07-09)_
-
-- **[Firecrawl](https://felixkruger.github.io/ai-builder-wiki/#firecrawl)** — A web scraping and data extraction API designed to provide clean, structured web content for AI agents and developers. _(added 2026-07-08)_
 
 <!-- RECENTLY_ADDED:END -->
 
