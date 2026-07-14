@@ -5,7 +5,23 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Mon, 13 Jul 2026 08:38:59 +0000</lastBuildDate>
+<lastBuildDate>Tue, 14 Jul 2026 07:31:34 +0000</lastBuildDate>
+
+<item>
+  <title>ChatGPT Work</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#chatgpt-work</link>
+  <guid isPermaLink="false">chatgpt-work-2026-07-14</guid>
+  <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[An agent in ChatGPT that automates tasks across applications and files, enabling the creation of documents, spreadsheets, presentations, and websites. — It expands ChatGPT's capabilities beyond conversational AI to direct task execution and content generation across various workplace applications, offering a direct competitor to other AI-driven app builders.]]></description>
+</item>
+
+<item>
+  <title>Astryx (Meta)</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#astryx</link>
+  <guid isPermaLink="false">astryx-2026-07-14</guid>
+  <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Meta's open-source agent-ready design system provides reusable components and guidelines for building consistent user interfaces. — It offers a structured approach for AI agents to generate UIs that adhere to a consistent design language, addressing the challenge of generic AI-built interfaces.]]></description>
+</item>
 
 <item>
   <title>Colibri</title>
@@ -53,22 +69,6 @@
   <guid isPermaLink="false">office-cli-2026-07-10</guid>
   <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[OfficeCLI is an open-source command-line interface enabling AI agents to read, edit, and automate Microsoft Word, Excel, and PowerPoint files without requiring Office installation. — This tool provides agents with direct, programmatic access to common office document formats, extending their utility beyond code-centric tasks to broader business process automation, unlike general coding agents.]]></description>
-</item>
-
-<item>
-  <title>Earthpilot (Jacobian Lens)</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#earthpilot-jacobian-lens</link>
-  <guid isPermaLink="false">earthpilot-jacobian-lens-2026-07-10</guid>
-  <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Earthpilot offers a web-based tool allowing users to visualize and edit the internal thought processes of open-source LLMs before they generate a response. — This provides a novel way to debug and understand LLM reasoning at a deeper level than traditional evaluations, enabling direct intervention in the model's internal state for enhanced control and alignment.]]></description>
-</item>
-
-<item>
-  <title>GitHub Copilot</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#github-copilot</link>
-  <guid isPermaLink="false">github-copilot-2026-07-09</guid>
-  <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[GitHub Copilot is an AI coding assistant that provides inline code completions, chat, and agent capabilities across various IDEs. — It is one of the most widely adopted AI coding tools, offering broad IDE support and an agent mode for multi-file changes and task automation, unlike many standalone AI IDEs.]]></description>
 </item>
 
 </channel>

@@ -48,6 +48,10 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[ChatGPT Work](https://felixkruger.github.io/ai-builder-wiki/#chatgpt-work)** — An agent in ChatGPT that automates tasks across applications and files, enabling the creation of documents, spreadsheets, presentations, and websites. _(added 2026-07-14)_
+
+- **[Astryx (Meta)](https://felixkruger.github.io/ai-builder-wiki/#astryx)** — Meta's open-source agent-ready design system provides reusable components and guidelines for building consistent user interfaces. _(added 2026-07-14)_
+
 - **[Colibri](https://felixkruger.github.io/ai-builder-wiki/#colibri)** — Colibri is a pure C, zero-dependency engine designed to run large open-weight models like GLM-5.2 (744B MoE) on consumer machines with limited RAM. _(added 2026-07-13)_
 
 - **[Context.dev](https://felixkruger.github.io/ai-builder-wiki/#context-dev)** — Context.dev provides an API to extract structured data from any website, enabling agents and applications to programmatically access web content. _(added 2026-07-13)_
@@ -59,10 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Memory OS](https://felixkruger.github.io/ai-builder-wiki/#memory-os)** — Memory OS is a 7-layer, local-first memory operating system designed for Hermes Agent, providing persistent, surgically token-efficient memory. _(added 2026-07-11)_
 
 - **[OfficeCLI](https://felixkruger.github.io/ai-builder-wiki/#office-cli)** — OfficeCLI is an open-source command-line interface enabling AI agents to read, edit, and automate Microsoft Word, Excel, and PowerPoint files without requiring Office installation. _(added 2026-07-10)_
-
-- **[Earthpilot (Jacobian Lens)](https://felixkruger.github.io/ai-builder-wiki/#earthpilot-jacobian-lens)** — Earthpilot offers a web-based tool allowing users to visualize and edit the internal thought processes of open-source LLMs before they generate a response. _(added 2026-07-10)_
-
-- **[GitHub Copilot](https://felixkruger.github.io/ai-builder-wiki/#github-copilot)** — GitHub Copilot is an AI coding assistant that provides inline code completions, chat, and agent capabilities across various IDEs. _(added 2026-07-09)_
 
 <!-- RECENTLY_ADDED:END -->
 

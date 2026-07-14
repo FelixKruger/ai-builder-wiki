@@ -760,7 +760,7 @@
       "category": "ai-design-skills",
       "summary": "Open Design is a local-first, open-source alternative to Claude Design, offering skills and design systems for generating various prototypes and media.",
       "why_it_matters": "It provides an open-source, local alternative for AI-driven design generation, expanding options beyond proprietary tools like Claude Design.",
-      "last_verified": "2026-06-16",
+      "last_verified": "2026-07-14",
       "source": "curator:2026-05-26-0703",
       "added": "2026-05-26"
     },
@@ -1024,7 +1024,7 @@
       "category": "inference-platforms",
       "summary": "LMCache is an open-source inference caching system designed to enhance language model serving efficiency by reducing redundant computations.",
       "why_it_matters": "It optimizes the cost and latency of running LLMs in production, offering a critical component for scaling AI applications more efficiently than uncached inference.",
-      "last_verified": "2026-06-16",
+      "last_verified": "2026-07-14",
       "source": "curator:2026-06-16-0747",
       "added": "2026-06-16"
     },
@@ -1035,7 +1035,7 @@
       "category": "mcp-tools",
       "summary": "Skills is an open registry and CLI tool by Vercel for installing and managing capability packages to extend AI agent functionalities.",
       "why_it_matters": "It standardizes and simplifies the process of adding tools to AI agents, fostering a reusable ecosystem for agent builders and promoting interoperability.",
-      "last_verified": "2026-06-16",
+      "last_verified": "2026-07-14",
       "source": "curator:2026-06-16-0747",
       "added": "2026-06-16"
     },
@@ -1401,6 +1401,28 @@
       "last_verified": "2026-07-13",
       "source": "curator:2026-07-13-0838",
       "added": "2026-07-13"
+    },
+    {
+      "id": "chatgpt-work",
+      "name": "ChatGPT Work",
+      "url": "https://chatgpt.com/",
+      "category": "app-builders",
+      "summary": "An agent in ChatGPT that automates tasks across applications and files, enabling the creation of documents, spreadsheets, presentations, and websites.",
+      "why_it_matters": "It expands ChatGPT's capabilities beyond conversational AI to direct task execution and content generation across various workplace applications, offering a direct competitor to other AI-driven app builders.",
+      "last_verified": "2026-07-14",
+      "source": "curator:2026-07-14-0730",
+      "added": "2026-07-14"
+    },
+    {
+      "id": "astryx",
+      "name": "Astryx (Meta)",
+      "url": "https://github.com/facebook/astryx",
+      "category": "ai-design-skills",
+      "summary": "Meta's open-source agent-ready design system provides reusable components and guidelines for building consistent user interfaces.",
+      "why_it_matters": "It offers a structured approach for AI agents to generate UIs that adhere to a consistent design language, addressing the challenge of generic AI-built interfaces.",
+      "last_verified": "2026-07-14",
+      "source": "curator:2026-07-14-0730",
+      "added": "2026-07-14"
     }
   ]
 }
