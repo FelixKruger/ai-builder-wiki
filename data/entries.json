@@ -276,7 +276,7 @@
       "category": "evals",
       "summary": "Open-source LLM observability — traces, evals, prompts, self-hostable.",
       "why_it_matters": "The default open-source pick for tracing agent runs. Self-host if your data can't leave the building.",
-      "last_verified": "2026-06-17",
+      "last_verified": "2026-07-15",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -287,7 +287,7 @@
       "category": "retrieval-search",
       "summary": "Vector similarity search inside Postgres. HNSW + IVFFlat indexes, just another column type.",
       "why_it_matters": "The boring-tech RAG stack: keep your embeddings next to your relational data. Most apps don't need a dedicated vector DB.",
-      "last_verified": "2026-06-17",
+      "last_verified": "2026-07-15",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -771,7 +771,7 @@
       "category": "app-builders",
       "summary": "An agent-first development platform and IDE by Google for building and orchestrating autonomous AI agents across editor, terminal, and browser.",
       "why_it_matters": "It shifts from traditional AI code assistance to a system where AI agents operate with greater autonomy, providing an abstracted UI for managing parallel subagents and scheduled tasks.",
-      "last_verified": "2026-06-17",
+      "last_verified": "2026-07-15",
       "source": "curator:2026-05-27-0717",
       "added": "2026-05-27"
     },
@@ -1423,6 +1423,28 @@
       "last_verified": "2026-07-14",
       "source": "curator:2026-07-14-0730",
       "added": "2026-07-14"
+    },
+    {
+      "id": "sim",
+      "name": "Sim",
+      "url": "https://github.com/simstudioai/sim",
+      "category": "agent-frameworks",
+      "summary": "Sim is an open-source workspace designed for building, deploying, and orchestrating AI agents and their associated workflows.",
+      "why_it_matters": "It provides a centralized environment for agent development and management, streamlining the process compared to assembling disparate tools.",
+      "last_verified": "2026-07-15",
+      "source": "curator:2026-07-15-0744",
+      "added": "2026-07-15"
+    },
+    {
+      "id": "hallmark",
+      "name": "Hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "category": "ai-design-skills",
+      "summary": "Hallmark is an open-source design skill for AI coding assistants that aims to eliminate generic AI-generated UI outputs.",
+      "why_it_matters": "It provides a targeted solution for improving the aesthetic quality of AI-generated designs, addressing a common limitation of current AI design tools.",
+      "last_verified": "2026-07-15",
+      "source": "curator:2026-07-15-0744",
+      "added": "2026-07-15"
     }
   ]
 }
