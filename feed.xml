@@ -5,7 +5,23 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Tue, 14 Jul 2026 07:31:34 +0000</lastBuildDate>
+<lastBuildDate>Wed, 15 Jul 2026 07:45:10 +0000</lastBuildDate>
+
+<item>
+  <title>Sim</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#sim</link>
+  <guid isPermaLink="false">sim-2026-07-15</guid>
+  <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Sim is an open-source workspace designed for building, deploying, and orchestrating AI agents and their associated workflows. — It provides a centralized environment for agent development and management, streamlining the process compared to assembling disparate tools.]]></description>
+</item>
+
+<item>
+  <title>Hallmark</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#hallmark</link>
+  <guid isPermaLink="false">hallmark-2026-07-15</guid>
+  <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Hallmark is an open-source design skill for AI coding assistants that aims to eliminate generic AI-generated UI outputs. — It provides a targeted solution for improving the aesthetic quality of AI-generated designs, addressing a common limitation of current AI design tools.]]></description>
+</item>
 
 <item>
   <title>ChatGPT Work</title>
@@ -53,22 +69,6 @@
   <guid isPermaLink="false">agency-agents-2026-07-12</guid>
   <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Agency-agents is a framework for orchestrating a large number of AI agents to collaboratively solve complex tasks. — It explores the paradigm of multi-agent systems, enabling the creation of complex AI workflows where individual agents contribute to a larger objective, a key direction in AI development.]]></description>
-</item>
-
-<item>
-  <title>Memory OS</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#memory-os</link>
-  <guid isPermaLink="false">memory-os-2026-07-11</guid>
-  <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Memory OS is a 7-layer, local-first memory operating system designed for Hermes Agent, providing persistent, surgically token-efficient memory. — It addresses context loss in agentic AI by offering a private, provider-agnostic, and highly structured memory infrastructure that runs entirely on the user's machine.]]></description>
-</item>
-
-<item>
-  <title>OfficeCLI</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#office-cli</link>
-  <guid isPermaLink="false">office-cli-2026-07-10</guid>
-  <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[OfficeCLI is an open-source command-line interface enabling AI agents to read, edit, and automate Microsoft Word, Excel, and PowerPoint files without requiring Office installation. — This tool provides agents with direct, programmatic access to common office document formats, extending their utility beyond code-centric tasks to broader business process automation, unlike general coding agents.]]></description>
 </item>
 
 </channel>

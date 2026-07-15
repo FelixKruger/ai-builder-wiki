@@ -48,6 +48,10 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Sim](https://felixkruger.github.io/ai-builder-wiki/#sim)** — Sim is an open-source workspace designed for building, deploying, and orchestrating AI agents and their associated workflows. _(added 2026-07-15)_
+
+- **[Hallmark](https://felixkruger.github.io/ai-builder-wiki/#hallmark)** — Hallmark is an open-source design skill for AI coding assistants that aims to eliminate generic AI-generated UI outputs. _(added 2026-07-15)_
+
 - **[ChatGPT Work](https://felixkruger.github.io/ai-builder-wiki/#chatgpt-work)** — An agent in ChatGPT that automates tasks across applications and files, enabling the creation of documents, spreadsheets, presentations, and websites. _(added 2026-07-14)_
 
 - **[Astryx (Meta)](https://felixkruger.github.io/ai-builder-wiki/#astryx)** — Meta's open-source agent-ready design system provides reusable components and guidelines for building consistent user interfaces. _(added 2026-07-14)_
@@ -59,10 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Strix](https://felixkruger.github.io/ai-builder-wiki/#strix)** — Strix is an AI pentesting tool designed to autonomously identify and exploit vulnerabilities in running applications. _(added 2026-07-12)_
 
 - **[Agency-agents](https://felixkruger.github.io/ai-builder-wiki/#agency-agents)** — Agency-agents is a framework for orchestrating a large number of AI agents to collaboratively solve complex tasks. _(added 2026-07-12)_
-
-- **[Memory OS](https://felixkruger.github.io/ai-builder-wiki/#memory-os)** — Memory OS is a 7-layer, local-first memory operating system designed for Hermes Agent, providing persistent, surgically token-efficient memory. _(added 2026-07-11)_
-
-- **[OfficeCLI](https://felixkruger.github.io/ai-builder-wiki/#office-cli)** — OfficeCLI is an open-source command-line interface enabling AI agents to read, edit, and automate Microsoft Word, Excel, and PowerPoint files without requiring Office installation. _(added 2026-07-10)_
 
 <!-- RECENTLY_ADDED:END -->
 
