@@ -298,7 +298,7 @@
       "category": "retrieval-search",
       "summary": "Serverless vector + full-text search on object storage — pay per query, scales to billions of vectors.",
       "why_it_matters": "When pgvector starts groaning and you don't want to babysit a Pinecone bill, turbopuffer is the 2026 sweet spot.",
-      "last_verified": "2026-06-18",
+      "last_verified": "2026-07-16",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -1046,7 +1046,7 @@
       "category": "evals",
       "summary": "AgentOps is an observability platform specifically designed to monitor, evaluate, and debug AI agentic workflows and LLM applications.",
       "why_it_matters": "It offers specialized tracing and logging for complex agent interactions, providing deeper insights compared to general LLM observability tools.",
-      "last_verified": "2026-06-17",
+      "last_verified": "2026-07-16",
       "source": "curator:2026-06-17-0738",
       "added": "2026-06-17"
     },
@@ -1057,7 +1057,7 @@
       "category": "agent-frameworks",
       "summary": "LlamaIndex is a data framework for LLM applications, providing tools to ingest, structure, and access private or domain-specific data for context-aware AI agents.",
       "why_it_matters": "It simplifies the integration of external data with LLMs for retrieval-augmented generation (RAG), serving as a foundational framework for many data-aware agent applications.",
-      "last_verified": "2026-06-17",
+      "last_verified": "2026-07-16",
       "source": "curator:2026-06-17-0738",
       "added": "2026-06-17"
     },
@@ -1445,6 +1445,17 @@
       "last_verified": "2026-07-15",
       "source": "curator:2026-07-15-0744",
       "added": "2026-07-15"
+    },
+    {
+      "id": "claude-sonnet-5",
+      "name": "Claude Sonnet 5",
+      "url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "category": "hosted-apis",
+      "summary": "Claude Sonnet 5 is Anthropic's latest agentic model, offering near-Opus performance with improved reasoning and tool use at Sonnet pricing.",
+      "why_it_matters": "It provides advanced agentic capabilities at a more accessible price point than the flagship Opus models, making sophisticated AI agents more economically viable for enterprises.",
+      "last_verified": "2026-07-16",
+      "source": "curator:2026-07-16-0749",
+      "added": "2026-07-16"
     }
   ]
 }
