@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Wed, 15 Jul 2026 07:45:10 +0000</lastBuildDate>
+<lastBuildDate>Thu, 16 Jul 2026 07:50:13 +0000</lastBuildDate>
+
+<item>
+  <title>Claude Sonnet 5</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#claude-sonnet-5</link>
+  <guid isPermaLink="false">claude-sonnet-5-2026-07-16</guid>
+  <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Claude Sonnet 5 is Anthropic's latest agentic model, offering near-Opus performance with improved reasoning and tool use at Sonnet pricing. — It provides advanced agentic capabilities at a more accessible price point than the flagship Opus models, making sophisticated AI agents more economically viable for enterprises.]]></description>
+</item>
 
 <item>
   <title>Sim</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">strix-2026-07-12</guid>
   <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Strix is an AI pentesting tool designed to autonomously identify and exploit vulnerabilities in running applications. — It provides an automated approach to security evaluation, offering a proactive way to test application resilience against AI-driven attacks, complementing traditional security tools.]]></description>
-</item>
-
-<item>
-  <title>Agency-agents</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#agency-agents</link>
-  <guid isPermaLink="false">agency-agents-2026-07-12</guid>
-  <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Agency-agents is a framework for orchestrating a large number of AI agents to collaboratively solve complex tasks. — It explores the paradigm of multi-agent systems, enabling the creation of complex AI workflows where individual agents contribute to a larger objective, a key direction in AI development.]]></description>
 </item>
 
 </channel>
