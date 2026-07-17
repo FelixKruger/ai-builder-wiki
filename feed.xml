@@ -5,7 +5,23 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Thu, 16 Jul 2026 07:50:13 +0000</lastBuildDate>
+<lastBuildDate>Fri, 17 Jul 2026 07:47:29 +0000</lastBuildDate>
+
+<item>
+  <title>OpenAI GPT-5.6 (Sol, Terra, Luna)</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#openai-gpt-5-6</link>
+  <guid isPermaLink="false">openai-gpt-5-6-2026-07-17</guid>
+  <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[OpenAI launched GPT-5.6, a new family of frontier AI models available in three tiers: Sol (top), Terra (mid-range), and Luna (fast, cheap). — This release introduces OpenAI's most capable models to date, with tiered access designed to provide options for various performance and cost requirements.]]></description>
+</item>
+
+<item>
+  <title>Traceforce</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#traceforce</link>
+  <guid isPermaLink="false">traceforce-2026-07-17</guid>
+  <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Traceforce provides company-wide security monitoring for AI applications by offering visibility and control over AI app activity and detecting security risks. — It addresses the growing concern of AI-assisted attacks and supply chain risks by providing real-time monitoring and controls that traditional security tools often miss.]]></description>
+</item>
 
 <item>
   <title>Claude Sonnet 5</title>
@@ -53,22 +69,6 @@
   <guid isPermaLink="false">colibri-2026-07-13</guid>
   <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Colibri is a pure C, zero-dependency engine designed to run large open-weight models like GLM-5.2 (744B MoE) on consumer machines with limited RAM. — It enables efficient local execution of very large open-weight models on standard hardware, significantly lowering the barrier to entry for developers to experiment with powerful models without cloud infrastructure.]]></description>
-</item>
-
-<item>
-  <title>Context.dev</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#context-dev</link>
-  <guid isPermaLink="false">context-dev-2026-07-13</guid>
-  <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Context.dev provides an API to extract structured data from any website, enabling agents and applications to programmatically access web content. — It offers a standardized way for AI agents to gather and process information from the web, crucial for tasks requiring up-to-date or specific data that traditional search engines may not structure effectively.]]></description>
-</item>
-
-<item>
-  <title>Strix</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#strix</link>
-  <guid isPermaLink="false">strix-2026-07-12</guid>
-  <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Strix is an AI pentesting tool designed to autonomously identify and exploit vulnerabilities in running applications. — It provides an automated approach to security evaluation, offering a proactive way to test application resilience against AI-driven attacks, complementing traditional security tools.]]></description>
 </item>
 
 </channel>
