@@ -48,6 +48,10 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[OpenAI GPT-5.6 (Sol, Terra, Luna)](https://felixkruger.github.io/ai-builder-wiki/#openai-gpt-5-6)** — OpenAI launched GPT-5.6, a new family of frontier AI models available in three tiers: Sol (top), Terra (mid-range), and Luna (fast, cheap). _(added 2026-07-17)_
+
+- **[Traceforce](https://felixkruger.github.io/ai-builder-wiki/#traceforce)** — Traceforce provides company-wide security monitoring for AI applications by offering visibility and control over AI app activity and detecting security risks. _(added 2026-07-17)_
+
 - **[Claude Sonnet 5](https://felixkruger.github.io/ai-builder-wiki/#claude-sonnet-5)** — Claude Sonnet 5 is Anthropic's latest agentic model, offering near-Opus performance with improved reasoning and tool use at Sonnet pricing. _(added 2026-07-16)_
 
 - **[Sim](https://felixkruger.github.io/ai-builder-wiki/#sim)** — Sim is an open-source workspace designed for building, deploying, and orchestrating AI agents and their associated workflows. _(added 2026-07-15)_
@@ -59,10 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Astryx (Meta)](https://felixkruger.github.io/ai-builder-wiki/#astryx)** — Meta's open-source agent-ready design system provides reusable components and guidelines for building consistent user interfaces. _(added 2026-07-14)_
 
 - **[Colibri](https://felixkruger.github.io/ai-builder-wiki/#colibri)** — Colibri is a pure C, zero-dependency engine designed to run large open-weight models like GLM-5.2 (744B MoE) on consumer machines with limited RAM. _(added 2026-07-13)_
-
-- **[Context.dev](https://felixkruger.github.io/ai-builder-wiki/#context-dev)** — Context.dev provides an API to extract structured data from any website, enabling agents and applications to programmatically access web content. _(added 2026-07-13)_
-
-- **[Strix](https://felixkruger.github.io/ai-builder-wiki/#strix)** — Strix is an AI pentesting tool designed to autonomously identify and exploit vulnerabilities in running applications. _(added 2026-07-12)_
 
 <!-- RECENTLY_ADDED:END -->
 
