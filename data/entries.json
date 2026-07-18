@@ -331,7 +331,7 @@
       "category": "app-builders",
       "summary": "StackBlitz's in-browser full-stack agent — runs Node in WebContainers, no local setup.",
       "why_it_matters": "When the friction of 'clone, install, run' is the bottleneck on idea velocity, Bolt removes it entirely.",
-      "last_verified": "2026-06-19",
+      "last_verified": "2026-07-18",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -782,7 +782,7 @@
       "category": "ai-coding",
       "summary": "OpenCode is an open-source, terminal-based AI coding agent that integrates with Git for commit-level code edits and supports over 100 languages.",
       "why_it_matters": "Unlike commercial AI coding assistants, OpenCode offers a free, self-hosted option with broad language support and deep codebase context for developers.",
-      "last_verified": "2026-06-19",
+      "last_verified": "2026-07-18",
       "source": "curator:2026-05-28-0710",
       "added": "2026-05-28"
     },
@@ -793,7 +793,7 @@
       "category": "evals",
       "summary": "RAMPART is a Pytest-native, open-source framework from Microsoft for testing the safety and security of AI agents during development.",
       "why_it_matters": "It provides a structured way to red-team AI agents early in the development lifecycle, complementing existing observability tools by focusing on security vulnerabilities.",
-      "last_verified": "2026-06-19",
+      "last_verified": "2026-07-18",
       "source": "curator:2026-05-28-0710",
       "added": "2026-05-28"
     },
@@ -1478,6 +1478,28 @@
       "last_verified": "2026-07-17",
       "source": "curator:2026-07-17-0747",
       "added": "2026-07-17"
+    },
+    {
+      "id": "mimo-code",
+      "name": "MiMo Code",
+      "url": "https://mimo.xiaomi.com/",
+      "category": "ai-coding",
+      "summary": "A terminal-native AI coding assistant from Xiaomi MiMo that reads and writes code, runs commands, and maintains project understanding with persistent memory.",
+      "why_it_matters": "It offers a self-improving, open-source alternative to existing AI coding environments, focusing on deep project understanding and efficient agentic workflows.",
+      "last_verified": "2026-07-18",
+      "source": "curator:2026-07-18-0721",
+      "added": "2026-07-18"
+    },
+    {
+      "id": "generic-agent",
+      "name": "GenericAgent",
+      "url": "https://github.com/lsdefine/GenericAgent",
+      "category": "agent-frameworks",
+      "summary": "A minimalist, self-evolving autonomous agent framework that grants LLMs system-level control over a local computer with high token efficiency.",
+      "why_it_matters": "It provides a lean, efficient, and self-improving approach to agent development by evolving skills from a minimal core, offering an alternative to more complex frameworks.",
+      "last_verified": "2026-07-18",
+      "source": "curator:2026-07-18-0721",
+      "added": "2026-07-18"
     }
   ]
 }

@@ -5,7 +5,23 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Fri, 17 Jul 2026 07:47:29 +0000</lastBuildDate>
+<lastBuildDate>Sat, 18 Jul 2026 07:21:54 +0000</lastBuildDate>
+
+<item>
+  <title>MiMo Code</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#mimo-code</link>
+  <guid isPermaLink="false">mimo-code-2026-07-18</guid>
+  <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[A terminal-native AI coding assistant from Xiaomi MiMo that reads and writes code, runs commands, and maintains project understanding with persistent memory. — It offers a self-improving, open-source alternative to existing AI coding environments, focusing on deep project understanding and efficient agentic workflows.]]></description>
+</item>
+
+<item>
+  <title>GenericAgent</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#generic-agent</link>
+  <guid isPermaLink="false">generic-agent-2026-07-18</guid>
+  <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[A minimalist, self-evolving autonomous agent framework that grants LLMs system-level control over a local computer with high token efficiency. — It provides a lean, efficient, and self-improving approach to agent development by evolving skills from a minimal core, offering an alternative to more complex frameworks.]]></description>
+</item>
 
 <item>
   <title>OpenAI GPT-5.6 (Sol, Terra, Luna)</title>
@@ -53,22 +69,6 @@
   <guid isPermaLink="false">chatgpt-work-2026-07-14</guid>
   <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[An agent in ChatGPT that automates tasks across applications and files, enabling the creation of documents, spreadsheets, presentations, and websites. — It expands ChatGPT's capabilities beyond conversational AI to direct task execution and content generation across various workplace applications, offering a direct competitor to other AI-driven app builders.]]></description>
-</item>
-
-<item>
-  <title>Astryx (Meta)</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#astryx</link>
-  <guid isPermaLink="false">astryx-2026-07-14</guid>
-  <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Meta's open-source agent-ready design system provides reusable components and guidelines for building consistent user interfaces. — It offers a structured approach for AI agents to generate UIs that adhere to a consistent design language, addressing the challenge of generic AI-built interfaces.]]></description>
-</item>
-
-<item>
-  <title>Colibri</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#colibri</link>
-  <guid isPermaLink="false">colibri-2026-07-13</guid>
-  <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Colibri is a pure C, zero-dependency engine designed to run large open-weight models like GLM-5.2 (744B MoE) on consumer machines with limited RAM. — It enables efficient local execution of very large open-weight models on standard hardware, significantly lowering the barrier to entry for developers to experiment with powerful models without cloud infrastructure.]]></description>
 </item>
 
 </channel>
