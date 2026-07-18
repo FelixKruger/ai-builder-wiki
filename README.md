@@ -48,6 +48,10 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[MiMo Code](https://felixkruger.github.io/ai-builder-wiki/#mimo-code)** — A terminal-native AI coding assistant from Xiaomi MiMo that reads and writes code, runs commands, and maintains project understanding with persistent memory. _(added 2026-07-18)_
+
+- **[GenericAgent](https://felixkruger.github.io/ai-builder-wiki/#generic-agent)** — A minimalist, self-evolving autonomous agent framework that grants LLMs system-level control over a local computer with high token efficiency. _(added 2026-07-18)_
+
 - **[OpenAI GPT-5.6 (Sol, Terra, Luna)](https://felixkruger.github.io/ai-builder-wiki/#openai-gpt-5-6)** — OpenAI launched GPT-5.6, a new family of frontier AI models available in three tiers: Sol (top), Terra (mid-range), and Luna (fast, cheap). _(added 2026-07-17)_
 
 - **[Traceforce](https://felixkruger.github.io/ai-builder-wiki/#traceforce)** — Traceforce provides company-wide security monitoring for AI applications by offering visibility and control over AI app activity and detecting security risks. _(added 2026-07-17)_
@@ -59,10 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Hallmark](https://felixkruger.github.io/ai-builder-wiki/#hallmark)** — Hallmark is an open-source design skill for AI coding assistants that aims to eliminate generic AI-generated UI outputs. _(added 2026-07-15)_
 
 - **[ChatGPT Work](https://felixkruger.github.io/ai-builder-wiki/#chatgpt-work)** — An agent in ChatGPT that automates tasks across applications and files, enabling the creation of documents, spreadsheets, presentations, and websites. _(added 2026-07-14)_
-
-- **[Astryx (Meta)](https://felixkruger.github.io/ai-builder-wiki/#astryx)** — Meta's open-source agent-ready design system provides reusable components and guidelines for building consistent user interfaces. _(added 2026-07-14)_
-
-- **[Colibri](https://felixkruger.github.io/ai-builder-wiki/#colibri)** — Colibri is a pure C, zero-dependency engine designed to run large open-weight models like GLM-5.2 (744B MoE) on consumer machines with limited RAM. _(added 2026-07-13)_
 
 <!-- RECENTLY_ADDED:END -->
 
