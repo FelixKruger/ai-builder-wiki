@@ -122,7 +122,7 @@
       "category": "ai-coding",
       "summary": "Anthropic's official terminal-native coding agent — reads your repo, edits files, runs commands, talks to MCP servers.",
       "why_it_matters": "The reference implementation for agentic coding: full-context repo understanding, permissions model, hooks, and skills. If you're building developer agents, study how it ships.",
-      "last_verified": "2026-06-20",
+      "last_verified": "2026-07-19",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -1079,7 +1079,7 @@
       "category": "ai-coding",
       "summary": "A terminal AI code agent, forked from Mario Zechner's Pi, featuring an integrated development toolchain and a code-first workflow.",
       "why_it_matters": "It enhances AI coding by deeply integrating with Language Server Protocols, debuggers, and shells, addressing common pain points for agents in development environments.",
-      "last_verified": "2026-06-19",
+      "last_verified": "2026-07-19",
       "source": "curator:2026-06-19-0742",
       "added": "2026-06-19"
     },
@@ -1090,7 +1090,7 @@
       "category": "mcp-tools",
       "summary": "A high-performance Model Context Protocol (MCP) server designed for indexing codebases into a persistent knowledge graph.",
       "why_it_matters": "It enables coding agents to quickly query entire codebases as context, significantly improving efficiency and reducing token costs for code-related tasks.",
-      "last_verified": "2026-06-19",
+      "last_verified": "2026-07-19",
       "source": "curator:2026-06-19-0742",
       "added": "2026-06-19"
     },
@@ -1500,6 +1500,17 @@
       "last_verified": "2026-07-18",
       "source": "curator:2026-07-18-0721",
       "added": "2026-07-18"
+    },
+    {
+      "id": "zcode",
+      "name": "ZCode",
+      "url": "https://zcode.z.ai/en",
+      "category": "ai-coding",
+      "summary": "ZCode is a desktop AI coding agent built by Zhipu.ai, providing a graphical user interface for interacting with LLMs and managing coding tasks.",
+      "why_it_matters": "It offers a desktop-first experience similar to OpenAI's Codex app, serving as an alternative to CLI-centric agents for developers who prefer a visual workflow for AI-assisted coding.",
+      "last_verified": "2026-07-19",
+      "source": "curator:2026-07-19-0752",
+      "added": "2026-07-19"
     }
   ]
 }
