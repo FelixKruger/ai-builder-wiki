@@ -48,6 +48,8 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[ZCode](https://felixkruger.github.io/ai-builder-wiki/#zcode)** — ZCode is a desktop AI coding agent built by Zhipu.ai, providing a graphical user interface for interacting with LLMs and managing coding tasks. _(added 2026-07-19)_
+
 - **[MiMo Code](https://felixkruger.github.io/ai-builder-wiki/#mimo-code)** — A terminal-native AI coding assistant from Xiaomi MiMo that reads and writes code, runs commands, and maintains project understanding with persistent memory. _(added 2026-07-18)_
 
 - **[GenericAgent](https://felixkruger.github.io/ai-builder-wiki/#generic-agent)** — A minimalist, self-evolving autonomous agent framework that grants LLMs system-level control over a local computer with high token efficiency. _(added 2026-07-18)_
@@ -61,8 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Sim](https://felixkruger.github.io/ai-builder-wiki/#sim)** — Sim is an open-source workspace designed for building, deploying, and orchestrating AI agents and their associated workflows. _(added 2026-07-15)_
 
 - **[Hallmark](https://felixkruger.github.io/ai-builder-wiki/#hallmark)** — Hallmark is an open-source design skill for AI coding assistants that aims to eliminate generic AI-generated UI outputs. _(added 2026-07-15)_
-
-- **[ChatGPT Work](https://felixkruger.github.io/ai-builder-wiki/#chatgpt-work)** — An agent in ChatGPT that automates tasks across applications and files, enabling the creation of documents, spreadsheets, presentations, and websites. _(added 2026-07-14)_
 
 <!-- RECENTLY_ADDED:END -->
 
