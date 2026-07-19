@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Sat, 18 Jul 2026 07:21:54 +0000</lastBuildDate>
+<lastBuildDate>Sun, 19 Jul 2026 07:53:05 +0000</lastBuildDate>
+
+<item>
+  <title>ZCode</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#zcode</link>
+  <guid isPermaLink="false">zcode-2026-07-19</guid>
+  <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[ZCode is a desktop AI coding agent built by Zhipu.ai, providing a graphical user interface for interacting with LLMs and managing coding tasks. — It offers a desktop-first experience similar to OpenAI's Codex app, serving as an alternative to CLI-centric agents for developers who prefer a visual workflow for AI-assisted coding.]]></description>
+</item>
 
 <item>
   <title>MiMo Code</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">hallmark-2026-07-15</guid>
   <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Hallmark is an open-source design skill for AI coding assistants that aims to eliminate generic AI-generated UI outputs. — It provides a targeted solution for improving the aesthetic quality of AI-generated designs, addressing a common limitation of current AI design tools.]]></description>
-</item>
-
-<item>
-  <title>ChatGPT Work</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#chatgpt-work</link>
-  <guid isPermaLink="false">chatgpt-work-2026-07-14</guid>
-  <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[An agent in ChatGPT that automates tasks across applications and files, enabling the creation of documents, spreadsheets, presentations, and websites. — It expands ChatGPT's capabilities beyond conversational AI to direct task execution and content generation across various workplace applications, offering a direct competitor to other AI-driven app builders.]]></description>
 </item>
 
 </channel>
