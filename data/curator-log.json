@@ -1552,6 +1552,24 @@
         "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJHpI7nuCZK5MLmWL4uUNzvnh7McckeEGAHO3CRk3jRXJuDDUGgulqV62tMGzWIJAOlIR_Ei7IgukyXraSoPOq4zvwImZakERqF2KtzyA6wJNJH1soLjmSJ8eMXHaf_zeIZuAkHwgDT-sFWEt4JQe-O7ZqmRs8I-0V01DQhVxD6Ql-Bem3u4k="
       ],
       "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
+    },
+    {
+      "run_id": "2026-07-20-0830",
+      "started_at": "2026-07-20T08:30:41.561895+00:00",
+      "ended_at": "2026-07-20T08:31:11.388537+00:00",
+      "added": [
+        "plugthis"
+      ],
+      "refreshed": [
+        "elevenlabs",
+        "cartesia",
+        "perplexity-computer"
+      ],
+      "removed": [],
+      "sources_checked": [
+        "gemini:gemini-2.5-flash+google-search-grounding"
+      ],
+      "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
     }
   ],
   "rotation_pointer": 0
