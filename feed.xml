@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Sun, 19 Jul 2026 07:53:05 +0000</lastBuildDate>
+<lastBuildDate>Mon, 20 Jul 2026 08:31:11 +0000</lastBuildDate>
+
+<item>
+  <title>PlugThis</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#plugthis</link>
+  <guid isPermaLink="false">plugthis-2026-07-20</guid>
+  <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[PlugThis enables users to create custom Chrome extensions by describing desired functionality through natural language prompts. — This tool democratizes browser customization, allowing non-developers to rapidly build and deploy utility-focused mini-applications without coding.]]></description>
+</item>
 
 <item>
   <title>ZCode</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">sim-2026-07-15</guid>
   <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Sim is an open-source workspace designed for building, deploying, and orchestrating AI agents and their associated workflows. — It provides a centralized environment for agent development and management, streamlining the process compared to assembling disparate tools.]]></description>
-</item>
-
-<item>
-  <title>Hallmark</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#hallmark</link>
-  <guid isPermaLink="false">hallmark-2026-07-15</guid>
-  <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Hallmark is an open-source design skill for AI coding assistants that aims to eliminate generic AI-generated UI outputs. — It provides a targeted solution for improving the aesthetic quality of AI-generated designs, addressing a common limitation of current AI design tools.]]></description>
 </item>
 
 </channel>

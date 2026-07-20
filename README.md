@@ -48,6 +48,8 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[PlugThis](https://felixkruger.github.io/ai-builder-wiki/#plugthis)** — PlugThis enables users to create custom Chrome extensions by describing desired functionality through natural language prompts. _(added 2026-07-20)_
+
 - **[ZCode](https://felixkruger.github.io/ai-builder-wiki/#zcode)** — ZCode is a desktop AI coding agent built by Zhipu.ai, providing a graphical user interface for interacting with LLMs and managing coding tasks. _(added 2026-07-19)_
 
 - **[MiMo Code](https://felixkruger.github.io/ai-builder-wiki/#mimo-code)** — A terminal-native AI coding assistant from Xiaomi MiMo that reads and writes code, runs commands, and maintains project understanding with persistent memory. _(added 2026-07-18)_
@@ -61,8 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Claude Sonnet 5](https://felixkruger.github.io/ai-builder-wiki/#claude-sonnet-5)** — Claude Sonnet 5 is Anthropic's latest agentic model, offering near-Opus performance with improved reasoning and tool use at Sonnet pricing. _(added 2026-07-16)_
 
 - **[Sim](https://felixkruger.github.io/ai-builder-wiki/#sim)** — Sim is an open-source workspace designed for building, deploying, and orchestrating AI agents and their associated workflows. _(added 2026-07-15)_
-
-- **[Hallmark](https://felixkruger.github.io/ai-builder-wiki/#hallmark)** — Hallmark is an open-source design skill for AI coding assistants that aims to eliminate generic AI-generated UI outputs. _(added 2026-07-15)_
 
 <!-- RECENTLY_ADDED:END -->
 
