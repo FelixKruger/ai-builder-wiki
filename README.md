@@ -48,6 +48,10 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[RAGFlow](https://felixkruger.github.io/ai-builder-wiki/#ragflow)** — RAGFlow is an open-source Retrieval-Augmented Generation (RAG) engine designed to provide large language models with a more reliable context layer. _(added 2026-07-21)_
+
+- **[OrchestrAI](https://felixkruger.github.io/ai-builder-wiki/#orchestrai)** — OrchestrAI is an AI Agent Operating System enabling enterprises to deploy, orchestrate, and continuously improve coordinated AI agents through semantic infrastructure. _(added 2026-07-21)_
+
 - **[PlugThis](https://felixkruger.github.io/ai-builder-wiki/#plugthis)** — PlugThis enables users to create custom Chrome extensions by describing desired functionality through natural language prompts. _(added 2026-07-20)_
 
 - **[ZCode](https://felixkruger.github.io/ai-builder-wiki/#zcode)** — ZCode is a desktop AI coding agent built by Zhipu.ai, providing a graphical user interface for interacting with LLMs and managing coding tasks. _(added 2026-07-19)_
@@ -59,10 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[OpenAI GPT-5.6 (Sol, Terra, Luna)](https://felixkruger.github.io/ai-builder-wiki/#openai-gpt-5-6)** — OpenAI launched GPT-5.6, a new family of frontier AI models available in three tiers: Sol (top), Terra (mid-range), and Luna (fast, cheap). _(added 2026-07-17)_
 
 - **[Traceforce](https://felixkruger.github.io/ai-builder-wiki/#traceforce)** — Traceforce provides company-wide security monitoring for AI applications by offering visibility and control over AI app activity and detecting security risks. _(added 2026-07-17)_
-
-- **[Claude Sonnet 5](https://felixkruger.github.io/ai-builder-wiki/#claude-sonnet-5)** — Claude Sonnet 5 is Anthropic's latest agentic model, offering near-Opus performance with improved reasoning and tool use at Sonnet pricing. _(added 2026-07-16)_
-
-- **[Sim](https://felixkruger.github.io/ai-builder-wiki/#sim)** — Sim is an open-source workspace designed for building, deploying, and orchestrating AI agents and their associated workflows. _(added 2026-07-15)_
 
 <!-- RECENTLY_ADDED:END -->
 
