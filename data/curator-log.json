@@ -1570,6 +1570,27 @@
         "gemini:gemini-2.5-flash+google-search-grounding"
       ],
       "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
+    },
+    {
+      "run_id": "2026-07-21-0801",
+      "started_at": "2026-07-21T08:01:11.304432+00:00",
+      "ended_at": "2026-07-21T08:01:52.900784+00:00",
+      "added": [
+        "ragflow",
+        "orchestrai"
+      ],
+      "refreshed": [
+        "mcp-spec",
+        "smithery",
+        "openclaw"
+      ],
+      "removed": [],
+      "sources_checked": [
+        "gemini:gemini-2.5-flash+google-search-grounding",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvRwYhB-EXNEI2QR4cRbjSyKD6KRx2ZVJVFAxD0m_4R5rOKLWuiiBd5kTTds_3Pj9imbfHAzCmiGK5deztGGCAnHLg9XP2X7teYZ8AXPrROedQVlrp6PKvXU9whRtIcYbfoBO4fiamVPQRNiNYTmKFLzs4Nynam0FSWArmoBBR7MiUsw==",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHttouXZqINktZYtz_f6iJ60Y9kVmBNEePlp5OFCV0SloE6mexJg1SSfD6u6-TcaIRhsBHweInKD1eqtZ7KENza-ppAW-yVy6AjdjYoB0O-EHrtoo9yyVYUzLIp8aapVBwTv0GN0hp1QUs87PZBXq12Eg=="
+      ],
+      "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
     }
   ],
   "rotation_pointer": 0
