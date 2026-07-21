@@ -5,7 +5,23 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Mon, 20 Jul 2026 08:31:11 +0000</lastBuildDate>
+<lastBuildDate>Tue, 21 Jul 2026 08:01:53 +0000</lastBuildDate>
+
+<item>
+  <title>RAGFlow</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#ragflow</link>
+  <guid isPermaLink="false">ragflow-2026-07-21</guid>
+  <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[RAGFlow is an open-source Retrieval-Augmented Generation (RAG) engine designed to provide large language models with a more reliable context layer. — It offers a comprehensive solution for document parsing, data cleaning, and retrieval enhancement, crucial for building robust AI agents that need to look up external information reliably.]]></description>
+</item>
+
+<item>
+  <title>OrchestrAI</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#orchestrai</link>
+  <guid isPermaLink="false">orchestrai-2026-07-21</guid>
+  <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[OrchestrAI is an AI Agent Operating System enabling enterprises to deploy, orchestrate, and continuously improve coordinated AI agents through semantic infrastructure. — It addresses the scalability challenges of managing numerous AI agents by providing a meta-agent for autonomous deployment, orchestration, and continuous improvement, offering a centralized view of agent infrastructure.]]></description>
+</item>
 
 <item>
   <title>PlugThis</title>
@@ -53,22 +69,6 @@
   <guid isPermaLink="false">traceforce-2026-07-17</guid>
   <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Traceforce provides company-wide security monitoring for AI applications by offering visibility and control over AI app activity and detecting security risks. — It addresses the growing concern of AI-assisted attacks and supply chain risks by providing real-time monitoring and controls that traditional security tools often miss.]]></description>
-</item>
-
-<item>
-  <title>Claude Sonnet 5</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#claude-sonnet-5</link>
-  <guid isPermaLink="false">claude-sonnet-5-2026-07-16</guid>
-  <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Claude Sonnet 5 is Anthropic's latest agentic model, offering near-Opus performance with improved reasoning and tool use at Sonnet pricing. — It provides advanced agentic capabilities at a more accessible price point than the flagship Opus models, making sophisticated AI agents more economically viable for enterprises.]]></description>
-</item>
-
-<item>
-  <title>Sim</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#sim</link>
-  <guid isPermaLink="false">sim-2026-07-15</guid>
-  <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Sim is an open-source workspace designed for building, deploying, and orchestrating AI agents and their associated workflows. — It provides a centralized environment for agent development and management, streamlining the process compared to assembling disparate tools.]]></description>
 </item>
 
 </channel>
