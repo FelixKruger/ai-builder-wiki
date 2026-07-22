@@ -133,7 +133,7 @@
       "category": "ai-coding",
       "summary": "AI-first VS Code fork with Composer, Tab autocomplete, and a strong agent loop.",
       "why_it_matters": "The dominant IDE among working AI builders in 2026 — diff review UX is the bar everyone else is chasing.",
-      "last_verified": "2026-06-22",
+      "last_verified": "2026-07-22",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -1112,7 +1112,7 @@
       "category": "open-weights",
       "summary": "Kimi K2.6 is an open-source, multimodal agentic model from Moonshot AI, excelling in long-horizon coding, coding-driven design, and orchestrating large agent swarms.",
       "why_it_matters": "This model pushes the boundaries for open-weight capabilities in complex, multi-step coding and agentic tasks, offering advanced features comparable to some closed-source frontier models.",
-      "last_verified": "2026-06-21",
+      "last_verified": "2026-07-22",
       "source": "curator:2026-06-21-0729",
       "added": "2026-06-21"
     },
@@ -1123,7 +1123,7 @@
       "category": "app-builders",
       "summary": "Whacka is a mobile-first AI app builder that generates functional progressive web apps from natural language prompts, enabling fast creation and sharing.",
       "why_it_matters": "Unlike many AI app builders that often target desktop workflows or larger enterprise applications, Whacka focuses on phone-native creation of small, focused utilities for rapid deployment and sharing.",
-      "last_verified": "2026-06-21",
+      "last_verified": "2026-07-22",
       "source": "curator:2026-06-21-0729",
       "added": "2026-06-21"
     },
