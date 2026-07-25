@@ -166,7 +166,7 @@
       "category": "ai-coding",
       "summary": "Open-source autonomous coding agent for VS Code — plan/act modes, MCP support, BYO model.",
       "why_it_matters": "The transparent option: every action shown and approvable. Good for understanding how an agent loop actually works.",
-      "last_verified": "2026-06-24",
+      "last_verified": "2026-07-25",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -177,7 +177,7 @@
       "category": "hosted-apis",
       "summary": "Anthropic's API — Claude Opus 4.7, Sonnet 4.6, Haiku 4.5. Native tool use, prompt caching, extended thinking, files, citations.",
       "why_it_matters": "Best-in-class for long-horizon tool use and agentic coding. Prompt caching alone often pays for the migration.",
-      "last_verified": "2026-06-24",
+      "last_verified": "2026-07-25",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -188,7 +188,7 @@
       "category": "hosted-apis",
       "summary": "GPT-5 family, Realtime API, structured outputs, Responses API.",
       "why_it_matters": "Still the broadest ecosystem and the realtime voice baseline. Responses API is the cleanest agent primitive OpenAI ships.",
-      "last_verified": "2026-06-24",
+      "last_verified": "2026-07-25",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -1544,6 +1544,28 @@
       "last_verified": "2026-07-21",
       "source": "curator:2026-07-21-0801",
       "added": "2026-07-21"
+    },
+    {
+      "id": "codex-cli",
+      "name": "Codex CLI",
+      "url": "https://github.com/openai/codex",
+      "category": "ai-coding",
+      "summary": "Codex CLI is an open-source AI coding agent from OpenAI that operates directly within the terminal for code generation, bug fixes, and refactoring.",
+      "why_it_matters": "It offers a lightweight, sandboxed alternative to full IDE integrations like Cursor, providing terminal-first AI assistance without leaving the command line.",
+      "last_verified": "2026-07-25",
+      "source": "curator:2026-07-25-0641",
+      "added": "2026-07-25"
+    },
+    {
+      "id": "bolna-agent-studio",
+      "name": "Bolna Agent Studio",
+      "url": "https://www.bolna.ai/",
+      "category": "agent-frameworks",
+      "summary": "Bolna Agent Studio is a framework designed for quickly building and deploying voice AI agents.",
+      "why_it_matters": "It streamlines the creation of voice-enabled agents, offering a specialized solution compared to general agent frameworks that require more manual audio integration.",
+      "last_verified": "2026-07-25",
+      "source": "curator:2026-07-25-0641",
+      "added": "2026-07-25"
     }
   ]
 }
