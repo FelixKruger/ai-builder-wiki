@@ -1641,6 +1641,28 @@
         "gemini:gemini-2.5-flash+google-search-grounding"
       ],
       "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
+    },
+    {
+      "run_id": "2026-07-25-0641",
+      "started_at": "2026-07-25T06:41:38.287343+00:00",
+      "ended_at": "2026-07-25T06:42:07.346802+00:00",
+      "added": [
+        "codex-cli",
+        "bolna-agent-studio"
+      ],
+      "refreshed": [
+        "cline",
+        "claude-api",
+        "openai-api"
+      ],
+      "removed": [],
+      "sources_checked": [
+        "gemini:gemini-2.5-flash+google-search-grounding",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETPzv97afwUh3HF0AYeUvW2g6BDf3tMUxPaImDCJ0VRoslIhAsOmAhlzsAM8851BT-WLXr7aQxU5bpOyNoM7--ABnHObkDdyDqhPG0ISpdKOHPLDb6YpZLs9F7_HejvAsXnx4P5Lg=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYi2TbLgyiZG4S84l1rE0gz-Nvv_eU_Siq8k1rSOdwr04d4Uc_T9-9nWPdeGkbUSWrhrppA9GOiqfVT13sbM8zQvmT_UKuyDoeeIREakebv_nQBUGFdkuBdG4kElFtz0moiezK9ow=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrhFIcjoucLn972V3ftUD-LCejmnQCeEWXoXi5b4JOgtnt_fLdrmATkjluOVjbkbUK60yvALNYSkgoCkgLYRj1gEhBB6514gYTfnNDry0w_b4uNfhIlqHPggos_r2hL-HHjhkIK7OtAeOTWdAtHupyr4o="
+      ],
+      "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
     }
   ],
   "rotation_pointer": 0

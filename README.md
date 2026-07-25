@@ -48,6 +48,10 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Codex CLI](https://felixkruger.github.io/ai-builder-wiki/#codex-cli)** — Codex CLI is an open-source AI coding agent from OpenAI that operates directly within the terminal for code generation, bug fixes, and refactoring. _(added 2026-07-25)_
+
+- **[Bolna Agent Studio](https://felixkruger.github.io/ai-builder-wiki/#bolna-agent-studio)** — Bolna Agent Studio is a framework designed for quickly building and deploying voice AI agents. _(added 2026-07-25)_
+
 - **[RAGFlow](https://felixkruger.github.io/ai-builder-wiki/#ragflow)** — RAGFlow is an open-source Retrieval-Augmented Generation (RAG) engine designed to provide large language models with a more reliable context layer. _(added 2026-07-21)_
 
 - **[OrchestrAI](https://felixkruger.github.io/ai-builder-wiki/#orchestrai)** — OrchestrAI is an AI Agent Operating System enabling enterprises to deploy, orchestrate, and continuously improve coordinated AI agents through semantic infrastructure. _(added 2026-07-21)_
@@ -59,10 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[MiMo Code](https://felixkruger.github.io/ai-builder-wiki/#mimo-code)** — A terminal-native AI coding assistant from Xiaomi MiMo that reads and writes code, runs commands, and maintains project understanding with persistent memory. _(added 2026-07-18)_
 
 - **[GenericAgent](https://felixkruger.github.io/ai-builder-wiki/#generic-agent)** — A minimalist, self-evolving autonomous agent framework that grants LLMs system-level control over a local computer with high token efficiency. _(added 2026-07-18)_
-
-- **[OpenAI GPT-5.6 (Sol, Terra, Luna)](https://felixkruger.github.io/ai-builder-wiki/#openai-gpt-5-6)** — OpenAI launched GPT-5.6, a new family of frontier AI models available in three tiers: Sol (top), Terra (mid-range), and Luna (fast, cheap). _(added 2026-07-17)_
-
-- **[Traceforce](https://felixkruger.github.io/ai-builder-wiki/#traceforce)** — Traceforce provides company-wide security monitoring for AI applications by offering visibility and control over AI app activity and detecting security risks. _(added 2026-07-17)_
 
 <!-- RECENTLY_ADDED:END -->
 
