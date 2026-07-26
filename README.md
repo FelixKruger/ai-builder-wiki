@@ -48,6 +48,8 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Heard](https://felixkruger.github.io/ai-builder-wiki/#heard)** — Heard is a macOS voice layer that provides intelligent audio summaries of agentic workflow output from tools like Claude Code and Cursor. _(added 2026-07-26)_
+
 - **[Codex CLI](https://felixkruger.github.io/ai-builder-wiki/#codex-cli)** — Codex CLI is an open-source AI coding agent from OpenAI that operates directly within the terminal for code generation, bug fixes, and refactoring. _(added 2026-07-25)_
 
 - **[Bolna Agent Studio](https://felixkruger.github.io/ai-builder-wiki/#bolna-agent-studio)** — Bolna Agent Studio is a framework designed for quickly building and deploying voice AI agents. _(added 2026-07-25)_
@@ -61,8 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[ZCode](https://felixkruger.github.io/ai-builder-wiki/#zcode)** — ZCode is a desktop AI coding agent built by Zhipu.ai, providing a graphical user interface for interacting with LLMs and managing coding tasks. _(added 2026-07-19)_
 
 - **[MiMo Code](https://felixkruger.github.io/ai-builder-wiki/#mimo-code)** — A terminal-native AI coding assistant from Xiaomi MiMo that reads and writes code, runs commands, and maintains project understanding with persistent memory. _(added 2026-07-18)_
-
-- **[GenericAgent](https://felixkruger.github.io/ai-builder-wiki/#generic-agent)** — A minimalist, self-evolving autonomous agent framework that grants LLMs system-level control over a local computer with high token efficiency. _(added 2026-07-18)_
 
 <!-- RECENTLY_ADDED:END -->
 
