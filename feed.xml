@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Sat, 25 Jul 2026 06:42:07 +0000</lastBuildDate>
+<lastBuildDate>Sun, 26 Jul 2026 06:50:30 +0000</lastBuildDate>
+
+<item>
+  <title>Heard</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#heard</link>
+  <guid isPermaLink="false">heard-2026-07-26</guid>
+  <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Heard is a macOS voice layer that provides intelligent audio summaries of agentic workflow output from tools like Claude Code and Cursor. — It allows developers to monitor parallel coding agents through audio, providing project-level summaries without needing constant visual attention, unlike traditional terminal outputs.]]></description>
+</item>
 
 <item>
   <title>Codex CLI</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">mimo-code-2026-07-18</guid>
   <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[A terminal-native AI coding assistant from Xiaomi MiMo that reads and writes code, runs commands, and maintains project understanding with persistent memory. — It offers a self-improving, open-source alternative to existing AI coding environments, focusing on deep project understanding and efficient agentic workflows.]]></description>
-</item>
-
-<item>
-  <title>GenericAgent</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#generic-agent</link>
-  <guid isPermaLink="false">generic-agent-2026-07-18</guid>
-  <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[A minimalist, self-evolving autonomous agent framework that grants LLMs system-level control over a local computer with high token efficiency. — It provides a lean, efficient, and self-improving approach to agent development by evolving skills from a minimal core, offering an alternative to more complex frameworks.]]></description>
 </item>
 
 </channel>

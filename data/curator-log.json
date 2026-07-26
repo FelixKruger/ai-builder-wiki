@@ -1663,6 +1663,26 @@
         "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrhFIcjoucLn972V3ftUD-LCejmnQCeEWXoXi5b4JOgtnt_fLdrmATkjluOVjbkbUK60yvALNYSkgoCkgLYRj1gEhBB6514gYTfnNDry0w_b4uNfhIlqHPggos_r2hL-HHjhkIK7OtAeOTWdAtHupyr4o="
       ],
       "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
+    },
+    {
+      "run_id": "2026-07-26-0650",
+      "started_at": "2026-07-26T06:50:13.776292+00:00",
+      "ended_at": "2026-07-26T06:50:29.741365+00:00",
+      "added": [
+        "heard"
+      ],
+      "refreshed": [
+        "gemini-api",
+        "deepeval",
+        "luma-dream-machine"
+      ],
+      "removed": [],
+      "sources_checked": [
+        "gemini:gemini-2.5-flash+google-search-grounding",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbxQsoxxZYEhtyUM7TrtE1WL0ZuKcGNOgabSwr7WImUbJYsHXCLXqjkDN3_eTxUr8wiprcTsk6DMRfAzr1aP_7yyOnoxBkwreZ_Lt6HAeKZeeY944Ba-ZQpi81t90l5JIYmQ35r8KnYA==",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhnWM5BD9Lo-hT7lYQeAMbc-MxBy60Gzq3CY01LRmFH0GG8oxJJaB1PNCzhCFqPIMR6OG8DS2lSvvlaza8lhVdlpKLEm5qZV4qVD7dOWaULzmn-ufco9fdU1R44TMau8IQsitHz5ks"
+      ],
+      "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
     }
   ],
   "rotation_pointer": 0
