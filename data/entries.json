@@ -199,7 +199,7 @@
       "category": "hosted-apis",
       "summary": "Gemini 2.5 Pro / Flash with 2M-token context, native multimodal, and grounding-with-Search.",
       "why_it_matters": "If your workload is video, very-long-context, or needs fresh web grounding without your own RAG, start here.",
-      "last_verified": "2026-06-25",
+      "last_verified": "2026-07-26",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -848,7 +848,7 @@
       "category": "evals",
       "summary": "DeepEval is an open-source, Python-first LLM evaluation framework that provides a pytest-native testing experience for AI applications.",
       "why_it_matters": "It offers over 50 research-backed metrics for evaluating RAG, agents, and chatbots, enabling developers to integrate LLM evaluation into CI/CD workflows.",
-      "last_verified": "2026-06-25",
+      "last_verified": "2026-07-26",
       "source": "curator:2026-06-01-0733",
       "added": "2026-06-01"
     },
@@ -859,7 +859,7 @@
       "category": "ai-video",
       "summary": "Luma Dream Machine generates realistic, high-quality videos from text or image prompts, with capabilities like cinematic camera movements.",
       "why_it_matters": "It offers native 1080p output and a Draft Mode for previewing low-resolution shots, which helps creators iterate efficiently and save resources.",
-      "last_verified": "2026-06-25",
+      "last_verified": "2026-07-26",
       "source": "curator:2026-06-01-0733",
       "added": "2026-06-01"
     },
@@ -1566,6 +1566,17 @@
       "last_verified": "2026-07-25",
       "source": "curator:2026-07-25-0641",
       "added": "2026-07-25"
+    },
+    {
+      "id": "heard",
+      "name": "Heard",
+      "url": "https://heard.dev/",
+      "category": "voice-audio",
+      "summary": "Heard is a macOS voice layer that provides intelligent audio summaries of agentic workflow output from tools like Claude Code and Cursor.",
+      "why_it_matters": "It allows developers to monitor parallel coding agents through audio, providing project-level summaries without needing constant visual attention, unlike traditional terminal outputs.",
+      "last_verified": "2026-07-26",
+      "source": "curator:2026-07-26-0650",
+      "added": "2026-07-26"
     }
   ]
 }
