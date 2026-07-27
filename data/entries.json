@@ -210,7 +210,7 @@
       "category": "inference-platforms",
       "summary": "Single API for hundreds of models with automatic failover and unified billing.",
       "why_it_matters": "The pragmatic abstraction layer when you don't want to hard-code one provider. Useful for model A/B and graceful fallback.",
-      "last_verified": "2026-06-26",
+      "last_verified": "2026-07-27",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -221,7 +221,7 @@
       "category": "agent-frameworks",
       "summary": "Anthropic's official SDK for building agents that share Claude Code's runtime — tools, MCP, hooks, subagents.",
       "why_it_matters": "If you want Claude Code's agent harness for your own product, this is the supported path. Less reinvention than building from raw API calls.",
-      "last_verified": "2026-06-26",
+      "last_verified": "2026-07-27",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -1145,7 +1145,7 @@
       "category": "multi-agent-coding",
       "summary": "Mindstone Rebel is a desktop AI workspace that unifies agent memory, files, meetings, and tools to facilitate agentic workflows.",
       "why_it_matters": "It provides a comprehensive environment for orchestrating AI agents across various data sources and tools, offering a more integrated approach compared to fragmented agent development.",
-      "last_verified": "2026-06-25",
+      "last_verified": "2026-07-27",
       "source": "curator:2026-06-25-0703",
       "added": "2026-06-25"
     },
