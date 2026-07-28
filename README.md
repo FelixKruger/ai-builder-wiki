@@ -48,6 +48,10 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[AgentENV](https://felixkruger.github.io/ai-builder-wiki/#agentenv)** — AgentENV is a distributed platform for running and scaling agent environments, enabling the deployment of AI agents across various systems. _(added 2026-07-28)_
+
+- **[Alibaba Open-Code-Review](https://felixkruger.github.io/ai-builder-wiki/#alibaba-open-code-review)** — Alibaba Open-Code-Review is a hybrid architecture tool combining deterministic pipelines with an LLM agent for precise code review comments. _(added 2026-07-28)_
+
 - **[Heard](https://felixkruger.github.io/ai-builder-wiki/#heard)** — Heard is a macOS voice layer that provides intelligent audio summaries of agentic workflow output from tools like Claude Code and Cursor. _(added 2026-07-26)_
 
 - **[Codex CLI](https://felixkruger.github.io/ai-builder-wiki/#codex-cli)** — Codex CLI is an open-source AI coding agent from OpenAI that operates directly within the terminal for code generation, bug fixes, and refactoring. _(added 2026-07-25)_
@@ -59,10 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[OrchestrAI](https://felixkruger.github.io/ai-builder-wiki/#orchestrai)** — OrchestrAI is an AI Agent Operating System enabling enterprises to deploy, orchestrate, and continuously improve coordinated AI agents through semantic infrastructure. _(added 2026-07-21)_
 
 - **[PlugThis](https://felixkruger.github.io/ai-builder-wiki/#plugthis)** — PlugThis enables users to create custom Chrome extensions by describing desired functionality through natural language prompts. _(added 2026-07-20)_
-
-- **[ZCode](https://felixkruger.github.io/ai-builder-wiki/#zcode)** — ZCode is a desktop AI coding agent built by Zhipu.ai, providing a graphical user interface for interacting with LLMs and managing coding tasks. _(added 2026-07-19)_
-
-- **[MiMo Code](https://felixkruger.github.io/ai-builder-wiki/#mimo-code)** — A terminal-native AI coding assistant from Xiaomi MiMo that reads and writes code, runs commands, and maintains project understanding with persistent memory. _(added 2026-07-18)_
 
 <!-- RECENTLY_ADDED:END -->
 

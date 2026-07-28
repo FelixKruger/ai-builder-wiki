@@ -5,7 +5,23 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Mon, 27 Jul 2026 07:00:05 +0000</lastBuildDate>
+<lastBuildDate>Tue, 28 Jul 2026 06:47:26 +0000</lastBuildDate>
+
+<item>
+  <title>AgentENV</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#agentenv</link>
+  <guid isPermaLink="false">agentenv-2026-07-28</guid>
+  <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[AgentENV is a distributed platform for running and scaling agent environments, enabling the deployment of AI agents across various systems. — It provides infrastructure for large-scale agent operations, addressing the challenge of deploying and managing multiple AI agents in complex, distributed settings.]]></description>
+</item>
+
+<item>
+  <title>Alibaba Open-Code-Review</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#alibaba-open-code-review</link>
+  <guid isPermaLink="false">alibaba-open-code-review-2026-07-28</guid>
+  <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Alibaba Open-Code-Review is a hybrid architecture tool combining deterministic pipelines with an LLM agent for precise code review comments. — It enhances code quality and security by integrating AI-driven analysis with fine-tuned rulesets, offering an advanced solution beyond basic AI coding assistants.]]></description>
+</item>
 
 <item>
   <title>Heard</title>
@@ -53,22 +69,6 @@
   <guid isPermaLink="false">plugthis-2026-07-20</guid>
   <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[PlugThis enables users to create custom Chrome extensions by describing desired functionality through natural language prompts. — This tool democratizes browser customization, allowing non-developers to rapidly build and deploy utility-focused mini-applications without coding.]]></description>
-</item>
-
-<item>
-  <title>ZCode</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#zcode</link>
-  <guid isPermaLink="false">zcode-2026-07-19</guid>
-  <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[ZCode is a desktop AI coding agent built by Zhipu.ai, providing a graphical user interface for interacting with LLMs and managing coding tasks. — It offers a desktop-first experience similar to OpenAI's Codex app, serving as an alternative to CLI-centric agents for developers who prefer a visual workflow for AI-assisted coding.]]></description>
-</item>
-
-<item>
-  <title>MiMo Code</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#mimo-code</link>
-  <guid isPermaLink="false">mimo-code-2026-07-18</guid>
-  <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[A terminal-native AI coding assistant from Xiaomi MiMo that reads and writes code, runs commands, and maintains project understanding with persistent memory. — It offers a self-improving, open-source alternative to existing AI coding environments, focusing on deep project understanding and efficient agentic workflows.]]></description>
 </item>
 
 </channel>
