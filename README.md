@@ -48,6 +48,10 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Artifacts by Databox](https://felixkruger.github.io/ai-builder-wiki/#artifacts-by-databox)** — Artifacts by Databox generates polished reports, slide decks, or interactive documents from live business data using an AI Analyst. _(added 2026-07-29)_
+
+- **[Claude Cowork](https://felixkruger.github.io/ai-builder-wiki/#claude-cowork)** — Claude Cowork is an agentic knowledge-work platform for web and mobile, enabling task delegation across documents, spreadsheets, and presentations. _(added 2026-07-29)_
+
 - **[AgentENV](https://felixkruger.github.io/ai-builder-wiki/#agentenv)** — AgentENV is a distributed platform for running and scaling agent environments, enabling the deployment of AI agents across various systems. _(added 2026-07-28)_
 
 - **[Alibaba Open-Code-Review](https://felixkruger.github.io/ai-builder-wiki/#alibaba-open-code-review)** — Alibaba Open-Code-Review is a hybrid architecture tool combining deterministic pipelines with an LLM agent for precise code review comments. _(added 2026-07-28)_
@@ -59,10 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Bolna Agent Studio](https://felixkruger.github.io/ai-builder-wiki/#bolna-agent-studio)** — Bolna Agent Studio is a framework designed for quickly building and deploying voice AI agents. _(added 2026-07-25)_
 
 - **[RAGFlow](https://felixkruger.github.io/ai-builder-wiki/#ragflow)** — RAGFlow is an open-source Retrieval-Augmented Generation (RAG) engine designed to provide large language models with a more reliable context layer. _(added 2026-07-21)_
-
-- **[OrchestrAI](https://felixkruger.github.io/ai-builder-wiki/#orchestrai)** — OrchestrAI is an AI Agent Operating System enabling enterprises to deploy, orchestrate, and continuously improve coordinated AI agents through semantic infrastructure. _(added 2026-07-21)_
-
-- **[PlugThis](https://felixkruger.github.io/ai-builder-wiki/#plugthis)** — PlugThis enables users to create custom Chrome extensions by describing desired functionality through natural language prompts. _(added 2026-07-20)_
 
 <!-- RECENTLY_ADDED:END -->
 

@@ -243,7 +243,7 @@
       "category": "agent-frameworks",
       "summary": "TypeScript-first agent framework — workflows, memory, evals, and a local dev playground.",
       "why_it_matters": "The most ergonomic TS option in 2026 for builders who don't want to leave Node. Strong eval story baked in.",
-      "last_verified": "2026-06-27",
+      "last_verified": "2026-07-29",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -881,7 +881,7 @@
       "category": "agent-memory",
       "summary": "CoreMem allows users to build and share portable collections of context, or 'mems,' with any AI agent via URL, extensions, or the Model Context Protocol.",
       "why_it_matters": "It provides a persistent and shareable memory layer, solving the problem of AI agents losing context across different sessions or when switching between various tools. This is crucial for building reliable and consistent agentic workflows.",
-      "last_verified": "2026-06-27",
+      "last_verified": "2026-07-29",
       "source": "curator:2026-06-02-0728",
       "added": "2026-06-02"
     },
@@ -1167,7 +1167,7 @@
       "category": "agent-frameworks",
       "summary": "Eve is an open-source TypeScript framework for building, deploying, and operating durable AI agents with a filesystem-first architecture.",
       "why_it_matters": "It offers a streamlined, Vercel-native approach to agent development, simplifying deployment and integrating core capabilities through a file-based structure, distinguishing it from general-purpose frameworks.",
-      "last_verified": "2026-06-27",
+      "last_verified": "2026-07-29",
       "source": "curator:2026-06-27-0657",
       "added": "2026-06-27"
     },
@@ -1599,6 +1599,28 @@
       "last_verified": "2026-07-28",
       "source": "curator:2026-07-28-0646",
       "added": "2026-07-28"
+    },
+    {
+      "id": "artifacts-by-databox",
+      "name": "Artifacts by Databox",
+      "url": "https://databox.com/",
+      "category": "app-builders",
+      "summary": "Artifacts by Databox generates polished reports, slide decks, or interactive documents from live business data using an AI Analyst.",
+      "why_it_matters": "It streamlines the creation of data-driven reports by turning AI analyst conversations into shareable documents, reducing manual dashboard building and analysis.",
+      "last_verified": "2026-07-29",
+      "source": "curator:2026-07-29-0648",
+      "added": "2026-07-29"
+    },
+    {
+      "id": "claude-cowork",
+      "name": "Claude Cowork",
+      "url": "https://claude.com/",
+      "category": "app-builders",
+      "summary": "Claude Cowork is an agentic knowledge-work platform for web and mobile, enabling task delegation across documents, spreadsheets, and presentations.",
+      "why_it_matters": "This product competes directly with ChatGPT Work by offering a mobile-first approach and Anthropic's Constitutional AI safety stack for enterprise productivity.",
+      "last_verified": "2026-07-29",
+      "source": "curator:2026-07-29-0648",
+      "added": "2026-07-29"
     }
   ]
 }

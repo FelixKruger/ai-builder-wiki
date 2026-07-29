@@ -5,7 +5,23 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Tue, 28 Jul 2026 06:47:26 +0000</lastBuildDate>
+<lastBuildDate>Wed, 29 Jul 2026 06:49:07 +0000</lastBuildDate>
+
+<item>
+  <title>Artifacts by Databox</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#artifacts-by-databox</link>
+  <guid isPermaLink="false">artifacts-by-databox-2026-07-29</guid>
+  <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Artifacts by Databox generates polished reports, slide decks, or interactive documents from live business data using an AI Analyst. — It streamlines the creation of data-driven reports by turning AI analyst conversations into shareable documents, reducing manual dashboard building and analysis.]]></description>
+</item>
+
+<item>
+  <title>Claude Cowork</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#claude-cowork</link>
+  <guid isPermaLink="false">claude-cowork-2026-07-29</guid>
+  <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Claude Cowork is an agentic knowledge-work platform for web and mobile, enabling task delegation across documents, spreadsheets, and presentations. — This product competes directly with ChatGPT Work by offering a mobile-first approach and Anthropic's Constitutional AI safety stack for enterprise productivity.]]></description>
+</item>
 
 <item>
   <title>AgentENV</title>
@@ -53,22 +69,6 @@
   <guid isPermaLink="false">ragflow-2026-07-21</guid>
   <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[RAGFlow is an open-source Retrieval-Augmented Generation (RAG) engine designed to provide large language models with a more reliable context layer. — It offers a comprehensive solution for document parsing, data cleaning, and retrieval enhancement, crucial for building robust AI agents that need to look up external information reliably.]]></description>
-</item>
-
-<item>
-  <title>OrchestrAI</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#orchestrai</link>
-  <guid isPermaLink="false">orchestrai-2026-07-21</guid>
-  <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[OrchestrAI is an AI Agent Operating System enabling enterprises to deploy, orchestrate, and continuously improve coordinated AI agents through semantic infrastructure. — It addresses the scalability challenges of managing numerous AI agents by providing a meta-agent for autonomous deployment, orchestration, and continuous improvement, offering a centralized view of agent infrastructure.]]></description>
-</item>
-
-<item>
-  <title>PlugThis</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#plugthis</link>
-  <guid isPermaLink="false">plugthis-2026-07-20</guid>
-  <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[PlugThis enables users to create custom Chrome extensions by describing desired functionality through natural language prompts. — This tool democratizes browser customization, allowing non-developers to rapidly build and deploy utility-focused mini-applications without coding.]]></description>
 </item>
 
 </channel>
