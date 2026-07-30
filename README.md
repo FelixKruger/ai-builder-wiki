@@ -48,6 +48,10 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Grok Build](https://felixkruger.github.io/ai-builder-wiki/#grok-build)** — Grok Build is xAI's open-source coding agent CLI and terminal UI, providing transparency into Grok's coding stack and supporting context handling and tool execution. _(added 2026-07-30)_
+
+- **[GLM 5.2](https://felixkruger.github.io/ai-builder-wiki/#glm-5-2)** — GLM 5.2 is Zhipu AI's flagship open-weight model for long-horizon tasks, offering advanced coding capabilities and a solid 1M-token context window. _(added 2026-07-30)_
+
 - **[Artifacts by Databox](https://felixkruger.github.io/ai-builder-wiki/#artifacts-by-databox)** — Artifacts by Databox generates polished reports, slide decks, or interactive documents from live business data using an AI Analyst. _(added 2026-07-29)_
 
 - **[Claude Cowork](https://felixkruger.github.io/ai-builder-wiki/#claude-cowork)** — Claude Cowork is an agentic knowledge-work platform for web and mobile, enabling task delegation across documents, spreadsheets, and presentations. _(added 2026-07-29)_
@@ -59,10 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Heard](https://felixkruger.github.io/ai-builder-wiki/#heard)** — Heard is a macOS voice layer that provides intelligent audio summaries of agentic workflow output from tools like Claude Code and Cursor. _(added 2026-07-26)_
 
 - **[Codex CLI](https://felixkruger.github.io/ai-builder-wiki/#codex-cli)** — Codex CLI is an open-source AI coding agent from OpenAI that operates directly within the terminal for code generation, bug fixes, and refactoring. _(added 2026-07-25)_
-
-- **[Bolna Agent Studio](https://felixkruger.github.io/ai-builder-wiki/#bolna-agent-studio)** — Bolna Agent Studio is a framework designed for quickly building and deploying voice AI agents. _(added 2026-07-25)_
-
-- **[RAGFlow](https://felixkruger.github.io/ai-builder-wiki/#ragflow)** — RAGFlow is an open-source Retrieval-Augmented Generation (RAG) engine designed to provide large language models with a more reliable context layer. _(added 2026-07-21)_
 
 <!-- RECENTLY_ADDED:END -->
 
