@@ -5,7 +5,23 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Wed, 29 Jul 2026 06:49:07 +0000</lastBuildDate>
+<lastBuildDate>Thu, 30 Jul 2026 06:47:38 +0000</lastBuildDate>
+
+<item>
+  <title>Grok Build</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#grok-build</link>
+  <guid isPermaLink="false">grok-build-2026-07-30</guid>
+  <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Grok Build is xAI's open-source coding agent CLI and terminal UI, providing transparency into Grok's coding stack and supporting context handling and tool execution. — It allows engineers to study a production-grade coding agent harness line by line, offering insights into xAI's agent loop, unlike closed-source alternatives.]]></description>
+</item>
+
+<item>
+  <title>GLM 5.2</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#glm-5-2</link>
+  <guid isPermaLink="false">glm-5-2-2026-07-30</guid>
+  <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[GLM 5.2 is Zhipu AI's flagship open-weight model for long-horizon tasks, offering advanced coding capabilities and a solid 1M-token context window. — It provides a high-performing, open-source alternative to proprietary frontier models, enabling on-premise deployment for sensitive tasks like security forensics.]]></description>
+</item>
 
 <item>
   <title>Artifacts by Databox</title>
@@ -53,22 +69,6 @@
   <guid isPermaLink="false">codex-cli-2026-07-25</guid>
   <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Codex CLI is an open-source AI coding agent from OpenAI that operates directly within the terminal for code generation, bug fixes, and refactoring. — It offers a lightweight, sandboxed alternative to full IDE integrations like Cursor, providing terminal-first AI assistance without leaving the command line.]]></description>
-</item>
-
-<item>
-  <title>Bolna Agent Studio</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#bolna-agent-studio</link>
-  <guid isPermaLink="false">bolna-agent-studio-2026-07-25</guid>
-  <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Bolna Agent Studio is a framework designed for quickly building and deploying voice AI agents. — It streamlines the creation of voice-enabled agents, offering a specialized solution compared to general agent frameworks that require more manual audio integration.]]></description>
-</item>
-
-<item>
-  <title>RAGFlow</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#ragflow</link>
-  <guid isPermaLink="false">ragflow-2026-07-21</guid>
-  <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[RAGFlow is an open-source Retrieval-Augmented Generation (RAG) engine designed to provide large language models with a more reliable context layer. — It offers a comprehensive solution for document parsing, data cleaning, and retrieval enhancement, crucial for building robust AI agents that need to look up external information reliably.]]></description>
 </item>
 
 </channel>
