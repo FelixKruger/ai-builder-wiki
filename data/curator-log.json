@@ -1740,6 +1740,30 @@
         "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGRXiiIUYNKgtip4g8-bYGwR1iA_siyA5cJVvjdw8tCk_Sag7NOgj8pPvFE4JqMpdB8g0xXyMI68gSj_z4bqLS3kluerLvQjvcjA8HC6lTbEyBceDRdNUMOx1GGslpuVmgb9UkQEXH84wQ24e0SGIHNZcW"
       ],
       "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
+    },
+    {
+      "run_id": "2026-07-30-0646",
+      "started_at": "2026-07-30T06:46:53.805289+00:00",
+      "ended_at": "2026-07-30T06:47:37.919572+00:00",
+      "added": [
+        "grok-build",
+        "glm-5-2"
+      ],
+      "refreshed": [
+        "suno-v5",
+        "rayfin",
+        "subq"
+      ],
+      "removed": [],
+      "sources_checked": [
+        "gemini:gemini-2.5-flash+google-search-grounding",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhBF3XTGjzE8usv4hOFzMRL9JfKOTg4uCDK2p03V_eCJqnM8vRLHGv1Aws-aU8b-XdAZzugCu9k_kzl4gDFgDnWgb_o8UaB3Of5ikSI5pt4V87Nsh5EgEUi6DUuU503dPM",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEP8YCDGYozwAqdcziObdY8geEEiwjyM0qDvh-ki3KjNkqflpHrBqT7Mic104EpTystnmSLf-uCgI75Fi9QE-aNe4sHObNZ48L3_YGwD7k1j7PhoAnHDmSO13-o01bO0Y1WtZbJdhY=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhhWVFexhDDCU5WT4eFAp4fXPZ49KGQ41UED30ikFLiGJnkl0bgBCe7WUpLNuEC4drXK3Gg1CKmMZyUz8ZI4OJBcasbc5xvrtHDK2LLRxnbn2GLTpUg1CjNY-tiEDcWo2fYc00iCBRamhbP3EAmN1BPfKz1LOZwVA0ijEzR0JLCNPGWMFZSvH9auEYUtLMDwQS47WdCvNPCZ3325KEVAkv7fnOMw==",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmOzFg0oL3Wj8k5rqyukuFrjLucNMfbnDCuTvEf0bFWl74HKbNLoKtxnXKKcFVd9MC3C0xRRxZo2ta8HwPl6Foa3q1HQTnrUv1HS92_RljSubxd3xMGsq8t4jDQTZQZP84",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0BGalCnP15IbdWMrTQCAnuprpK-wOYbY2lRA9qbvdu-kzTCEX-mPcOj_EzafBAltXg6zFqOBzyR0NToHiToI2ou0ylDemoSE5uOGq6edm-IqSo4IbElya3qp0Z4tz8HPTESApakQDunJ8_5kHGpZkqY9JAZgxqiA2erY="
+      ],
+      "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
     }
   ],
   "rotation_pointer": 0

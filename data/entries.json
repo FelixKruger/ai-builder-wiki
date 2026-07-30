@@ -639,7 +639,7 @@
       "category": "voice-audio",
       "summary": "Suno v5 is an AI music generation tool that creates full-length tracks with human-like vocals across various genres.",
       "why_it_matters": "This tool allows creators to produce original, royalty-free music efficiently, providing a cost-effective alternative to traditional music production.",
-      "last_verified": "2026-06-28",
+      "last_verified": "2026-07-30",
       "source": "curator:2026-05-18-0634",
       "added": "2026-05-18"
     },
@@ -892,7 +892,7 @@
       "category": "app-builders",
       "summary": "An open-source SDK and CLI that enables developers and coding agents to define and deploy complete application backends in code.",
       "why_it_matters": "It simplifies backend development by automating database, authentication, and API provisioning, allowing rapid movement from prototype to production with enterprise-grade security on Microsoft Fabric.",
-      "last_verified": "2026-06-28",
+      "last_verified": "2026-07-30",
       "source": "curator:2026-06-03-0731",
       "added": "2026-06-03"
     },
@@ -903,7 +903,7 @@
       "category": "hosted-apis",
       "summary": "A large language model built on a fully sub-quadratic sparse-attention architecture, offering a native 12 million token context window.",
       "why_it_matters": "It provides significantly increased context windows and faster inference at a much lower cost than traditional transformer-based models, making long-context reasoning practical for agents.",
-      "last_verified": "2026-06-28",
+      "last_verified": "2026-07-30",
       "source": "curator:2026-06-03-0731",
       "added": "2026-06-03"
     },
@@ -1621,6 +1621,28 @@
       "last_verified": "2026-07-29",
       "source": "curator:2026-07-29-0648",
       "added": "2026-07-29"
+    },
+    {
+      "id": "grok-build",
+      "name": "Grok Build",
+      "url": "https://github.com/xai-org/grok-build",
+      "category": "ai-coding",
+      "summary": "Grok Build is xAI's open-source coding agent CLI and terminal UI, providing transparency into Grok's coding stack and supporting context handling and tool execution.",
+      "why_it_matters": "It allows engineers to study a production-grade coding agent harness line by line, offering insights into xAI's agent loop, unlike closed-source alternatives.",
+      "last_verified": "2026-07-30",
+      "source": "curator:2026-07-30-0646",
+      "added": "2026-07-30"
+    },
+    {
+      "id": "glm-5-2",
+      "name": "GLM 5.2",
+      "url": "https://huggingface.co/zai-org/GLM-5.2",
+      "category": "open-weights",
+      "summary": "GLM 5.2 is Zhipu AI's flagship open-weight model for long-horizon tasks, offering advanced coding capabilities and a solid 1M-token context window.",
+      "why_it_matters": "It provides a high-performing, open-source alternative to proprietary frontier models, enabling on-premise deployment for sensitive tasks like security forensics.",
+      "last_verified": "2026-07-30",
+      "source": "curator:2026-07-30-0646",
+      "added": "2026-07-30"
     }
   ]
 }
