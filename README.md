@@ -48,6 +48,8 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Mistral Medium 3.5](https://felixkruger.github.io/ai-builder-wiki/#mistral-medium-3-5)** — Mistral Medium 3.5 is a new open-weight model family designed for building customizable and deployable AI applications. _(added 2026-07-31)_
+
 - **[Grok Build](https://felixkruger.github.io/ai-builder-wiki/#grok-build)** — Grok Build is xAI's open-source coding agent CLI and terminal UI, providing transparency into Grok's coding stack and supporting context handling and tool execution. _(added 2026-07-30)_
 
 - **[GLM 5.2](https://felixkruger.github.io/ai-builder-wiki/#glm-5-2)** — GLM 5.2 is Zhipu AI's flagship open-weight model for long-horizon tasks, offering advanced coding capabilities and a solid 1M-token context window. _(added 2026-07-30)_
@@ -61,8 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Alibaba Open-Code-Review](https://felixkruger.github.io/ai-builder-wiki/#alibaba-open-code-review)** — Alibaba Open-Code-Review is a hybrid architecture tool combining deterministic pipelines with an LLM agent for precise code review comments. _(added 2026-07-28)_
 
 - **[Heard](https://felixkruger.github.io/ai-builder-wiki/#heard)** — Heard is a macOS voice layer that provides intelligent audio summaries of agentic workflow output from tools like Claude Code and Cursor. _(added 2026-07-26)_
-
-- **[Codex CLI](https://felixkruger.github.io/ai-builder-wiki/#codex-cli)** — Codex CLI is an open-source AI coding agent from OpenAI that operates directly within the terminal for code generation, bug fixes, and refactoring. _(added 2026-07-25)_
 
 <!-- RECENTLY_ADDED:END -->
 

@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Thu, 30 Jul 2026 06:47:38 +0000</lastBuildDate>
+<lastBuildDate>Fri, 31 Jul 2026 06:53:54 +0000</lastBuildDate>
+
+<item>
+  <title>Mistral Medium 3.5</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#mistral-medium-3-5</link>
+  <guid isPermaLink="false">mistral-medium-3-5-2026-07-31</guid>
+  <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Mistral Medium 3.5 is a new open-weight model family designed for building customizable and deployable AI applications. — This provides developers with a powerful, efficient, and open-weight alternative to proprietary models, offering greater control over deployment and data.]]></description>
+</item>
 
 <item>
   <title>Grok Build</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">heard-2026-07-26</guid>
   <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Heard is a macOS voice layer that provides intelligent audio summaries of agentic workflow output from tools like Claude Code and Cursor. — It allows developers to monitor parallel coding agents through audio, providing project-level summaries without needing constant visual attention, unlike traditional terminal outputs.]]></description>
-</item>
-
-<item>
-  <title>Codex CLI</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#codex-cli</link>
-  <guid isPermaLink="false">codex-cli-2026-07-25</guid>
-  <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Codex CLI is an open-source AI coding agent from OpenAI that operates directly within the terminal for code generation, bug fixes, and refactoring. — It offers a lightweight, sandboxed alternative to full IDE integrations like Cursor, providing terminal-first AI assistance without leaving the command line.]]></description>
 </item>
 
 </channel>
