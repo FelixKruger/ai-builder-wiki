@@ -386,7 +386,7 @@
       "category": "agent-memory",
       "summary": "Open-source local AI memory system — stores conversation history as verbatim text with semantic retrieval.",
       "why_it_matters": "Hits 96.6% R@5 on LongMemEval with zero API calls. If you want agent memory that doesn't leak to a vendor, this is the open-source baseline.",
-      "last_verified": "2026-06-29",
+      "last_verified": "2026-07-31",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -650,7 +650,7 @@
       "category": "multi-agent-coding",
       "summary": "Baton is a desktop application that provides a unified interface for developing and managing multiple AI coding agents and their associated worktrees.",
       "why_it_matters": "It simplifies the orchestration of several AI coding agents, offering a more organized and efficient workflow compared to manually managing them across disparate development environments.",
-      "last_verified": "2026-06-29",
+      "last_verified": "2026-07-31",
       "source": "curator:2026-05-18-0933",
       "added": "2026-05-18"
     },
@@ -1178,7 +1178,7 @@
       "category": "evals",
       "summary": "An open-source passive network analyzer and AI agent auditor that uses eBPF to observe TLS-encrypted LLM calls and reconstruct agent activity.",
       "why_it_matters": "It provides deep observability into AI agent behavior and LLM traffic at the network level, allowing debugging and verification without modifying agent code or introducing proxies.",
-      "last_verified": "2026-06-28",
+      "last_verified": "2026-07-31",
       "source": "curator:2026-06-28-0713",
       "added": "2026-06-28"
     },
@@ -1643,6 +1643,17 @@
       "last_verified": "2026-07-30",
       "source": "curator:2026-07-30-0646",
       "added": "2026-07-30"
+    },
+    {
+      "id": "mistral-medium-3-5",
+      "name": "Mistral Medium 3.5",
+      "url": "https://mistral.ai/",
+      "category": "open-weights",
+      "summary": "Mistral Medium 3.5 is a new open-weight model family designed for building customizable and deployable AI applications.",
+      "why_it_matters": "This provides developers with a powerful, efficient, and open-weight alternative to proprietary models, offering greater control over deployment and data.",
+      "last_verified": "2026-07-31",
+      "source": "curator:2026-07-31-0653",
+      "added": "2026-07-31"
     }
   ]
 }
