@@ -397,7 +397,7 @@
       "category": "agent-memory",
       "summary": "Self-hosted shared memory database — lets multiple AI tools read and write one persistent memory without vendor lock-in.",
       "why_it_matters": "Bridges the memory silos: Claude, Cursor, and ChatGPT each have their own. OB1 is the memory backbone that unifies them.",
-      "last_verified": "2026-06-30",
+      "last_verified": "2026-08-01",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -408,7 +408,7 @@
       "category": "retrieval-search",
       "summary": "Web search API engineered for AI agents — 300ms p99 latency, real-time indexing across 10M+ news sources.",
       "why_it_matters": "When you need fresh web grounding inside an agent and Tavily or Exa feels slow, You.com's latency is the differentiator.",
-      "last_verified": "2026-06-30",
+      "last_verified": "2026-08-01",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -661,7 +661,7 @@
       "category": "agent-frameworks",
       "summary": "Statewright utilizes visual state machines to enhance the reliability of AI agents by formally restricting their tool access, iteration limits, and valid transitions within a workflow.",
       "why_it_matters": "This approach improves agent reliability by reducing the problem complexity for smaller models, offering an alternative to relying on larger models or extensive prompting for robust agent behavior.",
-      "last_verified": "2026-06-29",
+      "last_verified": "2026-08-01",
       "source": "curator:2026-05-18-0933",
       "added": "2026-05-18"
     },

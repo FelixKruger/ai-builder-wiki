@@ -1791,6 +1791,27 @@
         "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHs9RBXFT1tLeUXxIZD59LA1uS-iVyEgPGOohQ7m7BIFe5W4LBVzXUvAMC7yFD0wbI3_INdD9S-12lQ0vl3RvoYkCcxuRsmdgwZjWnq9DEEH-6vyx2GnQEgfvKE1WoMDhFGNvLagadLFQazGbns1IHC3X29Y6k1tKeBnN-bkXu4ZsbyBs6_ctCPf7Ixom8ipOy_OJrAbg=="
       ],
       "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
+    },
+    {
+      "run_id": "2026-08-01-0645",
+      "started_at": "2026-08-01T06:45:19.286474+00:00",
+      "ended_at": "2026-08-01T06:46:01.432080+00:00",
+      "added": [],
+      "refreshed": [
+        "statewright",
+        "ob1",
+        "you-com-api"
+      ],
+      "removed": [],
+      "sources_checked": [
+        "gemini:gemini-2.5-flash+google-search-grounding",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF58fA05pYw7XmfX45sFCy99gp7wN_A2eCzHP2-y3q8FryKKHO6rTRiajkObNcuP6zRjh6-_3LUgi_gxLYkmpUbAjOkxtQSYA2_Gh6B3hH1Bkci9ArRj2xERuQqQKSrTKaQInLaHFKkIdaJHOwjDPUQktdmeQLNhLYiIuo6G0_GK0deUWx7tYC7m99pmjhICABvW8z_jf2E8w==",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNGrPzTo5qW4v-l5bnwFmq_u7lCawbVg7S9AXFFsvawVHTbqHTT5Ju2GOQd1y-F1k2lOy-BnjocSNNQ06rfgDlHpFW1RjTInTPWxe--ApePwOri3Rn9uQNadmsjEUXE57nFTvEiivMCd7xn2FtmOcQ1aPx0fPeBxOOtfNsFvzO5XfexclVTJS5Hqpe0SaHnM0SIMT39kYBhcYz7oBYFvDTnu1uhs96rW_r70KNLKd-Irw=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZj2Kd5gGZpq1HCuPtm7HYNqMUIB1bu4VvPayaFSG-E2gzWAXdcTdsux9O6wrfdzoSIq_QDRQbyx7hlNcFoR_SGlHqU_T8XY47gT3Gu-OEyYop7ZtaX9jY2zKvfWRVGaXvtnrYfu3LKGXlxShIAo1PM42r1NlmLWRvsDo2rhtzRpxjUUwvXe14wVRR2WgRajtv9KXGLpM=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2Zc6p0fG-_IJsvp3TWJn1VIggyJxeBDnaMovipOVtnoD21FztNG0HPzcbl69Cy1-EGBWVIKD_Gw3YgHojHqRsNXSKCLN351ZUpivOcPREpJjb2UDZgLT6_haTOhe59-q7KJbzygKR0WN2d6jqMUPKXh6UaeUz1HDOjl6WI_5lzw7yUNrC-H7kwtUIa4GWXVmP0E9d-qkyh9H8JVHG788W2d0zcjAjPOgxySh30gJzxkH77Nw=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNV1O2buzndAKRNBBBHbKHrc92GWL2BBA9RA9J4CXZmBci2e_Kav6Fweqw4lHqvWRbydTsnSMGid2HaEQEFtUKBRnEgyK1c6Ibkws-agyvku1qv0ko7P9NpGZLgTAZxvItj_mpix5ER0KcH-yCd3TZJkrKOE0lCGaAbgD3X-4buaJERrQl_X-zBQidgqd4N375r_Vk_c4ulUi1Ei4ghgzh1_WP2c302uRUmuWWVR0C5Q=="
+      ],
+      "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
     }
   ],
   "rotation_pointer": 0
