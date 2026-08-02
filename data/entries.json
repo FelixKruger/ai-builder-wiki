@@ -419,7 +419,7 @@
       "category": "evals",
       "summary": "Open benchmark and leaderboard for deep-research agents (Claude, OpenAI, Gemini, and OSS) — hosted by muset-ai on Hugging Face Spaces.",
       "why_it_matters": "If you're shipping a research agent or deciding which deep-research product to integrate, this is the public scoreboard to read first.",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-08-02",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -672,7 +672,7 @@
       "category": "evals",
       "summary": "Helicone provides logging, monitoring, and debugging for large language model applications to help builders understand and optimize their AI usage.",
       "why_it_matters": "It offers detailed insights into LLM calls, including latency and cost, providing a more focused observability solution than broader eval platforms.",
-      "last_verified": "2026-06-30",
+      "last_verified": "2026-08-02",
       "source": "curator:2026-05-19-0853",
       "added": "2026-05-19"
     },
@@ -1189,7 +1189,7 @@
       "category": "ai-coding",
       "summary": "Warp is a modern terminal that integrates AI to translate natural language into shell commands and execute multi-step tasks.",
       "why_it_matters": "It enhances command-line workflows with AI, allowing engineers to interact with the terminal more naturally and automate complex operations.",
-      "last_verified": "2026-06-30",
+      "last_verified": "2026-08-02",
       "source": "curator:2026-06-30-0709",
       "added": "2026-06-30"
     },
@@ -1654,6 +1654,17 @@
       "last_verified": "2026-07-31",
       "source": "curator:2026-07-31-0653",
       "added": "2026-07-31"
+    },
+    {
+      "id": "kimi-k3",
+      "name": "Kimi K3",
+      "url": "https://www.moonshot.ai",
+      "category": "open-weights",
+      "summary": "Moonshot AI released Kimi K3, a 2.8 trillion parameter multimodal Mixture-of-Experts model with a 1 million token context window.",
+      "why_it_matters": "Kimi K3 sets a new benchmark for open-weight models, offering frontier-level reasoning and multimodal capabilities that were previously limited to closed-source models. It provides a powerful alternative to models like Claude Fable 5 for complex coding and agentic tasks.",
+      "last_verified": "2026-08-02",
+      "source": "curator:2026-08-02-0648",
+      "added": "2026-08-02"
     }
   ]
 }
