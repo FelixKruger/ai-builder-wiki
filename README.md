@@ -48,6 +48,8 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Kimi K3](https://felixkruger.github.io/ai-builder-wiki/#kimi-k3)** — Moonshot AI released Kimi K3, a 2.8 trillion parameter multimodal Mixture-of-Experts model with a 1 million token context window. _(added 2026-08-02)_
+
 - **[Mistral Medium 3.5](https://felixkruger.github.io/ai-builder-wiki/#mistral-medium-3-5)** — Mistral Medium 3.5 is a new open-weight model family designed for building customizable and deployable AI applications. _(added 2026-07-31)_
 
 - **[Grok Build](https://felixkruger.github.io/ai-builder-wiki/#grok-build)** — Grok Build is xAI's open-source coding agent CLI and terminal UI, providing transparency into Grok's coding stack and supporting context handling and tool execution. _(added 2026-07-30)_
@@ -61,8 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[AgentENV](https://felixkruger.github.io/ai-builder-wiki/#agentenv)** — AgentENV is a distributed platform for running and scaling agent environments, enabling the deployment of AI agents across various systems. _(added 2026-07-28)_
 
 - **[Alibaba Open-Code-Review](https://felixkruger.github.io/ai-builder-wiki/#alibaba-open-code-review)** — Alibaba Open-Code-Review is a hybrid architecture tool combining deterministic pipelines with an LLM agent for precise code review comments. _(added 2026-07-28)_
-
-- **[Heard](https://felixkruger.github.io/ai-builder-wiki/#heard)** — Heard is a macOS voice layer that provides intelligent audio summaries of agentic workflow output from tools like Claude Code and Cursor. _(added 2026-07-26)_
 
 <!-- RECENTLY_ADDED:END -->
 
