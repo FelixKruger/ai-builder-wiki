@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Sat, 01 Aug 2026 06:46:01 +0000</lastBuildDate>
+<lastBuildDate>Sun, 02 Aug 2026 06:49:03 +0000</lastBuildDate>
+
+<item>
+  <title>Kimi K3</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#kimi-k3</link>
+  <guid isPermaLink="false">kimi-k3-2026-08-02</guid>
+  <pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Moonshot AI released Kimi K3, a 2.8 trillion parameter multimodal Mixture-of-Experts model with a 1 million token context window. — Kimi K3 sets a new benchmark for open-weight models, offering frontier-level reasoning and multimodal capabilities that were previously limited to closed-source models. It provides a powerful alternative to models like Claude Fable 5 for complex coding and agentic tasks.]]></description>
+</item>
 
 <item>
   <title>Mistral Medium 3.5</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">alibaba-open-code-review-2026-07-28</guid>
   <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Alibaba Open-Code-Review is a hybrid architecture tool combining deterministic pipelines with an LLM agent for precise code review comments. — It enhances code quality and security by integrating AI-driven analysis with fine-tuned rulesets, offering an advanced solution beyond basic AI coding assistants.]]></description>
-</item>
-
-<item>
-  <title>Heard</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#heard</link>
-  <guid isPermaLink="false">heard-2026-07-26</guid>
-  <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Heard is a macOS voice layer that provides intelligent audio summaries of agentic workflow output from tools like Claude Code and Cursor. — It allows developers to monitor parallel coding agents through audio, providing project-level summaries without needing constant visual attention, unlike traditional terminal outputs.]]></description>
 </item>
 
 </channel>
