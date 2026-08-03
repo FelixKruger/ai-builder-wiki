@@ -430,7 +430,7 @@
       "category": "ai-coding",
       "summary": "Rust-native code editor with agentic editing, real-time collaboration, and the open Agent Client Protocol (ACP).",
       "why_it_matters": "The performance-first alternative to Cursor and Windsurf. 120 fps render, open prediction model (Zeta), and ACP make agent behavior auditable.",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-08-03",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -683,7 +683,7 @@
       "category": "multi-agent-coding",
       "summary": "OpenSwarm is an open-source multi-agent system that orchestrates specialized AI agents to create diverse deliverables from a single terminal prompt.",
       "why_it_matters": "Unlike single-agent coding tools, OpenSwarm coordinates multiple specialist agents for tasks beyond code, such as research, documents, and media generation.",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-08-03",
       "source": "curator:2026-05-19-0853",
       "added": "2026-05-19"
     },
@@ -1200,7 +1200,7 @@
       "category": "agent-memory",
       "summary": "Open Knowledge Format (OKF) is an open, vendor-neutral specification from Google Cloud that formalizes organizational knowledge as markdown files with YAML frontmatter for AI agents and humans.",
       "why_it_matters": "OKF provides a standardized, interoperable way for AI agents to access curated knowledge, unlike fragmented existing systems, and supports version-controlled, human-readable context.",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-08-03",
       "source": "curator:2026-07-01-0721",
       "added": "2026-07-01"
     },
@@ -1665,6 +1665,17 @@
       "last_verified": "2026-08-02",
       "source": "curator:2026-08-02-0648",
       "added": "2026-08-02"
+    },
+    {
+      "id": "tencentdb-agent-memory",
+      "name": "TencentDB Agent Memory",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "category": "agent-memory",
+      "summary": "TencentDB Agent Memory is a team-level memory hub that transforms conversations, documents, and code into reusable memory assets for AI agents.",
+      "why_it_matters": "It offers a structured approach to shared agent memory across teams and frameworks, distinguishing itself from single-agent memory solutions.",
+      "last_verified": "2026-08-03",
+      "source": "curator:2026-08-03-0659",
+      "added": "2026-08-03"
     }
   ]
 }

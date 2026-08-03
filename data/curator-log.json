@@ -1831,6 +1831,26 @@
         "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgyvK4-kzLQ6gts4Sz_es7qs7T8arstItXo36BaL8xhX95lcF7F15qj3WdCV0WspjBLkui0xgp6z_1TMGv4DRXiRw5MG1cz92_aogtDJoCJLMtk8DkcOk4U5XexF9sOwucF8wJCQjoLdbYLSXo3ZI="
       ],
       "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
+    },
+    {
+      "run_id": "2026-08-03-0659",
+      "started_at": "2026-08-03T06:59:03.040072+00:00",
+      "ended_at": "2026-08-03T06:59:40.167257+00:00",
+      "added": [
+        "tencentdb-agent-memory"
+      ],
+      "refreshed": [
+        "zed-ai",
+        "openswarm",
+        "open-knowledge-format"
+      ],
+      "removed": [],
+      "sources_checked": [
+        "gemini:gemini-2.5-flash+google-search-grounding",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiFAcm5HtzpaTiRXeg9nQ5vMyLSZUgpG0eeh69vnCvqh3t0qTEGdtH0Kn1HzLIBq_gSrf1e0rJ2XqLe7GTRQhJRE4Z_YGaYQdFo9Hsu3eR39xLRw==",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFm2bvdseRk2gJGqUBRJLT8YGeVoJXm1Kz4MgO2Zy9AlIXoDVUvik6Nqr5BHJ8RrNYoefIs4lU411NAA0wAmg3M5tFfECCGRPlMdFsqnmUbq9JFJ6GVgOLeqxrYD8sGrzH1JlxvYOn3"
+      ],
+      "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
     }
   ],
   "rotation_pointer": 0
