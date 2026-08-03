@@ -48,6 +48,8 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[TencentDB Agent Memory](https://felixkruger.github.io/ai-builder-wiki/#tencentdb-agent-memory)** — TencentDB Agent Memory is a team-level memory hub that transforms conversations, documents, and code into reusable memory assets for AI agents. _(added 2026-08-03)_
+
 - **[Kimi K3](https://felixkruger.github.io/ai-builder-wiki/#kimi-k3)** — Moonshot AI released Kimi K3, a 2.8 trillion parameter multimodal Mixture-of-Experts model with a 1 million token context window. _(added 2026-08-02)_
 
 - **[Mistral Medium 3.5](https://felixkruger.github.io/ai-builder-wiki/#mistral-medium-3-5)** — Mistral Medium 3.5 is a new open-weight model family designed for building customizable and deployable AI applications. _(added 2026-07-31)_
@@ -61,8 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Claude Cowork](https://felixkruger.github.io/ai-builder-wiki/#claude-cowork)** — Claude Cowork is an agentic knowledge-work platform for web and mobile, enabling task delegation across documents, spreadsheets, and presentations. _(added 2026-07-29)_
 
 - **[AgentENV](https://felixkruger.github.io/ai-builder-wiki/#agentenv)** — AgentENV is a distributed platform for running and scaling agent environments, enabling the deployment of AI agents across various systems. _(added 2026-07-28)_
-
-- **[Alibaba Open-Code-Review](https://felixkruger.github.io/ai-builder-wiki/#alibaba-open-code-review)** — Alibaba Open-Code-Review is a hybrid architecture tool combining deterministic pipelines with an LLM agent for precise code review comments. _(added 2026-07-28)_
 
 <!-- RECENTLY_ADDED:END -->
 

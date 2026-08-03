@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Sun, 02 Aug 2026 06:49:03 +0000</lastBuildDate>
+<lastBuildDate>Mon, 03 Aug 2026 06:59:40 +0000</lastBuildDate>
+
+<item>
+  <title>TencentDB Agent Memory</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#tencentdb-agent-memory</link>
+  <guid isPermaLink="false">tencentdb-agent-memory-2026-08-03</guid>
+  <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[TencentDB Agent Memory is a team-level memory hub that transforms conversations, documents, and code into reusable memory assets for AI agents. — It offers a structured approach to shared agent memory across teams and frameworks, distinguishing itself from single-agent memory solutions.]]></description>
+</item>
 
 <item>
   <title>Kimi K3</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">agentenv-2026-07-28</guid>
   <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[AgentENV is a distributed platform for running and scaling agent environments, enabling the deployment of AI agents across various systems. — It provides infrastructure for large-scale agent operations, addressing the challenge of deploying and managing multiple AI agents in complex, distributed settings.]]></description>
-</item>
-
-<item>
-  <title>Alibaba Open-Code-Review</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#alibaba-open-code-review</link>
-  <guid isPermaLink="false">alibaba-open-code-review-2026-07-28</guid>
-  <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Alibaba Open-Code-Review is a hybrid architecture tool combining deterministic pipelines with an LLM agent for precise code review comments. — It enhances code quality and security by integrating AI-driven analysis with fine-tuned rulesets, offering an advanced solution beyond basic AI coding assistants.]]></description>
 </item>
 
 </channel>
