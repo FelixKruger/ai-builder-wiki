@@ -1892,6 +1892,26 @@
         "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-qVFDAmFPzPFbtkIGqYRorDatc2MaY7nwe8zwzgNLcG9WIvuGmCRw4xiCz_TVira_Bu3pIF-L0WW44yKIwf9PyskV35WqKwKInEE9PmKvwQQm2Npjffr9Do_rzZJkl1dRCpak94ychE9o-sgYhT2C"
       ],
       "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
+    },
+    {
+      "run_id": "2026-08-06-0809",
+      "started_at": "2026-08-06T08:09:00.089427+00:00",
+      "ended_at": "2026-08-06T08:09:31.844737+00:00",
+      "added": [
+        "cloudflare-computer"
+      ],
+      "refreshed": [
+        "openbmb-agentverse",
+        "pydantic-logfire",
+        "sandcastle"
+      ],
+      "removed": [],
+      "sources_checked": [
+        "gemini:gemini-2.5-flash+google-search-grounding",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbA4uxWn_0mmXYNPlMCjcK0mvnNZpbGb4nhLqek8TcX_COoOdiF_QIS6LT4VUBaCSyutK_D4VLkgIOPL0Al9394bLisA3AJ1YUsLduWef0ekYXWbhg2Q==",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENIS2ustkPRlDDWtJ_VNAS7PJMuTV-_kzW9NEDcLJTVR8YIF0bdtdABGlvTi3Ls-2h7Sn_qtPdVNMmqsYSGau5Xur5-hYhul-CZkDaZ9uQ9-MMvqyTg3xtcueS0O9rrJO3hMgaNPcGWdIfiTvLqkkeyGB3mmlUWUSwKGaX3GklP09KfVChg6cqHnF6wmyHDmwEgzND6Mo9MxqSOHE64Z_LmqDdnihinvDCL2bweQ4wZAgJtA=="
+      ],
+      "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
     }
   ],
   "rotation_pointer": 0
