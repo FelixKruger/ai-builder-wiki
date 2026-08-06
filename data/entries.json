@@ -463,7 +463,7 @@
       "category": "multi-agent-coding",
       "summary": "TypeScript library by Matt Pocock for orchestrating AI coding agents in isolated sandboxes — one function call handles lifecycle and branch merging.",
       "why_it_matters": "If you're building a product that spawns coding agents, Sandcastle removes the boilerplate around containers and merge UX.",
-      "last_verified": "2026-07-04",
+      "last_verified": "2026-08-06",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -1211,7 +1211,7 @@
       "category": "multi-agent-coding",
       "summary": "AgentVerse is an open-source framework designed for deploying multiple LLM-based agents in task-solving and simulation applications.",
       "why_it_matters": "It offers a structured approach for building and evaluating multi-agent systems, providing a comprehensive environment for complex AI workflows.",
-      "last_verified": "2026-07-03",
+      "last_verified": "2026-08-06",
       "source": "curator:2026-07-03-0841",
       "added": "2026-07-03"
     },
@@ -1222,7 +1222,7 @@
       "category": "evals",
       "summary": "Logfire is an AI observability platform from Pydantic, capturing LLM calls, agent runs, and tool invocations with detailed metrics.",
       "why_it_matters": "It provides comprehensive tracing and conversation panels for debugging, offering a unified platform to understand and improve LLM and agent application behavior.",
-      "last_verified": "2026-07-03",
+      "last_verified": "2026-08-06",
       "source": "curator:2026-07-03-0841",
       "added": "2026-07-03"
     },
@@ -1676,6 +1676,17 @@
       "last_verified": "2026-08-03",
       "source": "curator:2026-08-03-0659",
       "added": "2026-08-03"
+    },
+    {
+      "id": "cloudflare-computer",
+      "name": "Cloudflare Computer",
+      "url": "https://github.com/cloudflare/computer",
+      "category": "multi-agent-coding",
+      "summary": "Cloudflare Computer is a TypeScript repository providing an environment for AI agents to interact with a simulated computer, enabling them to perceive, decide, and act.",
+      "why_it_matters": "It offers a sandbox for developing and testing autonomous agents that require complex system interactions, facilitating the creation of more capable AI systems beyond typical API calls.",
+      "last_verified": "2026-08-06",
+      "source": "curator:2026-08-06-0809",
+      "added": "2026-08-06"
     }
   ]
 }

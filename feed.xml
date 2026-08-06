@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Wed, 05 Aug 2026 06:47:56 +0000</lastBuildDate>
+<lastBuildDate>Thu, 06 Aug 2026 08:09:32 +0000</lastBuildDate>
+
+<item>
+  <title>Cloudflare Computer</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#cloudflare-computer</link>
+  <guid isPermaLink="false">cloudflare-computer-2026-08-06</guid>
+  <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Cloudflare Computer is a TypeScript repository providing an environment for AI agents to interact with a simulated computer, enabling them to perceive, decide, and act. — It offers a sandbox for developing and testing autonomous agents that require complex system interactions, facilitating the creation of more capable AI systems beyond typical API calls.]]></description>
+</item>
 
 <item>
   <title>TencentDB Agent Memory</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">claude-cowork-2026-07-29</guid>
   <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Claude Cowork is an agentic knowledge-work platform for web and mobile, enabling task delegation across documents, spreadsheets, and presentations. — This product competes directly with ChatGPT Work by offering a mobile-first approach and Anthropic's Constitutional AI safety stack for enterprise productivity.]]></description>
-</item>
-
-<item>
-  <title>AgentENV</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#agentenv</link>
-  <guid isPermaLink="false">agentenv-2026-07-28</guid>
-  <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[AgentENV is a distributed platform for running and scaling agent environments, enabling the deployment of AI agents across various systems. — It provides infrastructure for large-scale agent operations, addressing the challenge of deploying and managing multiple AI agents in complex, distributed settings.]]></description>
 </item>
 
 </channel>
