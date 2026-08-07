@@ -48,6 +48,8 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[SiliconFlow](https://felixkruger.github.io/ai-builder-wiki/#siliconflow)** — SiliconFlow is an AI cloud platform designed for running, customizing, and scaling large language models and multimodal models with high reliability and managed infrastructure. _(added 2026-08-07)_
+
 - **[Cloudflare Computer](https://felixkruger.github.io/ai-builder-wiki/#cloudflare-computer)** — Cloudflare Computer is a TypeScript repository providing an environment for AI agents to interact with a simulated computer, enabling them to perceive, decide, and act. _(added 2026-08-06)_
 
 - **[TencentDB Agent Memory](https://felixkruger.github.io/ai-builder-wiki/#tencentdb-agent-memory)** — TencentDB Agent Memory is a team-level memory hub that transforms conversations, documents, and code into reusable memory assets for AI agents. _(added 2026-08-03)_
@@ -61,8 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[GLM 5.2](https://felixkruger.github.io/ai-builder-wiki/#glm-5-2)** — GLM 5.2 is Zhipu AI's flagship open-weight model for long-horizon tasks, offering advanced coding capabilities and a solid 1M-token context window. _(added 2026-07-30)_
 
 - **[Artifacts by Databox](https://felixkruger.github.io/ai-builder-wiki/#artifacts-by-databox)** — Artifacts by Databox generates polished reports, slide decks, or interactive documents from live business data using an AI Analyst. _(added 2026-07-29)_
-
-- **[Claude Cowork](https://felixkruger.github.io/ai-builder-wiki/#claude-cowork)** — Claude Cowork is an agentic knowledge-work platform for web and mobile, enabling task delegation across documents, spreadsheets, and presentations. _(added 2026-07-29)_
 
 <!-- RECENTLY_ADDED:END -->
 

@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Thu, 06 Aug 2026 08:09:32 +0000</lastBuildDate>
+<lastBuildDate>Fri, 07 Aug 2026 06:55:59 +0000</lastBuildDate>
+
+<item>
+  <title>SiliconFlow</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#siliconflow</link>
+  <guid isPermaLink="false">siliconflow-2026-08-07</guid>
+  <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[SiliconFlow is an AI cloud platform designed for running, customizing, and scaling large language models and multimodal models with high reliability and managed infrastructure. — It provides optimized inference, a simple fine-tuning pipeline, and fully managed deployment, offering a specialized alternative to general cloud providers for hosting open-weight models in production.]]></description>
+</item>
 
 <item>
   <title>Cloudflare Computer</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">artifacts-by-databox-2026-07-29</guid>
   <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Artifacts by Databox generates polished reports, slide decks, or interactive documents from live business data using an AI Analyst. — It streamlines the creation of data-driven reports by turning AI analyst conversations into shareable documents, reducing manual dashboard building and analysis.]]></description>
-</item>
-
-<item>
-  <title>Claude Cowork</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#claude-cowork</link>
-  <guid isPermaLink="false">claude-cowork-2026-07-29</guid>
-  <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Claude Cowork is an agentic knowledge-work platform for web and mobile, enabling task delegation across documents, spreadsheets, and presentations. — This product competes directly with ChatGPT Work by offering a mobile-first approach and Anthropic's Constitutional AI safety stack for enterprise productivity.]]></description>
 </item>
 
 </channel>
