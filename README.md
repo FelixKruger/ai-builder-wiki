@@ -48,6 +48,10 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[AutoGen (Microsoft)](https://felixkruger.github.io/ai-builder-wiki/#autogen-microsoft)** — AutoGen is an open-source framework for building, optimizing, and evaluating multi-agent systems that can converse with each other to solve tasks. _(added 2026-08-08)_
+
+- **[Shieldstral (Mistral)](https://felixkruger.github.io/ai-builder-wiki/#shieldstral-mistral)** — Shieldstral is a 3 billion-parameter open-weight multimodal model for custom content moderation, allowing policy definition with natural language. _(added 2026-08-08)_
+
 - **[SiliconFlow](https://felixkruger.github.io/ai-builder-wiki/#siliconflow)** — SiliconFlow is an AI cloud platform designed for running, customizing, and scaling large language models and multimodal models with high reliability and managed infrastructure. _(added 2026-08-07)_
 
 - **[Cloudflare Computer](https://felixkruger.github.io/ai-builder-wiki/#cloudflare-computer)** — Cloudflare Computer is a TypeScript repository providing an environment for AI agents to interact with a simulated computer, enabling them to perceive, decide, and act. _(added 2026-08-06)_
@@ -59,10 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Mistral Medium 3.5](https://felixkruger.github.io/ai-builder-wiki/#mistral-medium-3-5)** — Mistral Medium 3.5 is a new open-weight model family designed for building customizable and deployable AI applications. _(added 2026-07-31)_
 
 - **[Grok Build](https://felixkruger.github.io/ai-builder-wiki/#grok-build)** — Grok Build is xAI's open-source coding agent CLI and terminal UI, providing transparency into Grok's coding stack and supporting context handling and tool execution. _(added 2026-07-30)_
-
-- **[GLM 5.2](https://felixkruger.github.io/ai-builder-wiki/#glm-5-2)** — GLM 5.2 is Zhipu AI's flagship open-weight model for long-horizon tasks, offering advanced coding capabilities and a solid 1M-token context window. _(added 2026-07-30)_
-
-- **[Artifacts by Databox](https://felixkruger.github.io/ai-builder-wiki/#artifacts-by-databox)** — Artifacts by Databox generates polished reports, slide decks, or interactive documents from live business data using an AI Analyst. _(added 2026-07-29)_
 
 <!-- RECENTLY_ADDED:END -->
 

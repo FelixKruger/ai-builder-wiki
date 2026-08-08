@@ -496,7 +496,7 @@
       "category": "ai-video",
       "summary": "React-based framework for creating videos programmatically using CSS, Canvas, SVG, and WebGL.",
       "why_it_matters": "The most mature programmatic-video stack. Treat video as a React app, render in CI. Source-available — commercial use needs a license.",
-      "last_verified": "2026-07-05",
+      "last_verified": "2026-08-08",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -507,7 +507,7 @@
       "category": "ai-3d",
       "summary": "Text, image, or sketch to production-ready 3D assets — texturing, rigging, and animation in one workflow.",
       "why_it_matters": "The all-in-one 3D generator for game, AR, and product pipelines. Beats single-feature competitors when you need riggable output, not just a mesh.",
-      "last_verified": "2026-07-05",
+      "last_verified": "2026-08-08",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -518,7 +518,7 @@
       "category": "ai-3d",
       "summary": "Tencent's open 3D asset generator — two-stage pipeline with flow-based diffusion transformer for shape and separate texture synthesis.",
       "why_it_matters": "Open weights for high-resolution textured 3D. Can also re-texture handcrafted meshes — useful when Tripo3D's hosted workflow isn't an option.",
-      "last_verified": "2026-07-05",
+      "last_verified": "2026-08-08",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -1698,6 +1698,28 @@
       "last_verified": "2026-08-07",
       "source": "curator:2026-08-07-0655",
       "added": "2026-08-07"
+    },
+    {
+      "id": "autogen-microsoft",
+      "name": "AutoGen (Microsoft)",
+      "url": "https://microsoft.github.io/autogen/",
+      "category": "multi-agent-coding",
+      "summary": "AutoGen is an open-source framework for building, optimizing, and evaluating multi-agent systems that can converse with each other to solve tasks.",
+      "why_it_matters": "It simplifies the orchestration of complex agent workflows, offering a flexible alternative to single-agent approaches for developers building collaborative AI applications.",
+      "last_verified": "2026-08-08",
+      "source": "curator:2026-08-08-0627",
+      "added": "2026-08-08"
+    },
+    {
+      "id": "shieldstral-mistral",
+      "name": "Shieldstral (Mistral)",
+      "url": "https://mistral.ai/news/shieldstral/",
+      "category": "open-weights",
+      "summary": "Shieldstral is a 3 billion-parameter open-weight multimodal model for custom content moderation, allowing policy definition with natural language.",
+      "why_it_matters": "It offers a flexible, self-hostable solution for content safety, enabling developers to adapt moderation policies at inference time without model retraining.",
+      "last_verified": "2026-08-08",
+      "source": "curator:2026-08-08-0627",
+      "added": "2026-08-08"
     }
   ]
 }
