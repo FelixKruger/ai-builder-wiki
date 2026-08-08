@@ -1933,6 +1933,28 @@
         "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5SznmAoqqd8Hxzq_XZZHxDcKEd3L_zrRJgEMkr2IIrvMm48IRM2Jug9L_9e_L-7J_eH-VOc0iNZu26Eaf1EjaDUgBQbf2R6QxDAZ83VGksrTQH1C0B5eXB23kGOq9F2TJd5Vkb37hq3NkFeDVPAqlqVO04lvlX7k0d5bDT4Q23455qQ=="
       ],
       "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
+    },
+    {
+      "run_id": "2026-08-08-0627",
+      "started_at": "2026-08-08T06:27:46.850088+00:00",
+      "ended_at": "2026-08-08T06:28:20.458455+00:00",
+      "added": [
+        "autogen-microsoft",
+        "shieldstral-mistral"
+      ],
+      "refreshed": [
+        "remotion",
+        "tripo3d",
+        "hunyuan3d-2"
+      ],
+      "removed": [],
+      "sources_checked": [
+        "gemini:gemini-2.5-flash+google-search-grounding",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_Z6FCCCYSeNTAjGCmR3oqYjaL8BiyETi7dF1aoUKEiNzx8gl_nI_4a3-bgroRxQsmIcODN1S4HgWjV07jx1w_SAl64q6UFErpvHyD0rcNmPghB87Ue2JPA-FYwR3msE-SYuNQasUYkPjqkXayIh-7Pf2jAmmVZtkhvVF_iygKAXbQkU8lK-0tCQVM4PM=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG_i33dunYNzWniA08xWVqNS9Wb0SYvsRfjgL3KFx0f5uyJYphV5uhtBJB1gKoME6owW4mAJa8YzycBKN5xjbnfSFAr46a68J2or8LSzZsn0LjbwoYQ1QGbjOnarRQEERtXCHzkrlKSOdG_IxK3ei9c56E4Uk1yVT6rxOHtZW-rqCZu88zHqca9SMcsQV2tdrj8hc=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuqXmfTtOpjvA5iAYmfgVx67_atePiEbmSpHnIw2TR79gCG0N4QIebGAFZ6JJ5I0jDv5aVVIgQ4UnNoUZBU4CbgBjhIfIKV1dvL_HS-JWlq4Kx3WquVXS12AdfmHzKh2IhRSL-UmlFQcMMydran9S_yOMcWmPqG5-G"
+      ],
+      "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
     }
   ],
   "rotation_pointer": 0
