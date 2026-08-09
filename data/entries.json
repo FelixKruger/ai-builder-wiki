@@ -1447,17 +1447,6 @@
       "added": "2026-07-17"
     },
     {
-      "id": "mimo-code",
-      "name": "MiMo Code",
-      "url": "https://mimo.xiaomi.com/",
-      "category": "ai-coding",
-      "summary": "A terminal-native AI coding assistant from Xiaomi MiMo that reads and writes code, runs commands, and maintains project understanding with persistent memory.",
-      "why_it_matters": "It offers a self-improving, open-source alternative to existing AI coding environments, focusing on deep project understanding and efficient agentic workflows.",
-      "last_verified": "2026-07-18",
-      "source": "curator:2026-07-18-0721",
-      "added": "2026-07-18"
-    },
-    {
       "id": "generic-agent",
       "name": "GenericAgent",
       "url": "https://github.com/lsdefine/GenericAgent",
@@ -1467,17 +1456,6 @@
       "last_verified": "2026-07-18",
       "source": "curator:2026-07-18-0721",
       "added": "2026-07-18"
-    },
-    {
-      "id": "zcode",
-      "name": "ZCode",
-      "url": "https://zcode.z.ai/en",
-      "category": "ai-coding",
-      "summary": "ZCode is a desktop AI coding agent built by Zhipu.ai, providing a graphical user interface for interacting with LLMs and managing coding tasks.",
-      "why_it_matters": "It offers a desktop-first experience similar to OpenAI's Codex app, serving as an alternative to CLI-centric agents for developers who prefer a visual workflow for AI-assisted coding.",
-      "last_verified": "2026-07-19",
-      "source": "curator:2026-07-19-0752",
-      "added": "2026-07-19"
     },
     {
       "id": "plugthis",
