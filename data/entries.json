@@ -1732,6 +1732,17 @@
       "last_verified": "2026-08-09",
       "source": "curator:2026-08-09-1938",
       "added": "2026-08-09"
+    },
+    {
+      "id": "anydoc",
+      "name": "Anydoc",
+      "url": "https://github.com/firecrawl/anydoc",
+      "category": "retrieval-search",
+      "summary": "Anydoc is a Rust-built tool with Node.js and Python bindings that converts various document formats to clean Markdown for AI processing.",
+      "why_it_matters": "It provides a robust solution for standardizing diverse document types into a usable format for retrieval systems, improving the quality of input for RAG pipelines.",
+      "last_verified": "2026-08-09",
+      "source": "curator:2026-08-09-1940",
+      "added": "2026-08-09"
     }
   ]
 }
