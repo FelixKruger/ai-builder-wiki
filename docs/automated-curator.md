@@ -37,6 +37,63 @@ Done. From tomorrow morning the curator will run automatically at 06:00 UTC, eve
 
 ---
 
+## Daily contributions: why commits must be authored, not just pushed
+
+For its first three months this repo committed **every single day** and the
+owner's contribution graph stayed empty. 90 runs, 90 commits, 15 contributions.
+
+The cause: the workflow set the commit author to `github-actions[bot]`. GitHub
+only counts a commit toward your contribution graph when **all** of these hold:
+
+1. The commit's **author email** is linked to your GitHub account
+   (the `ID+username@users.noreply.github.com` address always is).
+2. The commit is on the repo's **default branch** (or `gh-pages`).
+3. The repo is **not a fork**.
+4. You own the repo, or are a collaborator on it.
+
+Who _pushes_ the commit is irrelevant — Actions pushing on your behalf is fine.
+Only authorship matters. The workflow now sets:
+
+```yaml
+env:
+  GIT_AUTHOR_NAME: FelixKruger
+  GIT_AUTHOR_EMAIL: 262215022+FelixKruger@users.noreply.github.com
+```
+
+and asserts it after committing, failing the run loudly if the author is ever
+wrong again rather than silently producing invisible commits.
+
+### Guaranteeing one contribution per day
+
+Three things have to hold, and each has a failure mode worth engineering against:
+
+| Requirement                | Failure mode                           | Mitigation                                                                                                      |
+| -------------------------- | -------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| The job runs               | GitHub drops scheduled runs under load | Second cron at 17:00 UTC that acts only if the day still has no commit                                          |
+| It has something to commit | Nothing changed                        | The curator always re-verifies the 3 oldest URLs and regenerates `HEALTH.md`, so a diff is structural, not luck |
+| The commit is attributed   | Wrong author email                     | Explicit author env + a verification step that fails the build                                                  |
+
+Both cron windows sit mid-day UTC, well clear of a midnight boundary, so a run
+never lands on the wrong calendar day.
+
+### Verifying it works
+
+```bash
+python scripts/check_streak.py --days 30
+```
+
+This queries the same contribution calendar that renders on your profile and
+reports the current streak plus any gaps. Exit code `0` means every completed
+day in the window is covered.
+
+### Is this legitimate?
+
+The commits do real work — verifying links, pruning over-cap categories,
+archiving dead entries — on a system you built. That is genuine activity, and
+the repo says plainly that it is automated. What this deliberately does _not_
+do is manufacture empty commits, backdate history, or fabricate activity on
+days the automation did not run.
+
 ## What the workflow does each run
 
 1. **Refreshes the 3 oldest entries** by `last_verified` — HTTP-checks each URL, captures redirects, archives any that 404.
