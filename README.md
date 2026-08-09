@@ -52,6 +52,8 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 - **[AirLLM](https://felixkruger.github.io/ai-builder-wiki/#airllm)** — AirLLM is an open-source tool that enables efficient deployment and inference of large language models on consumer-grade GPUs. _(added 2026-08-09)_
 
+- **[DeepSeek V4-Flash](https://felixkruger.github.io/ai-builder-wiki/#deepseek-v4-flash)** — DeepSeek V4-Flash is an open-weight 284 billion parameter Mixture-of-Experts model, officially released for agentic capabilities and efficient long-context processing. _(added 2026-08-09)_
+
 - **[AutoGen (Microsoft)](https://felixkruger.github.io/ai-builder-wiki/#autogen-microsoft)** — AutoGen is an open-source framework for building, optimizing, and evaluating multi-agent systems that can converse with each other to solve tasks. _(added 2026-08-08)_
 
 - **[Shieldstral (Mistral)](https://felixkruger.github.io/ai-builder-wiki/#shieldstral-mistral)** — Shieldstral is a 3 billion-parameter open-weight multimodal model for custom content moderation, allowing policy definition with natural language. _(added 2026-08-08)_
@@ -61,8 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Cloudflare Computer](https://felixkruger.github.io/ai-builder-wiki/#cloudflare-computer)** — Cloudflare Computer is a TypeScript repository providing an environment for AI agents to interact with a simulated computer, enabling them to perceive, decide, and act. _(added 2026-08-06)_
 
 - **[TencentDB Agent Memory](https://felixkruger.github.io/ai-builder-wiki/#tencentdb-agent-memory)** — TencentDB Agent Memory is a team-level memory hub that transforms conversations, documents, and code into reusable memory assets for AI agents. _(added 2026-08-03)_
-
-- **[Kimi K3](https://felixkruger.github.io/ai-builder-wiki/#kimi-k3)** — Moonshot AI released Kimi K3, a 2.8 trillion parameter multimodal Mixture-of-Experts model with a 1 million token context window. _(added 2026-08-02)_
 
 <!-- RECENTLY_ADDED:END -->
 

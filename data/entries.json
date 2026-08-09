@@ -551,7 +551,7 @@
       "category": "open-weights",
       "summary": "Chinese AI lab shipping open-weight LLMs (R1, V3, V4-preview, Coder V2) with strong reasoning and aggressive pricing.",
       "why_it_matters": "When Claude or GPT's API bill bites, DeepSeek is the open-weight escape hatch with competitive reasoning. Frequently profiled by The AI Search.",
-      "last_verified": "2026-07-07",
+      "last_verified": "2026-08-09",
       "source": "human:eriks+youtube:theAIsearch",
       "added": "2026-05-11"
     },
@@ -716,7 +716,7 @@
       "category": "multi-agent-coding",
       "summary": "An open-source platform for autonomous AI software development agents capable of modifying code, running commands, and browsing the web.",
       "why_it_matters": "It provides an open-source option for builders seeking autonomous coding agents, offering capabilities similar to proprietary solutions like Devin.",
-      "last_verified": "2026-07-06",
+      "last_verified": "2026-08-09",
       "source": "curator:2026-05-22-0844",
       "added": "2026-05-22"
     },
@@ -862,17 +862,6 @@
       "last_verified": "2026-07-26",
       "source": "curator:2026-06-01-0733",
       "added": "2026-06-01"
-    },
-    {
-      "id": "markitdown",
-      "name": "Markitdown (Microsoft)",
-      "url": "https://github.com/microsoft/markitdown",
-      "category": "ai-coding",
-      "summary": "A lightweight Python tool that converts various document formats like PDFs, Word, and Excel into clean Markdown for AI processing.",
-      "why_it_matters": "This tool simplifies preparing unstructured data for AI, enabling coding agents to more effectively analyze and summarize content compared to feeding raw, complex document formats. It addresses a common data preparation bottleneck for AI builders.",
-      "last_verified": "2026-07-28",
-      "source": "curator:2026-06-02-0728",
-      "added": "2026-06-02"
     },
     {
       "id": "coremem",
@@ -1150,17 +1139,6 @@
       "added": "2026-06-25"
     },
     {
-      "id": "openknowledge",
-      "name": "OpenKnowledge",
-      "url": "https://openknowledge.ai/",
-      "category": "ai-coding",
-      "summary": "OpenKnowledge is an open-source markdown editor that integrates directly with AI coding agents like Claude and Codex, available as a MacOS app or web UI.",
-      "why_it_matters": "It offers a Notion-like experience for collaborative markdown editing with built-in AI agent support, contrasting with existing editors that often require community plugins for deep AI integration.",
-      "last_verified": "2026-07-28",
-      "source": "curator:2026-06-26-0709",
-      "added": "2026-06-26"
-    },
-    {
       "id": "vercel-eve",
       "name": "Eve (Vercel)",
       "url": "https://github.com/vercel/eve",
@@ -1255,7 +1233,7 @@
       "category": "voice-audio",
       "summary": "Meetily is a self-hosted, open-source AI meeting assistant providing live transcription, speaker diarization, and summarization.",
       "why_it_matters": "It offers 100% local processing, ensuring privacy for meeting notes without relying on cloud services, unlike many commercial alternatives.",
-      "last_verified": "2026-07-06",
+      "last_verified": "2026-08-09",
       "source": "curator:2026-07-06-0947",
       "added": "2026-07-06"
     },
@@ -1741,6 +1719,17 @@
       "why_it_matters": "This allows developers to run powerful open-weight models locally with reduced hardware requirements, making advanced AI inference more accessible and cost-effective than relying solely on high-end cloud compute.",
       "last_verified": "2026-08-09",
       "source": "curator:2026-08-09-0632",
+      "added": "2026-08-09"
+    },
+    {
+      "id": "deepseek-v4-flash",
+      "name": "DeepSeek V4-Flash",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+      "category": "open-weights",
+      "summary": "DeepSeek V4-Flash is an open-weight 284 billion parameter Mixture-of-Experts model, officially released for agentic capabilities and efficient long-context processing.",
+      "why_it_matters": "This model significantly improves agentic performance at a lower cost than larger models, making it a strong choice for agent builders and long-context pipelines.",
+      "last_verified": "2026-08-09",
+      "source": "curator:2026-08-09-1346",
       "added": "2026-08-09"
     }
   ]

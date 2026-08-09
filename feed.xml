@@ -5,7 +5,7 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Sun, 09 Aug 2026 06:33:15 +0000</lastBuildDate>
+<lastBuildDate>Sun, 09 Aug 2026 13:47:01 +0000</lastBuildDate>
 
 <item>
   <title>Command Center</title>
@@ -21,6 +21,14 @@
   <guid isPermaLink="false">airllm-2026-08-09</guid>
   <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[AirLLM is an open-source tool that enables efficient deployment and inference of large language models on consumer-grade GPUs. — This allows developers to run powerful open-weight models locally with reduced hardware requirements, making advanced AI inference more accessible and cost-effective than relying solely on high-end cloud compute.]]></description>
+</item>
+
+<item>
+  <title>DeepSeek V4-Flash</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#deepseek-v4-flash</link>
+  <guid isPermaLink="false">deepseek-v4-flash-2026-08-09</guid>
+  <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[DeepSeek V4-Flash is an open-weight 284 billion parameter Mixture-of-Experts model, officially released for agentic capabilities and efficient long-context processing. — This model significantly improves agentic performance at a lower cost than larger models, making it a strong choice for agent builders and long-context pipelines.]]></description>
 </item>
 
 <item>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">tencentdb-agent-memory-2026-08-03</guid>
   <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[TencentDB Agent Memory is a team-level memory hub that transforms conversations, documents, and code into reusable memory assets for AI agents. — It offers a structured approach to shared agent memory across teams and frameworks, distinguishing itself from single-agent memory solutions.]]></description>
-</item>
-
-<item>
-  <title>Kimi K3</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#kimi-k3</link>
-  <guid isPermaLink="false">kimi-k3-2026-08-02</guid>
-  <pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Moonshot AI released Kimi K3, a 2.8 trillion parameter multimodal Mixture-of-Experts model with a 1 million token context window. — Kimi K3 sets a new benchmark for open-weight models, offering frontier-level reasoning and multimodal capabilities that were previously limited to closed-source models. It provides a powerful alternative to models like Claude Fable 5 for complex coding and agentic tasks.]]></description>
 </item>
 
 </channel>
