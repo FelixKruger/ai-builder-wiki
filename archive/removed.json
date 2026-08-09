@@ -33,5 +33,19 @@
     "url": "https://zcode.z.ai/en",
     "removed_at": "2026-07-19",
     "reason": "category cap: AI Coding Tools had 17 entries (cap 12); pruned as lowest-signal for this category"
+  },
+  {
+    "id": "openhands",
+    "name": "OpenHands",
+    "url": "https://github.com/invariantlabs-ai/OpenDevin",
+    "removed_at": "2026-08-09",
+    "reason": "category cap: Multi-Agent Coding had 17 entries (cap 12); pruned as lowest-signal for this category"
+  },
+  {
+    "id": "perplexity-computer",
+    "name": "Perplexity Computer",
+    "url": "https://www.perplexity.ai/",
+    "removed_at": "2026-07-20",
+    "reason": "category cap: Multi-Agent Coding had 17 entries (cap 12); pruned as lowest-signal for this category"
   }
 ]

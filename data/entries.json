@@ -711,17 +711,6 @@
       "added": "2026-05-20"
     },
     {
-      "id": "openhands",
-      "name": "OpenHands",
-      "url": "https://github.com/invariantlabs-ai/OpenDevin",
-      "category": "multi-agent-coding",
-      "summary": "An open-source platform for autonomous AI software development agents capable of modifying code, running commands, and browsing the web.",
-      "why_it_matters": "It provides an open-source option for builders seeking autonomous coding agents, offering capabilities similar to proprietary solutions like Devin.",
-      "last_verified": "2026-08-09",
-      "source": "curator:2026-05-22-0844",
-      "added": "2026-05-22"
-    },
-    {
       "id": "crewai",
       "name": "CrewAI",
       "url": "https://crewai.com/",
@@ -1072,17 +1061,6 @@
       "last_verified": "2026-07-19",
       "source": "curator:2026-06-19-0742",
       "added": "2026-06-19"
-    },
-    {
-      "id": "perplexity-computer",
-      "name": "Perplexity Computer",
-      "url": "https://www.perplexity.ai/",
-      "category": "multi-agent-coding",
-      "summary": "Perplexity Computer is a multi-model AI system that unifies frontier models to create and execute complex, long-running workflows.",
-      "why_it_matters": "Unlike traditional chatbots or single-task agents, it orchestrates specialized AI models to handle entire projects, providing a comprehensive solution for complex automation.",
-      "last_verified": "2026-07-20",
-      "source": "curator:2026-06-20-0712",
-      "added": "2026-06-20"
     },
     {
       "id": "kimi-k2-6",
