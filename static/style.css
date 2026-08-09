@@ -236,6 +236,34 @@ main {
   max-width: 680px;
 }
 
+/* "How to choose" decision guide — the editorial layer over the card list. */
+.guide {
+  max-width: 720px;
+  margin: 0 0 24px;
+  padding: 16px 18px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius);
+}
+.guide h3 {
+  margin: 0 0 8px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--accent);
+}
+.guide p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.6;
+}
+.guide-meta {
+  margin-top: 10px !important;
+  font-size: 12px !important;
+  color: var(--fg-dim);
+}
+
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));

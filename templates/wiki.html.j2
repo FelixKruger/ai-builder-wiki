@@ -87,6 +87,13 @@
           <h2>{{ cat.name }} <span class="cat-count">{{ counts[cat.id] }}</span></h2>
           <p class="cat-intent">For when: <em>{{ cat.intent }}</em></p>
           <p class="cat-blurb">{{ cat.blurb }}</p>
+          {% if cat.guide and cat.guide.body %}
+          <aside class="guide">
+            <h3>How to choose</h3>
+            <p>{{ cat.guide.body }}</p>
+            <p class="guide-meta">Reviewed {{ cat.guide.updated }}</p>
+          </aside>
+          {% endif %}
         </header>
         <div class="cards">
           {% for e in by_category[cat.id] %}
