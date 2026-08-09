@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "id": "markitdown",
+    "name": "Markitdown (Microsoft)",
+    "url": "https://github.com/microsoft/markitdown",
+    "removed_at": "2026-07-28",
+    "reason": "category cap: AI Coding Tools had 20 entries (cap 12); pruned as lowest-signal for this category"
+  },
+  {
+    "id": "openknowledge",
+    "name": "OpenKnowledge",
+    "url": "https://openknowledge.ai/",
+    "removed_at": "2026-07-28",
+    "reason": "category cap: AI Coding Tools had 20 entries (cap 12); pruned as lowest-signal for this category"
+  }
+]
