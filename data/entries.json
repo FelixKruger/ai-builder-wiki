@@ -1562,11 +1562,12 @@
       "name": "Mistral Medium 3.5",
       "url": "https://mistral.ai/",
       "category": "open-weights",
-      "summary": "Mistral Medium 3.5 is a new open-weight model family designed for building customizable and deployable AI applications.",
-      "why_it_matters": "This provides developers with a powerful, efficient, and open-weight alternative to proprietary models, offering greater control over deployment and data.",
+      "summary": "Mistral Medium 3.5 is an open-weight model family for general-purpose AI applications.",
+      "why_it_matters": "This offers a general-purpose open-weight option. It serves as a stable alternative to specialized models like Kimi K2.6 or GLM 5.2 when your application does not require their specific long-horizon or agentic capabilities.",
       "last_verified": "2026-07-31",
       "source": "curator:2026-07-31-0653",
-      "added": "2026-07-31"
+      "added": "2026-07-31",
+      "refined": "2026-08-09"
     },
     {
       "id": "kimi-k3",
