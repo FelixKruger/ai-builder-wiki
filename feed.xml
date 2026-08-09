@@ -5,7 +5,23 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Sat, 08 Aug 2026 06:28:20 +0000</lastBuildDate>
+<lastBuildDate>Sun, 09 Aug 2026 06:33:15 +0000</lastBuildDate>
+
+<item>
+  <title>Command Center</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#command-center</link>
+  <guid isPermaLink="false">command-center-2026-08-09</guid>
+  <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Command Center is an AI coding environment focused on improving the quality and review process of AI-generated code, reducing the significant time developers spend correcting AI outputs. — This tool helps builders integrate AI into their coding workflows more effectively by ensuring higher code quality and reducing post-generation refinement, a common challenge with existing AI coding assistants.]]></description>
+</item>
+
+<item>
+  <title>AirLLM</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#airllm</link>
+  <guid isPermaLink="false">airllm-2026-08-09</guid>
+  <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[AirLLM is an open-source tool that enables efficient deployment and inference of large language models on consumer-grade GPUs. — This allows developers to run powerful open-weight models locally with reduced hardware requirements, making advanced AI inference more accessible and cost-effective than relying solely on high-end cloud compute.]]></description>
+</item>
 
 <item>
   <title>AutoGen (Microsoft)</title>
@@ -53,22 +69,6 @@
   <guid isPermaLink="false">kimi-k3-2026-08-02</guid>
   <pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Moonshot AI released Kimi K3, a 2.8 trillion parameter multimodal Mixture-of-Experts model with a 1 million token context window. — Kimi K3 sets a new benchmark for open-weight models, offering frontier-level reasoning and multimodal capabilities that were previously limited to closed-source models. It provides a powerful alternative to models like Claude Fable 5 for complex coding and agentic tasks.]]></description>
-</item>
-
-<item>
-  <title>Mistral Medium 3.5</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#mistral-medium-3-5</link>
-  <guid isPermaLink="false">mistral-medium-3-5-2026-07-31</guid>
-  <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Mistral Medium 3.5 is a new open-weight model family designed for building customizable and deployable AI applications. — This provides developers with a powerful, efficient, and open-weight alternative to proprietary models, offering greater control over deployment and data.]]></description>
-</item>
-
-<item>
-  <title>Grok Build</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#grok-build</link>
-  <guid isPermaLink="false">grok-build-2026-07-30</guid>
-  <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Grok Build is xAI's open-source coding agent CLI and terminal UI, providing transparency into Grok's coding stack and supporting context handling and tool execution. — It allows engineers to study a production-grade coding agent harness line by line, offering insights into xAI's agent loop, unlike closed-source alternatives.]]></description>
 </item>
 
 </channel>
