@@ -13,7 +13,29 @@
       "section": "Build with AI",
       "name": "AI Coding Tools",
       "blurb": "Agents and IDEs that read, write, and run your code. Where you reach when you want AI inside your editor.",
-      "intent": "I want AI in my editor"
+      "intent": "I want AI in my editor",
+      "guide": {
+        "body": "For most developers wanting AI in their editor, start with GitHub Copilot. It integrates into existing IDEs, offers inline completions, chat, and multi-file agent capabilities, making it a low-friction addition to current workflows.\n\nIf you are willing to adopt a new IDE for a more integrated AI experience, Cursor is the dominant choice among AI builders, known for its diff review UX and strong agent loop. Zed AI offers a performance-first alternative if you prioritize speed and a Rust-native environment. Windsurf provides a similar agentic IDE experience to Cursor; choose based on UI preference.\n\nFor those who cannot send code to a third party or prefer a transparent, self-hosted solution, Aider is the open-source CLI pair-programmer and a field benchmark. Cline provides a similar open-source, autonomous agent for VS Code with explicit action approval, offering insight into the agent loop.\n\nA key trade-off is between the convenience of a fully integrated, often proprietary, solution like Cursor or Copilot, and the control and transparency offered by open-source, model-agnostic tools like Aider or Cline. The former abstracts away agent mechanics, while the latter requires more direct management but reveals the underlying process.",
+        "updated": "2026-08-09",
+        "model": "gemini:gemini-2.5-flash",
+        "covers": [
+          "Aider",
+          "Alibaba Open-Code-Review",
+          "Claude Code",
+          "Cline",
+          "CodeWhale",
+          "Codex CLI",
+          "Command Center",
+          "Cursor",
+          "GitHub Copilot",
+          "Grok Build",
+          "Kilo Code",
+          "OpenCode",
+          "Warp",
+          "Windsurf",
+          "Zed AI"
+        ]
+      }
     },
     {
       "id": "multi-agent-coding",
