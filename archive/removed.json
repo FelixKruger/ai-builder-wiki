@@ -12,5 +12,19 @@
     "url": "https://openknowledge.ai/",
     "removed_at": "2026-07-28",
     "reason": "category cap: AI Coding Tools had 20 entries (cap 12); pruned as lowest-signal for this category"
+  },
+  {
+    "id": "codex-cli",
+    "name": "Codex CLI",
+    "url": "https://github.com/openai/codex",
+    "removed_at": "2026-07-25",
+    "reason": "category cap: AI Coding Tools had 18 entries (cap 12); pruned as lowest-signal for this category"
+  },
+  {
+    "id": "oh-my-pi",
+    "name": "Oh-My-Pi (omp)",
+    "url": "https://github.com/can1357/oh-my-pi",
+    "removed_at": "2026-07-19",
+    "reason": "category cap: AI Coding Tools had 18 entries (cap 12); pruned as lowest-signal for this category"
   }
 ]
