@@ -175,11 +175,12 @@
       "name": "Claude API (Anthropic)",
       "url": "https://platform.claude.com/docs/en/api/overview",
       "category": "hosted-apis",
-      "summary": "Anthropic's API — Claude Opus 4.7, Sonnet 4.6, Haiku 4.5. Native tool use, prompt caching, extended thinking, files, citations.",
-      "why_it_matters": "Best-in-class for long-horizon tool use and agentic coding. Prompt caching alone often pays for the migration.",
+      "summary": "Anthropic's API offers models with native tool use, prompt caching, extended thinking, file support, and citations.",
+      "why_it_matters": "For long-running agentic workflows, Claude's native tool use and prompt caching offer a distinct advantage over OpenAI, particularly for reducing repeated prompt costs.",
       "last_verified": "2026-07-25",
       "source": "seed",
-      "added": "2026-04-27"
+      "added": "2026-04-27",
+      "refined": "2026-08-09"
     },
     {
       "id": "openai-api",
