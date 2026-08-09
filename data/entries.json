@@ -1742,6 +1742,17 @@
       "last_verified": "2026-08-09",
       "source": "curator:2026-08-09-1938",
       "added": "2026-08-09"
+    },
+    {
+      "id": "tencent-hy3",
+      "name": "Tencent Hy3",
+      "url": "https://www.workbuddy.ai/",
+      "category": "open-weights",
+      "summary": "Tencent's Hy3 is a 295 billion parameter open-source AI model designed for agentic workflows and long-context tasks.",
+      "why_it_matters": "Hy3 emphasizes practical deployment in real-world scenarios, outperforming models with more parameters in agent capabilities and achieving high task success rates in office applications.",
+      "last_verified": "2026-08-09",
+      "source": "curator:2026-08-09-1938",
+      "added": "2026-08-09"
     }
   ]
 }
