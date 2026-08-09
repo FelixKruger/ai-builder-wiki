@@ -573,7 +573,7 @@
       "category": "open-weights",
       "summary": "Google DeepMind's open-weight model family — Gemma 4 at 2B/4B/26B/31B parameters, runs on consumer hardware.",
       "why_it_matters": "Google's answer to Llama and Qwen. If you want an open-weight model with first-party Google tooling (Vertex, Gemini API parity), Gemma is the path.",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-08-09",
       "source": "human:eriks+youtube:theAIsearch",
       "added": "2026-05-11"
     },
@@ -584,7 +584,7 @@
       "category": "inference-platforms",
       "summary": "Inference provider with custom LPU silicon — open-weight model hosting at order-of-magnitude lower latency than GPU-based APIs.",
       "why_it_matters": "When your agent loop is bottlenecked on per-call latency (not raw quality), Groq is the swap. Llama, Qwen, DeepSeek, and Whisper all available.",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-08-09",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -1244,7 +1244,7 @@
       "category": "inference-platforms",
       "summary": "NVIDIA Dynamo is an open-source distributed inference framework for serving large language models efficiently across multi-node GPU environments.",
       "why_it_matters": "It significantly boosts throughput and reduces latency for LLM inference by introducing innovations like disaggregated prefill and decode, dynamic GPU scheduling, and KV cache management. This provides a high-performance solution for scaling generative AI models in production, offering a specialized alternative to general-purpose inference solutions.",
-      "last_verified": "2026-07-07",
+      "last_verified": "2026-08-09",
       "source": "curator:2026-07-07-0859",
       "added": "2026-07-07"
     },
