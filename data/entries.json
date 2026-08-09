@@ -529,7 +529,7 @@
       "category": "ai-design-skills",
       "summary": "Design skill for Claude Code, Cursor, and Gemini CLI — 23 commands to push AI-generated UIs past generic defaults.",
       "why_it_matters": "Most AI-built UIs look the same because the agents lack design vocabulary. Impeccable installs that vocabulary as a reusable skill.",
-      "last_verified": "2026-07-06",
+      "last_verified": "2026-08-09",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -540,7 +540,7 @@
       "category": "ai-design-skills",
       "summary": "Public gist of a Claude system prompt for design and prototyping — HTML artifacts, design systems, animation, asset verification.",
       "why_it_matters": "A worked example of turning a coding agent into a design partner. Steal the structure for your own design skill or compare to Impeccable.",
-      "last_verified": "2026-07-06",
+      "last_verified": "2026-08-09",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -1244,7 +1244,7 @@
       "category": "inference-platforms",
       "summary": "OmniRoute is a free AI gateway that provides a single endpoint to access over 231 AI model providers with token compression and auto-fallback.",
       "why_it_matters": "It simplifies multi-model integration, optimizes inference costs through token savings, and enhances reliability by intelligently routing requests and handling failures.",
-      "last_verified": "2026-07-05",
+      "last_verified": "2026-08-09",
       "source": "curator:2026-07-05-0834",
       "added": "2026-07-05"
     },
@@ -1720,6 +1720,28 @@
       "last_verified": "2026-08-08",
       "source": "curator:2026-08-08-0627",
       "added": "2026-08-08"
+    },
+    {
+      "id": "command-center",
+      "name": "Command Center",
+      "url": "https://www.cc.dev/",
+      "category": "ai-coding",
+      "summary": "Command Center is an AI coding environment focused on improving the quality and review process of AI-generated code, reducing the significant time developers spend correcting AI outputs.",
+      "why_it_matters": "This tool helps builders integrate AI into their coding workflows more effectively by ensuring higher code quality and reducing post-generation refinement, a common challenge with existing AI coding assistants.",
+      "last_verified": "2026-08-09",
+      "source": "curator:2026-08-09-0632",
+      "added": "2026-08-09"
+    },
+    {
+      "id": "airllm",
+      "name": "AirLLM",
+      "url": "https://github.com/lyogavin/airllm",
+      "category": "inference-platforms",
+      "summary": "AirLLM is an open-source tool that enables efficient deployment and inference of large language models on consumer-grade GPUs.",
+      "why_it_matters": "This allows developers to run powerful open-weight models locally with reduced hardware requirements, making advanced AI inference more accessible and cost-effective than relying solely on high-end cloud compute.",
+      "last_verified": "2026-08-09",
+      "source": "curator:2026-08-09-0632",
+      "added": "2026-08-09"
     }
   ]
 }

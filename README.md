@@ -48,6 +48,10 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Command Center](https://felixkruger.github.io/ai-builder-wiki/#command-center)** — Command Center is an AI coding environment focused on improving the quality and review process of AI-generated code, reducing the significant time developers spend correcting AI outputs. _(added 2026-08-09)_
+
+- **[AirLLM](https://felixkruger.github.io/ai-builder-wiki/#airllm)** — AirLLM is an open-source tool that enables efficient deployment and inference of large language models on consumer-grade GPUs. _(added 2026-08-09)_
+
 - **[AutoGen (Microsoft)](https://felixkruger.github.io/ai-builder-wiki/#autogen-microsoft)** — AutoGen is an open-source framework for building, optimizing, and evaluating multi-agent systems that can converse with each other to solve tasks. _(added 2026-08-08)_
 
 - **[Shieldstral (Mistral)](https://felixkruger.github.io/ai-builder-wiki/#shieldstral-mistral)** — Shieldstral is a 3 billion-parameter open-weight multimodal model for custom content moderation, allowing policy definition with natural language. _(added 2026-08-08)_
@@ -59,10 +63,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[TencentDB Agent Memory](https://felixkruger.github.io/ai-builder-wiki/#tencentdb-agent-memory)** — TencentDB Agent Memory is a team-level memory hub that transforms conversations, documents, and code into reusable memory assets for AI agents. _(added 2026-08-03)_
 
 - **[Kimi K3](https://felixkruger.github.io/ai-builder-wiki/#kimi-k3)** — Moonshot AI released Kimi K3, a 2.8 trillion parameter multimodal Mixture-of-Experts model with a 1 million token context window. _(added 2026-08-02)_
-
-- **[Mistral Medium 3.5](https://felixkruger.github.io/ai-builder-wiki/#mistral-medium-3-5)** — Mistral Medium 3.5 is a new open-weight model family designed for building customizable and deployable AI applications. _(added 2026-07-31)_
-
-- **[Grok Build](https://felixkruger.github.io/ai-builder-wiki/#grok-build)** — Grok Build is xAI's open-source coding agent CLI and terminal UI, providing transparency into Grok's coding stack and supporting context handling and tool execution. _(added 2026-07-30)_
 
 <!-- RECENTLY_ADDED:END -->
 
