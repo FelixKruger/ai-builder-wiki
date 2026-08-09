@@ -61,9 +61,9 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 - **[Tencent Hy3](https://felixkruger.github.io/ai-builder-wiki/#tencent-hy3)** — Tencent's Hy3 is a 295 billion parameter open-source AI model designed for agentic workflows and long-context tasks. _(added 2026-08-09)_
 
-- **[AutoGen (Microsoft)](https://felixkruger.github.io/ai-builder-wiki/#autogen-microsoft)** — AutoGen is an open-source framework for building, optimizing, and evaluating multi-agent systems that can converse with each other to solve tasks. _(added 2026-08-08)_
+- **[Anydoc](https://felixkruger.github.io/ai-builder-wiki/#anydoc)** — Anydoc is a Rust-built tool with Node.js and Python bindings that converts various document formats to clean Markdown for AI processing. _(added 2026-08-09)_
 
-- **[Shieldstral (Mistral)](https://felixkruger.github.io/ai-builder-wiki/#shieldstral-mistral)** — Shieldstral is a 3 billion-parameter open-weight multimodal model for custom content moderation, allowing policy definition with natural language. _(added 2026-08-08)_
+- **[AutoGen (Microsoft)](https://felixkruger.github.io/ai-builder-wiki/#autogen-microsoft)** — AutoGen is an open-source framework for building, optimizing, and evaluating multi-agent systems that can converse with each other to solve tasks. _(added 2026-08-08)_
 
 <!-- RECENTLY_ADDED:END -->
 
