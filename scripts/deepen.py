@@ -109,28 +109,40 @@ Hard rules:
 
 Return ONLY JSON: {{"guide": "the prose"}}"""
 
-    obj, model = llm.complete_json(
-        prompt, system=GUIDE_SYSTEM, max_tokens=1200, temperature=0.4
-    )
-    body = (obj.get("guide") or "").strip()
-    if len(body) < 120:
-        return None
+    # One retry with the offending words named. Models reach for "robust" and
+    # "powerful" by reflex; told exactly which word failed, they fix it.
+    attempt_prompt = prompt
+    for attempt in (1, 2):
+        obj, model = llm.complete_json(
+            attempt_prompt, system=GUIDE_SYSTEM, max_tokens=1500, temperature=0.4
+        )
+        body = (obj.get("guide") or "").strip()
+        if len(body) < 120:
+            print(f"    guide too short ({len(body)} chars)")
+            return None
 
-    known = {e["name"].lower() for e in members}
-    hype = [w for w in maintenance.HYPE_WORDS if w in body.lower()]
-    if hype:
-        print(f"    guide rejected: marketing language {hype}")
-        return None
+        hype = [w for w in maintenance.HYPE_WORDS if w in body.lower()]
+        if not hype:
+            return (
+                {
+                    "body": body,
+                    "updated": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+                    "model": model,
+                    "covers": sorted(e["name"] for e in members),
+                },
+                model,
+            )
 
-    return (
-        {
-            "body": body,
-            "updated": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
-            "model": model,
-            "covers": sorted(known),
-        },
-        model,
-    )
+        print(f"    attempt {attempt} rejected: marketing language {hype}")
+        if attempt == 2:
+            return None
+        attempt_prompt = (
+            prompt
+            + f"\n\nYour previous attempt was rejected for using: {', '.join(hype)}. "
+            "Rewrite it without those words. Do not swap in a synonym — describe "
+            "the concrete behaviour you meant instead."
+        )
+    return None
 
 
 def pick_weak_entry(entries: list[dict], categories: list[dict]) -> dict | None:
