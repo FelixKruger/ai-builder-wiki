@@ -937,7 +937,7 @@
       "category": "evals",
       "summary": "Maxim AI is an end-to-end platform for AI simulation, evaluation, and observability, integrating pre-production testing with production monitoring.",
       "why_it_matters": "Unlike other tools that cover one or two stages, Maxim AI unifies the entire AI quality lifecycle, enabling a systematic approach to agent reliability.",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-08-09",
       "source": "curator:2026-06-12-0728",
       "added": "2026-06-12"
     },
@@ -1256,7 +1256,7 @@
       "category": "retrieval-search",
       "summary": "A web scraping and data extraction API designed to provide clean, structured web content for AI agents and developers.",
       "why_it_matters": "It streamlines the process of feeding high-quality, structured web data to AI agents, enhancing their ability to perform accurate information retrieval.",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-08-09",
       "source": "curator:2026-07-08-0801",
       "added": "2026-07-08"
     },
@@ -1267,7 +1267,7 @@
       "category": "evals",
       "summary": "A 3D simulation environment for visualizing, monitoring, and debugging AI agent workflows.",
       "why_it_matters": "It offers a unique visual approach to understanding complex agent interactions, providing more intuitive insights than traditional log-based debugging for multi-agent systems.",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-08-09",
       "source": "curator:2026-07-08-0801",
       "added": "2026-07-08"
     },
