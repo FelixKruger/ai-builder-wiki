@@ -3,3 +3,4 @@ feedgen>=1.0
 cairosvg>=2.7
 requests>=2.31
 google-genai>=0.3
+anthropic>=0.40

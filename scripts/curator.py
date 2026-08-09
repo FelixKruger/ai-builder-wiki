@@ -27,8 +27,12 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
+import subprocess
+
 import requests
 
+import deepen
+import llm
 import maintenance
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -400,36 +404,6 @@ Return ONLY JSON: {{"drop": ["id1"{', "id2"' if n > 1 else ''}], "reason": "one 
     return chooser
 
 
-def write_curator_message(
-    added: list[str],
-    refreshed: list[str],
-    removed: list[dict],
-    pruned: list[dict],
-    deduped: list[dict],
-    rid: str,
-) -> None:
-    total_removed = len(removed) + len(pruned) + len(deduped)
-    lines = [
-        f"curator: {len(added)} added / {len(refreshed)} refreshed / {total_removed} removed ({rid})",
-        "",
-    ]
-    if added:
-        lines.append(f"- added: {', '.join(added)}")
-    if refreshed:
-        lines.append(f"- refreshed: {', '.join(refreshed)}")
-    if removed:
-        lines.append(f"- dead links: {', '.join(r['id'] for r in removed)}")
-    if pruned:
-        lines.append(f"- pruned (over cap): {', '.join(r['id'] for r in pruned)}")
-    if deduped:
-        lines.append(f"- deduped: {', '.join(r['id'] for r in deduped)}")
-    if not (added or refreshed or removed or pruned or deduped):
-        lines.append("- health check only (all URLs current, no quality issues found)")
-    lines.append("- via: GitHub Actions + Gemini 2.5 Flash (free tier)")
-    lines.append("")
-    MSG_FILE.write_text("\n".join(lines), encoding="utf-8")
-
-
 def write_health_report(health: dict, rid: str) -> None:
     """Human-readable wiki health dashboard, regenerated every run."""
     lines = [
@@ -440,27 +414,22 @@ def write_health_report(health: dict, rid: str) -> None:
         f"- **Entries:** {health['total_entries']} across {health['categories']} categories",
         f"- **Oldest verification:** {health['oldest_verified']}",
         f"- **Newest verification:** {health['newest_verified']}",
-        f"- **Entries over category cap:** {len(health['over_cap'])}",
+        f"- **Categories over cap:** {len(health['over_cap'])}",
         f"- **Entries with marketing language:** {health['hype_count']}",
         f"- **Probable duplicates:** {health['duplicate_count']}",
-        f"- **Similar-name pairs (needs human eye):** {health['similar_name_pairs']}",
+        f"- **Categories with a decision guide:** {health.get('guides', 0)}/{health['categories']}",
         "",
         "## Entries per category",
         "",
-        "| Category | Count | Status |",
-        "| --- | ---: | --- |",
+        "| Category | Count | Guide | Status |",
+        "| --- | ---: | --- | --- |",
     ]
     for name, n in health["per_category"].items():
         status = "over cap" if name in health["over_cap"] else "ok"
-        lines.append(f"| {name} | {n} | {status} |")
+        guide = health.get("guide_dates", {}).get(name) or "none"
+        lines.append(f"| {name} | {n} | {guide} | {status} |")
 
-    lines += [
-        "",
-        "## Where entries came from",
-        "",
-        "| Source | Count |",
-        "| --- | ---: |",
-    ]
+    lines += ["", "## Where entries came from", "", "| Source | Count |", "| --- | ---: |"]
     for src, n in sorted(health["by_source"].items(), key=lambda kv: -kv[1]):
         lines.append(f"| {src} | {n} |")
     lines.append("")
@@ -468,74 +437,147 @@ def write_health_report(health: dict, rid: str) -> None:
     HEALTH.write_text("\n".join(lines), encoding="utf-8")
 
 
+# --------------------------------------------------------------------------
+# Git: one commit per unit of work.
+#
+# The curator used to dump a whole day's changes into a single commit, which
+# made the history unreadable ("0 added / 3 refreshed / 2 removed" tells you
+# nothing about what actually changed) and meant a bad add couldn't be
+# reverted without also reverting that day's link checks. Committing each
+# logical change separately is just better hygiene, and it has the side
+# effect that a busy day looks busy in the log.
+# --------------------------------------------------------------------------
+
+COMMIT_ENABLED = False
+COMMITS_MADE: list[str] = []
+
+
+def git_commit(paths: list[str], message: str) -> bool:
+    """Stage `paths` and commit. No-op when nothing staged or --commit is off."""
+    if not COMMIT_ENABLED:
+        COMMITS_MADE.append(f"(dry-run) {message}")
+        return False
+
+    existing = [p for p in paths if (ROOT / p).exists()]
+    if not existing:
+        return False
+
+    subprocess.run(["git", "add", "--"] + existing, cwd=ROOT, check=True)
+    staged = subprocess.run(
+        ["git", "diff", "--cached", "--quiet", "--"] + existing, cwd=ROOT
+    )
+    if staged.returncode == 0:
+        return False  # nothing actually changed
+
+    subprocess.run(["git", "commit", "-m", message], cwd=ROOT, check=True)
+    COMMITS_MADE.append(message)
+    print(f"    commit: {message}")
+    return True
+
+
+def save_entries(data: dict, entries: list[dict]) -> None:
+    data["entries"] = entries
+    ENTRIES.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+
+def append_archive(records: list[dict]) -> None:
+    """archive/removed.json is a flat list of records (CLAUDE.md rule 4)."""
+    if not records:
+        return
+    existing: list = []
+    if ARCHIVE.exists():
+        try:
+            loaded = json.loads(ARCHIVE.read_text(encoding="utf-8") or "[]")
+            existing = loaded.get("removed", []) if isinstance(loaded, dict) else loaded
+        except json.JSONDecodeError:
+            print("  archive/removed.json unreadable; starting a fresh list", file=sys.stderr)
+    existing.extend(records)
+    ARCHIVE.parent.mkdir(parents=True, exist_ok=True)
+    ARCHIVE.write_text(json.dumps(existing, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+
+DATA_PATHS = ["data/entries.json", "archive/removed.json"]
+
+
 def main() -> int:
+    global COMMIT_ENABLED
+    COMMIT_ENABLED = "--commit" in sys.argv
+
     api_key = os.environ.get("GEMINI_API_KEY")
     rid = run_id()
     started = now_iso()
-    print(f"Curator run {rid} started.")
+    judge = llm.active_judgement_model()
+    print(f"Curator run {rid} started. Judgement model: {judge or 'NONE'}")
 
     data = json.loads(ENTRIES.read_text(encoding="utf-8"))
     entries = data["entries"]
     categories = data["categories"]
 
-    # ---- Step 1: refresh oldest (always runs, no API needed) ----
-    print(f"\nStep 1: refreshing 3 oldest entries by last_verified")
-    refreshed, removed = refresh_oldest(entries, k=3)
+    added: list[str] = []
+    refreshed: list[str] = []
+    dead: list[dict] = []
+    pruned: list[dict] = []
+    deduped: list[dict] = []
+    rewritten: list[str] = []
+    guided: list[str] = []
 
-    # ---- Step 2: ask Gemini for candidates (skipped if no key) ----
+    # ---- 1. Verify the oldest links (always; needs no API key) ----
+    print("\n[1] verifying oldest entries")
+    refreshed, dead = refresh_oldest(entries, k=3)
+    save_entries(data, entries)
+    if refreshed:
+        git_commit(DATA_PATHS, f"verify: re-checked {', '.join(refreshed)}")
+    if dead:
+        append_archive(dead)
+        save_entries(data, entries)
+        for d in dead:
+            git_commit(DATA_PATHS, f"archive: {d['id']} — {d['reason']}")
+
+    # ---- 2. Discover new tools (Gemini + live Google Search) ----
     search_sources: list[str] = []
-    if not api_key:
-        print(
-            "\nStep 2: SKIPPED — GEMINI_API_KEY not set. "
-            "Add a free key from https://aistudio.google.com/apikey "
-            "as a repo secret to enable new-tool discovery with live search.",
-            file=sys.stderr,
-        )
-        candidates: list[dict] = []
-    else:
-        print(f"\nStep 2: asking Gemini ({GEMINI_MODEL}) for new candidates (with live Google Search grounding)")
+    candidates: list[dict] = []
+    if api_key:
+        print("\n[2] searching for new tools")
         candidates, search_sources = ask_gemini(data, api_key)
-        print(f"  Gemini returned {len(candidates)} candidate(s)")
+        print(f"  {len(candidates)} candidate(s)")
+    else:
+        print("\n[2] SKIPPED — no GEMINI_API_KEY (discovery needs live search)", file=sys.stderr)
 
-    # ---- Step 3: vet + add ----
-    print(f"\nStep 3: vetting candidates")
     existing_ids = {e["id"] for e in entries}
     existing_urls = {e["url"].rstrip("/") for e in entries}
     valid_cats = {c["id"] for c in categories}
     cat_counts: dict[str, int] = {}
     for e in entries:
         cat_counts[e["category"]] = cat_counts.get(e["category"], 0) + 1
-    added: list[str] = []
 
     for c in candidates:
         ok, reason = vet_candidate(c, existing_ids, existing_urls, valid_cats, cat_counts)
         if not ok:
-            print(f"  REJECT: {c.get('id', '?')} -> {reason}")
+            print(f"  REJECT {c.get('id', '?')}: {reason}")
             continue
-        new_entry = {
-            "id": c["id"],
-            "name": c["name"],
-            "url": c["url"],
-            "category": c["category"],
-            "summary": c["summary"],
-            "why_it_matters": c["why_it_matters"],
-            "last_verified": today(),
-            "source": f"curator:{rid}",
-            "added": today(),
-        }
-        entries.append(new_entry)
+        entries.append(
+            {
+                "id": c["id"],
+                "name": c["name"],
+                "url": c["url"],
+                "category": c["category"],
+                "summary": c["summary"],
+                "why_it_matters": c["why_it_matters"],
+                "last_verified": today(),
+                "source": f"curator:{rid}",
+                "added": today(),
+            }
+        )
         existing_ids.add(c["id"])
         existing_urls.add(c["url"].rstrip("/"))
         cat_counts[c["category"]] = cat_counts.get(c["category"], 0) + 1
         added.append(c["id"])
-        print(f"  ACCEPT: {c['id']} -> {c['category']}")
+        print(f"  ACCEPT {c['id']} -> {c['category']}")
+        save_entries(data, entries)
+        git_commit(DATA_PATHS, f"add: {c['name']} — {c['summary'][:72]}")
 
-    # ---- Step 3b: quality maintenance (deterministic, no API needed) ----
-    # This is what keeps the wiki from bloating and guarantees the run has
-    # real work to do even when no new tool is worth adding.
-    print("\nStep 3b: quality maintenance")
-
-    deduped = []
+    # ---- 3. Quality maintenance (deterministic) ----
+    print("\n[3] quality maintenance")
     for keeper, loser, reason in maintenance.find_duplicates(entries):
         deduped.append(
             {
@@ -546,55 +588,82 @@ def main() -> int:
                 "reason": reason,
             }
         )
-        print(f"  DEDUPE: {loser['id']} ({reason})")
     if deduped:
         drop = {d["id"] for d in deduped}
         entries[:] = [e for e in entries if e["id"] not in drop]
+        append_archive(deduped)
+        save_entries(data, entries)
+        for d in deduped:
+            git_commit(DATA_PATHS, f"dedupe: drop {d['id']} — {d['reason']}")
 
-    # At most 2 prunes per run: works a backlog off gradually and keeps each
-    # commit small enough for a human to review.
     pruned = maintenance.enforce_caps(
-        entries,
-        categories,
-        cap=CATEGORY_CAP,
-        max_prunes=2,
+        entries, categories, cap=CATEGORY_CAP, max_prunes=2,
         chooser=make_prune_chooser(api_key),
     )
-    for p in pruned:
-        print(f"  PRUNE: {p['id']} ({p['reason']})")
-    if not pruned:
+    if pruned:
+        append_archive(pruned)
+        save_entries(data, entries)
+        for p in pruned:
+            git_commit(DATA_PATHS, f"prune: {p['id']} — {p['reason']}")
+    else:
         print("  all categories within cap")
 
-    # ---- Step 4: persist data files ----
-    data["entries"] = entries
-    ENTRIES.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-
-    all_removed = removed + deduped + pruned
-    if all_removed:
-        # archive/removed.json is a flat list of records (CLAUDE.md rule 4).
-        # Tolerate the {"removed": [...]} shape in case an old run wrote it.
-        existing: list = []
-        if ARCHIVE.exists():
+    # ---- 4. Sharpen one weak entry ----
+    print("\n[4] sharpening weak copy")
+    if judge:
+        target = deepen.pick_weak_entry(entries, categories)
+        if target:
+            print(f"  target: {target['id']}")
             try:
-                loaded = json.loads(ARCHIVE.read_text(encoding="utf-8") or "[]")
-                existing = loaded.get("removed", []) if isinstance(loaded, dict) else loaded
-            except json.JSONDecodeError:
-                print("  archive/removed.json unreadable; starting a fresh list", file=sys.stderr)
-        existing.extend(all_removed)
-        ARCHIVE.parent.mkdir(parents=True, exist_ok=True)
-        ARCHIVE.write_text(json.dumps(existing, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+                result = deepen.rewrite_entry(target, entries, categories)
+            except Exception as e:
+                print(f"  rewrite failed: {type(e).__name__}: {e}", file=sys.stderr)
+                result = None
+            if result:
+                patch, model = result
+                target.update(patch)
+                target["refined"] = today()
+                rewritten.append(target["id"])
+                save_entries(data, entries)
+                git_commit(DATA_PATHS, f"sharpen: {target['name']} — concrete, comparative copy")
+            else:
+                print("  no change needed")
+    else:
+        print("  SKIPPED — no judgement model configured", file=sys.stderr)
 
-    # ---- Step 4b: health report (always regenerated) ----
+    # ---- 5. Write a category decision guide ----
+    print("\n[5] decision guide")
+    if judge:
+        cat = deepen.pick_guide_target(categories, entries)
+        if cat:
+            print(f"  target: {cat['name']}")
+            try:
+                result = deepen.write_guide(cat, entries)
+            except Exception as e:
+                print(f"  guide failed: {type(e).__name__}: {e}", file=sys.stderr)
+                result = None
+            if result:
+                guide, model = result
+                cat["guide"] = guide
+                guided.append(cat["id"])
+                save_entries(data, entries)
+                git_commit(DATA_PATHS, f"guide: how to choose in {cat['name']}")
+            else:
+                print("  no usable guide produced")
+        else:
+            print("  all guides current")
+    else:
+        print("  SKIPPED — no judgement model configured", file=sys.stderr)
+
+    # ---- 6. Health + regenerate ----
     health = maintenance.health_report(entries, categories, cap=CATEGORY_CAP)
+    health["guides"] = sum(1 for c in categories if c.get("guide"))
+    health["guide_dates"] = {
+        c["name"]: (c.get("guide") or {}).get("updated") for c in categories
+    }
     write_health_report(health, rid)
-    print(f"\nStep 4b: health — {health['total_entries']} entries, "
-          f"{len(health['over_cap'])} categories over cap, "
-          f"{health['hype_count']} entries with marketing language")
 
-    # ---- Step 5: log the run ----
     log = json.loads(LOG.read_text(encoding="utf-8")) if LOG.exists() else {"runs": [], "rotation_pointer": 0}
-    sources_checked = [f"gemini:{GEMINI_MODEL}+google-search-grounding"] if api_key else ["refresh-only (no api key)"]
-    sources_checked.extend(search_sources[:20])  # cap to 20 to keep log readable
     log.setdefault("runs", []).append(
         {
             "run_id": rid,
@@ -602,25 +671,28 @@ def main() -> int:
             "ended_at": now_iso(),
             "added": added,
             "refreshed": refreshed,
-            "removed": all_removed,
+            "removed": dead + deduped + pruned,
             "pruned_over_cap": [p["id"] for p in pruned],
             "deduped": [d["id"] for d in deduped],
-            "health": health,
-            "sources_checked": sources_checked,
-            "notes": "Automated GitHub Actions run with Gemini + Google Search grounding."
-            if api_key
-            else "Automated GitHub Actions run — refresh-only (GEMINI_API_KEY not set).",
+            "rewritten": rewritten,
+            "guides_written": guided,
+            "judgement_model": judge,
+            "health": {k: v for k, v in health.items() if k != "guide_dates"},
+            "sources_checked": ([f"gemini:{GEMINI_MODEL}+google-search-grounding"] if api_key else [])
+            + search_sources[:20],
+            "notes": "Automated GitHub Actions run.",
         }
     )
     LOG.write_text(json.dumps(log, indent=2) + "\n", encoding="utf-8")
 
-    # ---- Step 6: write commit message file ----
-    write_curator_message(added, refreshed, removed, pruned, deduped, rid)
-
     print(
-        f"\nDone. {len(added)} added, {len(refreshed)} refreshed, "
-        f"{len(removed)} dead, {len(pruned)} pruned, {len(deduped)} deduped."
+        f"\nDone. {len(added)} added, {len(refreshed)} verified, {len(dead)} dead, "
+        f"{len(pruned)} pruned, {len(deduped)} deduped, {len(rewritten)} sharpened, "
+        f"{len(guided)} guide(s)."
     )
+    print(f"Commits this run: {len(COMMITS_MADE)}")
+    for m in COMMITS_MADE:
+        print(f"  - {m}")
     return 0
 
 
