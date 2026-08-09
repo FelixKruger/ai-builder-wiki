@@ -1731,6 +1731,17 @@
       "last_verified": "2026-08-09",
       "source": "curator:2026-08-09-1346",
       "added": "2026-08-09"
+    },
+    {
+      "id": "claude-opus-5",
+      "name": "Claude Opus 5",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "category": "hosted-apis",
+      "summary": "Claude Opus 5 is Anthropic's most advanced Opus model, offering significant improvements in agentic coding, knowledge work, and visual understanding.",
+      "why_it_matters": "It provides frontier-level intelligence at the same price as Opus 4.8, making it a more efficient and powerful option for complex production workflows and long-running agent tasks.",
+      "last_verified": "2026-08-09",
+      "source": "curator:2026-08-09-1933",
+      "added": "2026-08-09"
     }
   ]
 }
