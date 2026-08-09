@@ -58,16 +58,23 @@ def _anthropic(prompt: str, max_tokens: int, temperature: float, system: str | N
     return "".join(b.text for b in resp.content if getattr(b, "type", "") == "text")
 
 
-def _gemini(prompt: str, max_tokens: int, temperature: float, system: str | None) -> str:
+def _gemini(prompt: str, max_tokens: int, temperature: float, system: str | None,
+            json_mode: bool = False) -> str:
     from google import genai
     from google.genai import types
 
     client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
-    cfg = types.GenerateContentConfig(
-        temperature=temperature,
-        max_output_tokens=max_tokens,
-        system_instruction=system or None,
-    )
+    kwargs = {
+        "temperature": temperature,
+        # 2.5 Flash spends part of its budget on thinking tokens. A tight cap
+        # truncates the visible answer mid-JSON, which looked like a parse bug.
+        "max_output_tokens": max(max_tokens, 4096),
+        "system_instruction": system or None,
+    }
+    if json_mode:
+        # Forces well-formed JSON with no markdown fence to strip.
+        kwargs["response_mime_type"] = "application/json"
+    cfg = types.GenerateContentConfig(**kwargs)
     resp = client.models.generate_content(model=GEMINI_MODEL, contents=prompt, config=cfg)
     return resp.text or ""
 
@@ -79,6 +86,7 @@ def complete(
     temperature: float = 0.3,
     system: str | None = None,
     prefer: str = "judgement",
+    json_mode: bool = False,
 ) -> tuple[str, str]:
     """
     Run a completion. Returns (text, model_used).
@@ -97,8 +105,10 @@ def complete(
         if not available():
             continue
         try:
-            fn = _anthropic if name == "anthropic" else _gemini
-            text = fn(prompt, max_tokens, temperature, system)
+            if name == "anthropic":
+                text = _anthropic(prompt, max_tokens, temperature, system)
+            else:
+                text = _gemini(prompt, max_tokens, temperature, system, json_mode)
             if text.strip():
                 model = ANTHROPIC_MODEL if name == "anthropic" else GEMINI_MODEL
                 return text, f"{name}:{model}"
@@ -113,6 +123,7 @@ def complete(
 
 def complete_json(prompt: str, **kwargs) -> tuple[dict, str]:
     """complete() plus tolerant JSON extraction. Returns (obj, model_used)."""
+    kwargs.setdefault("json_mode", True)
     text, model = complete(prompt, **kwargs)
 
     cleaned = re.sub(r"^\s*```(?:json)?\s*\n?", "", text.strip())

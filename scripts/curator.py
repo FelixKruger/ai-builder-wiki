@@ -368,10 +368,14 @@ def make_prune_chooser(api_key: str | None):
         from google import genai
         from google.genai import types
 
-        listing = [
-            {"id": e["id"], "name": e["name"], "url": e["url"], "summary": e["summary"]}
-            for e in entries
-        ]
+        token = os.environ.get("GITHUB_TOKEN")
+        listing = []
+        for e in entries:
+            row = {"id": e["id"], "name": e["name"], "url": e["url"], "summary": e["summary"]}
+            stars = maintenance.github_stars(e["url"], token)
+            if stars is not None:
+                row["github_stars"] = stars  # objective adoption signal
+            listing.append(row)
         prompt = f"""You are curating the "{category['name']}" section of a wiki for
 AI builders. The section is over its {CATEGORY_CAP}-entry cap and must lose exactly {n} entr{'y' if n == 1 else 'ies'}.
 
@@ -384,6 +388,9 @@ Pick the {n} LEAST essential for a working AI builder in {today()[:4]}. Prefer t
 - Anything superseded by a newer tool in the list
 
 Never cut a widely adopted, actively maintained tool just because it is older.
+Where `github_stars` is given, treat it as evidence of real adoption — do not
+claim a heavily starred project is abandoned. If you are not certain a tool is
+weak, pick a different one; a wrong cut removes something people rely on.
 
 Return ONLY JSON: {{"drop": ["id1"{', "id2"' if n > 1 else ''}], "reason": "one sentence"}}"""
 
@@ -599,6 +606,7 @@ def main() -> int:
     pruned = maintenance.enforce_caps(
         entries, categories, cap=CATEGORY_CAP, max_prunes=2,
         chooser=make_prune_chooser(api_key),
+        github_token=os.environ.get("GITHUB_TOKEN"),
     )
     if pruned:
         append_archive(pruned)
