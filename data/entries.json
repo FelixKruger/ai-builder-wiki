@@ -1720,6 +1720,17 @@
       "last_verified": "2026-08-09",
       "source": "curator:2026-08-09-1933",
       "added": "2026-08-09"
+    },
+    {
+      "id": "codex-cli",
+      "name": "Codex CLI",
+      "url": "https://github.com/openai/codex",
+      "category": "ai-coding",
+      "summary": "Codex CLI is an open-source AI coding agent from OpenAI that operates directly within the terminal for code generation, bug fixes, and refactoring.",
+      "why_it_matters": "It offers a lightweight, sandboxed alternative to full IDE integrations like Cursor, providing terminal-first AI assistance without leaving the command line.",
+      "last_verified": "2026-07-25",
+      "source": "curator:2026-07-25-0641",
+      "added": "2026-07-25"
     }
   ]
 }
