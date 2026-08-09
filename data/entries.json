@@ -562,7 +562,7 @@
       "category": "open-weights",
       "summary": "Alibaba Cloud's open-weight model family — Qwen3.6 text+multimodal, Qwen3.5 Omni (text/audio/image/video), and WebWorld agent variants.",
       "why_it_matters": "The most prolific open-weight family in 2026 — base, coder, vision, audio, and agent specializations all maintained. First place to look for non-English fine-tunes.",
-      "last_verified": "2026-07-07",
+      "last_verified": "2026-08-09",
       "source": "human:eriks+youtube:theAIsearch",
       "added": "2026-05-11"
     },
@@ -925,7 +925,7 @@
       "category": "agent-memory",
       "summary": "Zep is a long-term memory store for conversational AI applications, using temporal context graphs to manage facts and their validity over time.",
       "why_it_matters": "It provides production-scale agent memory with temporal reasoning, allowing agents to track how facts change, which is crucial for complex, evolving workflows.",
-      "last_verified": "2026-07-07",
+      "last_verified": "2026-08-09",
       "source": "curator:2026-06-12-0728",
       "added": "2026-06-12"
     },
@@ -1244,7 +1244,7 @@
       "category": "agent-frameworks",
       "summary": "Google's Agent Development Kit (ADK) is an open-source, code-first framework for building, evaluating, and deploying sophisticated AI agents, optimized for the Google ecosystem.",
       "why_it_matters": "ADK provides a modular approach to agent development, enabling flexible orchestration of multi-agent systems and integrating with Google Cloud services for enterprise-scale deployment. This offers a comprehensive solution for developers already using Google's stack, similar to how Microsoft Agent Framework caters to its ecosystem.",
-      "last_verified": "2026-07-07",
+      "last_verified": "2026-08-09",
       "source": "curator:2026-07-07-0859",
       "added": "2026-07-07"
     },
