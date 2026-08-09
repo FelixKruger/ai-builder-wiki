@@ -57,6 +57,8 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 - **[DeepSeek V4-Flash](https://felixkruger.github.io/ai-builder-wiki/#deepseek-v4-flash)** — DeepSeek V4-Flash is an open-weight 284 billion parameter Mixture-of-Experts model, officially released for agentic capabilities and efficient long-context processing. _(added 2026-08-09)_
 
+- **[Claude Opus 5](https://felixkruger.github.io/ai-builder-wiki/#claude-opus-5)** — Claude Opus 5 is Anthropic's most advanced Opus model, offering significant improvements in agentic coding, knowledge work, and visual understanding. _(added 2026-08-09)_
+
 - **[AutoGen (Microsoft)](https://felixkruger.github.io/ai-builder-wiki/#autogen-microsoft)** — AutoGen is an open-source framework for building, optimizing, and evaluating multi-agent systems that can converse with each other to solve tasks. _(added 2026-08-08)_
 
 - **[Shieldstral (Mistral)](https://felixkruger.github.io/ai-builder-wiki/#shieldstral-mistral)** — Shieldstral is a 3 billion-parameter open-weight multimodal model for custom content moderation, allowing policy definition with natural language. _(added 2026-08-08)_
@@ -64,8 +66,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[SiliconFlow](https://felixkruger.github.io/ai-builder-wiki/#siliconflow)** — SiliconFlow is an AI cloud platform designed for running, customizing, and scaling large language models and multimodal models with high reliability and managed infrastructure. _(added 2026-08-07)_
 
 - **[Cloudflare Computer](https://felixkruger.github.io/ai-builder-wiki/#cloudflare-computer)** — Cloudflare Computer is a TypeScript repository providing an environment for AI agents to interact with a simulated computer, enabling them to perceive, decide, and act. _(added 2026-08-06)_
-
-- **[TencentDB Agent Memory](https://felixkruger.github.io/ai-builder-wiki/#tencentdb-agent-memory)** — TencentDB Agent Memory is a team-level memory hub that transforms conversations, documents, and code into reusable memory assets for AI agents. _(added 2026-08-03)_
 
 <!-- RECENTLY_ADDED:END -->
 

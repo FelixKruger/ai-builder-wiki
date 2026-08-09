@@ -5,7 +5,7 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Sun, 09 Aug 2026 19:32:52 +0000</lastBuildDate>
+<lastBuildDate>Sun, 09 Aug 2026 19:34:31 +0000</lastBuildDate>
 
 <item>
   <title>Command Center</title>
@@ -29,6 +29,14 @@
   <guid isPermaLink="false">deepseek-v4-flash-2026-08-09</guid>
   <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[DeepSeek V4-Flash is an open-weight 284 billion parameter Mixture-of-Experts model, officially released for agentic capabilities and efficient long-context processing. — This model significantly improves agentic performance at a lower cost than larger models, making it a strong choice for agent builders and long-context pipelines.]]></description>
+</item>
+
+<item>
+  <title>Claude Opus 5</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#claude-opus-5</link>
+  <guid isPermaLink="false">claude-opus-5-2026-08-09</guid>
+  <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Claude Opus 5 is Anthropic's most advanced Opus model, offering significant improvements in agentic coding, knowledge work, and visual understanding. — It provides frontier-level intelligence at the same price as Opus 4.8, making it a more efficient and powerful option for complex production workflows and long-running agent tasks.]]></description>
 </item>
 
 <item>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">cloudflare-computer-2026-08-06</guid>
   <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Cloudflare Computer is a TypeScript repository providing an environment for AI agents to interact with a simulated computer, enabling them to perceive, decide, and act. — It offers a sandbox for developing and testing autonomous agents that require complex system interactions, facilitating the creation of more capable AI systems beyond typical API calls.]]></description>
-</item>
-
-<item>
-  <title>TencentDB Agent Memory</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#tencentdb-agent-memory</link>
-  <guid isPermaLink="false">tencentdb-agent-memory-2026-08-03</guid>
-  <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[TencentDB Agent Memory is a team-level memory hub that transforms conversations, documents, and code into reusable memory assets for AI agents. — It offers a structured approach to shared agent memory across teams and frameworks, distinguishing itself from single-agent memory solutions.]]></description>
 </item>
 
 </channel>
