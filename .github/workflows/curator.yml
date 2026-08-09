@@ -80,6 +80,9 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Raises the GitHub API rate limit for the adoption-signal lookups
+          # that guard against pruning a widely used tool.
+          GITHUB_TOKEN: ${{ github.token }}
         run: python scripts/curator.py --commit
 
       - name: Re-render site

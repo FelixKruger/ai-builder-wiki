@@ -31,7 +31,9 @@ def load_data() -> dict:
 def build_env() -> Environment:
     return Environment(
         loader=FileSystemLoader(str(TEMPLATES)),
-        autoescape=select_autoescape(["html", "xml"]),
+        # svg must autoescape too: an unescaped "&" in a summary produced
+        # malformed SVG, which silently broke every OG PNG conversion.
+        autoescape=select_autoescape(["html", "xml", "svg"]),
         trim_blocks=False,
         lstrip_blocks=False,
     )

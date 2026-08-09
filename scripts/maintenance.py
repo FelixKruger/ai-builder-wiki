@@ -53,8 +53,56 @@ HYPE_WORDS = [
 PROTECTED_SOURCES = ("seed", "human:")
 
 
+# An entry this widely adopted is never pruned on model judgement alone.
+# The chooser once justified cutting openai/codex (100k+ stars) as "an
+# abandoned project superseded by newer tools" — confidently, and wrongly.
+# Stars are a crude signal but an objective one, and this is a floor, not a
+# ranking: below it the model still decides.
+POPULARITY_FLOOR = 20_000
+_STAR_CACHE: dict[str, int | None] = {}
+
+
 def domain_of(url: str) -> str:
     return urlparse(url).netloc.replace("www.", "").lower()
+
+
+def github_repo(url: str) -> str | None:
+    """owner/name for a github.com URL, else None."""
+    if domain_of(url) != "github.com":
+        return None
+    parts = [p for p in urlparse(url).path.split("/") if p]
+    return f"{parts[0]}/{parts[1]}" if len(parts) >= 2 else None
+
+
+def github_stars(url: str, token: str | None = None) -> int | None:
+    """Star count for a GitHub entry, or None if not GitHub / lookup failed."""
+    repo = github_repo(url)
+    if not repo:
+        return None
+    if repo in _STAR_CACHE:
+        return _STAR_CACHE[repo]
+
+    stars = None
+    try:
+        import requests
+
+        headers = {"Accept": "application/vnd.github+json"}
+        if token:
+            headers["Authorization"] = f"Bearer {token}"
+        r = requests.get(f"https://api.github.com/repos/{repo}", headers=headers, timeout=15)
+        if r.status_code == 200:
+            stars = r.json().get("stargazers_count")
+    except Exception:
+        stars = None
+
+    _STAR_CACHE[repo] = stars
+    return stars
+
+
+def is_load_bearing(entry: dict, token: str | None = None) -> bool:
+    """True when an entry is too widely adopted to prune automatically."""
+    stars = github_stars(entry.get("url", ""), token)
+    return stars is not None and stars >= POPULARITY_FLOOR
 
 
 def is_protected(entry: dict) -> bool:
@@ -103,6 +151,7 @@ def enforce_caps(
     cap: int = 12,
     max_prunes: int = 2,
     chooser=None,
+    github_token: str | None = None,
 ) -> list[dict]:
     """
     Archive the weakest entries in over-cap categories — at most `max_prunes`
@@ -122,7 +171,14 @@ def enforce_caps(
         if budget <= 0:
             break
         want = min(overflow, budget)
-        prunable = [e for e in items if not is_protected(e)]
+        prunable = []
+        for e in items:
+            if is_protected(e):
+                continue
+            if is_load_bearing(e, github_token):
+                print(f"    keeping {e['id']}: too widely adopted to auto-prune")
+                continue
+            prunable.append(e)
         if not prunable:
             continue
 
