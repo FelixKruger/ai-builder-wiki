@@ -19,5 +19,19 @@
     "url": "https://github.com/can1357/oh-my-pi",
     "removed_at": "2026-07-19",
     "reason": "category cap: AI Coding Tools had 18 entries (cap 12); pruned as lowest-signal for this category"
+  },
+  {
+    "id": "mimo-code",
+    "name": "MiMo Code",
+    "url": "https://mimo.xiaomi.com/",
+    "removed_at": "2026-07-18",
+    "reason": "category cap: AI Coding Tools had 17 entries (cap 12); pruned as lowest-signal for this category"
+  },
+  {
+    "id": "zcode",
+    "name": "ZCode",
+    "url": "https://zcode.z.ai/en",
+    "removed_at": "2026-07-19",
+    "reason": "category cap: AI Coding Tools had 17 entries (cap 12); pruned as lowest-signal for this category"
   }
 ]
