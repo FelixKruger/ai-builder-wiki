@@ -5,7 +5,7 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Sun, 09 Aug 2026 19:37:34 +0000</lastBuildDate>
+<lastBuildDate>Sun, 09 Aug 2026 19:39:02 +0000</lastBuildDate>
 
 <item>
   <title>Command Center</title>
@@ -40,6 +40,22 @@
 </item>
 
 <item>
+  <title>Qwen3.8-Max</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#qwen-3-8-max</link>
+  <guid isPermaLink="false">qwen-3-8-max-2026-08-09</guid>
+  <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Alibaba released Qwen3.8-Max, a 2.4 trillion parameter open-weight multimodal AI model with a 1 million token context window. — This model significantly advances open-weight capabilities in coding, research, and visual intelligence, rivaling frontier models at a larger scale than previous Qwen iterations.]]></description>
+</item>
+
+<item>
+  <title>Tencent Hy3</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#tencent-hy3</link>
+  <guid isPermaLink="false">tencent-hy3-2026-08-09</guid>
+  <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Tencent's Hy3 is a 295 billion parameter open-source AI model designed for agentic workflows and long-context tasks. — Hy3 emphasizes practical deployment in real-world scenarios, outperforming models with more parameters in agent capabilities and achieving high task success rates in office applications.]]></description>
+</item>
+
+<item>
   <title>AutoGen (Microsoft)</title>
   <link>https://felixkruger.github.io/ai-builder-wiki/#autogen-microsoft</link>
   <guid isPermaLink="false">autogen-microsoft-2026-08-08</guid>
@@ -53,22 +69,6 @@
   <guid isPermaLink="false">shieldstral-mistral-2026-08-08</guid>
   <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Shieldstral is a 3 billion-parameter open-weight multimodal model for custom content moderation, allowing policy definition with natural language. — It offers a flexible, self-hostable solution for content safety, enabling developers to adapt moderation policies at inference time without model retraining.]]></description>
-</item>
-
-<item>
-  <title>SiliconFlow</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#siliconflow</link>
-  <guid isPermaLink="false">siliconflow-2026-08-07</guid>
-  <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[SiliconFlow is an AI cloud platform designed for running, customizing, and scaling large language models and multimodal models with high reliability and managed infrastructure. — It provides optimized inference, a simple fine-tuning pipeline, and fully managed deployment, offering a specialized alternative to general cloud providers for hosting open-weight models in production.]]></description>
-</item>
-
-<item>
-  <title>Cloudflare Computer</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#cloudflare-computer</link>
-  <guid isPermaLink="false">cloudflare-computer-2026-08-06</guid>
-  <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Cloudflare Computer is a TypeScript repository providing an environment for AI agents to interact with a simulated computer, enabling them to perceive, decide, and act. — It offers a sandbox for developing and testing autonomous agents that require complex system interactions, facilitating the creation of more capable AI systems beyond typical API calls.]]></description>
 </item>
 
 </channel>
