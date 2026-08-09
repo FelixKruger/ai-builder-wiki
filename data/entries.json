@@ -1731,6 +1731,17 @@
       "last_verified": "2026-07-25",
       "source": "curator:2026-07-25-0641",
       "added": "2026-07-25"
+    },
+    {
+      "id": "qwen-3-8-max",
+      "name": "Qwen3.8-Max",
+      "url": "https://qwen.ai/",
+      "category": "open-weights",
+      "summary": "Alibaba released Qwen3.8-Max, a 2.4 trillion parameter open-weight multimodal AI model with a 1 million token context window.",
+      "why_it_matters": "This model significantly advances open-weight capabilities in coding, research, and visual intelligence, rivaling frontier models at a larger scale than previous Qwen iterations.",
+      "last_verified": "2026-08-09",
+      "source": "curator:2026-08-09-1938",
+      "added": "2026-08-09"
     }
   ]
 }
