@@ -1140,17 +1140,6 @@
       "added": "2026-06-27"
     },
     {
-      "id": "heron",
-      "name": "Heron",
-      "url": "https://github.com/Netis/heron",
-      "category": "evals",
-      "summary": "An open-source passive network analyzer and AI agent auditor that uses eBPF to observe TLS-encrypted LLM calls and reconstruct agent activity.",
-      "why_it_matters": "It provides deep observability into AI agent behavior and LLM traffic at the network level, allowing debugging and verification without modifying agent code or introducing proxies.",
-      "last_verified": "2026-07-31",
-      "source": "curator:2026-06-28-0713",
-      "added": "2026-06-28"
-    },
-    {
       "id": "warp-terminal",
       "name": "Warp",
       "url": "https://www.warp.dev/",
@@ -1300,17 +1289,6 @@
       "category": "mcp-tools",
       "summary": "OfficeCLI is an open-source command-line interface enabling AI agents to read, edit, and automate Microsoft Word, Excel, and PowerPoint files without requiring Office installation.",
       "why_it_matters": "This tool provides agents with direct, programmatic access to common office document formats, extending their utility beyond code-centric tasks to broader business process automation, unlike general coding agents.",
-      "last_verified": "2026-07-10",
-      "source": "curator:2026-07-10-0853",
-      "added": "2026-07-10"
-    },
-    {
-      "id": "earthpilot-jacobian-lens",
-      "name": "Earthpilot (Jacobian Lens)",
-      "url": "https://earthpilot.ai/",
-      "category": "evals",
-      "summary": "Earthpilot offers a web-based tool allowing users to visualize and edit the internal thought processes of open-source LLMs before they generate a response.",
-      "why_it_matters": "This provides a novel way to debug and understand LLM reasoning at a deeper level than traditional evaluations, enabling direct intervention in the model's internal state for enhanced control and alignment.",
       "last_verified": "2026-07-10",
       "source": "curator:2026-07-10-0853",
       "added": "2026-07-10"
