@@ -47,5 +47,19 @@
     "url": "https://www.perplexity.ai/",
     "removed_at": "2026-07-20",
     "reason": "category cap: Multi-Agent Coding had 17 entries (cap 12); pruned as lowest-signal for this category"
+  },
+  {
+    "id": "heron",
+    "name": "Heron",
+    "url": "https://github.com/Netis/heron",
+    "removed_at": "2026-07-31",
+    "reason": "category cap: Evals, Benchmarks & Observability had 16 entries (cap 12); pruned as lowest-signal for this category"
+  },
+  {
+    "id": "earthpilot-jacobian-lens",
+    "name": "Earthpilot (Jacobian Lens)",
+    "url": "https://earthpilot.ai/",
+    "removed_at": "2026-07-10",
+    "reason": "category cap: Evals, Benchmarks & Observability had 16 entries (cap 12); pruned as lowest-signal for this category"
   }
 ]
