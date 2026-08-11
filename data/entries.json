@@ -1722,6 +1722,17 @@
       "last_verified": "2026-08-09",
       "source": "curator:2026-08-09-1940",
       "added": "2026-08-09"
+    },
+    {
+      "id": "semantica",
+      "name": "Semantica",
+      "url": "https://github.com/semantica-agi/semantica",
+      "category": "agent-memory",
+      "summary": "Semantica provides graph-native infrastructure for managing context and ensuring accountability in AI systems.",
+      "why_it_matters": "It offers a structured approach to agent memory and context management using a graph database, which can enhance the reasoning and reliability of AI agents compared to simpler vector stores.",
+      "last_verified": "2026-08-11",
+      "source": "curator:2026-08-11-0640",
+      "added": "2026-08-11"
     }
   ]
 }
