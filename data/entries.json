@@ -629,7 +629,7 @@
       "category": "ai-video",
       "summary": "Alibaba's creative AI platform — text-to-image, image-to-image, text-to-video, image-to-video, image editing in one suite.",
       "why_it_matters": "Frequently featured by The AI Search for matching closed-model quality on video while remaining accessible. The Chinese answer to Sora and Runway.",
-      "last_verified": "2026-07-10",
+      "last_verified": "2026-08-11",
       "source": "human:eriks+youtube:theAIsearch",
       "added": "2026-05-11"
     },
@@ -1267,7 +1267,7 @@
       "category": "ai-coding",
       "summary": "GitHub Copilot is an AI coding assistant that provides inline code completions, chat, and agent capabilities across various IDEs.",
       "why_it_matters": "It is one of the most widely adopted AI coding tools, offering broad IDE support and an agent mode for multi-file changes and task automation, unlike many standalone AI IDEs.",
-      "last_verified": "2026-07-09",
+      "last_verified": "2026-08-11",
       "source": "curator:2026-07-09-0907",
       "added": "2026-07-09"
     },
@@ -1278,7 +1278,7 @@
       "category": "inference-platforms",
       "summary": "vLLM is an open-source library for efficient LLM inference, known for its PagedAttention mechanism that optimizes GPU memory usage and throughput.",
       "why_it_matters": "It significantly improves GPU utilization and throughput for serving large language models in production, offering better performance than simpler inference solutions for high-concurrency workloads.",
-      "last_verified": "2026-07-09",
+      "last_verified": "2026-08-11",
       "source": "curator:2026-07-09-0907",
       "added": "2026-07-09"
     },
