@@ -1695,11 +1695,12 @@
       "name": "Anydoc",
       "url": "https://github.com/firecrawl/anydoc",
       "category": "retrieval-search",
-      "summary": "Anydoc is a Rust-built tool with Node.js and Python bindings that converts various document formats to clean Markdown for AI processing.",
-      "why_it_matters": "It provides a robust solution for standardizing diverse document types into a usable format for retrieval systems, improving the quality of input for RAG pipelines.",
+      "summary": "Anydoc is a Rust tool with Node.js/Python bindings that converts diverse document formats into clean Markdown for AI.",
+      "why_it_matters": "Anydoc converts diverse internal documents (PDFs, DOCX) to clean Markdown for RAG. It solves the initial document parsing problem for existing corpuses, a step not handled by the web scrapers or vector databases in this section.",
       "last_verified": "2026-08-09",
       "source": "curator:2026-08-09-1940",
-      "added": "2026-08-09"
+      "added": "2026-08-09",
+      "refined": "2026-08-11"
     },
     {
       "id": "semantica",
