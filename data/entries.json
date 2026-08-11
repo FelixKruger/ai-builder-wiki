@@ -42,7 +42,29 @@
       "section": "Build with AI",
       "name": "Multi-Agent Coding",
       "blurb": "Run, orchestrate, and embed fleets of coding agents — local, cross-device, or inside your product.",
-      "intent": "I want to run many coding agents at once"
+      "intent": "I want to run many coding agents at once",
+      "guide": {
+        "body": "For most individual developers looking to run multiple coding agents on a single machine, Conductor is the primary choice if you're on macOS. It streamlines the workflow of spawning agents in parallel git worktrees and helps manage their output. Baton offers a similar desktop experience for managing multiple coding agents and their worktrees, without the macOS specific mention. If you are building a product that programmatically spawns and manages coding agents, especially within a TypeScript environment, Sandcastle removes significant boilerplate around containerization and merge logic. For general multi-agent system development, particularly for complex tasks beyond just coding, AutoGen (Microsoft) and CrewAI are popular open-source frameworks for orchestrating conversational agents. Microsoft Agent Framework also targets production-grade multi-agent workflows, with Python and .NET support. These three frameworks largely overlap in their core purpose of enabling agent collaboration. The trade-off for these frameworks is the increased setup and configuration effort compared to a dedicated desktop application, but they offer more control and scalability for custom applications. If you need to coordinate specialist agents for diverse deliverables like research or media, OpenSwarm is a direct fit. A key trade-off is often control versus convenience. Desktop applications like Conductor or Baton offer immediate utility but abstract away much of the underlying agent logic and environment management. Frameworks like AutoGen or Sandcastle provide granular control, but demand more engineering effort to integrate and maintain.",
+        "updated": "2026-08-11",
+        "model": "gemini:gemini-2.5-flash",
+        "covers": [
+          "Agency-agents",
+          "AgentENV",
+          "AgentVerse (OpenBMB)",
+          "AutoGen (Microsoft)",
+          "Baton",
+          "Cloudflare Computer",
+          "Conductor",
+          "CrewAI",
+          "Microsoft Agent Framework",
+          "Mindstone Rebel",
+          "OpenSwarm",
+          "OrchestrAI",
+          "Paseo",
+          "Sandcastle",
+          "SwarmClaw"
+        ]
+      }
     },
     {
       "id": "ai-design-skills",
