@@ -5,14 +5,14 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Mon, 10 Aug 2026 07:01:25 +0000</lastBuildDate>
+<lastBuildDate>Tue, 11 Aug 2026 06:41:44 +0000</lastBuildDate>
 
 <item>
-  <title>Command Center</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#command-center</link>
-  <guid isPermaLink="false">command-center-2026-08-09</guid>
-  <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Command Center is an AI coding environment focused on improving the quality and review process of AI-generated code, reducing the significant time developers spend correcting AI outputs. — This tool helps builders integrate AI into their coding workflows more effectively by ensuring higher code quality and reducing post-generation refinement, a common challenge with existing AI coding assistants.]]></description>
+  <title>Semantica</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#semantica</link>
+  <guid isPermaLink="false">semantica-2026-08-11</guid>
+  <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Semantica provides graph-native infrastructure for managing context and ensuring accountability in AI systems. — It offers a structured approach to agent memory and context management using a graph database, which can enhance the reasoning and reliability of AI agents compared to simpler vector stores.]]></description>
 </item>
 
 <item>
@@ -60,7 +60,7 @@
   <link>https://felixkruger.github.io/ai-builder-wiki/#anydoc</link>
   <guid isPermaLink="false">anydoc-2026-08-09</guid>
   <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Anydoc is a Rust-built tool with Node.js and Python bindings that converts various document formats to clean Markdown for AI processing. — It provides a robust solution for standardizing diverse document types into a usable format for retrieval systems, improving the quality of input for RAG pipelines.]]></description>
+  <description><![CDATA[Anydoc is a Rust tool with Node.js/Python bindings that converts diverse document formats into clean Markdown for AI. — Anydoc converts diverse internal documents (PDFs, DOCX) to clean Markdown for RAG. It solves the initial document parsing problem for existing corpuses, a step not handled by the web scrapers or vector databases in this section.]]></description>
 </item>
 
 <item>
