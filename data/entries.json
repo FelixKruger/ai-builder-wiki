@@ -1129,17 +1129,6 @@
       "added": "2026-06-22"
     },
     {
-      "id": "mindstone-rebel",
-      "name": "Mindstone Rebel",
-      "url": "https://www.mindstone.com/",
-      "category": "multi-agent-coding",
-      "summary": "Mindstone Rebel is a desktop AI workspace that unifies agent memory, files, meetings, and tools to facilitate agentic workflows.",
-      "why_it_matters": "It provides a comprehensive environment for orchestrating AI agents across various data sources and tools, offering a more integrated approach compared to fragmented agent development.",
-      "last_verified": "2026-07-27",
-      "source": "curator:2026-06-25-0703",
-      "added": "2026-06-25"
-    },
-    {
       "id": "vercel-eve",
       "name": "Eve (Vercel)",
       "url": "https://github.com/vercel/eve",
@@ -1465,17 +1454,6 @@
       "category": "retrieval-search",
       "summary": "RAGFlow is an open-source Retrieval-Augmented Generation (RAG) engine designed to provide large language models with a more reliable context layer.",
       "why_it_matters": "It offers a comprehensive solution for document parsing, data cleaning, and retrieval enhancement, crucial for building robust AI agents that need to look up external information reliably.",
-      "last_verified": "2026-07-21",
-      "source": "curator:2026-07-21-0801",
-      "added": "2026-07-21"
-    },
-    {
-      "id": "orchestrai",
-      "name": "OrchestrAI",
-      "url": "https://orchestrai.ai/",
-      "category": "multi-agent-coding",
-      "summary": "OrchestrAI is an AI Agent Operating System enabling enterprises to deploy, orchestrate, and continuously improve coordinated AI agents through semantic infrastructure.",
-      "why_it_matters": "It addresses the scalability challenges of managing numerous AI agents by providing a meta-agent for autonomous deployment, orchestration, and continuous improvement, offering a centralized view of agent infrastructure.",
       "last_verified": "2026-07-21",
       "source": "curator:2026-07-21-0801",
       "added": "2026-07-21"
