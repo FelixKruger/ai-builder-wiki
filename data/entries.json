@@ -759,11 +759,12 @@
       "name": "CrewAI",
       "url": "https://crewai.com/",
       "category": "multi-agent-coding",
-      "summary": "CrewAI is a framework for orchestrating role-playing, autonomous AI agents, designed to simplify multi-agent teamwork and collaborative intelligence.",
-      "why_it_matters": "Unlike single-agent frameworks, CrewAI focuses on enabling seamless coordination among multiple agents to tackle complex tasks, streamlining multi-agent system development.",
+      "summary": "CrewAI is a Python framework for orchestrating role-based AI agents through defined tasks and processes.",
+      "why_it_matters": "This framework provides explicit structures for defining agent roles, tasks, and sequential processes. It offers more direct control over agent workflows than general conversational frameworks like AutoGen, making it suitable for structured task execution.",
       "last_verified": "2026-08-12",
       "source": "curator:2026-05-25-0942",
-      "added": "2026-05-25"
+      "added": "2026-05-25",
+      "refined": "2026-08-12"
     },
     {
       "id": "dify",
