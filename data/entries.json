@@ -71,7 +71,19 @@
       "section": "Build with AI",
       "name": "AI Design Skills",
       "blurb": "Reusable skills and prompts that teach coding agents about visual design.",
-      "intent": "I want my AI-built UIs to stop looking generic"
+      "intent": "I want my AI-built UIs to stop looking generic",
+      "guide": {
+        "body": "To prevent AI-built UIs from looking generic, start with Impeccable. It directly installs design vocabulary into common agents like Claude Code, Cursor, and Gemini CLI, offering 23 commands to refine outputs. If you require local execution or cannot send code to third-party services, Open Design provides a local-first, open-source alternative with similar capabilities. Hallmark also serves as an open-source design skill for AI coding assistants, directly competing with Impeccable's goal of eliminating generic outputs, offering more transparency and control over the skill's implementation. For teams aiming to build their own design skills or deeply customize agent behavior, the Claude Design System Prompt offers a concrete example of structuring a prompt for design and prototyping. This allows for fine-grained control but demands significant time investment compared to using a pre-packaged skill. Astryx (Meta) is not a design skill itself but an open-source design system; use it if your agent needs a specific, consistent component library to target, rather than just general design guidance. The trade-off for local or open-source solutions is often the initial setup complexity and ongoing maintenance burden compared to a hosted, proprietary skill.",
+        "updated": "2026-08-12",
+        "model": "gemini:gemini-2.5-flash",
+        "covers": [
+          "Astryx (Meta)",
+          "Claude Design System Prompt",
+          "Hallmark",
+          "Impeccable",
+          "Open Design"
+        ]
+      }
     },
     {
       "id": "app-builders",
