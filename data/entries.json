@@ -761,7 +761,7 @@
       "category": "multi-agent-coding",
       "summary": "CrewAI is a framework for orchestrating role-playing, autonomous AI agents, designed to simplify multi-agent teamwork and collaborative intelligence.",
       "why_it_matters": "Unlike single-agent frameworks, CrewAI focuses on enabling seamless coordination among multiple agents to tackle complex tasks, streamlining multi-agent system development.",
-      "last_verified": "2026-07-10",
+      "last_verified": "2026-08-12",
       "source": "curator:2026-05-25-0942",
       "added": "2026-05-25"
     },
@@ -772,7 +772,7 @@
       "category": "agent-frameworks",
       "summary": "Dify is a low-code platform offering an all-in-one toolchain for building, deploying, and managing AI applications with agentic and retrieval-augmented workflows.",
       "why_it_matters": "It provides a visual workflow builder to orchestrate tool-using agents, distinguishing it from code-centric agent frameworks by simplifying AI application development.",
-      "last_verified": "2026-07-10",
+      "last_verified": "2026-08-12",
       "source": "curator:2026-05-25-0942",
       "added": "2026-05-25"
     },
@@ -1300,7 +1300,7 @@
       "category": "mcp-tools",
       "summary": "OfficeCLI is an open-source command-line interface enabling AI agents to read, edit, and automate Microsoft Word, Excel, and PowerPoint files without requiring Office installation.",
       "why_it_matters": "This tool provides agents with direct, programmatic access to common office document formats, extending their utility beyond code-centric tasks to broader business process automation, unlike general coding agents.",
-      "last_verified": "2026-07-10",
+      "last_verified": "2026-08-12",
       "source": "curator:2026-07-10-0853",
       "added": "2026-07-10"
     },
