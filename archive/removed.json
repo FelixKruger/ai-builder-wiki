@@ -89,5 +89,19 @@
     "url": "https://www.mindstone.com/",
     "removed_at": "2026-07-27",
     "reason": "category cap: Multi-Agent Coding had 15 entries (cap 12); pruned as lowest-signal for this category"
+  },
+  {
+    "id": "mistral-vibe",
+    "name": "Mistral Vibe",
+    "url": "https://chat.mistral.ai/chat",
+    "removed_at": "2026-07-23",
+    "reason": "category cap: Agent Frameworks & SDKs had 14 entries (cap 12); pruned as lowest-signal for this category"
+  },
+  {
+    "id": "statewright",
+    "name": "Statewright",
+    "url": "https://statewright.ai/",
+    "removed_at": "2026-08-01",
+    "reason": "category cap: Agent Frameworks & SDKs had 14 entries (cap 12); pruned as lowest-signal for this category"
   }
 ]
