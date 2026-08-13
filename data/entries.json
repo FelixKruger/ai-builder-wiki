@@ -712,17 +712,6 @@
       "added": "2026-05-18"
     },
     {
-      "id": "statewright",
-      "name": "Statewright",
-      "url": "https://statewright.ai/",
-      "category": "agent-frameworks",
-      "summary": "Statewright utilizes visual state machines to enhance the reliability of AI agents by formally restricting their tool access, iteration limits, and valid transitions within a workflow.",
-      "why_it_matters": "This approach improves agent reliability by reducing the problem complexity for smaller models, offering an alternative to relying on larger models or extensive prompting for robust agent behavior.",
-      "last_verified": "2026-08-01",
-      "source": "curator:2026-05-18-0933",
-      "added": "2026-05-18"
-    },
-    {
       "id": "helicone",
       "name": "Helicone",
       "url": "https://www.helicone.ai/",
@@ -852,17 +841,6 @@
       "summary": "OpenClaw is a free and open-source personal AI assistant that runs locally on users' devices, connecting AI models to numerous integrations.",
       "why_it_matters": "It offers a privacy-focused, local-first approach to AI assistance with extensive integration capabilities and self-extending skill development, contrasting with cloud-dependent alternatives.",
       "last_verified": "2026-07-21",
-      "source": "curator:2026-05-30-0654",
-      "added": "2026-05-30"
-    },
-    {
-      "id": "mistral-vibe",
-      "name": "Mistral Vibe",
-      "url": "https://chat.mistral.ai/chat",
-      "category": "agent-frameworks",
-      "summary": "Mistral Vibe is a unified AI agent platform for work and coding, designed for long-running, multi-step tasks across various environments.",
-      "why_it_matters": "It integrates diverse productivity and coding functions into a single agent, enabling comprehensive automation of complex workflows beyond simple conversational AI.",
-      "last_verified": "2026-07-23",
       "source": "curator:2026-05-30-0654",
       "added": "2026-05-30"
     },
