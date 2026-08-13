@@ -55,7 +55,7 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 - **[DeepSeek V4-Flash](https://felixkruger.github.io/ai-builder-wiki/#deepseek-v4-flash)** — DeepSeek V4-Flash is an open-weight 284 billion parameter Mixture-of-Experts model, officially released for agentic capabilities and efficient long-context processing. _(added 2026-08-09)_
 
-- **[Claude Opus 5](https://felixkruger.github.io/ai-builder-wiki/#claude-opus-5)** — Claude Opus 5 is Anthropic's most advanced Opus model, offering significant improvements in agentic coding, knowledge work, and visual understanding. _(added 2026-08-09)_
+- **[Claude Opus 5](https://felixkruger.github.io/ai-builder-wiki/#claude-opus-5)** — Anthropic's top-tier model for agentic coding, knowledge work, and visual understanding. _(added 2026-08-09)_
 
 - **[Qwen3.8-Max](https://felixkruger.github.io/ai-builder-wiki/#qwen-3-8-max)** — Alibaba released Qwen3.8-Max, a 2.4 trillion parameter open-weight multimodal AI model with a 1 million token context window. _(added 2026-08-09)_
 
