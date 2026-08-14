@@ -674,7 +674,7 @@
       "category": "agent-memory",
       "summary": "Drop-in memory infrastructure for AI agents — automatic learning from interactions, persistent context across sessions.",
       "why_it_matters": "If MemPalace and OB1 are the OSS DIY paths, Mem0 is the managed-service alternative. Faster to integrate when you don't want to host memory yourself.",
-      "last_verified": "2026-07-12",
+      "last_verified": "2026-08-14",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -685,7 +685,7 @@
       "category": "agent-memory",
       "summary": "Persistent-agent framework with continual learning — direct descendant of UC Berkeley's MemGPT research.",
       "why_it_matters": "The research-backed approach to agent memory: hierarchical context, self-editing memory blocks. Different mental model from drop-in retrieval like Mem0.",
-      "last_verified": "2026-07-12",
+      "last_verified": "2026-08-14",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -1291,7 +1291,7 @@
       "category": "agent-memory",
       "summary": "Memory OS is a 7-layer, local-first memory operating system designed for Hermes Agent, providing persistent, surgically token-efficient memory.",
       "why_it_matters": "It addresses context loss in agentic AI by offering a private, provider-agnostic, and highly structured memory infrastructure that runs entirely on the user's machine.",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-08-14",
       "source": "curator:2026-07-11-0727",
       "added": "2026-07-11"
     },
