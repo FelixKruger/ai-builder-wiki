@@ -103,5 +103,19 @@
     "url": "https://statewright.ai/",
     "removed_at": "2026-08-01",
     "reason": "category cap: Agent Frameworks & SDKs had 14 entries (cap 12); pruned as lowest-signal for this category"
+  },
+  {
+    "id": "bitboard",
+    "name": "BitBoard",
+    "url": "https://bitboard.work/",
+    "removed_at": "2026-07-13",
+    "reason": "category cap: Evals, Benchmarks & Observability had 14 entries (cap 12); pruned as lowest-signal for this category"
+  },
+  {
+    "id": "agentops",
+    "name": "AgentOps",
+    "url": "https://www.agentops.ai/",
+    "removed_at": "2026-07-16",
+    "reason": "category cap: Evals, Benchmarks & Observability had 14 entries (cap 12); pruned as lowest-signal for this category"
   }
 ]
