@@ -1005,7 +1005,7 @@
       "category": "inference-platforms",
       "summary": "Ollama allows developers to run large language models locally on their own machines, providing a self-hosted AI experience.",
       "why_it_matters": "It offers a way to experiment with and deploy open-weight models without cloud costs, contrasting with hosted inference platforms like Groq or Together AI.",
-      "last_verified": "2026-07-12",
+      "last_verified": "2026-08-15",
       "source": "curator:2026-06-15-0744",
       "added": "2026-06-15"
     },
@@ -1280,7 +1280,7 @@
       "category": "evals",
       "summary": "Strix is an AI pentesting tool designed to autonomously identify and exploit vulnerabilities in running applications.",
       "why_it_matters": "It provides an automated approach to security evaluation, offering a proactive way to test application resilience against AI-driven attacks, complementing traditional security tools.",
-      "last_verified": "2026-07-12",
+      "last_verified": "2026-08-15",
       "source": "curator:2026-07-12-0751",
       "added": "2026-07-12"
     },
@@ -1291,7 +1291,7 @@
       "category": "multi-agent-coding",
       "summary": "Agency-agents is a framework for orchestrating a large number of AI agents to collaboratively solve complex tasks.",
       "why_it_matters": "It explores the paradigm of multi-agent systems, enabling the creation of complex AI workflows where individual agents contribute to a larger objective, a key direction in AI development.",
-      "last_verified": "2026-07-12",
+      "last_verified": "2026-08-15",
       "source": "curator:2026-07-12-0751",
       "added": "2026-07-12"
     },
