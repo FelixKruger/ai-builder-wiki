@@ -1268,10 +1268,11 @@
       "url": "https://github.com/msitarzewski/agency-agents",
       "category": "multi-agent-coding",
       "summary": "Agency-agents is a framework for orchestrating a large number of AI agents to collaboratively solve complex tasks.",
-      "why_it_matters": "It explores the paradigm of multi-agent systems, enabling the creation of complex AI workflows where individual agents contribute to a larger objective, a key direction in AI development.",
+      "why_it_matters": "This framework focuses on orchestrating a high volume of agents for complex tasks. While it aims for scalability, it lacks the enterprise backing and broader community support of frameworks like AutoGen or Microsoft Agent Framework.",
       "last_verified": "2026-08-15",
       "source": "curator:2026-07-12-0751",
-      "added": "2026-07-12"
+      "added": "2026-07-12",
+      "refined": "2026-08-15"
     },
     {
       "id": "colibri",
