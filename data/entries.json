@@ -701,17 +701,6 @@
       "added": "2026-05-18"
     },
     {
-      "id": "baton",
-      "name": "Baton",
-      "url": "https://getbaton.dev/",
-      "category": "multi-agent-coding",
-      "summary": "Baton is a desktop application that provides a unified interface for developing and managing multiple AI coding agents and their associated worktrees.",
-      "why_it_matters": "It simplifies the orchestration of several AI coding agents, offering a more organized and efficient workflow compared to manually managing them across disparate development environments.",
-      "last_verified": "2026-07-31",
-      "source": "curator:2026-05-18-0933",
-      "added": "2026-05-18"
-    },
-    {
       "id": "helicone",
       "name": "Helicone",
       "url": "https://www.helicone.ai/",
@@ -1107,17 +1096,6 @@
       "last_verified": "2026-07-29",
       "source": "curator:2026-06-27-0657",
       "added": "2026-06-27"
-    },
-    {
-      "id": "warp-terminal",
-      "name": "Warp",
-      "url": "https://www.warp.dev/",
-      "category": "ai-coding",
-      "summary": "Warp is a modern terminal that integrates AI to translate natural language into shell commands and execute multi-step tasks.",
-      "why_it_matters": "It enhances command-line workflows with AI, allowing engineers to interact with the terminal more naturally and automate complex operations.",
-      "last_verified": "2026-08-02",
-      "source": "curator:2026-06-30-0709",
-      "added": "2026-06-30"
     },
     {
       "id": "open-knowledge-format",

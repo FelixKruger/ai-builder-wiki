@@ -117,5 +117,19 @@
     "url": "https://www.agentops.ai/",
     "removed_at": "2026-07-16",
     "reason": "category cap: Evals, Benchmarks & Observability had 14 entries (cap 12); pruned as lowest-signal for this category"
+  },
+  {
+    "id": "warp-terminal",
+    "name": "Warp",
+    "url": "https://www.warp.dev/",
+    "removed_at": "2026-08-02",
+    "reason": "category cap: AI Coding Tools had 13 entries (cap 12); pruned as lowest-signal for this category"
+  },
+  {
+    "id": "baton",
+    "name": "Baton",
+    "url": "https://getbaton.dev/",
+    "removed_at": "2026-07-31",
+    "reason": "category cap: Multi-Agent Coding had 13 entries (cap 12); pruned as lowest-signal for this category"
   }
 ]
