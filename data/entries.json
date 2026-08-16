@@ -115,7 +115,22 @@
       "section": "Models & Infrastructure",
       "name": "Hosted Frontier APIs",
       "blurb": "The closed-weight frontier models you call from your stack — Claude, GPT, Gemini.",
-      "intent": "I need the best-available model behind an API"
+      "intent": "I need the best-available model behind an API",
+      "guide": {
+        "body": "For general-purpose AI tasks, start with the OpenAI API and its GPT-5.6 family. It has the broadest ecosystem and is a reliable default. If your workload involves video, requires very long context up to 2M tokens, or needs fresh web grounding without building your own RAG, the Gemini API is the correct starting point. For long-running agentic workflows, especially those benefiting from prompt caching or native tool use, Claude API (specifically Opus 5 or Sonnet 5) offers advantages over OpenAI. These models are designed for more complex, multi-step tasks. If you need truly extreme context windows, 12 million tokens, and lower cost for that scale, SubQ provides a distinct architecture for practical long-context reasoning. Be aware that adopting SubQ means fewer existing integrations and a smaller community compared to the major providers. The top-tier models like Claude Opus 5 and OpenAI GPT-5.6 (Sol) often perform similarly across many benchmarks; your choice might depend on specific task performance or existing vendor relationships.",
+        "updated": "2026-08-16",
+        "model": "gemini:gemini-2.5-flash",
+        "covers": [
+          "Claude API (Anthropic)",
+          "Claude Opus 4.8",
+          "Claude Opus 5",
+          "Claude Sonnet 5",
+          "Gemini API (Google)",
+          "OpenAI API",
+          "OpenAI GPT-5.6 (Sol, Terra, Luna)",
+          "SubQ (by Subquadratic)"
+        ]
+      }
     },
     {
       "id": "open-weights",
