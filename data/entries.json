@@ -1418,11 +1418,12 @@
       "name": "RAGFlow",
       "url": "https://ragflow.io/",
       "category": "retrieval-search",
-      "summary": "RAGFlow is an open-source Retrieval-Augmented Generation (RAG) engine designed to provide large language models with a more reliable context layer.",
-      "why_it_matters": "It offers a comprehensive solution for document parsing, data cleaning, and retrieval enhancement, crucial for building robust AI agents that need to look up external information reliably.",
+      "summary": "RAGFlow is an open-source, end-to-end RAG engine for document processing, retrieval, and generation with LLMs.",
+      "why_it_matters": "Most tools here are single-purpose components like `pgvector` or `Anydoc`. RAGFlow provides an integrated system for document RAG, handling parsing, chunking, embedding, and retrieval within one stack, suitable for teams needing a complete, self-contained pipeline for internal documents.",
       "last_verified": "2026-07-21",
       "source": "curator:2026-07-21-0801",
-      "added": "2026-07-21"
+      "added": "2026-07-21",
+      "refined": "2026-08-16"
     },
     {
       "id": "bolna-agent-studio",
