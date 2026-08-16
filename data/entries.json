@@ -340,7 +340,7 @@
       "category": "evals",
       "summary": "Eval, logging, and prompt-playground stack used by many production AI teams.",
       "why_it_matters": "The 'we ship LLM features and need to know if a prompt change broke things' tool — diffs across runs are first-class.",
-      "last_verified": "2026-07-13",
+      "last_verified": "2026-08-16",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -792,7 +792,7 @@
       "category": "ai-coding",
       "summary": "CodeWhale is a terminal-based AI coding agent designed for DeepSeek models, engineered for prefix-cache stability.",
       "why_it_matters": "It provides a specialized coding agent optimized for DeepSeek models, offering a stable terminal experience for developers.",
-      "last_verified": "2026-07-13",
+      "last_verified": "2026-08-16",
       "source": "curator:2026-05-26-0703",
       "added": "2026-05-26"
     },
@@ -1299,7 +1299,7 @@
       "category": "inference-platforms",
       "summary": "Colibri is a pure C, zero-dependency engine designed to run large open-weight models like GLM-5.2 (744B MoE) on consumer machines with limited RAM.",
       "why_it_matters": "It enables efficient local execution of very large open-weight models on standard hardware, significantly lowering the barrier to entry for developers to experiment with powerful models without cloud infrastructure.",
-      "last_verified": "2026-07-13",
+      "last_verified": "2026-08-16",
       "source": "curator:2026-07-13-0838",
       "added": "2026-07-13"
     },
