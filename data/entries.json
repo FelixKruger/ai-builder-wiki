@@ -137,7 +137,25 @@
       "section": "Models & Infrastructure",
       "name": "Open-Weight Models",
       "blurb": "Downloadable model families. Host yourself or run on any inference platform.",
-      "intent": "I want a model I can run on my own hardware"
+      "intent": "I want a model I can run on my own hardware",
+      "guide": {
+        "body": "For most applications requiring an open-weight model, start with DeepSeek V4-Flash. It delivers strong agentic performance and efficient long-context processing, making it a solid baseline. If your primary need is frontier-level reasoning for complex, multi-step coding or orchestrating large agent swarms, Kimi K3 is built for that. For sensitive long-horizon coding tasks, such as security forensics, where on-premise deployment is mandatory, GLM 5.2 provides a dedicated solution. If you need custom content moderation that adapts policies at inference time, Shieldstral is your only option. For integration with Google's tooling or deployment on consumer hardware, Gemma is the direct path. Qwen3.8-Max excels in non-English applications and offers a comprehensive multimodal suite. The main trade-off with any open-weight model is the operational overhead of managing your own infrastructure, which you exchange for full control over data and deployment. Kimi K3, Qwen3.8-Max, DeepSeek V4-Flash, GLM 5.2, and Tencent Hy3 all offer advanced long-context and agentic capabilities; there is significant overlap in their advertised strengths for these areas.",
+        "updated": "2026-08-17",
+        "model": "gemini:gemini-2.5-flash",
+        "covers": [
+          "DeepSeek",
+          "DeepSeek V4-Flash",
+          "GLM 5.2",
+          "Gemma",
+          "Kimi K2.6",
+          "Kimi K3",
+          "Mistral Medium 3.5",
+          "Qwen",
+          "Qwen3.8-Max",
+          "Shieldstral (Mistral)",
+          "Tencent Hy3"
+        ]
+      }
     },
     {
       "id": "inference-platforms",
