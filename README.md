@@ -51,7 +51,7 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 - **[Semantica](https://felixkruger.github.io/ai-builder-wiki/#semantica)** — Semantica provides graph-native infrastructure for managing context and ensuring accountability in AI systems. _(added 2026-08-11)_
 
-- **[AirLLM](https://felixkruger.github.io/ai-builder-wiki/#airllm)** — AirLLM is an open-source tool that enables efficient deployment and inference of large language models on consumer-grade GPUs. _(added 2026-08-09)_
+- **[AirLLM](https://felixkruger.github.io/ai-builder-wiki/#airllm)** — AirLLM is an open-source library for efficient LLM inference on consumer-grade GPUs. _(added 2026-08-09)_
 
 - **[DeepSeek V4-Flash](https://felixkruger.github.io/ai-builder-wiki/#deepseek-v4-flash)** — DeepSeek V4-Flash is an open-weight 284 billion parameter Mixture-of-Experts model, officially released for agentic capabilities and efficient long-context processing. _(added 2026-08-09)_
 
