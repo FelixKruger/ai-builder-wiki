@@ -5,7 +5,7 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Mon, 17 Aug 2026 06:26:20 +0000</lastBuildDate>
+<lastBuildDate>Tue, 18 Aug 2026 06:19:47 +0000</lastBuildDate>
 
 <item>
   <title>Semantica</title>
@@ -20,7 +20,7 @@
   <link>https://felixkruger.github.io/ai-builder-wiki/#airllm</link>
   <guid isPermaLink="false">airllm-2026-08-09</guid>
   <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[AirLLM is an open-source tool that enables efficient deployment and inference of large language models on consumer-grade GPUs. — This allows developers to run powerful open-weight models locally with reduced hardware requirements, making advanced AI inference more accessible and cost-effective than relying solely on high-end cloud compute.]]></description>
+  <description><![CDATA[AirLLM is an open-source library for efficient LLM inference on consumer-grade GPUs. — Pick this over Ollama when you need an inference engine focused on maximizing throughput and memory efficiency on consumer-grade GPUs, rather than a general local model runner.]]></description>
 </item>
 
 <item>
