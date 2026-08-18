@@ -162,7 +162,26 @@
       "section": "Models & Infrastructure",
       "name": "Inference & Hosting",
       "blurb": "Where to run open-weight models in production — managed inference, fine-tuning, custom silicon.",
-      "intent": "I need to host an open model at scale"
+      "intent": "I need to host an open model at scale",
+      "guide": {
+        "body": "For hosting open models at scale, most teams should start with **Together AI**. It provides a managed platform for both fine-tuning and serving open-weight models, simplifying deployment and scaling. This avoids the operational overhead of managing GPU infrastructure directly. If your application demands extremely low per-call latency, where agent loops or real-time interactions are bottlenecked by response times, **Groq** is the specific solution. Its custom LPU silicon delivers significantly faster inference than GPU-based alternatives for supported models. For teams with existing GPU infrastructure or those building their own inference stack, **vLLM** offers substantial performance gains by optimizing GPU memory usage and throughput. This requires more engineering effort than a managed service but provides greater control and potentially lower cost at high scale. If you need to abstract away specific model providers, enable A/B testing, or implement automatic failover across different APIs, **OpenRouter** or **OmniRoute** serve this purpose. They are functionally similar, acting as API gateways to multiple providers. The trade-off for using any managed service or specialized hardware provider is vendor lock-in and reliance on their model support, contrasting with the flexibility and control of self-hosting with tools like vLLM.",
+        "updated": "2026-08-18",
+        "model": "gemini:gemini-2.5-flash",
+        "covers": [
+          "AirLLM",
+          "Colibri",
+          "Groq",
+          "LMCache",
+          "NVIDIA Dynamo",
+          "Ollama",
+          "OmniRoute",
+          "OpenRouter",
+          "SiliconFlow",
+          "Taalas",
+          "Together AI",
+          "vLLM"
+        ]
+      }
     },
     {
       "id": "agent-frameworks",
