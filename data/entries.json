@@ -1349,11 +1349,12 @@
       "name": "Colibri",
       "url": "https://github.com/JustVugg/colibri",
       "category": "inference-platforms",
-      "summary": "Colibri is a pure C, zero-dependency engine designed to run large open-weight models like GLM-5.2 (744B MoE) on consumer machines with limited RAM.",
-      "why_it_matters": "It enables efficient local execution of very large open-weight models on standard hardware, significantly lowering the barrier to entry for developers to experiment with powerful models without cloud infrastructure.",
+      "summary": "Colibri is a pure C, zero-dependency engine for running large open-weight models on consumer machines with limited RAM.",
+      "why_it_matters": "Colibri is for running extremely large open-weight models (e.g., 700B+ MoE) on consumer machines with limited RAM. Its pure C, zero-dependency design offers a lower-level, more resource-efficient option than tools like Ollama or AirLLM for highly constrained local environments.",
       "last_verified": "2026-08-16",
       "source": "curator:2026-07-13-0838",
-      "added": "2026-07-13"
+      "added": "2026-07-13",
+      "refined": "2026-08-19"
     },
     {
       "id": "context-dev",
