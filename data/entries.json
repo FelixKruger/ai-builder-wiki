@@ -188,7 +188,26 @@
       "section": "Build Agents",
       "name": "Agent Frameworks & SDKs",
       "blurb": "The glue for building autonomous, tool-using agents.",
-      "intent": "I'm building an agent product"
+      "intent": "I'm building an agent product",
+      "guide": {
+        "body": "Most teams building agent products should start with LangGraph. Its graph-based model directly addresses common challenges like managing agent state, branching logic, and enabling checkpointing or human-in-the-loop interventions, which are critical for any non-trivial agent. However, if your product is deeply integrated into a specific cloud ecosystem, consider their native offerings. For Claude users, Claude Agent SDK provides their agent harness directly. Similarly, Google ADK is the path for those committed to Google Cloud services. These choices simplify integration but create vendor lock-in. For TypeScript-first development teams, Mastra offers a strong developer experience, particularly if you prioritize local development and evaluation. Eve (Vercel) is another TypeScript option, especially if you're already deploying on Vercel. If your agent's core function is voice interaction, Bolna Agent Studio provides a specialized, faster path than general frameworks. When integrating extensive private data for retrieval, LlamaIndex is the foundational tool. A trade-off with any framework is the added complexity. While LangGraph manages state, you're now debugging framework abstractions instead of direct LLM API calls, which can obscure root causes. GenericAgent and Hermes Agent both aim for self-evolving agents, largely overlapping in their high-level goal of adaptive behavior.",
+        "updated": "2026-08-19",
+        "model": "gemini:gemini-2.5-flash",
+        "covers": [
+          "Bolna Agent Studio",
+          "Claude Agent SDK",
+          "Dify",
+          "Eve (Vercel)",
+          "GenericAgent",
+          "Google ADK (Agent Development Kit)",
+          "Hermes Agent",
+          "LangGraph",
+          "LlamaIndex",
+          "Mastra",
+          "OpenClaw",
+          "Sim"
+        ]
+      }
     },
     {
       "id": "agent-memory",
