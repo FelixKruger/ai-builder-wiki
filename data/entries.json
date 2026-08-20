@@ -1603,10 +1603,11 @@
       "url": "https://www.moonshot.ai",
       "category": "open-weights",
       "summary": "Moonshot AI released Kimi K3, a 2.8 trillion parameter multimodal Mixture-of-Experts model with a 1 million token context window.",
-      "why_it_matters": "Kimi K3 sets a new benchmark for open-weight models, offering frontier-level reasoning and multimodal capabilities that were previously limited to closed-source models. It provides a powerful alternative to models like Claude Fable 5 for complex coding and agentic tasks.",
+      "why_it_matters": "Kimi K3 offers reasoning and multimodal capabilities previously limited to closed-source models. Use it for complex coding and agentic tasks where an open-weight alternative to models like Claude Fable 5 is required.",
       "last_verified": "2026-08-02",
       "source": "curator:2026-08-02-0648",
-      "added": "2026-08-02"
+      "added": "2026-08-02",
+      "refined": "2026-08-20"
     },
     {
       "id": "tencentdb-agent-memory",
