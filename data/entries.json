@@ -214,7 +214,26 @@
       "section": "Build Agents",
       "name": "Agent Memory",
       "blurb": "Persistent memory layers — what your agent knows across sessions, users, and turns.",
-      "intent": "My agent needs to remember things"
+      "intent": "My agent needs to remember things",
+      "guide": {
+        "body": "For most single-agent applications, start with MemPalace. It's an open-source, local system that stores conversation history as verbatim text with semantic retrieval, keeping your data out of vendor APIs. If you need a managed service for faster integration and less operational burden, Mem0 is the direct alternative. When multiple AI tools or agents need to share and write to a single, persistent memory store, OB1 provides a self-hosted solution to unify these silos. Hyper and TencentDB Agent Memory also focus on shared team knowledge, but OB1 is built specifically for bridging fragmented agent memories across different tools. If your agent requires advanced, research-backed memory management like hierarchical context and self-editing blocks for continual learning, Letta (MemGPT) offers a distinct framework. For agents that must track the validity and evolution of facts over time, Zep provides temporal context graphs. The primary trade-off is between the control and privacy of self-hosted open-source tools like MemPalace and the reduced operational overhead of managed services like Mem0, which comes with vendor lock-in.",
+        "updated": "2026-08-20",
+        "model": "gemini:gemini-2.5-flash",
+        "covers": [
+          "CoreMem",
+          "Hyper",
+          "Letta (MemGPT)",
+          "Mem0",
+          "MemPalace",
+          "Memory OS",
+          "Minimi",
+          "OB1",
+          "Open Knowledge Format (OKF)",
+          "Semantica",
+          "TencentDB Agent Memory",
+          "Zep"
+        ]
+      }
     },
     {
       "id": "retrieval-search",
