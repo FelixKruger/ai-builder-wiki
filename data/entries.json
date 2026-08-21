@@ -240,7 +240,22 @@
       "section": "Build Agents",
       "name": "Retrieval & Search",
       "blurb": "Vector stores, full-text search, and web search APIs. Stateless retrieval — different from memory.",
-      "intent": "My agent needs to look things up"
+      "intent": "My agent needs to look things up",
+      "guide": {
+        "body": "For most internal data retrieval, start with pgvector. It keeps your embeddings within your existing Postgres database, avoiding the operational overhead of a dedicated vector store. When your agent needs real-time, fresh web grounding, You.com Search API offers low-latency results, differentiating it from other web search APIs. If the agent must interact with websites, extract structured data, or automate web tasks, Browse.sh provides the necessary web automation. For clean, structured data extraction from specific URLs, Firecrawl and Context.dev offer similar capabilities. If pgvector struggles with billions of vectors, turbopuffer scales on object storage without dedicated server management. For processing diverse internal document formats into clean Markdown *before* embedding, Anydoc is a necessary pre-processing step. Finally, if you need an integrated, open-source system for document parsing, chunking, embedding, and retrieval for internal documents, RAGFlow provides a complete pipeline. The trade-off for RAGFlow is its comprehensive nature; it's a full system, not a single component, meaning more to manage than just plugging pgvector into an existing app.",
+        "updated": "2026-08-21",
+        "model": "gemini:gemini-2.5-flash",
+        "covers": [
+          "Anydoc",
+          "Browse.sh",
+          "Context.dev",
+          "Firecrawl",
+          "RAGFlow",
+          "You.com Search API",
+          "pgvector",
+          "turbopuffer"
+        ]
+      }
     },
     {
       "id": "mcp-tools",
