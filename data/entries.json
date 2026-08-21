@@ -516,11 +516,12 @@
       "name": "Cartesia",
       "url": "https://www.cartesia.ai/sonic",
       "category": "voice-audio",
-      "summary": "Sonic — sub-100ms streaming TTS with state-space models. The realtime-voice latency leader.",
-      "why_it_matters": "If your voice agent feels laggy, the model is usually the issue. Cartesia's the default fix.",
+      "summary": "Cartesia provides streaming Text-to-Speech (TTS) with sub-100ms latency using state-space models.",
+      "why_it_matters": "For voice agents requiring minimal latency, Cartesia offers lower response times than alternatives like ElevenLabs. It is the default choice when sub-100ms streaming TTS is a hard requirement.",
       "last_verified": "2026-07-20",
       "source": "seed",
-      "added": "2026-04-27"
+      "added": "2026-04-27",
+      "refined": "2026-08-21"
     },
     {
       "id": "mcp-spec",
