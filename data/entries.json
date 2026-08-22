@@ -432,11 +432,12 @@
       "name": "Inspect (UK AISI)",
       "url": "https://inspect.aisi.org.uk/",
       "category": "evals",
-      "summary": "Open-source eval framework from the UK AI Safety Institute — used for the public capability evals you read about.",
-      "why_it_matters": "If you're publishing eval results you want anyone to reproduce, Inspect is the lingua franca.",
+      "summary": "Open-source eval framework from the UK AI Safety Institute for public model capability evaluations.",
+      "why_it_matters": "Use Inspect if you are publishing model capability evaluations for public scrutiny and reproducibility. Unlike general-purpose eval frameworks like DeepEval or Braintrust, Inspect is the established standard for transparent, externally verifiable model assessments.",
       "last_verified": "2026-08-13",
       "source": "seed",
-      "added": "2026-04-27"
+      "added": "2026-04-27",
+      "refined": "2026-08-22"
     },
     {
       "id": "braintrust",
