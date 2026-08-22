@@ -494,17 +494,6 @@
       "added": "2026-04-27"
     },
     {
-      "id": "lovable",
-      "name": "Lovable",
-      "url": "https://lovable.dev/",
-      "category": "app-builders",
-      "summary": "Prompt-to-app builder — full-stack, Supabase-backed, GitHub-synced.",
-      "why_it_matters": "The leading non-developer-friendly app builder. Good for testing whether an idea has shape before you spend a dev week on it.",
-      "last_verified": "2026-07-17",
-      "source": "seed",
-      "added": "2026-04-27"
-    },
-    {
       "id": "bolt",
       "name": "Bolt.new",
       "url": "https://bolt.new/",
@@ -1162,7 +1151,7 @@
       "category": "ai-video",
       "summary": "An open-source, agentic video production system that includes pipelines, tools, and agent skills for comprehensive video generation.",
       "why_it_matters": "It allows AI coding assistants to manage entire video production workflows, offering a more complete solution than typical text-to-video models.",
-      "last_verified": "2026-07-17",
+      "last_verified": "2026-08-22",
       "source": "curator:2026-06-18-0730",
       "added": "2026-06-18"
     },
@@ -1483,7 +1472,7 @@
       "category": "hosted-apis",
       "summary": "OpenAI launched GPT-5.6, a new family of frontier AI models available in three tiers: Sol (top), Terra (mid-range), and Luna (fast, cheap).",
       "why_it_matters": "This release introduces OpenAI's most capable models to date, with tiered access designed to provide options for various performance and cost requirements.",
-      "last_verified": "2026-07-17",
+      "last_verified": "2026-08-22",
       "source": "curator:2026-07-17-0747",
       "added": "2026-07-17"
     },
