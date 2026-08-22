@@ -262,7 +262,21 @@
       "section": "Build Agents",
       "name": "MCP Ecosystem",
       "blurb": "Servers, clients, and registries for the Model Context Protocol — the standard for connecting agents to tools.",
-      "intent": "I need to give my agent tools"
+      "intent": "I need to give my agent tools",
+      "guide": {
+        "body": "To give your agent tools, start with Smithery. It's the primary registry and installer for Model Context Protocol (MCP) servers, allowing you to deploy common agent capabilities without writing them yourself. If you are building a new tool for agents, implement the Model Context Protocol directly; it is the established standard for agent-tool communication. For specific needs, consider alternatives. If your agent processes large codebases, use Codebase Memory MCP to index and query them efficiently, reducing token costs. For social media automation, Publora offers a unified API across platforms, avoiding multiple OAuth integrations. OfficeCLI provides programmatic access to Microsoft Office files, useful for agents automating business processes. Headroom is critical for cost-sensitive applications, compressing agent outputs to lower LLM token usage. Skills (Vercel) offers a similar registry for capability packages; choose it if you are already in the Vercel ecosystem, but be aware it overlaps with Smithery's function of providing agent tools. A trade-off with Headroom is that while it saves tokens, it adds a compression/decompression step, which introduces minor latency.",
+        "updated": "2026-08-22",
+        "model": "gemini:gemini-2.5-flash",
+        "covers": [
+          "Codebase Memory MCP",
+          "Headroom",
+          "Model Context Protocol",
+          "OfficeCLI",
+          "Publora",
+          "Skills (Vercel)",
+          "Smithery"
+        ]
+      }
     },
     {
       "id": "voice-audio",
