@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Sat, 22 Aug 2026 06:17:13 +0000</lastBuildDate>
+<lastBuildDate>Sun, 23 Aug 2026 06:18:43 +0000</lastBuildDate>
+
+<item>
+  <title>MoneyPrinterTurbo</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#moneyprinter-turbo</link>
+  <guid isPermaLink="false">moneyprinter-turbo-2026-08-23</guid>
+  <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[A tool that generates high-definition short videos from a given topic or keyword using large AI models and automated workflows. — It offers a complete workflow for AI video creation, including native audio, which simplifies the process of producing high-quality video content compared to tools requiring separate audio integration.]]></description>
+</item>
 
 <item>
   <title>Semantica</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">anydoc-2026-08-09</guid>
   <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Anydoc is a Rust tool with Node.js/Python bindings that converts diverse document formats into clean Markdown for AI. — Anydoc converts diverse internal documents (PDFs, DOCX) to clean Markdown for RAG. It solves the initial document parsing problem for existing corpuses, a step not handled by the web scrapers or vector databases in this section.]]></description>
-</item>
-
-<item>
-  <title>AutoGen (Microsoft)</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#autogen-microsoft</link>
-  <guid isPermaLink="false">autogen-microsoft-2026-08-08</guid>
-  <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[AutoGen is an open-source framework for building, optimizing, and evaluating multi-agent systems that can converse with each other to solve tasks. — It simplifies the orchestration of complex agent workflows, offering a flexible alternative to single-agent approaches for developers building collaborative AI applications.]]></description>
 </item>
 
 </channel>
