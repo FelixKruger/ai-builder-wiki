@@ -515,7 +515,7 @@
       "category": "app-builders",
       "summary": "StackBlitz's in-browser full-stack agent — runs Node in WebContainers, no local setup.",
       "why_it_matters": "When the friction of 'clone, install, run' is the bottleneck on idea velocity, Bolt removes it entirely.",
-      "last_verified": "2026-07-18",
+      "last_verified": "2026-08-23",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -935,7 +935,7 @@
       "category": "ai-coding",
       "summary": "OpenCode is an open-source, terminal-based AI coding agent that integrates with Git for commit-level code edits and supports over 100 languages.",
       "why_it_matters": "Unlike commercial AI coding assistants, OpenCode offers a free, self-hosted option with broad language support and deep codebase context for developers.",
-      "last_verified": "2026-07-18",
+      "last_verified": "2026-08-23",
       "source": "curator:2026-05-28-0710",
       "added": "2026-05-28"
     },
@@ -1498,7 +1498,7 @@
       "category": "evals",
       "summary": "Traceforce provides company-wide security monitoring for AI applications by offering visibility and control over AI app activity and detecting security risks.",
       "why_it_matters": "It addresses the growing concern of AI-assisted attacks and supply chain risks by providing real-time monitoring and controls that traditional security tools often miss.",
-      "last_verified": "2026-07-17",
+      "last_verified": "2026-08-23",
       "source": "curator:2026-07-17-0747",
       "added": "2026-07-17"
     },
