@@ -1793,6 +1793,17 @@
       "last_verified": "2026-08-11",
       "source": "curator:2026-08-11-0640",
       "added": "2026-08-11"
+    },
+    {
+      "id": "moneyprinter-turbo",
+      "name": "MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "category": "ai-video",
+      "summary": "A tool that generates high-definition short videos from a given topic or keyword using large AI models and automated workflows.",
+      "why_it_matters": "It offers a complete workflow for AI video creation, including native audio, which simplifies the process of producing high-quality video content compared to tools requiring separate audio integration.",
+      "last_verified": "2026-08-23",
+      "source": "curator:2026-08-23-0617",
+      "added": "2026-08-23"
     }
   ]
 }
