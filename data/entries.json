@@ -559,10 +559,11 @@
       "url": "https://smithery.ai/",
       "category": "mcp-tools",
       "summary": "Registry and one-click installer for MCP servers — discover, install, and host MCP servers without local config.",
-      "why_it_matters": "The npm of the MCP ecosystem in 2026. Start here when you need an MCP server before writing one.",
+      "why_it_matters": "Choose Smithery for rapid deployment and managed hosting of MCP servers. Unlike Vercel Skills, which focuses on local CLI management, Smithery provides one-click installation and handles server hosting, reducing operational overhead.",
       "last_verified": "2026-07-21",
       "source": "seed",
-      "added": "2026-04-27"
+      "added": "2026-04-27",
+      "refined": "2026-08-23"
     },
     {
       "id": "mempalace",
