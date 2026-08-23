@@ -49,6 +49,8 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[MoneyPrinterTurbo](https://felixkruger.github.io/ai-builder-wiki/#moneyprinter-turbo)** — A tool that generates high-definition short videos from a given topic or keyword using large AI models and automated workflows. _(added 2026-08-23)_
+
 - **[Semantica](https://felixkruger.github.io/ai-builder-wiki/#semantica)** — Semantica provides graph-native infrastructure for managing context and ensuring accountability in AI systems. _(added 2026-08-11)_
 
 - **[AirLLM](https://felixkruger.github.io/ai-builder-wiki/#airllm)** — AirLLM is an open-source library for efficient LLM inference on consumer-grade GPUs. _(added 2026-08-09)_
@@ -62,8 +64,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Tencent Hy3](https://felixkruger.github.io/ai-builder-wiki/#tencent-hy3)** — Tencent's Hy3 is a 295 billion parameter open-source AI model designed for agentic workflows and long-context tasks. _(added 2026-08-09)_
 
 - **[Anydoc](https://felixkruger.github.io/ai-builder-wiki/#anydoc)** — Anydoc is a Rust tool with Node.js/Python bindings that converts diverse document formats into clean Markdown for AI. _(added 2026-08-09)_
-
-- **[AutoGen (Microsoft)](https://felixkruger.github.io/ai-builder-wiki/#autogen-microsoft)** — AutoGen is an open-source framework for building, optimizing, and evaluating multi-agent systems that can converse with each other to solve tasks. _(added 2026-08-08)_
 
 <!-- RECENTLY_ADDED:END -->
 
