@@ -283,7 +283,19 @@
       "section": "Generate Media",
       "name": "Voice & Audio",
       "blurb": "Speech synthesis, voice cloning, realtime agents, and music generation.",
-      "intent": "I need a voice or audio output"
+      "intent": "I need a voice or audio output",
+      "guide": {
+        "body": "Start with ElevenLabs for most voice or audio output requirements. It provides the current quality benchmark for synthetic voice, covering general text-to-speech and conversational AI. If your application demands sub-100ms streaming TTS for real-time voice agents, Cartesia is the specific choice. It delivers lower latency than ElevenLabs, but you will find a less extensive feature set and a smaller ecosystem. For generating original music tracks, Suno v5 is the only tool listed that provides this output. Developers needing to monitor parallel coding agents on macOS should use Heard for intelligent audio summaries, reducing visual context switching. If your requirement is local, private processing of meeting audio for transcription and summarization, Meetily offers a self-hosted solution, ensuring data privacy without cloud reliance.",
+        "updated": "2026-08-23",
+        "model": "gemini:gemini-2.5-flash",
+        "covers": [
+          "Cartesia",
+          "ElevenLabs",
+          "Heard",
+          "Meetily",
+          "Suno v5"
+        ]
+      }
     },
     {
       "id": "ai-video",
