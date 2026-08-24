@@ -302,7 +302,21 @@
       "section": "Generate Media",
       "name": "AI Video",
       "blurb": "Text-to-video models and programmatic video frameworks.",
-      "intent": "I need to generate or compose video"
+      "intent": "I need to generate or compose video",
+      "guide": {
+        "body": "For programmatic video composition where you control the assets and logic, start with Remotion. It integrates into a React development workflow, allowing video to be treated as code, though commercial use requires a license. If your goal is to have an LLM agent author videos directly, HyperFrames is a better fit, as it leverages HTML, a format agents already handle. If you need to generate video from text or images, consider Wan (Alibaba) or Luma Dream Machine for high-quality output. MoneyPrinterTurbo offers a similar complete workflow specifically for generating short, high-definition videos, including native audio; these three tools largely overlap in their core generative capabilities. For transforming raw screen recordings into polished demos with automated scripts and avatars, Velo is purpose-built. If your requirement is a full, agentic video production system managing pipelines and tools beyond just generation, OpenMontage provides that comprehensive framework. The trade-off is often between the granular control and customizability of programmatic tools versus the speed and black-box nature of generative models.",
+        "updated": "2026-08-24",
+        "model": "gemini:gemini-2.5-flash",
+        "covers": [
+          "HyperFrames",
+          "Luma Dream Machine",
+          "MoneyPrinterTurbo",
+          "OpenMontage",
+          "Remotion",
+          "Velo",
+          "Wan (Alibaba)"
+        ]
+      }
     },
     {
       "id": "ai-3d",
