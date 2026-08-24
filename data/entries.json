@@ -436,11 +436,12 @@
       "name": "LangGraph",
       "url": "https://www.langchain.com/langgraph",
       "category": "agent-frameworks",
-      "summary": "Graph-based agent orchestration from LangChain — durable execution, human-in-the-loop, time-travel debugging.",
-      "why_it_matters": "When your agent has real branching state and you need to checkpoint/replay, the graph model pays off.",
+      "summary": "LangGraph is a LangChain library for building stateful agent workflows with an explicit graph model.",
+      "why_it_matters": "This is for agents requiring complex, non-linear execution with explicit state management. Its graph model enables precise control over branching logic, checkpointing, and human-in-the-loop steps, which simpler, sequential agent frameworks do not provide.",
       "last_verified": "2026-07-28",
       "source": "seed",
-      "added": "2026-04-27"
+      "added": "2026-04-27",
+      "refined": "2026-08-24"
     },
     {
       "id": "mastra",
