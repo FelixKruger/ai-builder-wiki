@@ -553,7 +553,7 @@
       "category": "voice-audio",
       "summary": "TTS, voice cloning, conversational AI, and the Agents platform for realtime voice.",
       "why_it_matters": "Still the quality bar for synthetic voice. The Agents platform is the fastest path from idea to a phone-callable voice agent.",
-      "last_verified": "2026-07-20",
+      "last_verified": "2026-08-25",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -564,7 +564,7 @@
       "category": "voice-audio",
       "summary": "Cartesia provides streaming Text-to-Speech (TTS) with sub-100ms latency using state-space models.",
       "why_it_matters": "For voice agents requiring minimal latency, Cartesia offers lower response times than alternatives like ElevenLabs. It is the default choice when sub-100ms streaming TTS is a hard requirement.",
-      "last_verified": "2026-07-20",
+      "last_verified": "2026-08-25",
       "source": "seed",
       "added": "2026-04-27",
       "refined": "2026-08-21"
@@ -1205,7 +1205,7 @@
       "category": "mcp-tools",
       "summary": "A high-performance Model Context Protocol (MCP) server designed for indexing codebases into a persistent knowledge graph.",
       "why_it_matters": "It enables coding agents to quickly query entire codebases as context, significantly improving efficiency and reducing token costs for code-related tasks.",
-      "last_verified": "2026-07-19",
+      "last_verified": "2026-08-25",
       "source": "curator:2026-06-19-0742",
       "added": "2026-06-19"
     },
