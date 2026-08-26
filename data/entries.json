@@ -330,7 +330,26 @@
       "section": "Measure & Monitor",
       "name": "Evals, Benchmarks & Observability",
       "blurb": "Measure what your agents and models actually do. Public leaderboards and production observability.",
-      "intent": "I need to know if my AI works"
+      "intent": "I need to know if my AI works",
+      "guide": {
+        "body": "If you need to know if your AI works, start with Langfuse. It provides comprehensive open-source LLM observability, including traces, evals, and prompt management, with the option to self-host. This is the default for teams prioritizing data control or avoiding vendor lock-in, though it requires more operational overhead than a managed service. For production teams shipping LLM features, Braintrust offers similar logging and eval capabilities, excelling at diffing across runs to track prompt changes. Helicone and Logfire also provide managed observability, focusing on LLM call insights and debugging, respectively. These commercial options trade operational burden for less data control. If your primary concern is agent safety during development, RAMPART (Microsoft) provides a Pytest-native framework for red-teaming. For public model capability evaluations, Inspect (UK AISI) is the established standard. DeepEval integrates LLM evaluation directly into CI/CD, offering a Python-first experience with many metrics. Maxim AI unifies pre-production testing with production monitoring, covering the full quality lifecycle. Termi Protocol offers unique visual debugging for complex multi-agent systems, which traditional logs often obscure.",
+        "updated": "2026-08-26",
+        "model": "gemini:gemini-2.5-flash",
+        "covers": [
+          "Braintrust",
+          "DeepEval",
+          "DeepResearch-Bench",
+          "Helicone",
+          "Inspect (UK AISI)",
+          "Langfuse",
+          "Logfire (Pydantic)",
+          "Maxim AI",
+          "RAMPART (Microsoft)",
+          "Strix",
+          "Termi Protocol",
+          "Traceforce"
+        ]
+      }
     }
   ],
   "entries": [
