@@ -497,10 +497,11 @@
       "url": "https://langfuse.com/",
       "category": "evals",
       "summary": "Open-source LLM observability — traces, evals, prompts, self-hostable.",
-      "why_it_matters": "The default open-source pick for tracing agent runs. Self-host if your data can't leave the building.",
+      "why_it_matters": "This is the default open-source choice for LLM observability, offering full tracing, evals, and prompt management. Pick it over commercial options like Braintrust or Helicone if you require self-hosting or full data control.",
       "last_verified": "2026-08-19",
       "source": "seed",
-      "added": "2026-04-27"
+      "added": "2026-04-27",
+      "refined": "2026-08-26"
     },
     {
       "id": "pgvector",
