@@ -572,11 +572,11 @@
     {
       "id": "mcp-spec",
       "name": "Model Context Protocol",
-      "url": "https://modelcontextprotocol.io/docs/getting-started/intro",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro",
       "category": "mcp-tools",
       "summary": "Open standard for connecting LLMs to tools, data, and prompts. Now supported by Claude, ChatGPT, Cursor, and most agent frameworks.",
       "why_it_matters": "MCP won the 'how do agents talk to tools' debate. If you're building anything an agent needs to use, ship an MCP server.",
-      "last_verified": "2026-07-21",
+      "last_verified": "2026-08-26",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -587,7 +587,7 @@
       "category": "mcp-tools",
       "summary": "Registry and one-click installer for MCP servers — discover, install, and host MCP servers without local config.",
       "why_it_matters": "Choose Smithery for rapid deployment and managed hosting of MCP servers. Unlike Vercel Skills, which focuses on local CLI management, Smithery provides one-click installation and handles server hosting, reducing operational overhead.",
-      "last_verified": "2026-07-21",
+      "last_verified": "2026-08-26",
       "source": "seed",
       "added": "2026-04-27",
       "refined": "2026-08-23"
@@ -1548,7 +1548,7 @@
       "category": "app-builders",
       "summary": "PlugThis enables users to create custom Chrome extensions by describing desired functionality through natural language prompts.",
       "why_it_matters": "This tool democratizes browser customization, allowing non-developers to rapidly build and deploy utility-focused mini-applications without coding.",
-      "last_verified": "2026-07-20",
+      "last_verified": "2026-08-26",
       "source": "curator:2026-07-20-0830",
       "added": "2026-07-20"
     },
