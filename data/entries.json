@@ -15,8 +15,8 @@
       "blurb": "Agents and IDEs that read, write, and run your code. Where you reach when you want AI inside your editor.",
       "intent": "I want AI in my editor",
       "guide": {
-        "body": "For most developers wanting AI in their editor, start with GitHub Copilot. It integrates into existing IDEs, offers inline completions, chat, and multi-file agent capabilities, making it a low-friction addition to current workflows.\n\nIf you are willing to adopt a new IDE for a more integrated AI experience, Cursor is the dominant choice among AI builders, known for its diff review UX and strong agent loop. Zed AI offers a performance-first alternative if you prioritize speed and a Rust-native environment. Windsurf provides a similar agentic IDE experience to Cursor; choose based on UI preference.\n\nFor those who cannot send code to a third party or prefer a transparent, self-hosted solution, Aider is the open-source CLI pair-programmer and a field benchmark. Cline provides a similar open-source, autonomous agent for VS Code with explicit action approval, offering insight into the agent loop.\n\nA key trade-off is between the convenience of a fully integrated, often proprietary, solution like Cursor or Copilot, and the control and transparency offered by open-source, model-agnostic tools like Aider or Cline. The former abstracts away agent mechanics, while the latter requires more direct management but reveals the underlying process.",
-        "updated": "2026-08-09",
+        "body": "Most teams should start with GitHub Copilot. It integrates into existing IDEs, providing completions and basic chat, which covers the majority of daily coding tasks without requiring a workflow change. If you want a deeply integrated agentic experience that manages multi-file changes directly within your editor, Cursor is a solid choice. It's a VS Code fork, offering a more cohesive workflow than an add-on. Zed AI provides a similar agentic editor experience with a focus on performance and an open protocol, if Rust-native speed is critical. Windsurf also offers strong long-running task execution in an IDE. These three offer similar deep integration. For terminal-first agentic work, Aider is the open-source baseline; it's model-agnostic and git-native, suitable if you prefer CLI interaction or need to benchmark agents. If you require a transparent, auditable agent loop and cannot send code to a third party, Cline or OpenCode offer self-hosted, open-source options. Claude Code and Grok Build serve as reference implementations for sophisticated agentic systems, useful if you're building your own agent infrastructure. The trade-off is often between the convenience of an integrated, proprietary solution and the control, transparency, or self-hosting capabilities of open-source or CLI alternatives.",
+        "updated": "2026-08-27",
         "model": "gemini:gemini-2.5-flash",
         "covers": [
           "Aider",
@@ -25,13 +25,10 @@
           "Cline",
           "CodeWhale",
           "Codex CLI",
-          "Command Center",
           "Cursor",
           "GitHub Copilot",
           "Grok Build",
-          "Kilo Code",
           "OpenCode",
-          "Warp",
           "Windsurf",
           "Zed AI"
         ]
