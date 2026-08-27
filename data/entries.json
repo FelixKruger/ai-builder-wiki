@@ -369,11 +369,12 @@
       "name": "Cursor",
       "url": "https://cursor.com/",
       "category": "ai-coding",
-      "summary": "AI-first VS Code fork with Composer, Tab autocomplete, and a strong agent loop.",
-      "why_it_matters": "The dominant IDE among working AI builders in 2026 — diff review UX is the bar everyone else is chasing.",
+      "summary": "Cursor is a VS Code fork integrating AI features like chat, code generation, and agentic editing directly into the IDE.",
+      "why_it_matters": "Cursor provides a deeply integrated AI coding experience within a VS Code fork, unlike Copilot which is an add-on. Its strength is managing and reviewing multi-file changes, offering a more cohesive workflow than CLI agents like Aider.",
       "last_verified": "2026-08-27",
       "source": "seed",
-      "added": "2026-04-27"
+      "added": "2026-04-27",
+      "refined": "2026-08-27"
     },
     {
       "id": "windsurf",
