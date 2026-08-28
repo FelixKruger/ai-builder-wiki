@@ -5,7 +5,7 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Fri, 28 Aug 2026 01:20:55 +0000</lastBuildDate>
+<lastBuildDate>Fri, 28 Aug 2026 17:45:31 +0000</lastBuildDate>
 
 <item>
   <title>Speko</title>
@@ -13,6 +13,14 @@
   <guid isPermaLink="false">speko-2026-08-28</guid>
   <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Speko is an 'OpenRouter for Voice AI' platform, providing a unified API to access various voice AI models. — It simplifies integrating voice capabilities by offering a single interface to multiple providers, similar to how OpenRouter aggregates LLM APIs for developers.]]></description>
+</item>
+
+<item>
+  <title>NVIDIA Nemotron 3.5 Lightning</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#nvidia-nemotron-3-5-lightning</link>
+  <guid isPermaLink="false">nvidia-nemotron-3-5-lightning-2026-08-28</guid>
+  <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[NVIDIA Nemotron 3.5 Lightning is an open-weight 30B mixture-of-experts model optimized for high-volume, low-latency execution in long-running AI agents. — This model provides a cost-efficient and customizable open-weight solution for self-hosted inference, delivering faster output and agentic task completion for specialized workflows.]]></description>
 </item>
 
 <item>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">qwen-3-8-max-2026-08-09</guid>
   <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Alibaba released Qwen3.8-Max, a 2.4 trillion parameter open-weight multimodal AI model with a 1 million token context window. — This model significantly advances open-weight capabilities in coding, research, and visual intelligence, rivaling frontier models at a larger scale than previous Qwen iterations.]]></description>
-</item>
-
-<item>
-  <title>Tencent Hy3</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#tencent-hy3</link>
-  <guid isPermaLink="false">tencent-hy3-2026-08-09</guid>
-  <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Tencent's Hy3 is a 295 billion parameter open-source AI model designed for agentic workflows and long-context tasks. — Hy3 emphasizes practical deployment in real-world scenarios, outperforming models with more parameters in agent capabilities and achieving high task success rates in office applications.]]></description>
 </item>
 
 </channel>
