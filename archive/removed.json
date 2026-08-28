@@ -138,5 +138,12 @@
     "url": "https://lovable.dev/",
     "removed_at": "2026-08-22",
     "reason": "HTTP 403 during daily refresh"
+  },
+  {
+    "id": "windsurf",
+    "name": "Windsurf",
+    "url": "https://devin.ai/desktop",
+    "removed_at": "2026-08-28",
+    "reason": "HTTP 429 during daily refresh"
   }
 ]
