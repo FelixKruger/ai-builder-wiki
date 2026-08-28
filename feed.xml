@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Thu, 27 Aug 2026 16:53:37 +0000</lastBuildDate>
+<lastBuildDate>Fri, 28 Aug 2026 01:20:55 +0000</lastBuildDate>
+
+<item>
+  <title>Speko</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#speko</link>
+  <guid isPermaLink="false">speko-2026-08-28</guid>
+  <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Speko is an 'OpenRouter for Voice AI' platform, providing a unified API to access various voice AI models. — It simplifies integrating voice capabilities by offering a single interface to multiple providers, similar to how OpenRouter aggregates LLM APIs for developers.]]></description>
+</item>
 
 <item>
   <title>MoneyPrinterTurbo</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">tencent-hy3-2026-08-09</guid>
   <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Tencent's Hy3 is a 295 billion parameter open-source AI model designed for agentic workflows and long-context tasks. — Hy3 emphasizes practical deployment in real-world scenarios, outperforming models with more parameters in agent capabilities and achieving high task success rates in office applications.]]></description>
-</item>
-
-<item>
-  <title>Anydoc</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#anydoc</link>
-  <guid isPermaLink="false">anydoc-2026-08-09</guid>
-  <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Anydoc is a Rust tool with Node.js/Python bindings that converts diverse document formats into clean Markdown for AI. — Anydoc converts diverse internal documents (PDFs, DOCX) to clean Markdown for RAG. It solves the initial document parsing problem for existing corpuses, a step not handled by the web scrapers or vector databases in this section.]]></description>
 </item>
 
 </channel>
