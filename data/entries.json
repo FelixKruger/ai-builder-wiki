@@ -1848,6 +1848,17 @@
       "last_verified": "2026-08-28",
       "source": "curator:2026-08-28-0120",
       "added": "2026-08-28"
+    },
+    {
+      "id": "nvidia-nemotron-3-5-lightning",
+      "name": "NVIDIA Nemotron 3.5 Lightning",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
+      "category": "open-weights",
+      "summary": "NVIDIA Nemotron 3.5 Lightning is an open-weight 30B mixture-of-experts model optimized for high-volume, low-latency execution in long-running AI agents.",
+      "why_it_matters": "This model provides a cost-efficient and customizable open-weight solution for self-hosted inference, delivering faster output and agentic task completion for specialized workflows.",
+      "last_verified": "2026-08-28",
+      "source": "curator:2026-08-28-1744",
+      "added": "2026-08-28"
     }
   ]
 }
