@@ -374,17 +374,6 @@
       "refined": "2026-08-27"
     },
     {
-      "id": "windsurf",
-      "name": "Windsurf",
-      "url": "https://devin.ai/desktop",
-      "category": "ai-coding",
-      "summary": "Codeium's agentic IDE with Cascade — strong long-running task execution, now part of OpenAI.",
-      "why_it_matters": "Cascade pioneered the 'agent that keeps going across many turns' pattern; worth comparing against Cursor Composer for taste.",
-      "last_verified": "2026-07-23",
-      "source": "seed",
-      "added": "2026-04-27"
-    },
-    {
       "id": "aider",
       "name": "Aider",
       "url": "https://aider.chat/",
@@ -1234,7 +1223,7 @@
       "category": "open-weights",
       "summary": "Kimi K2.6 is an open-source, multimodal agentic model from Moonshot AI, excelling in long-horizon coding, coding-driven design, and orchestrating large agent swarms.",
       "why_it_matters": "This model pushes the boundaries for open-weight capabilities in complex, multi-step coding and agentic tasks, offering advanced features comparable to some closed-source frontier models.",
-      "last_verified": "2026-07-22",
+      "last_verified": "2026-08-28",
       "source": "curator:2026-06-21-0729",
       "added": "2026-06-21"
     },
@@ -1245,7 +1234,7 @@
       "category": "app-builders",
       "summary": "Whacka is a mobile-first AI app builder that generates functional progressive web apps from natural language prompts, enabling fast creation and sharing.",
       "why_it_matters": "Unlike many AI app builders that often target desktop workflows or larger enterprise applications, Whacka focuses on phone-native creation of small, focused utilities for rapid deployment and sharing.",
-      "last_verified": "2026-07-22",
+      "last_verified": "2026-08-28",
       "source": "curator:2026-06-21-0729",
       "added": "2026-06-21"
     },
