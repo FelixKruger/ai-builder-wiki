@@ -548,10 +548,11 @@
       "url": "https://bolt.new/",
       "category": "app-builders",
       "summary": "StackBlitz's in-browser full-stack agent — runs Node in WebContainers, no local setup.",
-      "why_it_matters": "When the friction of 'clone, install, run' is the bottleneck on idea velocity, Bolt removes it entirely.",
+      "why_it_matters": "Unlike tools like Atoms or v0, Bolt executes generated full-stack applications directly in your browser via WebContainers, removing local environment setup. This is useful for rapid prototyping or sandboxed development without host machine dependencies.",
       "last_verified": "2026-08-23",
       "source": "seed",
-      "added": "2026-04-27"
+      "added": "2026-04-27",
+      "refined": "2026-08-28"
     },
     {
       "id": "elevenlabs",
