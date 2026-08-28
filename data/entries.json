@@ -377,7 +377,7 @@
       "category": "ai-coding",
       "summary": "Open-source CLI pair-programmer — git-native, model-agnostic, and the benchmark for many leaderboards.",
       "why_it_matters": "The polyglot baseline. If you're benchmarking your own agent, Aider's leaderboards are where the field calibrates.",
-      "last_verified": "2026-07-24",
+      "last_verified": "2026-08-28",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -1001,7 +1001,7 @@
       "category": "ai-video",
       "summary": "Velo is an AI video creation platform that transforms raw screen recordings into polished, shareable video messages with automated scripts and AI avatars.",
       "why_it_matters": "It simplifies video production for demos and explainers by automating scriptwriting and avatar generation, reducing the need for extensive editing compared to traditional video tools.",
-      "last_verified": "2026-07-24",
+      "last_verified": "2026-08-28",
       "source": "curator:2026-05-31-0711",
       "added": "2026-05-31"
     },
@@ -1243,7 +1243,7 @@
       "category": "hosted-apis",
       "summary": "Anthropic released Claude Opus 4.8, its most capable publicly available model, offering improved performance in coding, agentic skills, and long-horizon reasoning.",
       "why_it_matters": "This model provides enhanced capabilities for complex tasks and agentic workflows, setting a new benchmark for frontier models available through the Claude API.",
-      "last_verified": "2026-07-23",
+      "last_verified": "2026-08-28",
       "source": "curator:2026-06-22-0746",
       "added": "2026-06-22"
     },
