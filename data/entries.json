@@ -1839,6 +1839,17 @@
       "last_verified": "2026-08-23",
       "source": "curator:2026-08-23-0617",
       "added": "2026-08-23"
+    },
+    {
+      "id": "speko",
+      "name": "Speko",
+      "url": "https://speko.ai/",
+      "category": "voice-audio",
+      "summary": "Speko is an 'OpenRouter for Voice AI' platform, providing a unified API to access various voice AI models.",
+      "why_it_matters": "It simplifies integrating voice capabilities by offering a single interface to multiple providers, similar to how OpenRouter aggregates LLM APIs for developers.",
+      "last_verified": "2026-08-28",
+      "source": "curator:2026-08-28-0120",
+      "added": "2026-08-28"
     }
   ]
 }
