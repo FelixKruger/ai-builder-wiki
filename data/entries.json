@@ -465,11 +465,12 @@
       "name": "Mastra",
       "url": "https://mastra.ai/",
       "category": "agent-frameworks",
-      "summary": "TypeScript-first agent framework — workflows, memory, evals, and a local dev playground.",
-      "why_it_matters": "The most ergonomic TS option in 2026 for builders who don't want to leave Node. Strong eval story baked in.",
+      "summary": "TypeScript-first agent framework with workflows, memory, evaluation, and a local dev playground.",
+      "why_it_matters": "For teams already committed to a Node.js/TypeScript stack, Mastra provides a more cohesive agent development environment than general frameworks like LlamaIndex TS or platform-specific options such as Google ADK. Its integrated evaluation tools simplify iteration compared to custom setups.",
       "last_verified": "2026-07-29",
       "source": "seed",
-      "added": "2026-04-27"
+      "added": "2026-04-27",
+      "refined": "2026-08-28"
     },
     {
       "id": "inspect",
