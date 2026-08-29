@@ -523,11 +523,12 @@
       "name": "turbopuffer",
       "url": "https://turbopuffer.com/",
       "category": "retrieval-search",
-      "summary": "Serverless vector + full-text search on object storage — pay per query, scales to billions of vectors.",
-      "why_it_matters": "When pgvector starts groaning and you don't want to babysit a Pinecone bill, turbopuffer is the 2026 sweet spot.",
+      "summary": "Serverless vector and full-text search built on object storage, scaling to billions of vectors.",
+      "why_it_matters": "When pgvector performance degrades under heavy load or large datasets, turbopuffer provides a serverless alternative. It eliminates the operational overhead of managing vector indexes within a database or a separate dedicated vector store.",
       "last_verified": "2026-08-20",
       "source": "seed",
-      "added": "2026-04-27"
+      "added": "2026-04-27",
+      "refined": "2026-08-29"
     },
     {
       "id": "v0",
