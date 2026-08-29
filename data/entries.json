@@ -421,7 +421,7 @@
       "category": "hosted-apis",
       "summary": "Gemini models offer 2M-token context, native multimodal capabilities, and integrated web grounding.",
       "why_it_matters": "For native video input or integrated web grounding without custom RAG, Gemini is the only option among these APIs. While its 2M-token context is substantial, SubQ offers a larger window.",
-      "last_verified": "2026-07-26",
+      "last_verified": "2026-08-29",
       "source": "seed",
       "added": "2026-04-27",
       "refined": "2026-08-29"
@@ -1577,7 +1577,7 @@
       "category": "agent-frameworks",
       "summary": "Bolna Agent Studio is a framework designed for quickly building and deploying voice AI agents.",
       "why_it_matters": "It streamlines the creation of voice-enabled agents, offering a specialized solution compared to general agent frameworks that require more manual audio integration.",
-      "last_verified": "2026-07-25",
+      "last_verified": "2026-08-29",
       "source": "curator:2026-07-25-0641",
       "added": "2026-07-25"
     },
@@ -1779,7 +1779,7 @@
       "category": "ai-coding",
       "summary": "Codex CLI is an open-source AI coding agent from OpenAI that operates directly within the terminal for code generation, bug fixes, and refactoring.",
       "why_it_matters": "It offers a lightweight, sandboxed alternative to full IDE integrations like Cursor, providing terminal-first AI assistance without leaving the command line.",
-      "last_verified": "2026-07-25",
+      "last_verified": "2026-08-29",
       "source": "curator:2026-07-25-0641",
       "added": "2026-07-25"
     },
