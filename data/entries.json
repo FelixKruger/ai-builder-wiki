@@ -1871,6 +1871,17 @@
       "last_verified": "2026-08-29",
       "source": "curator:2026-08-29-0052",
       "added": "2026-08-29"
+    },
+    {
+      "id": "kith",
+      "name": "Kith",
+      "url": "https://www.kith.space/",
+      "category": "voice-audio",
+      "summary": "Kith generates clinical notes for therapists using AI from ambient session audio.",
+      "why_it_matters": "This tool automates the laborious task of note-taking in clinical settings, streamlining workflows more efficiently than traditional transcription services.",
+      "last_verified": "2026-08-29",
+      "source": "curator:2026-08-29-1148",
+      "added": "2026-08-29"
     }
   ]
 }
