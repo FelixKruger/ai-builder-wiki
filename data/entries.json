@@ -86,8 +86,8 @@
       "blurb": "Generate a working full-stack app from a prompt. Prototype-to-production in minutes.",
       "intent": "I want a working app from a prompt",
       "guide": {
-        "body": "For a general \"working app from a prompt,\" Atoms is the most direct path. It aims to build, deploy, and scale full-stack applications from natural language, offering a complete workflow from idea to live product. If your goal is specifically a React/Next.js UI scaffold and you are a developer, v0 by Vercel provides high-fidelity output, but treat it as a fast starting point, not a finished application. For non-developers needing to validate a full-stack app idea quickly, Lovable offers a functional, Supabase-backed app with minimal friction. If your bottleneck is local setup for full-stack development, Bolt.new removes that entirely by running Node in WebContainers. For mobile-first progressive web apps, Whacka focuses on rapid creation and sharing of phone-native utilities. Developers defining backends in code for rapid deployment should consider Rayfin, which automates provisioning. PlugThis is for building Chrome extensions. Google Antigravity is for orchestrating autonomous AI agents, a niche most teams do not require for simple app generation. ChatGPT Work and Claude Cowork both automate tasks across documents and files; they are for content generation and task automation, not full application builds, and largely overlap in function.",
-        "updated": "2026-08-15",
+        "body": "If you want a working app from a prompt, **Atoms** is the default choice for most full-stack applications. It uses specialized AI agents to build, deploy, and scale from natural language descriptions, offering a complete workflow from idea to live product. However, if your goal is specifically a React/Next.js UI, **v0 by Vercel** provides high-fidelity scaffolding; understand it's a starting point, not a finished product, requiring developer iteration. For rapid full-stack prototyping without local environment setup, **Bolt.new** executes generated applications directly in your browser via WebContainers, but this sandboxed environment isn't for production deployments without additional steps. If you need a mobile-first progressive web app for small, focused utilities, **Whacka** is designed for phone-native creation and sharing. Tools like **ChatGPT Work** and **Claude Cowork** overlap significantly, focusing on automating tasks and generating content within existing knowledge-work applications rather than building standalone full-stack apps.",
+        "updated": "2026-08-29",
         "model": "gemini:gemini-2.5-flash",
         "covers": [
           "Artifacts by Databox",
@@ -96,7 +96,6 @@
           "ChatGPT Work",
           "Claude Cowork",
           "Google Antigravity",
-          "Lovable",
           "PlugThis",
           "Rayfin",
           "Whacka",
