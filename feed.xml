@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Fri, 28 Aug 2026 17:45:31 +0000</lastBuildDate>
+<lastBuildDate>Sat, 29 Aug 2026 00:53:47 +0000</lastBuildDate>
+
+<item>
+  <title>Archify</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#archify</link>
+  <guid isPermaLink="false">archify-2026-08-29</guid>
+  <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[An agent skill for generating verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams as self-contained HTML. — It allows AI coding agents to produce clear and verifiable visual documentation, which enhances the understanding and communication of complex AI-generated system designs.]]></description>
+</item>
 
 <item>
   <title>Speko</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">claude-opus-5-2026-08-09</guid>
   <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Anthropic's top-tier model for agentic coding, knowledge work, and visual understanding. — This is Anthropic's most capable model for complex production workflows and long-running agent tasks. It offers higher reliability and performance than Opus 4.8 for these demanding applications.]]></description>
-</item>
-
-<item>
-  <title>Qwen3.8-Max</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#qwen-3-8-max</link>
-  <guid isPermaLink="false">qwen-3-8-max-2026-08-09</guid>
-  <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Alibaba released Qwen3.8-Max, a 2.4 trillion parameter open-weight multimodal AI model with a 1 million token context window. — This model significantly advances open-weight capabilities in coding, research, and visual intelligence, rivaling frontier models at a larger scale than previous Qwen iterations.]]></description>
 </item>
 
 </channel>
