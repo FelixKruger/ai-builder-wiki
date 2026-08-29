@@ -388,7 +388,7 @@
       "category": "ai-coding",
       "summary": "Open-source autonomous coding agent for VS Code — plan/act modes, MCP support, BYO model.",
       "why_it_matters": "The transparent option: every action shown and approvable. Good for understanding how an agent loop actually works.",
-      "last_verified": "2026-07-25",
+      "last_verified": "2026-08-29",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -399,7 +399,7 @@
       "category": "hosted-apis",
       "summary": "Anthropic's API offers models with native tool use, prompt caching, extended thinking, file support, and citations.",
       "why_it_matters": "For long-running agentic workflows, Claude's native tool use and prompt caching offer a distinct advantage over OpenAI, particularly for reducing repeated prompt costs.",
-      "last_verified": "2026-07-25",
+      "last_verified": "2026-08-29",
       "source": "seed",
       "added": "2026-04-27",
       "refined": "2026-08-09"
@@ -411,7 +411,7 @@
       "category": "hosted-apis",
       "summary": "GPT-5 family, Realtime API, structured outputs, Responses API.",
       "why_it_matters": "Still the broadest ecosystem and the realtime voice baseline. Responses API is the cleanest agent primitive OpenAI ships.",
-      "last_verified": "2026-07-25",
+      "last_verified": "2026-08-29",
       "source": "seed",
       "added": "2026-04-27"
     },
