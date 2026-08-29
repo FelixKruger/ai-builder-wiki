@@ -420,11 +420,12 @@
       "name": "Gemini API (Google)",
       "url": "https://ai.google.dev/",
       "category": "hosted-apis",
-      "summary": "Gemini 2.5 Pro / Flash with 2M-token context, native multimodal, and grounding-with-Search.",
-      "why_it_matters": "If your workload is video, very-long-context, or needs fresh web grounding without your own RAG, start here.",
+      "summary": "Gemini models offer 2M-token context, native multimodal capabilities, and integrated web grounding.",
+      "why_it_matters": "For native video input or integrated web grounding without custom RAG, Gemini is the only option among these APIs. While its 2M-token context is substantial, SubQ offers a larger window.",
       "last_verified": "2026-07-26",
       "source": "seed",
-      "added": "2026-04-27"
+      "added": "2026-04-27",
+      "refined": "2026-08-29"
     },
     {
       "id": "openrouter",
