@@ -1860,6 +1860,17 @@
       "last_verified": "2026-08-28",
       "source": "curator:2026-08-28-1744",
       "added": "2026-08-28"
+    },
+    {
+      "id": "archify",
+      "name": "Archify",
+      "url": "https://github.com/tt-a1i/archify",
+      "category": "ai-design-skills",
+      "summary": "An agent skill for generating verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams as self-contained HTML.",
+      "why_it_matters": "It allows AI coding agents to produce clear and verifiable visual documentation, which enhances the understanding and communication of complex AI-generated system designs.",
+      "last_verified": "2026-08-29",
+      "source": "curator:2026-08-29-0052",
+      "added": "2026-08-29"
     }
   ]
 }
