@@ -375,10 +375,11 @@
       "url": "https://aider.chat/",
       "category": "ai-coding",
       "summary": "Open-source CLI pair-programmer — git-native, model-agnostic, and the benchmark for many leaderboards.",
-      "why_it_matters": "The polyglot baseline. If you're benchmarking your own agent, Aider's leaderboards are where the field calibrates.",
+      "why_it_matters": "Most other agents focus on direct coding assistance. Aider's primary value is as the open-source baseline for evaluating new coding agents, offering a transparent, git-native comparison point.",
       "last_verified": "2026-08-28",
       "source": "seed",
-      "added": "2026-04-27"
+      "added": "2026-04-27",
+      "refined": "2026-08-30"
     },
     {
       "id": "cline",
