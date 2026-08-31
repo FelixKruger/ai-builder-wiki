@@ -386,11 +386,12 @@
       "name": "Cline",
       "url": "https://cline.bot/",
       "category": "ai-coding",
-      "summary": "Open-source autonomous coding agent for VS Code — plan/act modes, MCP support, BYO model.",
-      "why_it_matters": "The transparent option: every action shown and approvable. Good for understanding how an agent loop actually works.",
+      "summary": "Cline is an open-source autonomous coding agent for VS Code, supporting plan/act modes, MCP, and BYO models.",
+      "why_it_matters": "Pick this over other agents like Grok Build or Aider if you require explicit approval for every agent action, not just high-level transparency. It's ideal for debugging agent behavior or learning agent loop mechanics.",
       "last_verified": "2026-08-29",
       "source": "seed",
-      "added": "2026-04-27"
+      "added": "2026-04-27",
+      "refined": "2026-08-31"
     },
     {
       "id": "claude-api",
