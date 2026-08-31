@@ -132,8 +132,8 @@
       "blurb": "Downloadable model families. Host yourself or run on any inference platform.",
       "intent": "I want a model I can run on my own hardware",
       "guide": {
-        "body": "For most applications requiring an open-weight model, start with DeepSeek V4-Flash. It delivers strong agentic performance and efficient long-context processing, making it a solid baseline. If your primary need is frontier-level reasoning for complex, multi-step coding or orchestrating large agent swarms, Kimi K3 is built for that. For sensitive long-horizon coding tasks, such as security forensics, where on-premise deployment is mandatory, GLM 5.2 provides a dedicated solution. If you need custom content moderation that adapts policies at inference time, Shieldstral is your only option. For integration with Google's tooling or deployment on consumer hardware, Gemma is the direct path. Qwen3.8-Max excels in non-English applications and offers a comprehensive multimodal suite. The main trade-off with any open-weight model is the operational overhead of managing your own infrastructure, which you exchange for full control over data and deployment. Kimi K3, Qwen3.8-Max, DeepSeek V4-Flash, GLM 5.2, and Tencent Hy3 all offer advanced long-context and agentic capabilities; there is significant overlap in their advertised strengths for these areas.",
-        "updated": "2026-08-17",
+        "body": "For most general-purpose applications, start with Mistral Medium 3.5. It offers a stable foundation without specializing in niche capabilities. If your application demands complex, multi-step coding or orchestrating agents, Kimi K3 or DeepSeek V4-Flash are strong contenders. Both provide advanced agentic capabilities and handle long context windows, though they largely overlap in this domain. For custom content moderation where you need to define policies with natural language and cannot send data to a third party, Shieldstral (Mistral) is the specific tool. If you are deeply integrated into the Google ecosystem and require first-party tooling, Gemma provides that path. The primary trade-off for any of these open-weight models is the operational overhead: you are responsible for provisioning and maintaining the compute infrastructure, which is a non-trivial investment compared to consuming an API.",
+        "updated": "2026-08-31",
         "model": "gemini:gemini-2.5-flash",
         "covers": [
           "DeepSeek",
@@ -143,6 +143,7 @@
           "Kimi K2.6",
           "Kimi K3",
           "Mistral Medium 3.5",
+          "NVIDIA Nemotron 3.5 Lightning",
           "Qwen",
           "Qwen3.8-Max",
           "Shieldstral (Mistral)",
