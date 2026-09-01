@@ -492,11 +492,12 @@
       "name": "Braintrust",
       "url": "https://www.braintrust.dev/",
       "category": "evals",
-      "summary": "Eval, logging, and prompt-playground stack used by many production AI teams.",
-      "why_it_matters": "The 'we ship LLM features and need to know if a prompt change broke things' tool — diffs across runs are first-class.",
+      "summary": "Braintrust is an evaluation, logging, and prompt-testing platform for LLM applications.",
+      "why_it_matters": "Its strength lies in first-class diffing and regression testing for prompt and model changes. This provides a more direct workflow for iterative development than general observability platforms like Langfuse or Helicone.",
       "last_verified": "2026-08-16",
       "source": "seed",
-      "added": "2026-04-27"
+      "added": "2026-04-27",
+      "refined": "2026-09-01"
     },
     {
       "id": "langfuse",
