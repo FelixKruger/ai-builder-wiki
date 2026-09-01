@@ -470,7 +470,7 @@
       "category": "agent-frameworks",
       "summary": "TypeScript-first agent framework with workflows, memory, evaluation, and a local dev playground.",
       "why_it_matters": "For teams already committed to a Node.js/TypeScript stack, Mastra provides a more cohesive agent development environment than general frameworks like LlamaIndex TS or platform-specific options such as Google ADK. Its integrated evaluation tools simplify iteration compared to custom setups.",
-      "last_verified": "2026-07-29",
+      "last_verified": "2026-09-01",
       "source": "seed",
       "added": "2026-04-27",
       "refined": "2026-08-28"
@@ -1603,7 +1603,7 @@
       "category": "multi-agent-coding",
       "summary": "AgentENV is a distributed platform for running and scaling agent environments, enabling the deployment of AI agents across various systems.",
       "why_it_matters": "It provides infrastructure for large-scale agent operations, addressing the challenge of deploying and managing multiple AI agents in complex, distributed settings.",
-      "last_verified": "2026-07-28",
+      "last_verified": "2026-09-01",
       "source": "curator:2026-07-28-0646",
       "added": "2026-07-28"
     },
@@ -1614,7 +1614,7 @@
       "category": "ai-coding",
       "summary": "Alibaba Open-Code-Review is a hybrid architecture tool combining deterministic pipelines with an LLM agent for precise code review comments.",
       "why_it_matters": "It enhances code quality and security by integrating AI-driven analysis with fine-tuned rulesets, offering an advanced solution beyond basic AI coding assistants.",
-      "last_verified": "2026-07-28",
+      "last_verified": "2026-09-01",
       "source": "curator:2026-07-28-0646",
       "added": "2026-07-28"
     },
