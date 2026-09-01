@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Mon, 31 Aug 2026 11:55:10 +0000</lastBuildDate>
+<lastBuildDate>Tue, 01 Sep 2026 10:35:27 +0000</lastBuildDate>
+
+<item>
+  <title>Scientific Agent Skills</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#scientific-agent-skills</link>
+  <guid isPermaLink="false">scientific-agent-skills-2026-09-01</guid>
+  <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[This GitHub repository provides a library of 163 pre-built research skills for AI agents, covering scientific domains like biology, chemistry, and medicine. — It offers a standardized and reusable collection of tools for agents in scientific research, addressing the need for specialized capabilities beyond general-purpose agent frameworks like LangGraph.]]></description>
+</item>
 
 <item>
   <title>Archify</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">airllm-2026-08-09</guid>
   <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[AirLLM is an open-source library for efficient LLM inference on consumer-grade GPUs. — Pick this over Ollama when you need an inference engine focused on maximizing throughput and memory efficiency on consumer-grade GPUs, rather than a general local model runner.]]></description>
-</item>
-
-<item>
-  <title>DeepSeek V4-Flash</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#deepseek-v4-flash</link>
-  <guid isPermaLink="false">deepseek-v4-flash-2026-08-09</guid>
-  <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[DeepSeek V4-Flash is an open-weight 284 billion parameter Mixture-of-Experts model, officially released for agentic capabilities and efficient long-context processing. — This model significantly improves agentic performance at a lower cost than larger models, making it a strong choice for agent builders and long-context pipelines.]]></description>
 </item>
 
 </channel>

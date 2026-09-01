@@ -49,6 +49,8 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Scientific Agent Skills](https://felixkruger.github.io/ai-builder-wiki/#scientific-agent-skills)** — This GitHub repository provides a library of 163 pre-built research skills for AI agents, covering scientific domains like biology, chemistry, and medicine. _(added 2026-09-01)_
+
 - **[Archify](https://felixkruger.github.io/ai-builder-wiki/#archify)** — An agent skill for generating verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams as self-contained HTML. _(added 2026-08-29)_
 
 - **[Kith](https://felixkruger.github.io/ai-builder-wiki/#kith)** — Kith generates clinical notes for therapists using AI from ambient session audio. _(added 2026-08-29)_
@@ -62,8 +64,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Semantica](https://felixkruger.github.io/ai-builder-wiki/#semantica)** — Semantica provides graph-native infrastructure for managing context and ensuring accountability in AI systems. _(added 2026-08-11)_
 
 - **[AirLLM](https://felixkruger.github.io/ai-builder-wiki/#airllm)** — AirLLM is an open-source library for efficient LLM inference on consumer-grade GPUs. _(added 2026-08-09)_
-
-- **[DeepSeek V4-Flash](https://felixkruger.github.io/ai-builder-wiki/#deepseek-v4-flash)** — DeepSeek V4-Flash is an open-weight 284 billion parameter Mixture-of-Experts model, officially released for agentic capabilities and efficient long-context processing. _(added 2026-08-09)_
 
 <!-- RECENTLY_ADDED:END -->
 
