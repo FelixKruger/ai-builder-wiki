@@ -1040,7 +1040,7 @@
       "category": "agent-memory",
       "summary": "CoreMem allows users to build and share portable collections of context, or 'mems,' with any AI agent via URL, extensions, or the Model Context Protocol.",
       "why_it_matters": "It provides a persistent and shareable memory layer, solving the problem of AI agents losing context across different sessions or when switching between various tools. This is crucial for building reliable and consistent agentic workflows.",
-      "last_verified": "2026-07-29",
+      "last_verified": "2026-09-02",
       "source": "curator:2026-06-02-0728",
       "added": "2026-06-02"
     },
@@ -1260,7 +1260,7 @@
       "category": "agent-frameworks",
       "summary": "Eve is an open-source TypeScript framework for building, deploying, and operating durable AI agents with a filesystem-first architecture.",
       "why_it_matters": "It offers a streamlined, Vercel-native approach to agent development, simplifying deployment and integrating core capabilities through a file-based structure, distinguishing it from general-purpose frameworks.",
-      "last_verified": "2026-07-29",
+      "last_verified": "2026-09-02",
       "source": "curator:2026-06-27-0657",
       "added": "2026-06-27"
     },
@@ -1626,7 +1626,7 @@
       "category": "app-builders",
       "summary": "Artifacts by Databox generates polished reports, slide decks, or interactive documents from live business data using an AI Analyst.",
       "why_it_matters": "It streamlines the creation of data-driven reports by turning AI analyst conversations into shareable documents, reducing manual dashboard building and analysis.",
-      "last_verified": "2026-07-29",
+      "last_verified": "2026-09-02",
       "source": "curator:2026-07-29-0648",
       "added": "2026-07-29"
     },
