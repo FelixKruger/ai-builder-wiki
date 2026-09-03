@@ -863,7 +863,7 @@
       "category": "voice-audio",
       "summary": "Suno v5 is an AI music generation tool that creates full-length tracks with human-like vocals across various genres.",
       "why_it_matters": "This tool allows creators to produce original, royalty-free music efficiently, providing a cost-effective alternative to traditional music production.",
-      "last_verified": "2026-07-30",
+      "last_verified": "2026-09-03",
       "source": "curator:2026-05-18-0634",
       "added": "2026-05-18"
     },
@@ -1051,7 +1051,7 @@
       "category": "app-builders",
       "summary": "An open-source SDK and CLI that enables developers and coding agents to define and deploy complete application backends in code.",
       "why_it_matters": "It simplifies backend development by automating database, authentication, and API provisioning, allowing rapid movement from prototype to production with enterprise-grade security on Microsoft Fabric.",
-      "last_verified": "2026-07-30",
+      "last_verified": "2026-09-03",
       "source": "curator:2026-06-03-0731",
       "added": "2026-06-03"
     },
@@ -1637,7 +1637,7 @@
       "category": "app-builders",
       "summary": "Claude Cowork is an agentic knowledge-work platform for web and mobile, enabling task delegation across documents, spreadsheets, and presentations.",
       "why_it_matters": "This product competes directly with ChatGPT Work by offering a mobile-first approach and Anthropic's Constitutional AI safety stack for enterprise productivity.",
-      "last_verified": "2026-07-29",
+      "last_verified": "2026-09-03",
       "source": "curator:2026-07-29-0648",
       "added": "2026-07-29"
     },
