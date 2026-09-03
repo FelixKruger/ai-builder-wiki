@@ -1898,6 +1898,17 @@
       "last_verified": "2026-09-01",
       "source": "curator:2026-09-01-1034",
       "added": "2026-09-01"
+    },
+    {
+      "id": "voicestudio",
+      "name": "VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "category": "voice-audio",
+      "summary": "VoiceStudio is an open-source, local-first platform offering voice cloning, design, video dubbing, dictation, transcription, and audiobook creation.",
+      "why_it_matters": "It provides a self-hosted and open-source alternative to commercial speech synthesis services like ElevenLabs, giving builders more control and flexibility over their audio generation workflows.",
+      "last_verified": "2026-09-03",
+      "source": "curator:2026-09-03-1010",
+      "added": "2026-09-03"
     }
   ]
 }
