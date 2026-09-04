@@ -145,5 +145,12 @@
     "url": "https://devin.ai/desktop",
     "removed_at": "2026-08-28",
     "reason": "HTTP 429 during daily refresh"
+  },
+  {
+    "id": "subq",
+    "name": "SubQ (by Subquadratic)",
+    "url": "https://subquadratic.com/",
+    "removed_at": "2026-09-04",
+    "reason": "HTTP 0 during daily refresh"
   }
 ]
