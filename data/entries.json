@@ -611,7 +611,7 @@
       "category": "agent-memory",
       "summary": "Open-source local AI memory system — stores conversation history as verbatim text with semantic retrieval.",
       "why_it_matters": "Hits 96.6% R@5 on LongMemEval with zero API calls. If you want agent memory that doesn't leak to a vendor, this is the open-source baseline.",
-      "last_verified": "2026-07-31",
+      "last_verified": "2026-09-05",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -622,7 +622,7 @@
       "category": "agent-memory",
       "summary": "Self-hosted shared memory database — lets multiple AI tools read and write one persistent memory without vendor lock-in.",
       "why_it_matters": "Bridges the memory silos: Claude, Cursor, and ChatGPT each have their own. OB1 is the memory backbone that unifies them.",
-      "last_verified": "2026-08-01",
+      "last_verified": "2026-09-05",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -1660,7 +1660,7 @@
       "category": "open-weights",
       "summary": "Mistral Medium 3.5 is an open-weight model family for general-purpose AI applications.",
       "why_it_matters": "This offers a general-purpose open-weight option. It serves as a stable alternative to specialized models like Kimi K2.6 or GLM 5.2 when your application does not require their specific long-horizon or agentic capabilities.",
-      "last_verified": "2026-07-31",
+      "last_verified": "2026-09-05",
       "source": "curator:2026-07-31-0653",
       "added": "2026-07-31",
       "refined": "2026-08-09"
