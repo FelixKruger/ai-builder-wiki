@@ -586,11 +586,11 @@
       "url": "https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro",
       "category": "mcp-tools",
       "summary": "An open standard for connecting LLMs to tools, data, and prompts.",
-      "why_it_matters": "MCP won the 'how do agents talk to tools' debate. If you're building anything an agent needs to use, ship an MCP server.",
+      "why_it_matters": "This is the de facto standard for agent-tool communication. It ensures interoperability with the broader agent ecosystem, a benefit custom or proprietary interfaces cannot offer.",
       "last_verified": "2026-08-26",
       "source": "seed",
       "added": "2026-04-27",
-      "refined": "2026-09-03"
+      "refined": "2026-09-05"
     },
     {
       "id": "smithery",
