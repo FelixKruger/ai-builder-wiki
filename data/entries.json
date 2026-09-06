@@ -621,10 +621,11 @@
       "url": "https://github.com/NateBJones-Projects/OB1",
       "category": "agent-memory",
       "summary": "Self-hosted shared memory database — lets multiple AI tools read and write one persistent memory without vendor lock-in.",
-      "why_it_matters": "Bridges the memory silos: Claude, Cursor, and ChatGPT each have their own. OB1 is the memory backbone that unifies them.",
+      "why_it_matters": "This offers a single, self-hosted memory store for multiple AI tools, unlike the siloed, tool-specific memory systems of providers like Claude or ChatGPT. Use this to unify context across disparate LLM interfaces and avoid vendor lock-in.",
       "last_verified": "2026-09-05",
       "source": "human:eriks",
-      "added": "2026-05-11"
+      "added": "2026-05-11",
+      "refined": "2026-09-06"
     },
     {
       "id": "you-com-api",
