@@ -656,7 +656,7 @@
       "category": "ai-coding",
       "summary": "Rust-native code editor with agentic editing, real-time collaboration, and the open Agent Client Protocol (ACP).",
       "why_it_matters": "The performance-first alternative to Cursor and Windsurf. 120 fps render, open prediction model (Zeta), and ACP make agent behavior auditable.",
-      "last_verified": "2026-08-03",
+      "last_verified": "2026-09-07",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -887,7 +887,7 @@
       "category": "multi-agent-coding",
       "summary": "OpenSwarm is an open-source multi-agent system that orchestrates specialized AI agents to create diverse deliverables from a single terminal prompt.",
       "why_it_matters": "Unlike single-agent coding tools, OpenSwarm coordinates multiple specialist agents for tasks beyond code, such as research, documents, and media generation.",
-      "last_verified": "2026-08-03",
+      "last_verified": "2026-09-07",
       "source": "curator:2026-05-19-0853",
       "added": "2026-05-19"
     },
@@ -1669,11 +1669,11 @@
     {
       "id": "kimi-k3",
       "name": "Kimi K3",
-      "url": "https://www.moonshot.ai",
+      "url": "https://www.moonshot.ai/",
       "category": "open-weights",
       "summary": "Moonshot AI released Kimi K3, a 2.8 trillion parameter multimodal Mixture-of-Experts model with a 1 million token context window.",
       "why_it_matters": "Kimi K3 offers reasoning and multimodal capabilities previously limited to closed-source models. Use it for complex coding and agentic tasks where an open-weight alternative to models like Claude Fable 5 is required.",
-      "last_verified": "2026-08-02",
+      "last_verified": "2026-09-07",
       "source": "curator:2026-08-02-0648",
       "added": "2026-08-02",
       "refined": "2026-08-20"
