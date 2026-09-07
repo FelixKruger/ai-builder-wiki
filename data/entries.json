@@ -632,11 +632,12 @@
       "name": "You.com Search API",
       "url": "https://you.com/home",
       "category": "retrieval-search",
-      "summary": "Web search API engineered for AI agents — 300ms p99 latency, real-time indexing across 10M+ news sources.",
+      "summary": "You.com provides a web search API with real-time indexing across 10M+ news sources.",
       "why_it_matters": "When you need fresh web grounding inside an agent and Tavily or Exa feels slow, You.com's latency is the differentiator.",
       "last_verified": "2026-09-06",
       "source": "human:eriks",
-      "added": "2026-05-11"
+      "added": "2026-05-11",
+      "refined": "2026-09-07"
     },
     {
       "id": "deepresearch-bench",
