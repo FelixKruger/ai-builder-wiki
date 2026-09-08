@@ -1912,6 +1912,17 @@
       "last_verified": "2026-09-03",
       "source": "curator:2026-09-03-1010",
       "added": "2026-09-03"
+    },
+    {
+      "id": "google-pics",
+      "name": "Google Pics",
+      "url": "https://accounts.google.com/v3/signin/identifier?continue=https://docs.google.com/images/u/0/create?usp%3Ddot_new&followup=https://docs.google.com/images/u/0/create?usp%3Ddot_new&ltmpl=pix&osid=1&passive=1209600&service=wise&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S185581107:1788862110811128",
+      "category": "ai-design-skills",
+      "summary": "Google Pics is a new AI tool for creating and editing images directly within Google Workspace using text prompts.",
+      "why_it_matters": "This tool provides prompt-based image generation and refinement integrated into productivity applications, offering an AI-first approach to design.",
+      "last_verified": "2026-09-08",
+      "source": "curator:2026-09-08-1007",
+      "added": "2026-09-08"
     }
   ]
 }
