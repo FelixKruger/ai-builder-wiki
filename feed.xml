@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Mon, 07 Sep 2026 10:48:08 +0000</lastBuildDate>
+<lastBuildDate>Tue, 08 Sep 2026 10:08:44 +0000</lastBuildDate>
+
+<item>
+  <title>Google Pics</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#google-pics</link>
+  <guid isPermaLink="false">google-pics-2026-09-08</guid>
+  <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Google Pics is a new AI tool for creating and editing images directly within Google Workspace using text prompts. — This tool provides prompt-based image generation and refinement integrated into productivity applications, offering an AI-first approach to design.]]></description>
+</item>
 
 <item>
   <title>VoiceStudio</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">nvidia-nemotron-3-5-lightning-2026-08-28</guid>
   <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[NVIDIA Nemotron 3.5 Lightning is an open-weight 30B mixture-of-experts model optimized for high-volume, low-latency execution in long-running AI agents. — This model provides a cost-efficient and customizable open-weight solution for self-hosted inference, delivering faster output and agentic task completion for specialized workflows.]]></description>
-</item>
-
-<item>
-  <title>MoneyPrinterTurbo</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#moneyprinter-turbo</link>
-  <guid isPermaLink="false">moneyprinter-turbo-2026-08-23</guid>
-  <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[A tool that generates high-definition short videos from a given topic or keyword using large AI models and automated workflows. — It offers a complete workflow for AI video creation, including native audio, which simplifies the process of producing high-quality video content compared to tools requiring separate audio integration.]]></description>
 </item>
 
 </channel>
