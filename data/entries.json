@@ -634,12 +634,12 @@
       "name": "You.com Search API",
       "url": "https://you.com/home",
       "category": "retrieval-search",
-      "summary": "You.com provides a web search API with real-time indexing across 10M+ news sources.",
-      "why_it_matters": "When you need fresh web grounding inside an agent and Tavily or Exa feels slow, You.com's latency is the differentiator.",
+      "summary": "You.com provides a web search API with real-time indexing of 10M+ news sources.",
+      "why_it_matters": "This is a general web search API. Unlike Browse.sh, Firecrawl, or Context.dev, it finds information across the open web, rather than extracting from specific URLs. Use it when an agent needs to query the internet broadly.",
       "last_verified": "2026-09-06",
       "source": "human:eriks",
       "added": "2026-05-11",
-      "refined": "2026-09-07"
+      "refined": "2026-09-09"
     },
     {
       "id": "deepresearch-bench",
