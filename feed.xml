@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Wed, 09 Sep 2026 10:11:33 +0000</lastBuildDate>
+<lastBuildDate>Thu, 10 Sep 2026 10:07:15 +0000</lastBuildDate>
+
+<item>
+  <title>Perplexity AI</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#perplexity-ai</link>
+  <guid isPermaLink="false">perplexity-ai-2026-09-10</guid>
+  <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Perplexity AI is a conversational answer engine that provides real-time cited search, advanced deep research, and connectors for live context from various applications. — It offers a comprehensive research platform with verifiable sources and the ability to integrate live data, distinguishing it from traditional search engines by focusing on actionable intelligence.]]></description>
+</item>
 
 <item>
   <title>Google Pics</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">speko-2026-08-28</guid>
   <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Speko is an 'OpenRouter for Voice AI' platform, providing a unified API to access various voice AI models. — It simplifies integrating voice capabilities by offering a single interface to multiple providers, similar to how OpenRouter aggregates LLM APIs for developers.]]></description>
-</item>
-
-<item>
-  <title>NVIDIA Nemotron 3.5 Lightning</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#nvidia-nemotron-3-5-lightning</link>
-  <guid isPermaLink="false">nvidia-nemotron-3-5-lightning-2026-08-28</guid>
-  <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[NVIDIA Nemotron 3.5 Lightning is an open-weight 30B mixture-of-experts model optimized for high-volume, low-latency execution in long-running AI agents. — This model provides a cost-efficient and customizable open-weight solution for self-hosted inference, delivering faster output and agentic task completion for specialized workflows.]]></description>
 </item>
 
 </channel>
