@@ -49,6 +49,8 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Perplexity AI](https://felixkruger.github.io/ai-builder-wiki/#perplexity-ai)** — Perplexity AI is a conversational answer engine that provides real-time cited search, advanced deep research, and connectors for live context from various applications. _(added 2026-09-10)_
+
 - **[Google Pics](https://felixkruger.github.io/ai-builder-wiki/#google-pics)** — Google Pics is a new AI tool for creating and editing images directly within Google Workspace using text prompts. _(added 2026-09-08)_
 
 - **[VoiceStudio](https://felixkruger.github.io/ai-builder-wiki/#voicestudio)** — VoiceStudio is an open-source, local-first platform offering voice cloning, design, video dubbing, dictation, transcription, and audiobook creation. _(added 2026-09-03)_
@@ -62,8 +64,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Kith](https://felixkruger.github.io/ai-builder-wiki/#kith)** — Kith generates clinical notes for therapists using AI from ambient session audio. _(added 2026-08-29)_
 
 - **[Speko](https://felixkruger.github.io/ai-builder-wiki/#speko)** — Speko is an 'OpenRouter for Voice AI' platform, providing a unified API to access various voice AI models. _(added 2026-08-28)_
-
-- **[NVIDIA Nemotron 3.5 Lightning](https://felixkruger.github.io/ai-builder-wiki/#nvidia-nemotron-3-5-lightning)** — NVIDIA Nemotron 3.5 Lightning is an open-weight 30B mixture-of-experts model optimized for high-volume, low-latency execution in long-running AI agents. _(added 2026-08-28)_
 
 <!-- RECENTLY_ADDED:END -->
 
