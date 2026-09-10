@@ -416,11 +416,12 @@
       "name": "OpenAI API",
       "url": "https://developers.openai.com/api/docs",
       "category": "hosted-apis",
-      "summary": "GPT-5 family, Realtime API, structured outputs, Responses API.",
-      "why_it_matters": "Still the broadest ecosystem and the realtime voice baseline. Responses API is the cleanest agent primitive OpenAI ships.",
+      "summary": "OpenAI API provides access to their language models, supporting structured outputs and agentic primitives.",
+      "why_it_matters": "It is the default choice for general-purpose language model integration. Its broad ecosystem and tooling simplify development compared to newer alternatives.",
       "last_verified": "2026-08-29",
       "source": "seed",
-      "added": "2026-04-27"
+      "added": "2026-04-27",
+      "refined": "2026-09-10"
     },
     {
       "id": "gemini-api",
