@@ -152,5 +152,12 @@
     "url": "https://subquadratic.com/",
     "removed_at": "2026-09-04",
     "reason": "HTTP 0 during daily refresh"
+  },
+  {
+    "id": "hermes-agent",
+    "name": "Hermes Agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "removed_at": "2026-09-10",
+    "reason": "HTTP 0 during daily refresh"
   }
 ]
