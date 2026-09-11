@@ -522,11 +522,12 @@
       "name": "pgvector",
       "url": "https://github.com/pgvector/pgvector",
       "category": "retrieval-search",
-      "summary": "Vector similarity search inside Postgres. HNSW + IVFFlat indexes, just another column type.",
-      "why_it_matters": "The boring-tech RAG stack: keep your embeddings next to your relational data. Most apps don't need a dedicated vector DB.",
+      "summary": "pgvector adds vector similarity search to PostgreSQL, supporting HNSW and IVFFlat indexes as a column type.",
+      "why_it_matters": "Use pgvector when you already run PostgreSQL and want to avoid the operational overhead of a separate vector database. It simplifies your stack by co-locating embeddings with existing relational data, unlike dedicated vector stores like turbopuffer.",
       "last_verified": "2026-08-19",
       "source": "seed",
-      "added": "2026-04-27"
+      "added": "2026-04-27",
+      "refined": "2026-09-11"
     },
     {
       "id": "turbopuffer",
