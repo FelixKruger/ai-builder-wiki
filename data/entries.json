@@ -441,10 +441,11 @@
       "url": "https://openrouter.ai/",
       "category": "inference-platforms",
       "summary": "Single API for hundreds of models with automatic failover and unified billing.",
-      "why_it_matters": "The pragmatic abstraction layer when you don't want to hard-code one provider. Useful for model A/B and graceful fallback.",
+      "why_it_matters": "This is a managed API gateway for abstracting multiple model providers, simplifying provider switching, A/B testing, and automatic failover. Its unified billing is a key differentiator from direct API integrations or self-hosted proxies like OmniRoute.",
       "last_verified": "2026-08-31",
       "source": "seed",
-      "added": "2026-04-27"
+      "added": "2026-04-27",
+      "refined": "2026-09-12"
     },
     {
       "id": "claude-agent-sdk",
