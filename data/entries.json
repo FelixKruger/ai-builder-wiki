@@ -731,7 +731,7 @@
       "category": "ai-video",
       "summary": "React-based framework for creating videos programmatically using CSS, Canvas, SVG, and WebGL.",
       "why_it_matters": "The most mature programmatic-video stack. Treat video as a React app, render in CI. Source-available — commercial use needs a license.",
-      "last_verified": "2026-08-08",
+      "last_verified": "2026-09-13",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -742,7 +742,7 @@
       "category": "ai-3d",
       "summary": "Text, image, or sketch to production-ready 3D assets — texturing, rigging, and animation in one workflow.",
       "why_it_matters": "The all-in-one 3D generator for game, AR, and product pipelines. Beats single-feature competitors when you need riggable output, not just a mesh.",
-      "last_verified": "2026-08-08",
+      "last_verified": "2026-09-13",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -1705,7 +1705,7 @@
       "category": "inference-platforms",
       "summary": "SiliconFlow is an AI cloud platform designed for running, customizing, and scaling large language models and multimodal models with high reliability and managed infrastructure.",
       "why_it_matters": "It provides optimized inference, a simple fine-tuning pipeline, and fully managed deployment, offering a specialized alternative to general cloud providers for hosting open-weight models in production.",
-      "last_verified": "2026-08-07",
+      "last_verified": "2026-09-13",
       "source": "curator:2026-08-07-0655",
       "added": "2026-08-07"
     },
