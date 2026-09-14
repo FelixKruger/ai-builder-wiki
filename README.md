@@ -49,6 +49,10 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[OpenHands](https://felixkruger.github.io/ai-builder-wiki/#openhands)** — OpenHands is an open-source framework for AI-driven development that enables large language models to assist with coding tasks and project management. _(added 2026-09-14)_
+
+- **[Taste-Skill](https://felixkruger.github.io/ai-builder-wiki/#taste-skill)** — Taste-Skill is a GitHub project providing a skill registry and prompt set to enhance the aesthetic quality and originality of AI-generated design and frontend code. _(added 2026-09-14)_
+
 - **[Perplexity AI](https://felixkruger.github.io/ai-builder-wiki/#perplexity-ai)** — Perplexity AI is a conversational answer engine that provides real-time cited search, advanced deep research, and connectors for live context from various applications. _(added 2026-09-10)_
 
 - **[Google Pics](https://felixkruger.github.io/ai-builder-wiki/#google-pics)** — Google Pics is a new AI tool for creating and editing images directly within Google Workspace using text prompts. _(added 2026-09-08)_
@@ -60,10 +64,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Scientific Agent Skills](https://felixkruger.github.io/ai-builder-wiki/#scientific-agent-skills)** — This GitHub repository provides a library of 163 pre-built research skills for AI agents, covering scientific domains like biology, chemistry, and medicine. _(added 2026-09-01)_
 
 - **[Archify](https://felixkruger.github.io/ai-builder-wiki/#archify)** — An agent skill for generating verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams as self-contained HTML. _(added 2026-08-29)_
-
-- **[Kith](https://felixkruger.github.io/ai-builder-wiki/#kith)** — Kith generates clinical notes for therapists using AI from ambient session audio. _(added 2026-08-29)_
-
-- **[Speko](https://felixkruger.github.io/ai-builder-wiki/#speko)** — Speko is an 'OpenRouter for Voice AI' platform, providing a unified API to access various voice AI models. _(added 2026-08-28)_
 
 <!-- RECENTLY_ADDED:END -->
 
