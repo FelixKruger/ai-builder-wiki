@@ -697,10 +697,11 @@
       "url": "https://github.com/mattpocock/sandcastle",
       "category": "multi-agent-coding",
       "summary": "TypeScript library by Matt Pocock for orchestrating AI coding agents in isolated sandboxes — one function call handles lifecycle and branch merging.",
-      "why_it_matters": "If you're building a product that spawns coding agents, Sandcastle removes the boilerplate around containers and merge UX.",
+      "why_it_matters": "Sandcastle removes boilerplate for managing isolated execution environments and Git branch merging when AI agents write code. Other multi-agent frameworks require you to build this code integration lifecycle yourself.",
       "last_verified": "2026-09-10",
       "source": "human:eriks",
-      "added": "2026-05-11"
+      "added": "2026-05-11",
+      "refined": "2026-09-14"
     },
     {
       "id": "taalas",
