@@ -1942,6 +1942,17 @@
       "last_verified": "2026-09-14",
       "source": "curator:2026-09-14-1101",
       "added": "2026-09-14"
+    },
+    {
+      "id": "taste-skill",
+      "name": "Taste-Skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "category": "ai-design-skills",
+      "summary": "Taste-Skill is a GitHub project providing a skill registry and prompt set to enhance the aesthetic quality and originality of AI-generated design and frontend code.",
+      "why_it_matters": "This tool helps address the common problem of generic AI outputs in design by offering structured guidance, allowing AI agents to produce more visually appealing results beyond basic design system prompts.",
+      "last_verified": "2026-09-14",
+      "source": "curator:2026-09-14-1101",
+      "added": "2026-09-14"
     }
   ]
 }
