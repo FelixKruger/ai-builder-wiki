@@ -1931,6 +1931,17 @@
       "last_verified": "2026-09-10",
       "source": "curator:2026-09-10-1005",
       "added": "2026-09-10"
+    },
+    {
+      "id": "openhands",
+      "name": "OpenHands",
+      "url": "https://github.com/OpenHands/OpenHands",
+      "category": "ai-coding",
+      "summary": "OpenHands is an open-source framework for AI-driven development that enables large language models to assist with coding tasks and project management.",
+      "why_it_matters": "It allows developers to integrate autonomous AI agents directly into their software development workflows, offering a more active and comprehensive approach compared to traditional AI coding assistants.",
+      "last_verified": "2026-09-14",
+      "source": "curator:2026-09-14-1101",
+      "added": "2026-09-14"
     }
   ]
 }
