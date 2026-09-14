@@ -5,7 +5,23 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Sun, 13 Sep 2026 10:43:25 +0000</lastBuildDate>
+<lastBuildDate>Mon, 14 Sep 2026 11:01:53 +0000</lastBuildDate>
+
+<item>
+  <title>OpenHands</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#openhands</link>
+  <guid isPermaLink="false">openhands-2026-09-14</guid>
+  <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[OpenHands is an open-source framework for AI-driven development that enables large language models to assist with coding tasks and project management. — It allows developers to integrate autonomous AI agents directly into their software development workflows, offering a more active and comprehensive approach compared to traditional AI coding assistants.]]></description>
+</item>
+
+<item>
+  <title>Taste-Skill</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#taste-skill</link>
+  <guid isPermaLink="false">taste-skill-2026-09-14</guid>
+  <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Taste-Skill is a GitHub project providing a skill registry and prompt set to enhance the aesthetic quality and originality of AI-generated design and frontend code. — This tool helps address the common problem of generic AI outputs in design by offering structured guidance, allowing AI agents to produce more visually appealing results beyond basic design system prompts.]]></description>
+</item>
 
 <item>
   <title>Perplexity AI</title>
@@ -53,22 +69,6 @@
   <guid isPermaLink="false">archify-2026-08-29</guid>
   <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[An agent skill for generating verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams as self-contained HTML. — It allows AI coding agents to produce clear and verifiable visual documentation, which enhances the understanding and communication of complex AI-generated system designs.]]></description>
-</item>
-
-<item>
-  <title>Kith</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#kith</link>
-  <guid isPermaLink="false">kith-2026-08-29</guid>
-  <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Kith generates clinical notes for therapists using AI from ambient session audio. — This tool automates the laborious task of note-taking in clinical settings, streamlining workflows more efficiently than traditional transcription services.]]></description>
-</item>
-
-<item>
-  <title>Speko</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#speko</link>
-  <guid isPermaLink="false">speko-2026-08-28</guid>
-  <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Speko is an 'OpenRouter for Voice AI' platform, providing a unified API to access various voice AI models. — It simplifies integrating voice capabilities by offering a single interface to multiple providers, similar to how OpenRouter aggregates LLM APIs for developers.]]></description>
 </item>
 
 </channel>
