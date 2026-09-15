@@ -15,8 +15,8 @@
       "blurb": "Agents and IDEs that read, write, and run your code. Where you reach when you want AI inside your editor.",
       "intent": "I want AI in my editor",
       "guide": {
-        "body": "Most teams should start with GitHub Copilot. It integrates into existing IDEs, providing completions and basic chat, which covers the majority of daily coding tasks without requiring a workflow change. If you want a deeply integrated agentic experience that manages multi-file changes directly within your editor, Cursor is a solid choice. It's a VS Code fork, offering a more cohesive workflow than an add-on. Zed AI provides a similar agentic editor experience with a focus on performance and an open protocol, if Rust-native speed is critical. Windsurf also offers strong long-running task execution in an IDE. These three offer similar deep integration. For terminal-first agentic work, Aider is the open-source baseline; it's model-agnostic and git-native, suitable if you prefer CLI interaction or need to benchmark agents. If you require a transparent, auditable agent loop and cannot send code to a third party, Cline or OpenCode offer self-hosted, open-source options. Claude Code and Grok Build serve as reference implementations for sophisticated agentic systems, useful if you're building your own agent infrastructure. The trade-off is often between the convenience of an integrated, proprietary solution and the control, transparency, or self-hosting capabilities of open-source or CLI alternatives.",
-        "updated": "2026-08-27",
+        "body": "GitHub Copilot is the default for most teams, integrating into existing IDEs for inline completions and chat without forcing a workflow change. If you need a deeply integrated AI experience within a VS Code-like environment for multi-file changes, Cursor is the direct alternative, offering a more cohesive workflow than Copilot’s agent mode. For those prioritizing performance and an open agent protocol, Zed AI provides a Rust-native editor with agentic editing. If you require a terminal-native, model-agnostic agent for experimenting or evaluating new models, Aider is the open-source baseline. Cline offers explicit approval for every agent action, crucial for debugging agent behavior. If your organization cannot send code to third parties, OpenCode provides a self-hosted, terminal-based option. Claude Code and Grok Build are reference implementations for studying agent construction. Codex CLI, CodeWhale, and OpenHands largely overlap with Aider and Grok Build in offering terminal-based or open-source agentic coding. The trade-off for deep integration is often less transparency into the agent's decision-making compared to CLI agents where you directly observe and approve steps.",
+        "updated": "2026-09-15",
         "model": "gemini:gemini-2.5-flash",
         "covers": [
           "Aider",
@@ -29,7 +29,7 @@
           "GitHub Copilot",
           "Grok Build",
           "OpenCode",
-          "Windsurf",
+          "OpenHands",
           "Zed AI"
         ]
       }
