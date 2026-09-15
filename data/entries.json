@@ -765,7 +765,7 @@
       "category": "ai-design-skills",
       "summary": "Design skill for Claude Code, Cursor, and Gemini CLI — 23 commands to push AI-generated UIs past generic defaults.",
       "why_it_matters": "Most AI-built UIs look the same because the agents lack design vocabulary. Impeccable installs that vocabulary as a reusable skill.",
-      "last_verified": "2026-08-09",
+      "last_verified": "2026-09-15",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -776,7 +776,7 @@
       "category": "ai-design-skills",
       "summary": "Public gist of a Claude system prompt for design and prototyping — HTML artifacts, design systems, animation, asset verification.",
       "why_it_matters": "A worked example of turning a coding agent into a design partner. Steal the structure for your own design skill or compare to Impeccable.",
-      "last_verified": "2026-08-09",
+      "last_verified": "2026-09-15",
       "source": "human:eriks",
       "added": "2026-05-11"
     },
@@ -787,7 +787,7 @@
       "category": "open-weights",
       "summary": "Chinese AI lab shipping open-weight LLMs (R1, V3, V4-preview, Coder V2) with strong reasoning and aggressive pricing.",
       "why_it_matters": "When Claude or GPT's API bill bites, DeepSeek is the open-weight escape hatch with competitive reasoning. Frequently profiled by The AI Search.",
-      "last_verified": "2026-08-09",
+      "last_verified": "2026-09-15",
       "source": "human:eriks+youtube:theAIsearch",
       "added": "2026-05-11"
     },
