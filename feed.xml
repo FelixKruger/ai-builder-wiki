@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Mon, 14 Sep 2026 11:01:53 +0000</lastBuildDate>
+<lastBuildDate>Tue, 15 Sep 2026 10:32:06 +0000</lastBuildDate>
+
+<item>
+  <title>GPT-6 Astra</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#gpt-6-astra</link>
+  <guid isPermaLink="false">gpt-6-astra-2026-09-15</guid>
+  <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[OpenAI's flagship model for general-purpose tasks, accessible via API and ChatGPT. — This is OpenAI's current top-tier model. It offers improved performance over GPT-5.6 Sol for complex reasoning and multi-step tasks.]]></description>
+</item>
 
 <item>
   <title>OpenHands</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">scientific-agent-skills-2026-09-01</guid>
   <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[This GitHub repository provides a library of 163 pre-built research skills for AI agents, covering scientific domains like biology, chemistry, and medicine. — It offers a standardized and reusable collection of tools for agents in scientific research, addressing the need for specialized capabilities beyond general-purpose agent frameworks like LangGraph.]]></description>
-</item>
-
-<item>
-  <title>Archify</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#archify</link>
-  <guid isPermaLink="false">archify-2026-08-29</guid>
-  <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[An agent skill for generating verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams as self-contained HTML. — It allows AI coding agents to produce clear and verifiable visual documentation, which enhances the understanding and communication of complex AI-generated system designs.]]></description>
 </item>
 
 </channel>
