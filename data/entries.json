@@ -1960,11 +1960,12 @@
       "name": "GPT-6 Astra",
       "url": "https://openai.com/index/gpt-6-astra/",
       "category": "hosted-apis",
-      "summary": "OpenAI's latest flagship model, GPT-6 Astra, offers major advancements in computer use, coding, scientific research, and professional tasks, accessible via API and ChatGPT Work.",
-      "why_it_matters": "Astra achieves state-of-the-art performance on various benchmarks, including reaching a \"Critical cybersecurity capability threshold,\" and significantly outperforms previous models like GPT-5.6 Sol at lower costs.",
+      "summary": "OpenAI's flagship model for general-purpose tasks, accessible via API and ChatGPT.",
+      "why_it_matters": "This is OpenAI's current top-tier model. It offers improved performance over GPT-5.6 Sol for complex reasoning and multi-step tasks.",
       "last_verified": "2026-09-15",
       "source": "curator:2026-09-15-1031",
-      "added": "2026-09-15"
+      "added": "2026-09-15",
+      "refined": "2026-09-15"
     }
   ]
 }
