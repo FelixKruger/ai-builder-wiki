@@ -49,6 +49,8 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[GPT-6 Astra](https://felixkruger.github.io/ai-builder-wiki/#gpt-6-astra)** — OpenAI's flagship model for general-purpose tasks, accessible via API and ChatGPT. _(added 2026-09-15)_
+
 - **[OpenHands](https://felixkruger.github.io/ai-builder-wiki/#openhands)** — OpenHands is an open-source framework for AI-driven development that enables large language models to assist with coding tasks and project management. _(added 2026-09-14)_
 
 - **[Taste-Skill](https://felixkruger.github.io/ai-builder-wiki/#taste-skill)** — Taste-Skill is a GitHub project providing a skill registry and prompt set to enhance the aesthetic quality and originality of AI-generated design and frontend code. _(added 2026-09-14)_
@@ -62,8 +64,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Utopia](https://felixkruger.github.io/ai-builder-wiki/#utopia)** — Utopia is a local-first, agent-assisted workbench that transforms documents into ontologies for structured knowledge representation. _(added 2026-09-03)_
 
 - **[Scientific Agent Skills](https://felixkruger.github.io/ai-builder-wiki/#scientific-agent-skills)** — This GitHub repository provides a library of 163 pre-built research skills for AI agents, covering scientific domains like biology, chemistry, and medicine. _(added 2026-09-01)_
-
-- **[Archify](https://felixkruger.github.io/ai-builder-wiki/#archify)** — An agent skill for generating verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams as self-contained HTML. _(added 2026-08-29)_
 
 <!-- RECENTLY_ADDED:END -->
 
