@@ -941,10 +941,11 @@
       "url": "https://github.com/Hmbown/CodeWhale",
       "category": "ai-coding",
       "summary": "CodeWhale is a terminal-based AI coding agent designed for DeepSeek models, engineered for prefix-cache stability.",
-      "why_it_matters": "It provides a specialized coding agent optimized for DeepSeek models, offering a stable terminal experience for developers.",
+      "why_it_matters": "Choose CodeWhale if you specifically use DeepSeek models. Its prefix-cache stability provides more consistent performance with DeepSeek than general-purpose agents like Aider or OpenCode, especially for iterative coding tasks in the terminal.",
       "last_verified": "2026-08-16",
       "source": "curator:2026-05-26-0703",
-      "added": "2026-05-26"
+      "added": "2026-05-26",
+      "refined": "2026-09-16"
     },
     {
       "id": "open-design",
