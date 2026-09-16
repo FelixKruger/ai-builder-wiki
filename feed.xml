@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Tue, 15 Sep 2026 10:32:06 +0000</lastBuildDate>
+<lastBuildDate>Wed, 16 Sep 2026 03:29:41 +0000</lastBuildDate>
+
+<item>
+  <title>YYLO</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#yylo</link>
+  <guid isPermaLink="false">yylo-2026-09-16</guid>
+  <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Open-source CLI that orchestrates AI coding agents through typed task, worktree, and merge lifecycles, with watch receipts and a live terminal agent session. — Where Conductor wraps agent fleets in a Mac app and Sandcastle is a library you embed, YYLO keeps the whole loop in the terminal. Every task runs in its own git worktree, ends at a typed merge boundary, and emits machine-readable watch receipts — MIT-licensed and BYOK, with provider credentials staying external.]]></description>
+</item>
 
 <item>
   <title>GPT-6 Astra</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">utopia-2026-09-03</guid>
   <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Utopia is a local-first, agent-assisted workbench that transforms documents into ontologies for structured knowledge representation. — It enables agents to build and query structured knowledge graphs from unstructured documents, enhancing their long-term memory and reasoning capabilities within the Model Context Protocol ecosystem.]]></description>
-</item>
-
-<item>
-  <title>Scientific Agent Skills</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#scientific-agent-skills</link>
-  <guid isPermaLink="false">scientific-agent-skills-2026-09-01</guid>
-  <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[This GitHub repository provides a library of 163 pre-built research skills for AI agents, covering scientific domains like biology, chemistry, and medicine. — It offers a standardized and reusable collection of tools for agents in scientific research, addressing the need for specialized capabilities beyond general-purpose agent frameworks like LangGraph.]]></description>
 </item>
 
 </channel>
