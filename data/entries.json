@@ -1966,6 +1966,17 @@
       "source": "curator:2026-09-15-1031",
       "added": "2026-09-15",
       "refined": "2026-09-15"
+    },
+    {
+      "id": "yylo",
+      "name": "YYLO",
+      "url": "https://www.yylo.dev/",
+      "category": "multi-agent-coding",
+      "summary": "Open-source CLI that orchestrates AI coding agents through typed task, worktree, and merge lifecycles, with watch receipts and a live terminal agent session.",
+      "why_it_matters": "Where Conductor wraps agent fleets in a Mac app and Sandcastle is a library you embed, YYLO keeps the whole loop in the terminal. Every task runs in its own git worktree, ends at a typed merge boundary, and emits machine-readable watch receipts — MIT-licensed and BYOK, with provider credentials staying external.",
+      "last_verified": "2026-09-16",
+      "source": "human:InsightFactoryAPP",
+      "added": "2026-09-16"
     }
   ]
 }
