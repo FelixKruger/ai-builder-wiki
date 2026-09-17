@@ -67,15 +67,18 @@
       "blurb": "Reusable skills and prompts that teach coding agents about visual design.",
       "intent": "I want my AI-built UIs to stop looking generic",
       "guide": {
-        "body": "To stop AI-built UIs from looking generic, start with Impeccable. It installs a specific design vocabulary directly into common coding agents like Claude Code or Cursor, addressing the core issue of agents lacking design context. If your requirements prohibit sending code to third parties or demand a local-first solution, Open Design is the alternative. It provides similar skill sets but operates entirely on your infrastructure. For teams focused on understanding the mechanics of building such a skill, or adapting one extensively, the Claude Design System Prompt offers a direct example of structuring a design skill. This allows you to dissect its structure and apply it to your own agent. Consider Astryx (Meta) if your primary goal is to enforce a consistent design language across AI-generated UIs, rather than just avoiding generic outputs. It provides a structured component library for agents to reference. The trade-off for open-source options like Open Design or Astryx is the increased integration effort required compared to a pre-packaged skill like Impeccable. Hallmark offers a similar goal to Impeccable in eliminating generic outputs, but as an open-source skill, it requires more setup.",
-        "updated": "2026-08-28",
+        "body": "To stop AI-built UIs from looking generic, most teams should start with Impeccable. It provides a direct skill set for common coding agents like Claude, Cursor, and Gemini CLI, specifically designed to push past default outputs. If your operational constraints prevent sending code to external services, Open Design offers a local-first, open-source alternative for generating prototypes and media. For teams building their own agent skills or refining existing ones, the Claude Design System Prompt provides a valuable reference. It's a worked example of a system prompt, useful for understanding how to structure design-focused instructions or for comparing against commercial skills like Impeccable. Hallmark and Taste-Skill address the same core problem as Impeccable: eliminating generic AI-generated UI. They are largely interchangeable with Impeccable for the goal of aesthetic improvement, differing mainly in their specific prompt sets or skill registry implementation. The trade-off with these specialized skills is their narrow focus; they won't help with architectural diagrams like Archify or image generation like Google Pics, which serve entirely different purposes.",
+        "updated": "2026-09-17",
         "model": "gemini:gemini-2.5-flash",
         "covers": [
+          "Archify",
           "Astryx (Meta)",
           "Claude Design System Prompt",
+          "Google Pics",
           "Hallmark",
           "Impeccable",
-          "Open Design"
+          "Open Design",
+          "Taste-Skill"
         ]
       }
     },
