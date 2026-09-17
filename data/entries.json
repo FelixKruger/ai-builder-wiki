@@ -570,11 +570,12 @@
       "name": "ElevenLabs",
       "url": "https://elevenlabs.io/",
       "category": "voice-audio",
-      "summary": "TTS, voice cloning, conversational AI, and the Agents platform for realtime voice.",
+      "summary": "ElevenLabs provides text-to-speech, voice cloning, and a platform for real-time voice agents.",
       "why_it_matters": "Still the quality bar for synthetic voice. The Agents platform is the fastest path from idea to a phone-callable voice agent.",
       "last_verified": "2026-08-25",
       "source": "seed",
-      "added": "2026-04-27"
+      "added": "2026-04-27",
+      "refined": "2026-09-17"
     },
     {
       "id": "cartesia",
