@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Thu, 17 Sep 2026 10:30:44 +0000</lastBuildDate>
+<lastBuildDate>Fri, 18 Sep 2026 10:10:34 +0000</lastBuildDate>
+
+<item>
+  <title>Tencent BrowserSkill</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#tencent-browserskill</link>
+  <guid isPermaLink="false">tencent-browserskill-2026-09-18</guid>
+  <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Tencent BrowserSkill is a CLI and browser extension enabling AI agents to automate real, logged-in browser interactions without user interruption. — It equips agents with direct, authenticated web interaction capabilities, going beyond basic search APIs for complex online tasks.]]></description>
+</item>
 
 <item>
   <title>GPT-6 Astra</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">utopia-2026-09-03</guid>
   <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Utopia is a local-first, agent-assisted workbench that transforms documents into ontologies for structured knowledge representation. — It enables agents to build and query structured knowledge graphs from unstructured documents, enhancing their long-term memory and reasoning capabilities within the Model Context Protocol ecosystem.]]></description>
-</item>
-
-<item>
-  <title>Scientific Agent Skills</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#scientific-agent-skills</link>
-  <guid isPermaLink="false">scientific-agent-skills-2026-09-01</guid>
-  <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[This GitHub repository provides a library of 163 pre-built research skills for AI agents, covering scientific domains like biology, chemistry, and medicine. — It offers a standardized and reusable collection of tools for agents in scientific research, addressing the need for specialized capabilities beyond general-purpose agent frameworks like LangGraph.]]></description>
 </item>
 
 </channel>

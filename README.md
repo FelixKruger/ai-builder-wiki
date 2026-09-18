@@ -49,6 +49,8 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Tencent BrowserSkill](https://felixkruger.github.io/ai-builder-wiki/#tencent-browserskill)** — Tencent BrowserSkill is a CLI and browser extension enabling AI agents to automate real, logged-in browser interactions without user interruption. _(added 2026-09-18)_
+
 - **[GPT-6 Astra](https://felixkruger.github.io/ai-builder-wiki/#gpt-6-astra)** — OpenAI's flagship model for general-purpose tasks, accessible via API and ChatGPT. _(added 2026-09-15)_
 
 - **[OpenHands](https://felixkruger.github.io/ai-builder-wiki/#openhands)** — OpenHands is an open-source framework for AI-driven development that enables large language models to assist with coding tasks and project management. _(added 2026-09-14)_
@@ -62,8 +64,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[VoiceStudio](https://felixkruger.github.io/ai-builder-wiki/#voicestudio)** — VoiceStudio is an open-source, local-first platform offering voice cloning, design, video dubbing, dictation, transcription, and audiobook creation. _(added 2026-09-03)_
 
 - **[Utopia](https://felixkruger.github.io/ai-builder-wiki/#utopia)** — Utopia is a local-first, agent-assisted workbench that transforms documents into ontologies for structured knowledge representation. _(added 2026-09-03)_
-
-- **[Scientific Agent Skills](https://felixkruger.github.io/ai-builder-wiki/#scientific-agent-skills)** — This GitHub repository provides a library of 163 pre-built research skills for AI agents, covering scientific domains like biology, chemistry, and medicine. _(added 2026-09-01)_
 
 <!-- RECENTLY_ADDED:END -->
 
