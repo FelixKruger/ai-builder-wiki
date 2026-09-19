@@ -1982,6 +1982,17 @@
       "last_verified": "2026-09-18",
       "source": "curator:2026-09-18-1006",
       "added": "2026-09-18"
+    },
+    {
+      "id": "superpowers",
+      "name": "Superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "category": "mcp-tools",
+      "summary": "A framework for defining and using agentic skills, designed to integrate a software development methodology into AI agents.",
+      "why_it_matters": "It provides a structured approach for agents to acquire and apply skills, contrasting with general-purpose agent frameworks that often require custom skill implementation.",
+      "last_verified": "2026-09-19",
+      "source": "curator:2026-09-19-0947",
+      "added": "2026-09-19"
     }
   ]
 }
