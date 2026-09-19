@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Fri, 18 Sep 2026 10:10:34 +0000</lastBuildDate>
+<lastBuildDate>Sat, 19 Sep 2026 09:48:03 +0000</lastBuildDate>
+
+<item>
+  <title>Superpowers</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#superpowers</link>
+  <guid isPermaLink="false">superpowers-2026-09-19</guid>
+  <pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[A framework for defining and using agentic skills, designed to integrate a software development methodology into AI agents. — It provides a structured approach for agents to acquire and apply skills, contrasting with general-purpose agent frameworks that often require custom skill implementation.]]></description>
+</item>
 
 <item>
   <title>Tencent BrowserSkill</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">voicestudio-2026-09-03</guid>
   <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[VoiceStudio is an open-source, local-first platform offering voice cloning, design, video dubbing, dictation, transcription, and audiobook creation. — It provides a self-hosted and open-source alternative to commercial speech synthesis services like ElevenLabs, giving builders more control and flexibility over their audio generation workflows.]]></description>
-</item>
-
-<item>
-  <title>Utopia</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#utopia</link>
-  <guid isPermaLink="false">utopia-2026-09-03</guid>
-  <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Utopia is a local-first, agent-assisted workbench that transforms documents into ontologies for structured knowledge representation. — It enables agents to build and query structured knowledge graphs from unstructured documents, enhancing their long-term memory and reasoning capabilities within the Model Context Protocol ecosystem.]]></description>
 </item>
 
 </channel>

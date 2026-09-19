@@ -49,6 +49,8 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Superpowers](https://felixkruger.github.io/ai-builder-wiki/#superpowers)** — A framework for defining and using agentic skills, designed to integrate a software development methodology into AI agents. _(added 2026-09-19)_
+
 - **[Tencent BrowserSkill](https://felixkruger.github.io/ai-builder-wiki/#tencent-browserskill)** — Tencent BrowserSkill is a CLI and browser extension enabling AI agents to automate real, logged-in browser interactions without user interruption. _(added 2026-09-18)_
 
 - **[GPT-6 Astra](https://felixkruger.github.io/ai-builder-wiki/#gpt-6-astra)** — OpenAI's flagship model for general-purpose tasks, accessible via API and ChatGPT. _(added 2026-09-15)_
@@ -62,8 +64,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Google Pics](https://felixkruger.github.io/ai-builder-wiki/#google-pics)** — Google Pics is a new AI tool for creating and editing images directly within Google Workspace using text prompts. _(added 2026-09-08)_
 
 - **[VoiceStudio](https://felixkruger.github.io/ai-builder-wiki/#voicestudio)** — VoiceStudio is an open-source, local-first platform offering voice cloning, design, video dubbing, dictation, transcription, and audiobook creation. _(added 2026-09-03)_
-
-- **[Utopia](https://felixkruger.github.io/ai-builder-wiki/#utopia)** — Utopia is a local-first, agent-assisted workbench that transforms documents into ontologies for structured knowledge representation. _(added 2026-09-03)_
 
 <!-- RECENTLY_ADDED:END -->
 
