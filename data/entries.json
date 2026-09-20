@@ -113,18 +113,18 @@
       "blurb": "The closed-weight frontier models you call from your stack — Claude, GPT, Gemini.",
       "intent": "I need the best-available model behind an API",
       "guide": {
-        "body": "For most general-purpose reasoning and text generation, start with OpenAI's GPT-5.6 family (Sol, Terra, Luna). It offers tiered capabilities and benefits from the broadest ecosystem. If your workflow involves long-running agents with repeated prompts, Claude Opus 5 or Sonnet 5 provides native tool use and prompt caching, which can reduce costs and improve reliability compared to OpenAI. For applications requiring native video input or integrated web grounding without custom RAG, the Gemini API is the only option among these. When extreme context windows are critical, like for analyzing massive codebases or extensive documentation, SubQ offers a native 12 million token context, making such long-context reasoning practical. The trade-off with SubQ is its specialized architecture, meaning you're adopting a less broadly validated approach compared to the transformer models from OpenAI or Anthropic. OpenAI's GPT-5.6 and Claude Opus 5/Sonnet 5 are direct competitors for most high-capability text tasks; the choice often comes down to specific performance on your data or existing integration.",
-        "updated": "2026-08-30",
+        "body": "OpenAI API is the default for general-purpose language model integration. Its broad ecosystem and tooling simplify development compared to alternatives. For top-tier general performance, use GPT-6 Astra. If your application involves long-running agentic workflows with repeated prompts, the Claude API offers advantages. Claude Sonnet 5 provides strong agentic capabilities at a more accessible price point than Opus models, while Claude Opus 5 is Anthropic's most capable for complex production agent tasks. Its native tool use and prompt caching can reduce repeated prompt costs compared to OpenAI. If your application requires native video input or integrated web grounding without building custom RAG, the Gemini API is the only option among these. While GPT-6 Astra and Claude Opus 5 represent the current top-tier models, a real trade-off is OpenAI's more mature ecosystem and tooling, which can simplify initial development even if a Claude model offers marginal performance gains for a niche task.",
+        "updated": "2026-09-20",
         "model": "gemini:gemini-2.5-flash",
         "covers": [
           "Claude API (Anthropic)",
           "Claude Opus 4.8",
           "Claude Opus 5",
           "Claude Sonnet 5",
+          "GPT-6 Astra",
           "Gemini API (Google)",
           "OpenAI API",
-          "OpenAI GPT-5.6 (Sol, Terra, Luna)",
-          "SubQ (by Subquadratic)"
+          "OpenAI GPT-5.6 (Sol, Terra, Luna)"
         ]
       }
     },
