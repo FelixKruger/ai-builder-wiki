@@ -551,10 +551,11 @@
       "url": "https://v0.app/",
       "category": "app-builders",
       "summary": "Generate React/Next.js UIs from prompts — full-stack mode, git sync, deploy to Vercel in one click.",
-      "why_it_matters": "Highest-fidelity prompt-to-production UI in 2026 if your stack is Next + shadcn. Treat it as a fast scaffolder, not a finisher.",
+      "why_it_matters": "Use this for rapid React/Next.js UI scaffolding directly deployable to Vercel. It beats general-purpose app builders like Atoms for Vercel-native component generation, but is limited to that stack.",
       "last_verified": "2026-08-21",
       "source": "seed",
-      "added": "2026-04-27"
+      "added": "2026-04-27",
+      "refined": "2026-09-20"
     },
     {
       "id": "bolt",
