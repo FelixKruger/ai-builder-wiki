@@ -1978,11 +1978,12 @@
       "name": "Tencent BrowserSkill",
       "url": "https://github.com/Tencent/BrowserSkill",
       "category": "retrieval-search",
-      "summary": "Tencent BrowserSkill is a CLI and browser extension enabling AI agents to automate real, logged-in browser interactions without user interruption.",
-      "why_it_matters": "It equips agents with direct, authenticated web interaction capabilities, going beyond basic search APIs for complex online tasks.",
+      "summary": "Tencent BrowserSkill is a CLI and browser extension for AI agents to automate logged-in web interactions.",
+      "why_it_matters": "This enables AI agents to automate complex, authenticated workflows within a browser, unlike generic web scraping APIs like Firecrawl or Context.dev. It handles logged-in sessions and background execution, which is critical for tasks requiring persistent state or direct interaction with web applications.",
       "last_verified": "2026-09-18",
       "source": "curator:2026-09-18-1006",
-      "added": "2026-09-18"
+      "added": "2026-09-18",
+      "refined": "2026-09-21"
     },
     {
       "id": "superpowers",
