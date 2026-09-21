@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Sun, 20 Sep 2026 10:09:52 +0000</lastBuildDate>
+<lastBuildDate>Mon, 21 Sep 2026 11:11:27 +0000</lastBuildDate>
+
+<item>
+  <title>Hermes Agent</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#hermes-agent</link>
+  <guid isPermaLink="false">hermes-agent-2026-09-21</guid>
+  <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[A self-improving agent that learns and writes its own skills from experience for autonomous task execution and interaction. — This framework focuses on continuous learning and self-improvement, enabling agents to evolve their capabilities over time, unlike more static agent frameworks.]]></description>
+</item>
 
 <item>
   <title>Superpowers</title>
@@ -20,7 +28,7 @@
   <link>https://felixkruger.github.io/ai-builder-wiki/#tencent-browserskill</link>
   <guid isPermaLink="false">tencent-browserskill-2026-09-18</guid>
   <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Tencent BrowserSkill is a CLI and browser extension enabling AI agents to automate real, logged-in browser interactions without user interruption. — It equips agents with direct, authenticated web interaction capabilities, going beyond basic search APIs for complex online tasks.]]></description>
+  <description><![CDATA[Tencent BrowserSkill is a CLI and browser extension for AI agents to automate logged-in web interactions. — This enables AI agents to automate complex, authenticated workflows within a browser, unlike generic web scraping APIs like Firecrawl or Context.dev. It handles logged-in sessions and background execution, which is critical for tasks requiring persistent state or direct interaction with web applications.]]></description>
 </item>
 
 <item>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">google-pics-2026-09-08</guid>
   <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Google Pics is a new AI tool for creating and editing images directly within Google Workspace using text prompts. — This tool provides prompt-based image generation and refinement integrated into productivity applications, offering an AI-first approach to design.]]></description>
-</item>
-
-<item>
-  <title>VoiceStudio</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#voicestudio</link>
-  <guid isPermaLink="false">voicestudio-2026-09-03</guid>
-  <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[VoiceStudio is an open-source, local-first platform offering voice cloning, design, video dubbing, dictation, transcription, and audiobook creation. — It provides a self-hosted and open-source alternative to commercial speech synthesis services like ElevenLabs, giving builders more control and flexibility over their audio generation workflows.]]></description>
 </item>
 
 </channel>
