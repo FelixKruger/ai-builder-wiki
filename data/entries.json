@@ -1994,6 +1994,17 @@
       "last_verified": "2026-09-19",
       "source": "curator:2026-09-19-0947",
       "added": "2026-09-19"
+    },
+    {
+      "id": "hermes-agent",
+      "name": "Hermes Agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "category": "agent-frameworks",
+      "summary": "A self-improving agent that learns and writes its own skills from experience for autonomous task execution and interaction.",
+      "why_it_matters": "This framework focuses on continuous learning and self-improvement, enabling agents to evolve their capabilities over time, unlike more static agent frameworks.",
+      "last_verified": "2026-09-21",
+      "source": "curator:2026-09-21-1110",
+      "added": "2026-09-21"
     }
   ]
 }
