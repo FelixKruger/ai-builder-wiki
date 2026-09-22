@@ -847,7 +847,7 @@
       "category": "ai-video",
       "summary": "Alibaba's creative AI platform — text-to-image, image-to-image, text-to-video, image-to-video, image editing in one suite.",
       "why_it_matters": "Frequently featured by The AI Search for matching closed-model quality on video while remaining accessible. The Chinese answer to Sora and Runway.",
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-09-22",
       "source": "human:eriks+youtube:theAIsearch",
       "added": "2026-05-11"
     },
@@ -1113,7 +1113,7 @@
       "category": "agent-memory",
       "summary": "Minimi provides ambient memory for Claude, capturing insights from Mac interactions and storing them as local embeddings.",
       "why_it_matters": "Unlike Claude's built-in memory, Minimi offers a shared, persistent memory that works across various AI tools, not just Claude, and processes information locally.",
-      "last_verified": "2026-08-10",
+      "last_verified": "2026-09-22",
       "source": "curator:2026-06-13-0711",
       "added": "2026-06-13"
     },
@@ -1124,7 +1124,7 @@
       "category": "retrieval-search",
       "summary": "Browse.sh provides web automation capabilities, enabling AI agents to interact with and extract information from websites.",
       "why_it_matters": "This tool provides agents with web automation and retrieval capabilities, enabling them to interact with the internet beyond simple search.",
-      "last_verified": "2026-08-10",
+      "last_verified": "2026-09-22",
       "source": "curator:2026-06-13-0711",
       "added": "2026-06-13"
     },
