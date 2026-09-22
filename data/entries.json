@@ -768,11 +768,12 @@
       "name": "Impeccable",
       "url": "https://impeccable.style/",
       "category": "ai-design-skills",
-      "summary": "Design skill for Claude Code, Cursor, and Gemini CLI — 23 commands to push AI-generated UIs past generic defaults.",
-      "why_it_matters": "Most AI-built UIs look the same because the agents lack design vocabulary. Impeccable installs that vocabulary as a reusable skill.",
+      "summary": "Impeccable provides 23 commands to improve AI-generated UIs in Claude Code, Cursor, and Gemini CLI.",
+      "why_it_matters": "This provides 23 direct commands for specific AI coding assistants. It offers a more integrated, executable workflow for immediate UI improvements in Claude Code, Cursor, or Gemini CLI than general prompt sets like Taste-Skill or broader design systems.",
       "last_verified": "2026-09-15",
       "source": "human:eriks",
-      "added": "2026-05-11"
+      "added": "2026-05-11",
+      "refined": "2026-09-22"
     },
     {
       "id": "claude-design-skill-prompt",
