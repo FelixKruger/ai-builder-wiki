@@ -1968,11 +1968,11 @@
       "url": "https://openai.com/index/gpt-6-astra/",
       "category": "hosted-apis",
       "summary": "OpenAI's flagship model for general-purpose tasks, accessible via API and ChatGPT.",
-      "why_it_matters": "This is OpenAI's current top-tier model. It offers improved performance over GPT-5.6 Sol for complex reasoning and multi-step tasks.",
+      "why_it_matters": "Pick this over GPT-5.6 Sol for complex reasoning and multi-step tasks, where it provides better performance.",
       "last_verified": "2026-09-15",
       "source": "curator:2026-09-15-1031",
       "added": "2026-09-15",
-      "refined": "2026-09-15"
+      "refined": "2026-09-23"
     },
     {
       "id": "tencent-browserskill",
