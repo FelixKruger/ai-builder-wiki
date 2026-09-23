@@ -1378,7 +1378,7 @@
       "category": "ai-coding",
       "summary": "GitHub Copilot is an AI coding assistant that provides inline code completions, chat, and agent capabilities across various IDEs.",
       "why_it_matters": "It is one of the most widely adopted AI coding tools, offering broad IDE support and an agent mode for multi-file changes and task automation, unlike many standalone AI IDEs.",
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-09-23",
       "source": "curator:2026-07-09-0907",
       "added": "2026-07-09"
     },
@@ -1389,7 +1389,7 @@
       "category": "inference-platforms",
       "summary": "vLLM is an open-source library for efficient LLM inference, known for its PagedAttention mechanism that optimizes GPU memory usage and throughput.",
       "why_it_matters": "It significantly improves GPU utilization and throughput for serving large language models in production, offering better performance than simpler inference solutions for high-concurrency workloads.",
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-09-23",
       "source": "curator:2026-07-09-0907",
       "added": "2026-07-09"
     },
@@ -1826,7 +1826,7 @@
       "category": "agent-memory",
       "summary": "Semantica provides graph-native infrastructure for managing context and ensuring accountability in AI systems.",
       "why_it_matters": "It offers a structured approach to agent memory and context management using a graph database, which can enhance the reasoning and reliability of AI agents compared to simpler vector stores.",
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-09-23",
       "source": "curator:2026-08-11-0640",
       "added": "2026-08-11"
     },
