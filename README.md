@@ -49,6 +49,8 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Univer](https://felixkruger.github.io/ai-builder-wiki/#univer)** — Univer is an open-source office suite harness that allows AI agents to interact with spreadsheets, documents, slides, and PDFs within a single runtime. _(added 2026-09-23)_
+
 - **[Hermes Agent](https://felixkruger.github.io/ai-builder-wiki/#hermes-agent)** — A self-improving agent that learns and writes its own skills from experience for autonomous task execution and interaction. _(added 2026-09-21)_
 
 - **[Superpowers](https://felixkruger.github.io/ai-builder-wiki/#superpowers)** — A framework for defining and using agentic skills, designed to integrate a software development methodology into AI agents. _(added 2026-09-19)_
@@ -62,8 +64,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Taste-Skill](https://felixkruger.github.io/ai-builder-wiki/#taste-skill)** — Taste-Skill is a GitHub project providing a skill registry and prompt set to enhance the aesthetic quality and originality of AI-generated design and frontend code. _(added 2026-09-14)_
 
 - **[Perplexity AI](https://felixkruger.github.io/ai-builder-wiki/#perplexity-ai)** — Perplexity AI is a conversational answer engine that provides real-time cited search, advanced deep research, and connectors for live context from various applications. _(added 2026-09-10)_
-
-- **[Google Pics](https://felixkruger.github.io/ai-builder-wiki/#google-pics)** — Google Pics is a new AI tool for creating and editing images directly within Google Workspace using text prompts. _(added 2026-09-08)_
 
 <!-- RECENTLY_ADDED:END -->
 
