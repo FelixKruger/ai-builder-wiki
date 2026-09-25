@@ -492,7 +492,7 @@
       "category": "evals",
       "summary": "Open-source eval framework from the UK AI Safety Institute for public model capability evaluations.",
       "why_it_matters": "Use Inspect if you are publishing model capability evaluations for public scrutiny and reproducibility. Unlike general-purpose eval frameworks like DeepEval or Braintrust, Inspect is the established standard for transparent, externally verifiable model assessments.",
-      "last_verified": "2026-08-13",
+      "last_verified": "2026-09-25",
       "source": "seed",
       "added": "2026-04-27",
       "refined": "2026-08-22"
@@ -1136,7 +1136,7 @@
       "category": "app-builders",
       "summary": "Atoms is an AI-native platform that uses a team of specialized AI agents to build, deploy, and scale full-stack applications from natural language descriptions.",
       "why_it_matters": "It enables rapid prototyping and deployment of functional applications, offering a complete business building workflow from idea to live product, unlike simpler code generation tools.",
-      "last_verified": "2026-08-13",
+      "last_verified": "2026-09-25",
       "source": "curator:2026-06-14-0727",
       "added": "2026-06-14"
     },
@@ -1147,7 +1147,7 @@
       "category": "mcp-tools",
       "summary": "Publora is a social media API and MCP server for AI agents, enabling programmatic scheduling and publishing of content across 10 platforms from a single endpoint.",
       "why_it_matters": "It simplifies social media management for AI agents by providing a unified API and MCP integration, eliminating the need to wire multiple OAuth flows for different platforms.",
-      "last_verified": "2026-08-13",
+      "last_verified": "2026-09-25",
       "source": "curator:2026-06-14-0727",
       "added": "2026-06-14"
     },
