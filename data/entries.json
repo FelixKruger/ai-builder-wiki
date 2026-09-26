@@ -239,15 +239,17 @@
       "blurb": "Vector stores, full-text search, and web search APIs. Stateless retrieval — different from memory.",
       "intent": "My agent needs to look things up",
       "guide": {
-        "body": "For most RAG applications, `pgvector` is the default choice. It keeps your embeddings within your existing Postgres database, simplifying your stack and avoiding a dedicated vector database. You only need to consider alternatives if `pgvector`'s performance degrades under heavy load or if you manage billions of vectors; in those cases, `turbopuffer` offers a serverless alternative without operational overhead. When your agent needs to look up information from the live web, the choice depends on the interaction. For general, low-latency web search, `You.com Search API` is a solid option. If your agent needs to interact with websites, fill forms, or navigate beyond simple search results, `Browse.sh` is the tool. For extracting clean, structured data from specific URLs, `Firecrawl` and `Context.dev` offer similar capabilities, streamlining content for your agent. For internal document RAG, where you're dealing with diverse file types, `Anydoc` handles the initial parsing, converting PDFs and DOCX to clean Markdown. If you need an end-to-end system for document processing, chunking, embedding, and retrieval, `RAGFlow` provides a complete, integrated solution. The trade-off is often between the simplicity of an integrated system like `RAGFlow` and the flexibility of composing single-purpose tools, which demands more integration effort but allows for more specialized components.",
-        "updated": "2026-09-07",
+        "body": "For general web knowledge retrieval, start with You.com Search API. It provides broad access to the open web. If your agent needs to look up information within your own documents, and you already run PostgreSQL, pgvector is the default choice. It co-locates embeddings with your existing data, simplifying your stack. However, if pgvector struggles with performance under large datasets or heavy query loads, turbopuffer offers a serverless alternative without the operational overhead. When You.com Search API isn't sufficient for web interactions, consider Firecrawl or Context.dev for extracting structured data from specific URLs. These tools largely overlap in function, streamlining web content for RAG. If your agent requires complex web automation, including logged-in sessions, Tencent BrowserSkill is the tool for that, enabling interactions beyond simple content extraction. For a complete internal document RAG pipeline, RAGFlow integrates parsing, chunking, and retrieval, offering a full solution where Anydoc would only handle initial document conversion. A trade-off with web scraping tools like Firecrawl is their inherent brittleness; website structure changes can break your extraction logic, a problem You.com Search API avoids.",
+        "updated": "2026-09-26",
         "model": "gemini:gemini-2.5-flash",
         "covers": [
           "Anydoc",
           "Browse.sh",
           "Context.dev",
           "Firecrawl",
+          "Perplexity AI",
           "RAGFlow",
+          "Tencent BrowserSkill",
           "You.com Search API",
           "pgvector",
           "turbopuffer"
