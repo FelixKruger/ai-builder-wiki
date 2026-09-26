@@ -2018,6 +2018,17 @@
       "last_verified": "2026-09-23",
       "source": "curator:2026-09-23-1019",
       "added": "2026-09-23"
+    },
+    {
+      "id": "paperclip",
+      "name": "Paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "category": "mcp-tools",
+      "summary": "Paperclip is an open-source \"Office Harness\" that provides a runtime environment for AI agents to manage work across spreadsheets, documents, and other office applications.",
+      "why_it_matters": "It offers a unified platform for agents to interact with common office tools, enabling complex automated workflows that would otherwise require custom integrations for each application.",
+      "last_verified": "2026-09-26",
+      "source": "curator:2026-09-26-1020",
+      "added": "2026-09-26"
     }
   ]
 }
