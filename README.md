@@ -49,6 +49,8 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Paperclip](https://felixkruger.github.io/ai-builder-wiki/#paperclip)** — Paperclip is an open-source "Office Harness" that provides a runtime environment for AI agents to manage work across spreadsheets, documents, and other office applications. _(added 2026-09-26)_
+
 - **[Univer](https://felixkruger.github.io/ai-builder-wiki/#univer)** — Univer is an open-source office suite harness that allows AI agents to interact with spreadsheets, documents, slides, and PDFs within a single runtime. _(added 2026-09-23)_
 
 - **[Hermes Agent](https://felixkruger.github.io/ai-builder-wiki/#hermes-agent)** — A self-improving agent that learns and writes its own skills from experience for autonomous task execution and interaction. _(added 2026-09-21)_
@@ -57,13 +59,11 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 - **[Tencent BrowserSkill](https://felixkruger.github.io/ai-builder-wiki/#tencent-browserskill)** — Tencent BrowserSkill is a CLI and browser extension for AI agents to automate logged-in web interactions. _(added 2026-09-18)_
 
-- **[GPT-6 Astra](https://felixkruger.github.io/ai-builder-wiki/#gpt-6-astra)** — OpenAI's flagship model for general-purpose tasks, accessible via API and ChatGPT. _(added 2026-09-15)_
+- **[GPT-6 Astra](https://felixkruger.github.io/ai-builder-wiki/#gpt-6-astra)** — OpenAI's most capable model, available via API and ChatGPT. _(added 2026-09-15)_
 
 - **[OpenHands](https://felixkruger.github.io/ai-builder-wiki/#openhands)** — OpenHands is an open-source framework for AI-driven development that enables large language models to assist with coding tasks and project management. _(added 2026-09-14)_
 
 - **[Taste-Skill](https://felixkruger.github.io/ai-builder-wiki/#taste-skill)** — Taste-Skill is a GitHub project providing a skill registry and prompt set to enhance the aesthetic quality and originality of AI-generated design and frontend code. _(added 2026-09-14)_
-
-- **[Perplexity AI](https://felixkruger.github.io/ai-builder-wiki/#perplexity-ai)** — Perplexity AI is a conversational answer engine that provides real-time cited search, advanced deep research, and connectors for live context from various applications. _(added 2026-09-10)_
 
 <!-- RECENTLY_ADDED:END -->
 

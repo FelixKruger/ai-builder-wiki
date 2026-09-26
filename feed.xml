@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Fri, 25 Sep 2026 10:37:53 +0000</lastBuildDate>
+<lastBuildDate>Sat, 26 Sep 2026 10:21:10 +0000</lastBuildDate>
+
+<item>
+  <title>Paperclip</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#paperclip</link>
+  <guid isPermaLink="false">paperclip-2026-09-26</guid>
+  <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Paperclip is an open-source "Office Harness" that provides a runtime environment for AI agents to manage work across spreadsheets, documents, and other office applications. — It offers a unified platform for agents to interact with common office tools, enabling complex automated workflows that would otherwise require custom integrations for each application.]]></description>
+</item>
 
 <item>
   <title>Univer</title>
@@ -44,7 +52,7 @@
   <link>https://felixkruger.github.io/ai-builder-wiki/#gpt-6-astra</link>
   <guid isPermaLink="false">gpt-6-astra-2026-09-15</guid>
   <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[OpenAI's flagship model for general-purpose tasks, accessible via API and ChatGPT. — Pick this over GPT-5.6 Sol for complex reasoning and multi-step tasks, where it provides better performance.]]></description>
+  <description><![CDATA[OpenAI's most capable model, available via API and ChatGPT. — Pick this over GPT-5.6 Sol for complex reasoning and multi-step tasks, where it provides better performance.]]></description>
 </item>
 
 <item>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">taste-skill-2026-09-14</guid>
   <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Taste-Skill is a GitHub project providing a skill registry and prompt set to enhance the aesthetic quality and originality of AI-generated design and frontend code. — This tool helps address the common problem of generic AI outputs in design by offering structured guidance, allowing AI agents to produce more visually appealing results beyond basic design system prompts.]]></description>
-</item>
-
-<item>
-  <title>Perplexity AI</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#perplexity-ai</link>
-  <guid isPermaLink="false">perplexity-ai-2026-09-10</guid>
-  <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Perplexity AI is a conversational answer engine that provides real-time cited search, advanced deep research, and connectors for live context from various applications. — It offers a comprehensive research platform with verifiable sources and the ability to integrate live data, distinguishing it from traditional search engines by focusing on actionable intelligence.]]></description>
 </item>
 
 </channel>
