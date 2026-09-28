@@ -2034,6 +2034,17 @@
       "last_verified": "2026-09-26",
       "source": "curator:2026-09-26-1020",
       "added": "2026-09-26"
+    },
+    {
+      "id": "google-flow",
+      "name": "Google Flow",
+      "url": "https://flow.google.com/",
+      "category": "ai-video",
+      "summary": "Google Flow is an AI tool for creating and refining AI-generated videos and scenes, offering features like scene extension, first-and-last-frame interpolation, and 4K upscaling.",
+      "why_it_matters": "It provides advanced control and higher fidelity outputs for video generation, enabling more precise creative direction compared to simpler text-to-video alternatives.",
+      "last_verified": "2026-09-28",
+      "source": "curator:2026-09-28-1204",
+      "added": "2026-09-28"
     }
   ]
 }
