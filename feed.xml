@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Sun, 27 Sep 2026 10:53:32 +0000</lastBuildDate>
+<lastBuildDate>Mon, 28 Sep 2026 12:04:59 +0000</lastBuildDate>
+
+<item>
+  <title>Google Flow</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#google-flow</link>
+  <guid isPermaLink="false">google-flow-2026-09-28</guid>
+  <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Google Flow is an AI tool for creating and refining AI-generated videos and scenes, offering features like scene extension, first-and-last-frame interpolation, and 4K upscaling. — It provides advanced control and higher fidelity outputs for video generation, enabling more precise creative direction compared to simpler text-to-video alternatives.]]></description>
+</item>
 
 <item>
   <title>Paperclip</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">openhands-2026-09-14</guid>
   <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[OpenHands is an open-source framework for AI-driven development that enables large language models to assist with coding tasks and project management. — It allows developers to integrate autonomous AI agents directly into their software development workflows, offering a more active and comprehensive approach compared to traditional AI coding assistants.]]></description>
-</item>
-
-<item>
-  <title>Taste-Skill</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#taste-skill</link>
-  <guid isPermaLink="false">taste-skill-2026-09-14</guid>
-  <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Taste-Skill is a GitHub project providing a skill registry and prompt set to enhance the aesthetic quality and originality of AI-generated design and frontend code. — This tool helps address the common problem of generic AI outputs in design by offering structured guidance, allowing AI agents to produce more visually appealing results beyond basic design system prompts.]]></description>
 </item>
 
 </channel>
