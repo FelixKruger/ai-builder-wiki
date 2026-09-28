@@ -509,7 +509,7 @@
       "category": "evals",
       "summary": "Braintrust is an evaluation, logging, and prompt-testing platform for LLM applications.",
       "why_it_matters": "Its strength lies in first-class diffing and regression testing for prompt and model changes. This provides a more direct workflow for iterative development than general observability platforms like Langfuse or Helicone.",
-      "last_verified": "2026-08-16",
+      "last_verified": "2026-09-28",
       "source": "seed",
       "added": "2026-04-27",
       "refined": "2026-09-01"
@@ -953,7 +953,7 @@
       "category": "ai-coding",
       "summary": "CodeWhale is a terminal-based AI coding agent designed for DeepSeek models, engineered for prefix-cache stability.",
       "why_it_matters": "Choose CodeWhale if you specifically use DeepSeek models. Its prefix-cache stability provides more consistent performance with DeepSeek than general-purpose agents like Aider or OpenCode, especially for iterative coding tasks in the terminal.",
-      "last_verified": "2026-08-16",
+      "last_verified": "2026-09-28",
       "source": "curator:2026-05-26-0703",
       "added": "2026-05-26",
       "refined": "2026-09-16"
@@ -1450,7 +1450,7 @@
       "category": "inference-platforms",
       "summary": "Colibri is a pure C, zero-dependency engine for running large open-weight models on consumer machines with limited RAM.",
       "why_it_matters": "Colibri is for running extremely large open-weight models (e.g., 700B+ MoE) on consumer machines with limited RAM. Its pure C, zero-dependency design offers a lower-level, more resource-efficient option than tools like Ollama or AirLLM for highly constrained local environments.",
-      "last_verified": "2026-08-16",
+      "last_verified": "2026-09-28",
       "source": "curator:2026-07-13-0838",
       "added": "2026-07-13",
       "refined": "2026-08-19"
