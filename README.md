@@ -61,7 +61,7 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 - **[Tencent BrowserSkill](https://felixkruger.github.io/ai-builder-wiki/#tencent-browserskill)** — Tencent BrowserSkill is a CLI and browser extension for AI agents to automate logged-in web interactions. _(added 2026-09-18)_
 
-- **[GPT-6 Astra](https://felixkruger.github.io/ai-builder-wiki/#gpt-6-astra)** — OpenAI's most capable model, available via API and ChatGPT. _(added 2026-09-15)_
+- **[GPT-6 Astra](https://felixkruger.github.io/ai-builder-wiki/#gpt-6-astra)** — OpenAI's latest large language model, accessible via API and ChatGPT. _(added 2026-09-15)_
 
 - **[OpenHands](https://felixkruger.github.io/ai-builder-wiki/#openhands)** — OpenHands is an open-source framework for AI-driven development that enables large language models to assist with coding tasks and project management. _(added 2026-09-14)_
 
