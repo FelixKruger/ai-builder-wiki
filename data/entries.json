@@ -311,10 +311,11 @@
       "blurb": "Text-to-video models and programmatic video frameworks.",
       "intent": "I need to generate or compose video",
       "guide": {
-        "body": "Most teams needing to generate video from text or images should start with Luma Dream Machine. It delivers high-quality 1080p output with good control over camera movements, and its Draft Mode helps iterate efficiently. Wan (Alibaba) and MoneyPrinterTurbo offer similar generative capabilities; choose Wan for a broader creative suite, or MoneyPrinterTurbo for streamlined short-form video with native audio. They largely overlap in core functionality.\n\nIf your team is already invested in a React stack and requires programmatic control over video assets, treating video as code, Remotion is the mature option. It integrates into CI pipelines, but note it's source-available and requires a commercial license for production use. For building AI agents that author video, HyperFrames is a better fit than Remotion, as agents can generate video definitions directly in HTML, which many LLMs already handle well. Finally, if your specific problem is automating the production of polished demo or explainer videos from raw screen recordings, Velo is purpose-built for that workflow, handling script and avatar generation.",
-        "updated": "2026-09-11",
+        "body": "For programmatic video generation, Remotion is the default. It offers the most mature React-based framework for treating video as code, suitable for CI/CD pipelines. However, its commercial use requires a license, unlike the Apache 2.0 HyperFrames. If your primary goal is an LLM agent authoring video directly, HyperFrames is a better fit, as agents handle its HTML base more fluently than React. For generating high-fidelity video clips from text or images without a code-first approach, Luma Dream Machine provides 1080p output and iteration features. Wan (Alibaba) offers similar closed-model quality across a broader creative suite; these two genuinely overlap for core text-to-video generation. If your workflow involves transforming screen recordings into polished demos with automated scripts and avatars, Velo is purpose-built for that. A trade-off with direct text-to-video models like Luma is reduced granular control over individual elements compared to programmatic frameworks.",
+        "updated": "2026-10-01",
         "model": "gemini:gemini-2.5-flash",
         "covers": [
+          "Google Flow",
           "HyperFrames",
           "Luma Dream Machine",
           "MoneyPrinterTurbo",
