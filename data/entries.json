@@ -521,7 +521,7 @@
       "category": "evals",
       "summary": "Open-source LLM observability — traces, evals, prompts, self-hostable.",
       "why_it_matters": "This is the default open-source choice for LLM observability, offering full tracing, evals, and prompt management. Pick it over commercial options like Braintrust or Helicone if you require self-hosting or full data control.",
-      "last_verified": "2026-08-19",
+      "last_verified": "2026-10-01",
       "source": "seed",
       "added": "2026-04-27",
       "refined": "2026-08-26"
@@ -533,7 +533,7 @@
       "category": "retrieval-search",
       "summary": "pgvector adds vector similarity search to PostgreSQL, supporting HNSW and IVFFlat indexes as a column type.",
       "why_it_matters": "Use pgvector when you already run PostgreSQL and want to avoid the operational overhead of a separate vector database. It simplifies your stack by co-locating embeddings with existing relational data, unlike dedicated vector stores like turbopuffer.",
-      "last_verified": "2026-08-19",
+      "last_verified": "2026-10-01",
       "source": "seed",
       "added": "2026-04-27",
       "refined": "2026-09-11"
@@ -976,7 +976,7 @@
       "category": "app-builders",
       "summary": "An agent-first development platform and IDE by Google for building and orchestrating autonomous AI agents across editor, terminal, and browser.",
       "why_it_matters": "It shifts from traditional AI code assistance to a system where AI agents operate with greater autonomy, providing an abstracted UI for managing parallel subagents and scheduled tasks.",
-      "last_verified": "2026-08-19",
+      "last_verified": "2026-10-01",
       "source": "curator:2026-05-27-0717",
       "added": "2026-05-27"
     },
