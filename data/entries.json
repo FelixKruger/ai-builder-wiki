@@ -1973,11 +1973,11 @@
       "url": "https://openai.com/index/gpt-6-astra/",
       "category": "hosted-apis",
       "summary": "OpenAI's latest large language model, accessible via API and ChatGPT.",
-      "why_it_matters": "Pick this over GPT-5.6 Sol for complex reasoning and multi-step tasks, where it provides better performance.",
+      "why_it_matters": "Use this over GPT-5.6 Sol for complex reasoning and multi-step tasks; it yields more reliable results.",
       "last_verified": "2026-09-15",
       "source": "curator:2026-09-15-1031",
       "added": "2026-09-15",
-      "refined": "2026-09-29"
+      "refined": "2026-10-01"
     },
     {
       "id": "tencent-browserskill",
