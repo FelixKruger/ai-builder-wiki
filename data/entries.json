@@ -2046,6 +2046,17 @@
       "last_verified": "2026-09-28",
       "source": "curator:2026-09-28-1204",
       "added": "2026-09-28"
+    },
+    {
+      "id": "jev-typesafe-ai",
+      "name": "Jev (TypeSafe AI)",
+      "url": "https://typesafe.ai/",
+      "category": "hosted-apis",
+      "summary": "Jev is a specialized \"System One\" model from TypeSafe AI that offers fast, low-cost, structured, probabilistic decisions for software automation via API.",
+      "why_it_matters": "Unlike general-purpose LLMs, Jev is optimized for machine-to-machine consumption, providing significantly faster response times and lower costs for bounded decision-making in agentic workflows.",
+      "last_verified": "2026-10-02",
+      "source": "curator:2026-10-02-1124",
+      "added": "2026-10-02"
     }
   ]
 }
