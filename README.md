@@ -49,6 +49,8 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Jev (TypeSafe AI)](https://felixkruger.github.io/ai-builder-wiki/#jev-typesafe-ai)** — Jev is a specialized "System One" model from TypeSafe AI that offers fast, low-cost, structured, probabilistic decisions for software automation via API. _(added 2026-10-02)_
+
 - **[Google Flow](https://felixkruger.github.io/ai-builder-wiki/#google-flow)** — Google Flow is an AI tool for creating and refining AI-generated videos and scenes, offering features like scene extension, first-and-last-frame interpolation, and 4K upscaling. _(added 2026-09-28)_
 
 - **[Paperclip](https://felixkruger.github.io/ai-builder-wiki/#paperclip)** — Paperclip is an open-source "Office Harness" that provides a runtime environment for AI agents to manage work across spreadsheets, documents, and other office applications. _(added 2026-09-26)_
@@ -62,8 +64,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Tencent BrowserSkill](https://felixkruger.github.io/ai-builder-wiki/#tencent-browserskill)** — Tencent BrowserSkill is a CLI and browser extension for AI agents to automate logged-in web interactions. _(added 2026-09-18)_
 
 - **[GPT-6 Astra](https://felixkruger.github.io/ai-builder-wiki/#gpt-6-astra)** — OpenAI's latest large language model, accessible via API and ChatGPT. _(added 2026-09-15)_
-
-- **[OpenHands](https://felixkruger.github.io/ai-builder-wiki/#openhands)** — OpenHands is an open-source framework for AI-driven development that enables large language models to assist with coding tasks and project management. _(added 2026-09-14)_
 
 <!-- RECENTLY_ADDED:END -->
 
