@@ -546,7 +546,7 @@
       "category": "retrieval-search",
       "summary": "Serverless vector and full-text search built on object storage, scaling to billions of vectors.",
       "why_it_matters": "When pgvector performance degrades under heavy load or large datasets, turbopuffer provides a serverless alternative. It eliminates the operational overhead of managing vector indexes within a database or a separate dedicated vector store.",
-      "last_verified": "2026-08-20",
+      "last_verified": "2026-10-02",
       "source": "seed",
       "added": "2026-04-27",
       "refined": "2026-08-29"
@@ -1496,7 +1496,7 @@
       "category": "agent-frameworks",
       "summary": "Sim is an open-source workspace designed for building, deploying, and orchestrating AI agents and their associated workflows.",
       "why_it_matters": "It provides a centralized environment for agent development and management, streamlining the process compared to assembling disparate tools.",
-      "last_verified": "2026-08-20",
+      "last_verified": "2026-10-02",
       "source": "curator:2026-07-15-0744",
       "added": "2026-07-15"
     },
@@ -1507,7 +1507,7 @@
       "category": "ai-design-skills",
       "summary": "Hallmark is an open-source design skill for AI coding assistants that aims to eliminate generic AI-generated UI outputs.",
       "why_it_matters": "It provides a targeted solution for improving the aesthetic quality of AI-generated designs, addressing a common limitation of current AI design tools.",
-      "last_verified": "2026-08-20",
+      "last_verified": "2026-10-02",
       "source": "curator:2026-07-15-0744",
       "added": "2026-07-15"
     },
