@@ -5,7 +5,7 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Fri, 02 Oct 2026 11:26:51 +0000</lastBuildDate>
+<lastBuildDate>Sat, 03 Oct 2026 10:42:48 +0000</lastBuildDate>
 
 <item>
   <title>Jev (TypeSafe AI)</title>
@@ -68,7 +68,7 @@
   <link>https://felixkruger.github.io/ai-builder-wiki/#gpt-6-astra</link>
   <guid isPermaLink="false">gpt-6-astra-2026-09-15</guid>
   <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[OpenAI's latest large language model, accessible via API and ChatGPT. — For complex reasoning and multi-step tasks, use this over GPT-5.6 Sol. Expect more reliable results.]]></description>
+  <description><![CDATA[OpenAI's newest large language model, available via API and ChatGPT. — This is OpenAI's current top model. Use it for complex, multi-step tasks where GPT-5.6 Sol is insufficient.]]></description>
 </item>
 
 </channel>
