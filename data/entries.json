@@ -558,7 +558,7 @@
       "category": "app-builders",
       "summary": "Generate React/Next.js UIs from prompts — full-stack mode, git sync, deploy to Vercel in one click.",
       "why_it_matters": "Use this for rapid React/Next.js UI scaffolding directly deployable to Vercel. It beats general-purpose app builders like Atoms for Vercel-native component generation, but is limited to that stack.",
-      "last_verified": "2026-08-21",
+      "last_verified": "2026-10-03",
       "source": "seed",
       "added": "2026-04-27",
       "refined": "2026-09-20"
@@ -1197,7 +1197,7 @@
       "category": "agent-frameworks",
       "summary": "LlamaIndex is a data framework for LLM applications, providing tools to ingest, structure, and access private or domain-specific data for context-aware AI agents.",
       "why_it_matters": "It simplifies the integration of external data with LLMs for retrieval-augmented generation (RAG), serving as a foundational framework for many data-aware agent applications.",
-      "last_verified": "2026-08-21",
+      "last_verified": "2026-10-03",
       "source": "curator:2026-06-17-0738",
       "added": "2026-06-17"
     },
@@ -1518,7 +1518,7 @@
       "category": "hosted-apis",
       "summary": "Claude Sonnet 5 is Anthropic's latest agentic model, offering near-Opus performance with improved reasoning and tool use at Sonnet pricing.",
       "why_it_matters": "It provides advanced agentic capabilities at a more accessible price point than the flagship Opus models, making sophisticated AI agents more economically viable for enterprises.",
-      "last_verified": "2026-08-21",
+      "last_verified": "2026-10-03",
       "source": "curator:2026-07-16-0749",
       "added": "2026-07-16"
     },
