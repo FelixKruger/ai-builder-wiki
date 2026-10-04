@@ -570,7 +570,7 @@
       "category": "app-builders",
       "summary": "StackBlitz's in-browser full-stack agent — runs Node in WebContainers, no local setup.",
       "why_it_matters": "Unlike tools like Atoms or v0, Bolt executes generated full-stack applications directly in your browser via WebContainers, removing local environment setup. This is useful for rapid prototyping or sandboxed development without host machine dependencies.",
-      "last_verified": "2026-08-23",
+      "last_verified": "2026-10-04",
       "source": "seed",
       "added": "2026-04-27",
       "refined": "2026-08-28"
@@ -1208,7 +1208,7 @@
       "category": "ai-video",
       "summary": "An open-source, agentic video production system that includes pipelines, tools, and agent skills for comprehensive video generation.",
       "why_it_matters": "It allows AI coding assistants to manage entire video production workflows, offering a more complete solution than typical text-to-video models.",
-      "last_verified": "2026-08-22",
+      "last_verified": "2026-10-04",
       "source": "curator:2026-06-18-0730",
       "added": "2026-06-18"
     },
@@ -1529,7 +1529,7 @@
       "category": "hosted-apis",
       "summary": "OpenAI launched GPT-5.6, a new family of frontier AI models available in three tiers: Sol (top), Terra (mid-range), and Luna (fast, cheap).",
       "why_it_matters": "This release introduces OpenAI's most capable models to date, with tiered access designed to provide options for various performance and cost requirements.",
-      "last_verified": "2026-08-22",
+      "last_verified": "2026-10-04",
       "source": "curator:2026-07-17-0747",
       "added": "2026-07-17"
     },
