@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Sat, 03 Oct 2026 10:42:48 +0000</lastBuildDate>
+<lastBuildDate>Sun, 04 Oct 2026 11:22:40 +0000</lastBuildDate>
+
+<item>
+  <title>Agent-Reach</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#agent-reach</link>
+  <guid isPermaLink="false">agent-reach-2026-10-04</guid>
+  <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[A CLI tool that grants AI agents access to search and read content from various internet platforms like Twitter, Reddit, and YouTube without API fees. — This provides a broad, free web-browsing capability for agents, expanding their information retrieval beyond traditional search APIs and specific vector stores.]]></description>
+</item>
 
 <item>
   <title>Jev (TypeSafe AI)</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">tencent-browserskill-2026-09-18</guid>
   <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Tencent BrowserSkill is a CLI and browser extension for AI agents to automate logged-in web interactions. — This enables AI agents to automate complex, authenticated workflows within a browser, unlike generic web scraping APIs like Firecrawl or Context.dev. It handles logged-in sessions and background execution, which is critical for tasks requiring persistent state or direct interaction with web applications.]]></description>
-</item>
-
-<item>
-  <title>GPT-6 Astra</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#gpt-6-astra</link>
-  <guid isPermaLink="false">gpt-6-astra-2026-09-15</guid>
-  <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[OpenAI's newest large language model, available via API and ChatGPT. — This is OpenAI's current top model. Use it for complex, multi-step tasks where GPT-5.6 Sol is insufficient.]]></description>
 </item>
 
 </channel>

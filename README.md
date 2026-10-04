@@ -49,6 +49,8 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Agent-Reach](https://felixkruger.github.io/ai-builder-wiki/#agent-reach)** — A CLI tool that grants AI agents access to search and read content from various internet platforms like Twitter, Reddit, and YouTube without API fees. _(added 2026-10-04)_
+
 - **[Jev (TypeSafe AI)](https://felixkruger.github.io/ai-builder-wiki/#jev-typesafe-ai)** — Jev is a specialized "System One" model from TypeSafe AI that offers fast, low-cost, structured, probabilistic decisions for software automation via API. _(added 2026-10-02)_
 
 - **[Google Flow](https://felixkruger.github.io/ai-builder-wiki/#google-flow)** — Google Flow is an AI tool for creating and refining AI-generated videos and scenes, offering features like scene extension, first-and-last-frame interpolation, and 4K upscaling. _(added 2026-09-28)_
@@ -62,8 +64,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Superpowers](https://felixkruger.github.io/ai-builder-wiki/#superpowers)** — A framework for defining and using agentic skills, designed to integrate a software development methodology into AI agents. _(added 2026-09-19)_
 
 - **[Tencent BrowserSkill](https://felixkruger.github.io/ai-builder-wiki/#tencent-browserskill)** — Tencent BrowserSkill is a CLI and browser extension for AI agents to automate logged-in web interactions. _(added 2026-09-18)_
-
-- **[GPT-6 Astra](https://felixkruger.github.io/ai-builder-wiki/#gpt-6-astra)** — OpenAI's newest large language model, available via API and ChatGPT. _(added 2026-09-15)_
 
 <!-- RECENTLY_ADDED:END -->
 
