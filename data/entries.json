@@ -664,10 +664,11 @@
       "url": "https://huggingface.co/spaces/muset-ai/DeepResearch-Bench-Leaderboard",
       "category": "evals",
       "summary": "Open benchmark and leaderboard for deep-research agents (Claude, OpenAI, Gemini, and OSS) — hosted by muset-ai on Hugging Face Spaces.",
-      "why_it_matters": "If you're shipping a research agent or deciding which deep-research product to integrate, this is the public scoreboard to read first.",
+      "why_it_matters": "This is not an evaluation framework for your own agents, unlike DeepEval or Braintrust. Use it to compare the performance of existing, public deep-research agents when selecting an API or open-source model.",
       "last_verified": "2026-09-06",
       "source": "human:eriks",
-      "added": "2026-05-11"
+      "added": "2026-05-11",
+      "refined": "2026-10-06"
     },
     {
       "id": "zed-ai",
