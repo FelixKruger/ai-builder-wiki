@@ -582,7 +582,7 @@
       "category": "voice-audio",
       "summary": "ElevenLabs offers text-to-speech, voice cloning, and a platform for real-time voice agents.",
       "why_it_matters": "For synthetic voice quality, ElevenLabs remains the standard. Its Agents platform offers the quickest deployment for phone-callable voice agents, a feature not present in other TTS offerings like Cartesia or VoiceStudio.",
-      "last_verified": "2026-08-25",
+      "last_verified": "2026-10-07",
       "source": "seed",
       "added": "2026-04-27",
       "refined": "2026-09-18"
@@ -594,7 +594,7 @@
       "category": "voice-audio",
       "summary": "Cartesia provides streaming Text-to-Speech (TTS) with sub-100ms latency using state-space models.",
       "why_it_matters": "For voice agents requiring minimal latency, Cartesia offers lower response times than alternatives like ElevenLabs. It is the default choice when sub-100ms streaming TTS is a hard requirement.",
-      "last_verified": "2026-08-25",
+      "last_verified": "2026-10-07",
       "source": "seed",
       "added": "2026-04-27",
       "refined": "2026-08-21"
@@ -1220,7 +1220,7 @@
       "category": "mcp-tools",
       "summary": "A high-performance Model Context Protocol (MCP) server designed for indexing codebases into a persistent knowledge graph.",
       "why_it_matters": "It enables coding agents to quickly query entire codebases as context, significantly improving efficiency and reducing token costs for code-related tasks.",
-      "last_verified": "2026-08-25",
+      "last_verified": "2026-10-07",
       "source": "curator:2026-06-19-0742",
       "added": "2026-06-19"
     },
