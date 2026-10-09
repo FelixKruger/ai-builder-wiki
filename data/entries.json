@@ -698,10 +698,11 @@
       "url": "https://paseo.sh/",
       "category": "multi-agent-coding",
       "summary": "Unified runner for Claude Code, Codex, OpenCode, and others — accessible from phone, desktop, or terminal.",
-      "why_it_matters": "If you switch between coding agents and devices, Paseo is the connector. Picks up where Claude.ai's mobile leaves off for power users.",
+      "why_it_matters": "If you need a consistent interface to run coding agents like Claude Code across phone, desktop, and terminal, Paseo delivers. Unlike frameworks such as AutoGen or CrewAI, its focus is cross-device execution, not multi-agent orchestration.",
       "last_verified": "2026-09-09",
       "source": "human:eriks",
-      "added": "2026-05-11"
+      "added": "2026-05-11",
+      "refined": "2026-10-09"
     },
     {
       "id": "sandcastle",
