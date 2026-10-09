@@ -113,8 +113,8 @@
       "blurb": "The closed-weight frontier models you call from your stack — Claude, GPT, Gemini.",
       "intent": "I need the best-available model behind an API",
       "guide": {
-        "body": "OpenAI API is the default for general-purpose language model integration. Its broad ecosystem and tooling simplify development compared to alternatives. For top-tier general performance, use GPT-6 Astra. If your application involves long-running agentic workflows with repeated prompts, the Claude API offers advantages. Claude Sonnet 5 provides strong agentic capabilities at a more accessible price point than Opus models, while Claude Opus 5 is Anthropic's most capable for complex production agent tasks. Its native tool use and prompt caching can reduce repeated prompt costs compared to OpenAI. If your application requires native video input or integrated web grounding without building custom RAG, the Gemini API is the only option among these. While GPT-6 Astra and Claude Opus 5 represent the current top-tier models, a real trade-off is OpenAI's more mature ecosystem and tooling, which can simplify initial development even if a Claude model offers marginal performance gains for a niche task.",
-        "updated": "2026-09-20",
+        "body": "For most general-purpose applications requiring a frontier model, use OpenAI's GPT-6 Astra. It offers broad capabilities and benefits from OpenAI's extensive tooling ecosystem, simplifying integration. If your application involves complex, long-running agentic workflows with repeated prompts, consider the Claude API, specifically Claude Opus 5 or Sonnet 5. Claude's native tool use and prompt caching can reduce costs compared to general-purpose models, particularly for tasks like code generation or knowledge work where context re-evaluation is frequent. For applications requiring native video input or integrated web grounding without custom RAG, Gemini API is the only option among these APIs. No other hosted frontier model provides these capabilities natively. For bounded, machine-to-machine decision-making in software automation, Jev (TypeSafe AI) offers significantly faster response times and lower costs than general-purpose LLMs, but it is not suitable for open-ended generation. The choice between GPT-6 Astra and Claude Opus 5 for general complex tasks often comes down to existing infrastructure or specific agentic feature requirements, as both provide top-tier performance. Relying on a specialized model like Jev means trading off broad utility for speed and cost efficiency in specific, narrow use cases.",
+        "updated": "2026-10-09",
         "model": "gemini:gemini-2.5-flash",
         "covers": [
           "Claude API (Anthropic)",
@@ -123,6 +123,7 @@
           "Claude Sonnet 5",
           "GPT-6 Astra",
           "Gemini API (Google)",
+          "Jev (TypeSafe AI)",
           "OpenAI API",
           "OpenAI GPT-5.6 (Sol, Terra, Luna)"
         ]
