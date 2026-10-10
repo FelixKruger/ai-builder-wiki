@@ -745,10 +745,11 @@
       "url": "https://github.com/remotion-dev/remotion",
       "category": "ai-video",
       "summary": "React-based framework for creating videos programmatically using CSS, Canvas, SVG, and WebGL.",
-      "why_it_matters": "The most mature programmatic-video stack. Treat video as a React app, render in CI. Source-available — commercial use needs a license.",
+      "why_it_matters": "This is the default choice for programmatic video generation when granular control and web development workflows are required. Unlike generative tools such as Luma Dream Machine or MoneyPrinterTurbo, Remotion allows developers to build video logic with React and integrate rendering into CI/CD pipelines.",
       "last_verified": "2026-09-13",
       "source": "human:eriks",
-      "added": "2026-05-11"
+      "added": "2026-05-11",
+      "refined": "2026-10-10"
     },
     {
       "id": "tripo3d",
