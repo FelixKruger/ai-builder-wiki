@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Fri, 09 Oct 2026 12:09:29 +0000</lastBuildDate>
+<lastBuildDate>Sat, 10 Oct 2026 11:26:51 +0000</lastBuildDate>
+
+<item>
+  <title>Google Gemini Agent</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#google-gemini-agent</link>
+  <guid isPermaLink="false">google-gemini-agent-2026-10-10</guid>
+  <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[A unified AI agent from Google designed for workplace tasks, capable of operating across various Google and third-party applications. — It functions as a proactive digital colleague, distinguishing itself from earlier AI assistants by autonomously completing multi-step assignments within enterprise workflows.]]></description>
+</item>
 
 <item>
   <title>Agent-Reach</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">superpowers-2026-09-19</guid>
   <pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[A framework for defining and using agentic skills, designed to integrate a software development methodology into AI agents. — It provides a structured approach for agents to acquire and apply skills, contrasting with general-purpose agent frameworks that often require custom skill implementation.]]></description>
-</item>
-
-<item>
-  <title>Tencent BrowserSkill</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#tencent-browserskill</link>
-  <guid isPermaLink="false">tencent-browserskill-2026-09-18</guid>
-  <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Tencent BrowserSkill is a CLI and browser extension for AI agents to automate logged-in web interactions. — This enables AI agents to automate complex, authenticated workflows within a browser, unlike generic web scraping APIs like Firecrawl or Context.dev. It handles logged-in sessions and background execution, which is critical for tasks requiring persistent state or direct interaction with web applications.]]></description>
 </item>
 
 </channel>
