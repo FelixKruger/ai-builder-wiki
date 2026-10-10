@@ -392,7 +392,7 @@
       "category": "ai-coding",
       "summary": "Open-source CLI pair-programmer — git-native, model-agnostic, and the benchmark for many leaderboards.",
       "why_it_matters": "Most other agents focus on direct coding assistance. Aider's primary value is as the open-source baseline for evaluating new coding agents, offering a transparent, git-native comparison point.",
-      "last_verified": "2026-08-28",
+      "last_verified": "2026-10-10",
       "source": "seed",
       "added": "2026-04-27",
       "refined": "2026-08-30"
@@ -1024,7 +1024,7 @@
       "category": "ai-video",
       "summary": "Velo is an AI video creation platform that transforms raw screen recordings into polished, shareable video messages with automated scripts and AI avatars.",
       "why_it_matters": "It simplifies video production for demos and explainers by automating scriptwriting and avatar generation, reducing the need for extensive editing compared to traditional video tools.",
-      "last_verified": "2026-08-28",
+      "last_verified": "2026-10-10",
       "source": "curator:2026-05-31-0711",
       "added": "2026-05-31"
     },
@@ -1233,7 +1233,7 @@
       "category": "open-weights",
       "summary": "Kimi K2.6 is an open-source, multimodal agentic model from Moonshot AI, excelling in long-horizon coding, coding-driven design, and orchestrating large agent swarms.",
       "why_it_matters": "This model pushes the boundaries for open-weight capabilities in complex, multi-step coding and agentic tasks, offering advanced features comparable to some closed-source frontier models.",
-      "last_verified": "2026-08-28",
+      "last_verified": "2026-10-10",
       "source": "curator:2026-06-21-0729",
       "added": "2026-06-21"
     },
