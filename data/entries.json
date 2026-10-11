@@ -2083,6 +2083,17 @@
       "last_verified": "2026-10-10",
       "source": "curator:2026-10-10-1125",
       "added": "2026-10-10"
+    },
+    {
+      "id": "anysearch-ai",
+      "name": "AnySearch AI",
+      "url": "https://anysearch.com/",
+      "category": "retrieval-search",
+      "summary": "AnySearch AI provides privacy-first search infrastructure for AI agents, offering structured access to high-quality information from diverse vertical domains beyond the public web.",
+      "why_it_matters": "It enables AI agents to access secure, reliable, and structured data from authenticated professional systems, which traditional search engines cannot reach, crucial for sophisticated agent tasks.",
+      "last_verified": "2026-10-11",
+      "source": "curator:2026-10-11-1139",
+      "added": "2026-10-11"
     }
   ]
 }
