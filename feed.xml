@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Sat, 10 Oct 2026 11:26:51 +0000</lastBuildDate>
+<lastBuildDate>Sun, 11 Oct 2026 11:40:12 +0000</lastBuildDate>
+
+<item>
+  <title>AnySearch AI</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#anysearch-ai</link>
+  <guid isPermaLink="false">anysearch-ai-2026-10-11</guid>
+  <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[AnySearch AI provides privacy-first search infrastructure for AI agents, offering structured access to high-quality information from diverse vertical domains beyond the public web. — It enables AI agents to access secure, reliable, and structured data from authenticated professional systems, which traditional search engines cannot reach, crucial for sophisticated agent tasks.]]></description>
+</item>
 
 <item>
   <title>Google Gemini Agent</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">hermes-agent-2026-09-21</guid>
   <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[A self-improving agent that learns and writes its own skills from experience for autonomous task execution and interaction. — This framework focuses on continuous learning and self-improvement, enabling agents to evolve their capabilities over time, unlike more static agent frameworks.]]></description>
-</item>
-
-<item>
-  <title>Superpowers</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#superpowers</link>
-  <guid isPermaLink="false">superpowers-2026-09-19</guid>
-  <pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[A framework for defining and using agentic skills, designed to integrate a software development methodology into AI agents. — It provides a structured approach for agents to acquire and apply skills, contrasting with general-purpose agent frameworks that often require custom skill implementation.]]></description>
 </item>
 
 </channel>

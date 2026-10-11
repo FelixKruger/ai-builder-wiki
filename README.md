@@ -49,6 +49,8 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[AnySearch AI](https://felixkruger.github.io/ai-builder-wiki/#anysearch-ai)** — AnySearch AI provides privacy-first search infrastructure for AI agents, offering structured access to high-quality information from diverse vertical domains beyond the public web. _(added 2026-10-11)_
+
 - **[Google Gemini Agent](https://felixkruger.github.io/ai-builder-wiki/#google-gemini-agent)** — A unified AI agent from Google designed for workplace tasks, capable of operating across various Google and third-party applications. _(added 2026-10-10)_
 
 - **[Agent-Reach](https://felixkruger.github.io/ai-builder-wiki/#agent-reach)** — A CLI tool that grants AI agents access to search and read content from various internet platforms like Twitter, Reddit, and YouTube without API fees. _(added 2026-10-04)_
@@ -62,8 +64,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Univer](https://felixkruger.github.io/ai-builder-wiki/#univer)** — Univer is an open-source office suite harness that allows AI agents to interact with spreadsheets, documents, slides, and PDFs within a single runtime. _(added 2026-09-23)_
 
 - **[Hermes Agent](https://felixkruger.github.io/ai-builder-wiki/#hermes-agent)** — A self-improving agent that learns and writes its own skills from experience for autonomous task execution and interaction. _(added 2026-09-21)_
-
-- **[Superpowers](https://felixkruger.github.io/ai-builder-wiki/#superpowers)** — A framework for defining and using agentic skills, designed to integrate a software development methodology into AI agents. _(added 2026-09-19)_
 
 <!-- RECENTLY_ADDED:END -->
 
