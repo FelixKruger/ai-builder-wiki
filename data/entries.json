@@ -1245,7 +1245,7 @@
       "category": "app-builders",
       "summary": "Whacka is a mobile-first AI app builder that generates functional progressive web apps from natural language prompts, enabling fast creation and sharing.",
       "why_it_matters": "Unlike many AI app builders that often target desktop workflows or larger enterprise applications, Whacka focuses on phone-native creation of small, focused utilities for rapid deployment and sharing.",
-      "last_verified": "2026-08-28",
+      "last_verified": "2026-10-11",
       "source": "curator:2026-06-21-0729",
       "added": "2026-06-21"
     },
@@ -1256,7 +1256,7 @@
       "category": "hosted-apis",
       "summary": "Anthropic released Claude Opus 4.8, its most capable publicly available model, offering improved performance in coding, agentic skills, and long-horizon reasoning.",
       "why_it_matters": "This model provides enhanced capabilities for complex tasks and agentic workflows, setting a new benchmark for frontier models available through the Claude API.",
-      "last_verified": "2026-08-28",
+      "last_verified": "2026-10-11",
       "source": "curator:2026-06-22-0746",
       "added": "2026-06-22"
     },
@@ -1858,7 +1858,7 @@
       "category": "voice-audio",
       "summary": "Speko is an 'OpenRouter for Voice AI' platform, providing a unified API to access various voice AI models.",
       "why_it_matters": "It simplifies integrating voice capabilities by offering a single interface to multiple providers, similar to how OpenRouter aggregates LLM APIs for developers.",
-      "last_verified": "2026-08-28",
+      "last_verified": "2026-10-11",
       "source": "curator:2026-08-28-0120",
       "added": "2026-08-28"
     },
