@@ -404,7 +404,7 @@
       "category": "ai-coding",
       "summary": "Cline is an open-source autonomous coding agent for VS Code, supporting plan/act modes, MCP, and BYO models.",
       "why_it_matters": "Pick this over other agents like Grok Build or Aider if you require explicit approval for every agent action, not just high-level transparency. It's ideal for debugging agent behavior or learning agent loop mechanics.",
-      "last_verified": "2026-08-29",
+      "last_verified": "2026-10-12",
       "source": "seed",
       "added": "2026-04-27",
       "refined": "2026-08-31"
@@ -416,7 +416,7 @@
       "category": "hosted-apis",
       "summary": "Anthropic's API offers models with native tool use, prompt caching, extended thinking, file support, and citations.",
       "why_it_matters": "For long-running agentic workflows, Claude's native tool use and prompt caching offer a distinct advantage over OpenAI, particularly for reducing repeated prompt costs.",
-      "last_verified": "2026-08-29",
+      "last_verified": "2026-10-12",
       "source": "seed",
       "added": "2026-04-27",
       "refined": "2026-08-09"
@@ -1869,7 +1869,7 @@
       "category": "open-weights",
       "summary": "NVIDIA Nemotron 3.5 Lightning is an open-weight 30B mixture-of-experts model optimized for high-volume, low-latency execution in long-running AI agents.",
       "why_it_matters": "This model provides a cost-efficient and customizable open-weight solution for self-hosted inference, delivering faster output and agentic task completion for specialized workflows.",
-      "last_verified": "2026-08-28",
+      "last_verified": "2026-10-12",
       "source": "curator:2026-08-28-1744",
       "added": "2026-08-28"
     },
