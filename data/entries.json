@@ -2094,6 +2094,17 @@
       "last_verified": "2026-10-11",
       "source": "curator:2026-10-11-1139",
       "added": "2026-10-11"
+    },
+    {
+      "id": "meta-muse-spark-1-3",
+      "name": "Meta Muse Spark 1.3",
+      "url": "https://dev.meta.ai/",
+      "category": "hosted-apis",
+      "summary": "Meta Muse Spark 1.3 is a multimodal reasoning model from Meta, tuned for agentic workflows and coding, available through Meta Model API.",
+      "why_it_matters": "It offers advanced capabilities for multi-step tasks and tool use, establishing Meta as a new major provider in the hosted frontier model space.",
+      "last_verified": "2026-10-12",
+      "source": "curator:2026-10-12-1336",
+      "added": "2026-10-12"
     }
   ]
 }
