@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Sun, 11 Oct 2026 11:40:12 +0000</lastBuildDate>
+<lastBuildDate>Mon, 12 Oct 2026 13:37:16 +0000</lastBuildDate>
+
+<item>
+  <title>Meta Muse Spark 1.3</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#meta-muse-spark-1-3</link>
+  <guid isPermaLink="false">meta-muse-spark-1-3-2026-10-12</guid>
+  <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Meta Muse Spark 1.3 is a multimodal reasoning model from Meta, tuned for agentic workflows and coding, available through Meta Model API. — It offers advanced capabilities for multi-step tasks and tool use, establishing Meta as a new major provider in the hosted frontier model space.]]></description>
+</item>
 
 <item>
   <title>AnySearch AI</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">univer-2026-09-23</guid>
   <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Univer is an open-source office suite harness that allows AI agents to interact with spreadsheets, documents, slides, and PDFs within a single runtime. — It provides a standardized and integrated environment for AI agents to perform complex tasks involving various office document formats, enhancing agent capabilities for productivity.]]></description>
-</item>
-
-<item>
-  <title>Hermes Agent</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#hermes-agent</link>
-  <guid isPermaLink="false">hermes-agent-2026-09-21</guid>
-  <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[A self-improving agent that learns and writes its own skills from experience for autonomous task execution and interaction. — This framework focuses on continuous learning and self-improvement, enabling agents to evolve their capabilities over time, unlike more static agent frameworks.]]></description>
 </item>
 
 </channel>
