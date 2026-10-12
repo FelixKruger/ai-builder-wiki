@@ -790,11 +790,12 @@
       "name": "Claude Design System Prompt",
       "url": "https://gist.github.com/hqman/f46d5479a5b663c282c94faa8be866de",
       "category": "ai-design-skills",
-      "summary": "Public gist of a Claude system prompt for design and prototyping — HTML artifacts, design systems, animation, asset verification.",
-      "why_it_matters": "A worked example of turning a coding agent into a design partner. Steal the structure for your own design skill or compare to Impeccable.",
+      "summary": "A public Claude system prompt for design and prototyping, generating HTML artifacts and design systems.",
+      "why_it_matters": "This prompt is a transparent, worked example for configuring Claude as a design agent. It offers more foundational control than pre-packaged skills like Impeccable for custom agent development.",
       "last_verified": "2026-09-15",
       "source": "human:felix",
-      "added": "2026-05-11"
+      "added": "2026-05-11",
+      "refined": "2026-10-12"
     },
     {
       "id": "deepseek",
