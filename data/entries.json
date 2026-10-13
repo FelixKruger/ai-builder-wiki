@@ -428,7 +428,7 @@
       "category": "hosted-apis",
       "summary": "OpenAI API provides access to their language models, supporting structured outputs and agentic primitives.",
       "why_it_matters": "It is the default choice for general-purpose language model integration. Its broad ecosystem and tooling simplify development compared to newer alternatives.",
-      "last_verified": "2026-08-29",
+      "last_verified": "2026-10-13",
       "source": "seed",
       "added": "2026-04-27",
       "refined": "2026-09-10"
@@ -440,7 +440,7 @@
       "category": "hosted-apis",
       "summary": "Gemini models offer 2M-token context, native multimodal capabilities, and integrated web grounding.",
       "why_it_matters": "For native video input or integrated web grounding without custom RAG, Gemini is the only option among these APIs. While its 2M-token context is substantial, SubQ offers a larger window.",
-      "last_verified": "2026-08-29",
+      "last_verified": "2026-10-13",
       "source": "seed",
       "added": "2026-04-27",
       "refined": "2026-08-29"
@@ -1590,7 +1590,7 @@
       "category": "agent-frameworks",
       "summary": "Bolna Agent Studio is a framework designed for quickly building and deploying voice AI agents.",
       "why_it_matters": "It streamlines the creation of voice-enabled agents, offering a specialized solution compared to general agent frameworks that require more manual audio integration.",
-      "last_verified": "2026-08-29",
+      "last_verified": "2026-10-13",
       "source": "curator:2026-07-25-0641",
       "added": "2026-07-25"
     },
