@@ -1134,11 +1134,12 @@
       "name": "Browse.sh",
       "url": "https://browse.sh/",
       "category": "retrieval-search",
-      "summary": "Browse.sh provides web automation capabilities, enabling AI agents to interact with and extract information from websites.",
-      "why_it_matters": "This tool provides agents with web automation and retrieval capabilities, enabling them to interact with the internet beyond simple search.",
+      "summary": "Browse.sh is a headless browser API enabling AI agents to interact with websites, click elements, fill forms, and extract data.",
+      "why_it_matters": "This tool enables agents to perform dynamic, multi-step web interactions (e.g., clicks, forms) unlike static scraping APIs (e.g., Firecrawl) or pure search tools (e.g., You.com). Use it for agents requiring authenticated sessions or complex workflows.",
       "last_verified": "2026-09-22",
       "source": "curator:2026-06-13-0711",
-      "added": "2026-06-13"
+      "added": "2026-06-13",
+      "refined": "2026-10-14"
     },
     {
       "id": "atoms-ai",
