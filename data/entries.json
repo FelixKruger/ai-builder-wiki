@@ -1792,7 +1792,7 @@
       "category": "ai-coding",
       "summary": "Codex CLI is an open-source AI coding agent from OpenAI that operates directly within the terminal for code generation, bug fixes, and refactoring.",
       "why_it_matters": "It offers a lightweight, sandboxed alternative to full IDE integrations like Cursor, providing terminal-first AI assistance without leaving the command line.",
-      "last_verified": "2026-08-29",
+      "last_verified": "2026-10-14",
       "source": "curator:2026-07-25-0641",
       "added": "2026-07-25"
     },
@@ -1881,7 +1881,7 @@
       "category": "ai-design-skills",
       "summary": "An agent skill for generating verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams as self-contained HTML.",
       "why_it_matters": "It allows AI coding agents to produce clear and verifiable visual documentation, which enhances the understanding and communication of complex AI-generated system designs.",
-      "last_verified": "2026-08-29",
+      "last_verified": "2026-10-14",
       "source": "curator:2026-08-29-0052",
       "added": "2026-08-29"
     },
@@ -1892,7 +1892,7 @@
       "category": "voice-audio",
       "summary": "Kith generates clinical notes for therapists using AI from ambient session audio.",
       "why_it_matters": "This tool automates the laborious task of note-taking in clinical settings, streamlining workflows more efficiently than traditional transcription services.",
-      "last_verified": "2026-08-29",
+      "last_verified": "2026-10-14",
       "source": "curator:2026-08-29-1148",
       "added": "2026-08-29"
     },
