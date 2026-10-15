@@ -1334,10 +1334,11 @@
       "url": "https://meetily.ai/",
       "category": "voice-audio",
       "summary": "Meetily is a self-hosted, open-source AI meeting assistant providing live transcription, speaker diarization, and summarization.",
-      "why_it_matters": "It offers 100% local processing, ensuring privacy for meeting notes without relying on cloud services, unlike many commercial alternatives.",
+      "why_it_matters": "Meetily's 100% local processing ensures meeting data privacy, unlike cloud-dependent tools such as Kith or most commercial meeting assistants. This is critical for sensitive discussions where data must not leave your infrastructure.",
       "last_verified": "2026-09-18",
       "source": "curator:2026-07-06-0947",
-      "added": "2026-07-06"
+      "added": "2026-07-06",
+      "refined": "2026-10-15"
     },
     {
       "id": "google-adk",
