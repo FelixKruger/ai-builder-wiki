@@ -454,7 +454,7 @@
       "category": "inference-platforms",
       "summary": "Single API for hundreds of models with automatic failover and unified billing.",
       "why_it_matters": "This is a managed API gateway for abstracting multiple model providers, simplifying provider switching, A/B testing, and automatic failover. Its unified billing is a key differentiator from direct API integrations or self-hosted proxies like OmniRoute.",
-      "last_verified": "2026-08-31",
+      "last_verified": "2026-10-16",
       "source": "seed",
       "added": "2026-04-27",
       "refined": "2026-09-12"
@@ -466,7 +466,7 @@
       "category": "agent-frameworks",
       "summary": "Anthropic's official SDK for building agents that share Claude Code's runtime — tools, MCP, hooks, subagents.",
       "why_it_matters": "If you want Claude Code's agent harness for your own product, this is the supported path. Less reinvention than building from raw API calls.",
-      "last_verified": "2026-08-31",
+      "last_verified": "2026-10-16",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -477,7 +477,7 @@
       "category": "agent-frameworks",
       "summary": "LangGraph is a LangChain library for building stateful agent workflows with an explicit graph model.",
       "why_it_matters": "This is for agents requiring complex, non-linear execution with explicit state management. Its graph model enables precise control over branching logic, checkpointing, and human-in-the-loop steps, which simpler, sequential agent frameworks do not provide.",
-      "last_verified": "2026-08-31",
+      "last_verified": "2026-10-16",
       "source": "seed",
       "added": "2026-04-27",
       "refined": "2026-08-24"
