@@ -465,10 +465,11 @@
       "url": "https://code.claude.com/docs/en/agent-sdk/overview",
       "category": "agent-frameworks",
       "summary": "Anthropic's official SDK for building agents that share Claude Code's runtime — tools, MCP, hooks, subagents.",
-      "why_it_matters": "If you want Claude Code's agent harness for your own product, this is the supported path. Less reinvention than building from raw API calls.",
+      "why_it_matters": "This is the supported path if your product requires Claude Code's agent harness. It provides tight integration with Claude's ecosystem, unlike general frameworks such as LangGraph, reducing custom integration work.",
       "last_verified": "2026-10-16",
       "source": "seed",
-      "added": "2026-04-27"
+      "added": "2026-04-27",
+      "refined": "2026-10-16"
     },
     {
       "id": "langgraph",
