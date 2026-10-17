@@ -633,10 +633,11 @@
       "url": "https://github.com/MemPalace/mempalace",
       "category": "agent-memory",
       "summary": "Open-source local AI memory system — stores conversation history as verbatim text with semantic retrieval.",
-      "why_it_matters": "Hits 96.6% R@5 on LongMemEval with zero API calls. If you want agent memory that doesn't leak to a vendor, this is the open-source baseline.",
+      "why_it_matters": "This is an open-source, local-first memory system for conversation history. It provides full data control by operating without external API calls, unlike cloud-based or proprietary memory services.",
       "last_verified": "2026-09-05",
       "source": "human:felix",
-      "added": "2026-05-11"
+      "added": "2026-05-11",
+      "refined": "2026-10-17"
     },
     {
       "id": "ob1",
