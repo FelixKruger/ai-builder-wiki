@@ -49,6 +49,8 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Spira Maxima](https://felixkruger.github.io/ai-builder-wiki/#spira-maxima)** — Spira Maxima is an AI social media agent that generates, schedules, and publishes short-form videos and images from scripts using viral templates. _(added 2026-10-18)_
+
 - **[Meta Muse Spark 1.3](https://felixkruger.github.io/ai-builder-wiki/#meta-muse-spark-1-3)** — Meta Muse Spark 1.3 is a multimodal reasoning model from Meta, tuned for agentic workflows and coding, available through Meta Model API. _(added 2026-10-12)_
 
 - **[AnySearch AI](https://felixkruger.github.io/ai-builder-wiki/#anysearch-ai)** — AnySearch AI provides privacy-first search infrastructure for AI agents, offering structured access to high-quality information from diverse vertical domains beyond the public web. _(added 2026-10-11)_
@@ -62,8 +64,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Google Flow](https://felixkruger.github.io/ai-builder-wiki/#google-flow)** — Google Flow is an AI tool for creating and refining AI-generated videos and scenes, offering features like scene extension, first-and-last-frame interpolation, and 4K upscaling. _(added 2026-09-28)_
 
 - **[Paperclip](https://felixkruger.github.io/ai-builder-wiki/#paperclip)** — Paperclip is an open-source "Office Harness" that provides a runtime environment for AI agents to manage work across spreadsheets, documents, and other office applications. _(added 2026-09-26)_
-
-- **[Univer](https://felixkruger.github.io/ai-builder-wiki/#univer)** — Univer is an open-source office suite harness that allows AI agents to interact with spreadsheets, documents, slides, and PDFs within a single runtime. _(added 2026-09-23)_
 
 <!-- RECENTLY_ADDED:END -->
 
