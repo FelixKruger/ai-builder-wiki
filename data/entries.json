@@ -314,8 +314,8 @@
       "blurb": "Text-to-video models and programmatic video frameworks.",
       "intent": "I need to generate or compose video",
       "guide": {
-        "body": "For programmatic video generation, Remotion is the default. It offers the most mature React-based framework for treating video as code, suitable for CI/CD pipelines. However, its commercial use requires a license, unlike the Apache 2.0 HyperFrames. If your primary goal is an LLM agent authoring video directly, HyperFrames is a better fit, as agents handle its HTML base more fluently than React. For generating high-fidelity video clips from text or images without a code-first approach, Luma Dream Machine provides 1080p output and iteration features. Wan (Alibaba) offers similar closed-model quality across a broader creative suite; these two genuinely overlap for core text-to-video generation. If your workflow involves transforming screen recordings into polished demos with automated scripts and avatars, Velo is purpose-built for that. A trade-off with direct text-to-video models like Luma is reduced granular control over individual elements compared to programmatic frameworks.",
-        "updated": "2026-10-01",
+        "body": "For programmatic video generation with granular control, Remotion is the default. It integrates with existing React-based web development workflows, allowing video logic to be managed like any other web component. If your goal is to have an LLM agent author video directly, HyperFrames is a more suitable choice; its HTML foundation avoids the React build step, aligning better with how agents typically generate content. When generating video from text or images, Luma Dream Machine offers high-quality outputs and a draft mode for efficient iteration. Wan (Alibaba) and MoneyPrinterTurbo provide similar generative capabilities, with distinctions often boiling down to native audio support or specific output quality. For automating polished demos from screen recordings, Velo streamlines the process with automated scripts and AI avatars. If you need a full social media content pipeline, including scheduling and performance analysis, Spira Maxima covers more ground than a pure video generator. The core trade-off with generative models like Luma Dream Machine is a reduced ability to precisely control individual scene elements compared to the explicit coding required by Remotion.",
+        "updated": "2026-10-18",
         "model": "gemini:gemini-2.5-flash",
         "covers": [
           "Google Flow",
@@ -324,6 +324,7 @@
           "MoneyPrinterTurbo",
           "OpenMontage",
           "Remotion",
+          "Spira Maxima",
           "Velo",
           "Wan (Alibaba)"
         ]
