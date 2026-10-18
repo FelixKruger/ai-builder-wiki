@@ -2112,6 +2112,17 @@
       "last_verified": "2026-10-12",
       "source": "curator:2026-10-12-1336",
       "added": "2026-10-12"
+    },
+    {
+      "id": "spira-maxima",
+      "name": "Spira Maxima",
+      "url": "https://spira.ai/spira-maxima",
+      "category": "ai-video",
+      "summary": "Spira Maxima is an AI social media agent that generates, schedules, and publishes short-form videos and images from scripts using viral templates.",
+      "why_it_matters": "It automates the entire social media content pipeline, from creation to scheduling, posting, and performance analysis, offering a comprehensive solution beyond single-task video generators.",
+      "last_verified": "2026-10-18",
+      "source": "curator:2026-10-18-0958",
+      "added": "2026-10-18"
     }
   ]
 }
