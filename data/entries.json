@@ -773,10 +773,11 @@
       "url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2",
       "category": "ai-3d",
       "summary": "Tencent's open 3D asset generator — two-stage pipeline with flow-based diffusion transformer for shape and separate texture synthesis.",
-      "why_it_matters": "Open weights for high-resolution textured 3D. Can also re-texture handcrafted meshes — useful when Tripo3D's hosted workflow isn't an option.",
+      "why_it_matters": "Choose this for local execution and custom pipeline integration, as it provides open weights. It also re-textures existing meshes, a capability Tripo3D's hosted workflow does not offer.",
       "last_verified": "2026-09-14",
       "source": "human:felix",
-      "added": "2026-05-11"
+      "added": "2026-05-11",
+      "refined": "2026-10-19"
     },
     {
       "id": "impeccable-style",
