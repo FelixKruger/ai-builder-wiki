@@ -635,7 +635,7 @@
       "category": "agent-memory",
       "summary": "Open-source local AI memory system — stores conversation history as verbatim text with semantic retrieval.",
       "why_it_matters": "This is an open-source, local-first memory system for conversation history. It provides full data control by operating without external API calls, unlike cloud-based or proprietary memory services.",
-      "last_verified": "2026-09-05",
+      "last_verified": "2026-10-21",
       "source": "human:felix",
       "added": "2026-05-11",
       "refined": "2026-10-17"
@@ -1666,7 +1666,7 @@
       "category": "ai-coding",
       "summary": "Grok Build is xAI's open-source coding agent CLI and terminal UI, providing transparency into Grok's coding stack and supporting context handling and tool execution.",
       "why_it_matters": "It allows engineers to study a production-grade coding agent harness line by line, offering insights into xAI's agent loop, unlike closed-source alternatives.",
-      "last_verified": "2026-09-04",
+      "last_verified": "2026-10-21",
       "source": "curator:2026-07-30-0646",
       "added": "2026-07-30"
     },
@@ -1677,7 +1677,7 @@
       "category": "open-weights",
       "summary": "GLM 5.2 is Zhipu AI's flagship open-weight model for long-horizon tasks, offering advanced coding capabilities and a solid 1M-token context window.",
       "why_it_matters": "It provides a high-performing, open-source alternative to proprietary frontier models, enabling on-premise deployment for sensitive tasks like security forensics.",
-      "last_verified": "2026-09-04",
+      "last_verified": "2026-10-21",
       "source": "curator:2026-07-30-0646",
       "added": "2026-07-30"
     },
