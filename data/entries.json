@@ -975,12 +975,12 @@
       "name": "Open Design",
       "url": "https://github.com/nexu-io/open-design",
       "category": "ai-design-skills",
-      "summary": "Open Design is a local-first, open-source alternative to Claude Design for generating prototypes and media.",
-      "why_it_matters": "Choose this over Claude Design if you require local execution and open-source control for design generation.",
+      "summary": "Open Design is a local-first, open-source tool for generating prototypes and media.",
+      "why_it_matters": "Use this over Claude Design if local execution and open-source control are non-negotiable for design generation.",
       "last_verified": "2026-09-29",
       "source": "curator:2026-05-26-0703",
       "added": "2026-05-26",
-      "refined": "2026-10-20"
+      "refined": "2026-10-22"
     },
     {
       "id": "google-antigravity",
