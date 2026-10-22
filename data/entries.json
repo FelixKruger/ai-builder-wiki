@@ -647,7 +647,7 @@
       "category": "agent-memory",
       "summary": "Self-hosted shared memory database — lets multiple AI tools read and write one persistent memory without vendor lock-in.",
       "why_it_matters": "This offers a single, self-hosted memory store for multiple AI tools, unlike the siloed, tool-specific memory systems of providers like Claude or ChatGPT. Use this to unify context across disparate LLM interfaces and avoid vendor lock-in.",
-      "last_verified": "2026-09-05",
+      "last_verified": "2026-10-22",
       "source": "human:felix",
       "added": "2026-05-11",
       "refined": "2026-09-06"
@@ -659,7 +659,7 @@
       "category": "retrieval-search",
       "summary": "You.com provides a web search API with real-time indexing of 10M+ news sources.",
       "why_it_matters": "This is a general web search API. Unlike Browse.sh, Firecrawl, or Context.dev, it finds information across the open web, rather than extracting from specific URLs. Use it when an agent needs to query the internet broadly.",
-      "last_verified": "2026-09-06",
+      "last_verified": "2026-10-22",
       "source": "human:felix",
       "added": "2026-05-11",
       "refined": "2026-09-09"
@@ -1688,7 +1688,7 @@
       "category": "open-weights",
       "summary": "Mistral Medium 3.5 is an open-weight model family for general-purpose AI applications.",
       "why_it_matters": "This offers a general-purpose open-weight option. It serves as a stable alternative to specialized models like Kimi K2.6 or GLM 5.2 when your application does not require their specific long-horizon or agentic capabilities.",
-      "last_verified": "2026-09-05",
+      "last_verified": "2026-10-22",
       "source": "curator:2026-07-31-0653",
       "added": "2026-07-31",
       "refined": "2026-08-09"
