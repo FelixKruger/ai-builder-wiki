@@ -89,8 +89,8 @@
       "blurb": "Generate a working full-stack app from a prompt. Prototype-to-production in minutes.",
       "intent": "I want a working app from a prompt",
       "guide": {
-        "body": "For generating a working application from a prompt, most teams should start with Atoms. It aims to build and deploy full-stack applications from natural language, offering the broadest scope for a complete product. If your primary need is a React/Next.js UI, v0 by Vercel provides faster scaffolding and direct Vercel deployment, but it is limited to that specific frontend stack. For rapid prototyping or sandboxed development without local environment setup, Bolt.new executes full-stack applications directly in your browser via WebContainers. If the \"app\" is specifically a mobile-first progressive web app for quick sharing, Whacka is designed for that narrow use case. A trade-off with general app builders like Atoms is that while they deliver functional prototypes quickly, the generated codebase often requires substantial manual refinement for maintainability and production readiness. Note that ChatGPT Work and Claude Cowork offer similar capabilities for automating tasks across office applications, with Claude Cowork emphasizing a mobile-first approach and Anthropic's safety features.",
-        "updated": "2026-10-07",
+        "body": "For most teams aiming for a working application from a prompt, start with Atoms. It employs specialized AI agents to build, deploy, and scale full-stack applications from natural language descriptions, providing a complete workflow from concept to live product. If your immediate need is a React/Next.js UI specifically for Vercel, v0 by Vercel is more direct, generating and deploying components optimized for that ecosystem. For rapid, sandboxed prototyping that avoids local environment setup, Bolt.new executes full-stack applications directly in your browser using WebContainers. If the objective is automating tasks across documents, spreadsheets, or presentations, ChatGPT Work, Claude Cowork, and Google Gemini Agent offer similar functionality; Claude Cowork distinguishes itself with a mobile-first focus and Anthropic's safety stack. A key trade-off with these agent-driven builders is the reduced transparency into generated code or agent decision-making, which can complicate debugging or deep customization compared to manual development.",
+        "updated": "2026-10-23",
         "model": "gemini:gemini-2.5-flash",
         "covers": [
           "Artifacts by Databox",
@@ -99,6 +99,7 @@
           "ChatGPT Work",
           "Claude Cowork",
           "Google Antigravity",
+          "Google Gemini Agent",
           "PlugThis",
           "Rayfin",
           "Whacka",
