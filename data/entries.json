@@ -671,7 +671,7 @@
       "category": "evals",
       "summary": "Open benchmark and leaderboard for deep-research agents (Claude, OpenAI, Gemini, and OSS) — hosted by muset-ai on Hugging Face Spaces.",
       "why_it_matters": "This is not an evaluation framework for your own agents, unlike DeepEval or Braintrust. Use it to compare the performance of existing, public deep-research agents when selecting an API or open-source model.",
-      "last_verified": "2026-09-06",
+      "last_verified": "2026-10-23",
       "source": "human:felix",
       "added": "2026-05-11",
       "refined": "2026-10-06"
@@ -683,7 +683,7 @@
       "category": "ai-coding",
       "summary": "Rust-native code editor with agentic editing, real-time collaboration, and the open Agent Client Protocol (ACP).",
       "why_it_matters": "The performance-first alternative to Cursor and Windsurf. 120 fps render, open prediction model (Zeta), and ACP make agent behavior auditable.",
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-10-23",
       "source": "human:felix",
       "added": "2026-05-11"
     },
@@ -909,7 +909,7 @@
       "category": "evals",
       "summary": "Helicone provides logging, monitoring, and debugging for large language model applications to help builders understand and optimize their AI usage.",
       "why_it_matters": "It offers detailed insights into LLM calls, including latency and cost, providing a more focused observability solution than broader eval platforms.",
-      "last_verified": "2026-09-06",
+      "last_verified": "2026-10-23",
       "source": "curator:2026-05-19-0853",
       "added": "2026-05-19"
     },
