@@ -114,8 +114,8 @@
       "blurb": "The closed-weight frontier models you call from your stack — Claude, GPT, Gemini.",
       "intent": "I need the best-available model behind an API",
       "guide": {
-        "body": "For most general-purpose applications requiring a frontier model, use OpenAI's GPT-6 Astra. It offers broad capabilities and benefits from OpenAI's extensive tooling ecosystem, simplifying integration. If your application involves complex, long-running agentic workflows with repeated prompts, consider the Claude API, specifically Claude Opus 5 or Sonnet 5. Claude's native tool use and prompt caching can reduce costs compared to general-purpose models, particularly for tasks like code generation or knowledge work where context re-evaluation is frequent. For applications requiring native video input or integrated web grounding without custom RAG, Gemini API is the only option among these APIs. No other hosted frontier model provides these capabilities natively. For bounded, machine-to-machine decision-making in software automation, Jev (TypeSafe AI) offers significantly faster response times and lower costs than general-purpose LLMs, but it is not suitable for open-ended generation. The choice between GPT-6 Astra and Claude Opus 5 for general complex tasks often comes down to existing infrastructure or specific agentic feature requirements, as both provide top-tier performance. Relying on a specialized model like Jev means trading off broad utility for speed and cost efficiency in specific, narrow use cases.",
-        "updated": "2026-10-09",
+        "body": "For general-purpose language model integration, start with OpenAI's GPT-6 Astra. It is the most capable default unless your application has specific requirements. If your workflow involves long-running, complex agentic tasks or extensive coding, Claude Opus 5 offers superior reliability and performance, particularly benefiting from native tool use and prompt caching to reduce repeated prompt costs. Claude Sonnet 5 provides similar agentic capabilities at a more accessible price point. For applications requiring native video input or integrated web grounding without custom RAG, the Gemini API is the only viable option. If your system needs fast, low-cost, structured, probabilistic decisions for machine-to-machine automation, Jev from TypeSafe AI is purpose-built for this, offering significantly faster response times and lower costs than general-purpose LLMs. Note that Meta Muse Spark 1.3 also targets agentic workflows and coding, overlapping with Claude's offerings. The primary trade-off across these choices is between raw capability and specialized optimization for cost or specific modalities. Most teams will find GPT-6 Astra sufficient; others require the focused strengths of Claude, Gemini, or Jev.",
+        "updated": "2026-10-24",
         "model": "gemini:gemini-2.5-flash",
         "covers": [
           "Claude API (Anthropic)",
@@ -125,6 +125,7 @@
           "GPT-6 Astra",
           "Gemini API (Google)",
           "Jev (TypeSafe AI)",
+          "Meta Muse Spark 1.3",
           "OpenAI API",
           "OpenAI GPT-5.6 (Sol, Terra, Luna)"
         ]
