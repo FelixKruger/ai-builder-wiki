@@ -2129,6 +2129,17 @@
       "last_verified": "2026-10-18",
       "source": "curator:2026-10-18-0958",
       "added": "2026-10-18"
+    },
+    {
+      "id": "pixverse",
+      "name": "PixVerse",
+      "url": "https://pixverse.ai/en",
+      "category": "ai-video",
+      "summary": "PixVerse offers multimodal generation tools and a real-time world model for creating cinematic-quality video with precision camera control and expressive characters.",
+      "why_it_matters": "It provides advanced capabilities for text-to-video generation and real-time video transformation, offering a powerful platform for AI-driven creative workflows.",
+      "last_verified": "2026-10-26",
+      "source": "curator:2026-10-26-1136",
+      "added": "2026-10-26"
     }
   ]
 }
