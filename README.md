@@ -49,6 +49,8 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[PixVerse](https://felixkruger.github.io/ai-builder-wiki/#pixverse)** — PixVerse generates video from text or images, offering camera control and character consistency. _(added 2026-10-26)_
+
 - **[Spira Maxima](https://felixkruger.github.io/ai-builder-wiki/#spira-maxima)** — Spira Maxima is an AI social media agent that generates, schedules, and publishes short-form videos and images from scripts using viral templates. _(added 2026-10-18)_
 
 - **[Meta Muse Spark 1.3](https://felixkruger.github.io/ai-builder-wiki/#meta-muse-spark-1-3)** — Meta Muse Spark 1.3 is a multimodal reasoning model from Meta, tuned for agentic workflows and coding, available through Meta Model API. _(added 2026-10-12)_
@@ -62,8 +64,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Jev (TypeSafe AI)](https://felixkruger.github.io/ai-builder-wiki/#jev-typesafe-ai)** — Jev is a specialized "System One" model from TypeSafe AI that offers fast, low-cost, structured, probabilistic decisions for software automation via API. _(added 2026-10-02)_
 
 - **[Google Flow](https://felixkruger.github.io/ai-builder-wiki/#google-flow)** — Google Flow is an AI tool for creating and refining AI-generated videos and scenes, offering features like scene extension, first-and-last-frame interpolation, and 4K upscaling. _(added 2026-09-28)_
-
-- **[Paperclip](https://felixkruger.github.io/ai-builder-wiki/#paperclip)** — Paperclip is an open-source "Office Harness" that provides a runtime environment for AI agents to manage work across spreadsheets, documents, and other office applications. _(added 2026-09-26)_
 
 <!-- RECENTLY_ADDED:END -->
 
