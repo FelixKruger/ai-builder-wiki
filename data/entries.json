@@ -707,7 +707,7 @@
       "category": "multi-agent-coding",
       "summary": "Unified runner for Claude Code, Codex, OpenCode, and others — accessible from phone, desktop, or terminal.",
       "why_it_matters": "If you need a consistent interface to run coding agents like Claude Code across phone, desktop, and terminal, Paseo delivers. Unlike frameworks such as AutoGen or CrewAI, its focus is cross-device execution, not multi-agent orchestration.",
-      "last_verified": "2026-09-09",
+      "last_verified": "2026-10-26",
       "source": "human:felix",
       "added": "2026-05-11",
       "refined": "2026-10-09"
@@ -1090,7 +1090,7 @@
       "category": "multi-agent-coding",
       "summary": "SwarmClaw is an open-source, self-hosted runtime and multi-agent framework for orchestrating autonomous AI agent swarms with memory and skills.",
       "why_it_matters": "It provides a comprehensive platform for deploying and managing complex multi-agent systems, offering a self-hosted alternative to other multi-agent frameworks.",
-      "last_verified": "2026-09-09",
+      "last_verified": "2026-10-26",
       "source": "curator:2026-06-06-0657",
       "added": "2026-06-06"
     },
@@ -1101,7 +1101,7 @@
       "category": "mcp-tools",
       "summary": "Headroom compresses agent tool outputs, logs, files, and RAG chunks to reduce LLM token usage while maintaining response quality.",
       "why_it_matters": "It optimizes token efficiency for agents, which can significantly lower costs and improve performance compared to sending uncompressed data to LLMs.",
-      "last_verified": "2026-09-09",
+      "last_verified": "2026-10-26",
       "source": "curator:2026-06-06-0657",
       "added": "2026-06-06"
     },
