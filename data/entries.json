@@ -2136,11 +2136,12 @@
       "name": "Hi3D V1.0",
       "url": "https://github.com/hi3d-official/Hi3Dv1.0",
       "category": "ai-3d",
-      "summary": "Hi3D V1.0 is an open-source, production-validated AI 3D model for high-resolution geometry generation, released by Hi3D.",
-      "why_it_matters": "It offers expanded training data and improved practical usability for real-world 3D workflows, providing a robust foundation for various 3D applications.",
+      "summary": "Hi3D is an open-source model for generating high-resolution 3D geometry from images or text.",
+      "why_it_matters": "Hi3D focuses on high-resolution 3D geometry generation. Its production validation makes it a reliable choice for workflows that require only geometry, unlike Tripo3D which provides a full asset pipeline including texturing and rigging.",
       "last_verified": "2026-10-27",
       "source": "curator:2026-10-27-1106",
-      "added": "2026-10-27"
+      "added": "2026-10-27",
+      "refined": "2026-10-27"
     }
   ]
 }
