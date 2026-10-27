@@ -49,6 +49,8 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 
 <!-- RECENTLY_ADDED:START -->
 
+- **[Hi3D V1.0](https://felixkruger.github.io/ai-builder-wiki/#hi3d)** — Hi3D is an open-source model for generating high-resolution 3D geometry from images or text. _(added 2026-10-27)_
+
 - **[PixVerse](https://felixkruger.github.io/ai-builder-wiki/#pixverse)** — PixVerse generates video from text or images, offering camera control and character consistency. _(added 2026-10-26)_
 
 - **[Spira Maxima](https://felixkruger.github.io/ai-builder-wiki/#spira-maxima)** — Spira Maxima is an AI social media agent that generates, schedules, and publishes short-form videos and images from scripts using viral templates. _(added 2026-10-18)_
@@ -62,8 +64,6 @@ If you ship products on top of LLMs and want a fast scan of what's in use right 
 - **[Agent-Reach](https://felixkruger.github.io/ai-builder-wiki/#agent-reach)** — A CLI tool that grants AI agents access to search and read content from various internet platforms like Twitter, Reddit, and YouTube without API fees. _(added 2026-10-04)_
 
 - **[Jev (TypeSafe AI)](https://felixkruger.github.io/ai-builder-wiki/#jev-typesafe-ai)** — Jev is a specialized "System One" model from TypeSafe AI that offers fast, low-cost, structured, probabilistic decisions for software automation via API. _(added 2026-10-02)_
-
-- **[Google Flow](https://felixkruger.github.io/ai-builder-wiki/#google-flow)** — Google Flow is an AI tool for creating and refining AI-generated videos and scenes, offering features like scene extension, first-and-last-frame interpolation, and 4K upscaling. _(added 2026-09-28)_
 
 <!-- RECENTLY_ADDED:END -->
 

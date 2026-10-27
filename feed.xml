@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Mon, 26 Oct 2026 11:37:13 +0000</lastBuildDate>
+<lastBuildDate>Tue, 27 Oct 2026 11:07:35 +0000</lastBuildDate>
+
+<item>
+  <title>Hi3D V1.0</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#hi3d</link>
+  <guid isPermaLink="false">hi3d-2026-10-27</guid>
+  <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Hi3D is an open-source model for generating high-resolution 3D geometry from images or text. — Hi3D focuses on high-resolution 3D geometry generation. Its production validation makes it a reliable choice for workflows that require only geometry, unlike Tripo3D which provides a full asset pipeline including texturing and rigging.]]></description>
+</item>
 
 <item>
   <title>PixVerse</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">jev-typesafe-ai-2026-10-02</guid>
   <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[Jev is a specialized "System One" model from TypeSafe AI that offers fast, low-cost, structured, probabilistic decisions for software automation via API. — Unlike general-purpose LLMs, Jev is optimized for machine-to-machine consumption, providing significantly faster response times and lower costs for bounded decision-making in agentic workflows.]]></description>
-</item>
-
-<item>
-  <title>Google Flow</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#google-flow</link>
-  <guid isPermaLink="false">google-flow-2026-09-28</guid>
-  <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[Google Flow is an AI tool for creating and refining AI-generated videos and scenes, offering features like scene extension, first-and-last-frame interpolation, and 4K upscaling. — It provides advanced control and higher fidelity outputs for video generation, enabling more precise creative direction compared to simpler text-to-video alternatives.]]></description>
 </item>
 
 </channel>
