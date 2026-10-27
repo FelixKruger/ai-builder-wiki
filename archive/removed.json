@@ -159,5 +159,12 @@
     "url": "https://github.com/NousResearch/hermes-agent",
     "removed_at": "2026-09-10",
     "reason": "HTTP 0 during daily refresh"
+  },
+  {
+    "id": "perplexity-ai",
+    "name": "Perplexity AI",
+    "url": "https://www.perplexity.ai/",
+    "removed_at": "2026-10-27",
+    "reason": "HTTP 403 during daily refresh"
   }
 ]
