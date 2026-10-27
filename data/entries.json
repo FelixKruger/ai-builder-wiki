@@ -719,7 +719,7 @@
       "category": "multi-agent-coding",
       "summary": "TypeScript library by Matt Pocock for orchestrating AI coding agents in isolated sandboxes — one function call handles lifecycle and branch merging.",
       "why_it_matters": "Sandcastle removes boilerplate for managing isolated execution environments and Git branch merging when AI agents write code. Other multi-agent frameworks require you to build this code integration lifecycle yourself.",
-      "last_verified": "2026-09-10",
+      "last_verified": "2026-10-27",
       "source": "human:felix",
       "added": "2026-05-11",
       "refined": "2026-09-14"
@@ -933,7 +933,7 @@
       "category": "multi-agent-coding",
       "summary": "The Microsoft Agent Framework is an open, multi-language framework for building and orchestrating production-grade AI agents and multi-agent workflows.",
       "why_it_matters": "It provides a consistent foundation for agent systems across Python and .NET, supporting various LLM ecosystems for developers taking agents from prototype to production.",
-      "last_verified": "2026-09-10",
+      "last_verified": "2026-10-27",
       "source": "curator:2026-05-20-0848",
       "added": "2026-05-20"
     },
@@ -1951,17 +1951,6 @@
       "last_verified": "2026-10-25",
       "source": "curator:2026-09-08-1007",
       "added": "2026-09-08"
-    },
-    {
-      "id": "perplexity-ai",
-      "name": "Perplexity AI",
-      "url": "https://www.perplexity.ai/",
-      "category": "retrieval-search",
-      "summary": "Perplexity AI is a conversational answer engine that provides real-time cited search, advanced deep research, and connectors for live context from various applications.",
-      "why_it_matters": "It offers a comprehensive research platform with verifiable sources and the ability to integrate live data, distinguishing it from traditional search engines by focusing on actionable intelligence.",
-      "last_verified": "2026-09-10",
-      "source": "curator:2026-09-10-1005",
-      "added": "2026-09-10"
     },
     {
       "id": "openhands",
