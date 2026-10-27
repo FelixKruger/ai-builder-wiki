@@ -337,7 +337,17 @@
       "section": "Generate Media",
       "name": "AI 3D",
       "blurb": "Text- or image-to-3D generators and 3D asset pipelines.",
-      "intent": "I need 3D assets — games, AR, products"
+      "intent": "I need 3D assets — games, AR, products",
+      "guide": {
+        "body": "For most teams needing 3D assets for games, AR, or product visualization, Tripo3D is the initial choice. It provides an integrated workflow from text, image, or sketch to a production-ready asset, including texturing, rigging, and animation. This single solution avoids stitching together multiple tools when a riggable output is required.\n\nHowever, if your pipeline demands local execution, deep custom integration, or the ability to re-texture existing meshes, Hunyuan3D-2 is the correct path. Its open weights allow for direct control and modification, a capability Tripo3D's hosted service does not offer. The trade-off is the engineering effort required to integrate and maintain an open-source model versus using a managed service.\n\nIf your primary need is strictly high-resolution 3D geometry and not a full rigged asset, Hi3D V1.0 is a reliable option. It focuses solely on geometry generation, which can simplify your pipeline if texturing and rigging are handled downstream by other means. While Hunyuan3D-2 also generates geometry, Hi3D V1.0's production validation makes it a focused choice for geometry-only requirements.",
+        "updated": "2026-10-27",
+        "model": "gemini:gemini-2.5-flash",
+        "covers": [
+          "Hi3D V1.0",
+          "Hunyuan3D-2",
+          "Tripo3D"
+        ]
+      }
     },
     {
       "id": "evals",
