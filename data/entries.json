@@ -2152,6 +2152,17 @@
       "source": "curator:2026-10-27-1106",
       "added": "2026-10-27",
       "refined": "2026-10-27"
+    },
+    {
+      "id": "tencent-hy-simulmt",
+      "name": "Tencent Hy-SimulMT",
+      "url": "https://github.com/Tencent-Hunyuan/Hy-SimulMT",
+      "category": "voice-audio",
+      "summary": "Tencent open-sourced Hy-SimulMT, a model for real-time Chinese-English simultaneous interpretation with translated text and speech output, including real-time voice cloning.",
+      "why_it_matters": "This open-source model offers low-latency, high-quality simultaneous translation with voice cloning, making it valuable for applications requiring real-time, natural-sounding multilingual communication.",
+      "last_verified": "2026-10-28",
+      "source": "curator:2026-10-28-1142",
+      "added": "2026-10-28"
     }
   ]
 }
