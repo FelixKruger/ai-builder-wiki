@@ -242,8 +242,8 @@
       "blurb": "Vector stores, full-text search, and web search APIs. Stateless retrieval — different from memory.",
       "intent": "My agent needs to look things up",
       "guide": {
-        "body": "For agents needing to query the open internet broadly, You.com Search API is the default. It provides general web search, unlike tools focused on specific URLs. If your agent needs to retrieve from your own structured data or embeddings, and you already use PostgreSQL, pgvector is the simplest option, co-locating embeddings with existing data. The trade-off is pgvector performance degrades under heavy load; for high-scale vector search without operational overhead, turbopuffer is a better fit. For a complete internal document RAG pipeline, RAGFlow offers an integrated system, handling parsing and retrieval. If your internal documents are messy, Anydoc specifically solves the conversion to clean Markdown. When agents require dynamic, multi-step web interactions like logging in or filling forms, Browse.sh or Tencent BrowserSkill enable this, largely overlapping in capability. For static, structured data extraction from known URLs, Firecrawl and Context.dev are functionally similar options. Most teams won't need AnySearch AI for authenticated professional systems or Perplexity AI for deep, cited research unless their agent's task specifically demands those capabilities.",
-        "updated": "2026-10-15",
+        "body": "For most teams, start with pgvector if you already use PostgreSQL. It integrates vector search directly into your existing database, eliminating the operational burden of a separate vector store. The trade-off is that pgvector performance can degrade under heavy query loads or datasets exceeding tens of millions of vectors; in such cases, turbopuffer offers a serverless alternative that scales without requiring you to manage indexes. If your agent needs to query the open internet broadly, use You.com Search API. For extracting structured data from specific URLs, Firecrawl and Context.dev provide similar capabilities for clean content extraction. When an agent requires dynamic, multi-step web interactions, like clicking elements or filling forms, Browse.sh is the tool. If those interactions are with authenticated sessions or require background execution, Tencent BrowserSkill is more appropriate. For internal document retrieval, RAGFlow provides a complete RAG pipeline, while Anydoc specifically handles converting diverse document formats into clean Markdown for any RAG system. Agent-Reach offers broad, free access to platforms like Twitter and Reddit, expanding beyond traditional search. For secure, structured data from professional systems, AnySearch AI is the choice.",
+        "updated": "2026-10-30",
         "model": "gemini:gemini-2.5-flash",
         "covers": [
           "Agent-Reach",
@@ -252,7 +252,6 @@
           "Browse.sh",
           "Context.dev",
           "Firecrawl",
-          "Perplexity AI",
           "RAGFlow",
           "Tencent BrowserSkill",
           "You.com Search API",
