@@ -763,7 +763,7 @@
       "category": "ai-video",
       "summary": "React-based framework for creating videos programmatically using CSS, Canvas, SVG, and WebGL.",
       "why_it_matters": "This is the default choice for programmatic video generation when granular control and web development workflows are required. Unlike generative tools such as Luma Dream Machine or MoneyPrinterTurbo, Remotion allows developers to build video logic with React and integrate rendering into CI/CD pipelines.",
-      "last_verified": "2026-09-13",
+      "last_verified": "2026-10-30",
       "source": "human:felix",
       "added": "2026-05-11",
       "refined": "2026-10-10"
@@ -775,7 +775,7 @@
       "category": "ai-3d",
       "summary": "Text, image, or sketch to production-ready 3D assets — texturing, rigging, and animation in one workflow.",
       "why_it_matters": "The all-in-one 3D generator for game, AR, and product pipelines. Beats single-feature competitors when you need riggable output, not just a mesh.",
-      "last_verified": "2026-09-13",
+      "last_verified": "2026-10-30",
       "source": "human:felix",
       "added": "2026-05-11"
     },
@@ -1746,7 +1746,7 @@
       "category": "inference-platforms",
       "summary": "SiliconFlow is an AI cloud platform designed for running, customizing, and scaling large language models and multimodal models with high reliability and managed infrastructure.",
       "why_it_matters": "It provides optimized inference, a simple fine-tuning pipeline, and fully managed deployment, offering a specialized alternative to general cloud providers for hosting open-weight models in production.",
-      "last_verified": "2026-09-13",
+      "last_verified": "2026-10-30",
       "source": "curator:2026-08-07-0655",
       "added": "2026-08-07"
     },
