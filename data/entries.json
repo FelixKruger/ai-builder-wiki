@@ -797,7 +797,7 @@
       "category": "ai-design-skills",
       "summary": "Impeccable provides 23 commands to improve AI-generated UIs in Claude Code, Cursor, and Gemini CLI.",
       "why_it_matters": "This provides 23 direct commands for specific AI coding assistants. It offers a more integrated, executable workflow for immediate UI improvements in Claude Code, Cursor, or Gemini CLI than general prompt sets like Taste-Skill or broader design systems.",
-      "last_verified": "2026-09-15",
+      "last_verified": "2026-11-01",
       "source": "human:felix",
       "added": "2026-05-11",
       "refined": "2026-09-22"
@@ -1968,7 +1968,7 @@
       "category": "ai-coding",
       "summary": "OpenHands is an open-source framework for AI-driven development that enables large language models to assist with coding tasks and project management.",
       "why_it_matters": "It allows developers to integrate autonomous AI agents directly into their software development workflows, offering a more active and comprehensive approach compared to traditional AI coding assistants.",
-      "last_verified": "2026-09-14",
+      "last_verified": "2026-11-01",
       "source": "curator:2026-09-14-1101",
       "added": "2026-09-14"
     },
@@ -1979,7 +1979,7 @@
       "category": "ai-design-skills",
       "summary": "Taste-Skill is a GitHub project providing a skill registry and prompt set to enhance the aesthetic quality and originality of AI-generated design and frontend code.",
       "why_it_matters": "This tool helps address the common problem of generic AI outputs in design by offering structured guidance, allowing AI agents to produce more visually appealing results beyond basic design system prompts.",
-      "last_verified": "2026-09-14",
+      "last_verified": "2026-11-01",
       "source": "curator:2026-09-14-1101",
       "added": "2026-09-14"
     },
