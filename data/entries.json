@@ -293,8 +293,8 @@
       "blurb": "Speech synthesis, voice cloning, realtime agents, and music generation.",
       "intent": "I need a voice or audio output",
       "guide": {
-        "body": "Most teams needing voice output should start with ElevenLabs. It delivers the highest quality synthetic voice for general text-to-speech and voice cloning, and its Agents platform simplifies deploying interactive voice experiences. However, if your application demands sub-100ms streaming latency for real-time voice agents, Cartesia is the specific tool built for that requirement. For builders who cannot send data to third-party APIs or need full control over their voice generation stack, VoiceStudio offers a self-hosted, open-source alternative to ElevenLabs, though this choice shifts infrastructure and maintenance burden to your team. If your goal is original music creation, Suno v5 is the only relevant option. For specialized tasks like local-only meeting transcription for sensitive data, Meetily is the choice. Speko aggregates voice APIs but does not provide voice models itself.",
-        "updated": "2026-10-17",
+        "body": "For general voice or audio output, ElevenLabs is the default. It provides the highest quality synthetic voice and offers the quickest path to deploying voice agents. However, if your application requires sub-100ms streaming Text-to-Speech, Cartesia is the correct choice, though its voice quality may not match ElevenLabs for less latency-sensitive applications. For teams prioritizing self-hosting, full control, or avoiding commercial APIs, VoiceStudio offers an open-source, local-first platform for voice cloning and TTS, requiring you to manage the infrastructure yourself. If your output need is original music with human-like vocals, Suno v5 is the specific tool. Most teams will not need the specialized transcription or monitoring tools listed here for basic audio output generation. Speko serves as an API aggregator, useful if you plan to integrate and switch between multiple voice models, but it does not generate audio itself.",
+        "updated": "2026-11-01",
         "model": "gemini:gemini-2.5-flash",
         "covers": [
           "Cartesia",
@@ -304,6 +304,7 @@
           "Meetily",
           "Speko",
           "Suno v5",
+          "Tencent Hy-SimulMT",
           "VoiceStudio"
         ]
       }
