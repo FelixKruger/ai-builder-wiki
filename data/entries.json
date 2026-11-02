@@ -316,8 +316,8 @@
       "blurb": "Text-to-video models and programmatic video frameworks.",
       "intent": "I need to generate or compose video",
       "guide": {
-        "body": "For programmatic video generation with granular control, Remotion is the default. It integrates with existing React-based web development workflows, allowing video logic to be managed like any other web component. If your goal is to have an LLM agent author video directly, HyperFrames is a more suitable choice; its HTML foundation avoids the React build step, aligning better with how agents typically generate content. When generating video from text or images, Luma Dream Machine offers high-quality outputs and a draft mode for efficient iteration. Wan (Alibaba) and MoneyPrinterTurbo provide similar generative capabilities, with distinctions often boiling down to native audio support or specific output quality. For automating polished demos from screen recordings, Velo streamlines the process with automated scripts and AI avatars. If you need a full social media content pipeline, including scheduling and performance analysis, Spira Maxima covers more ground than a pure video generator. The core trade-off with generative models like Luma Dream Machine is a reduced ability to precisely control individual scene elements compared to the explicit coding required by Remotion.",
-        "updated": "2026-10-18",
+        "body": "For programmatic video generation, Remotion is the default choice. It integrates with React workflows, offering granular control over video elements and enabling CI/CD pipeline integration. This is suitable when you need to compose videos from existing assets or code custom logic.\n\nHowever, if your primary interface for video creation is an LLM agent, HyperFrames is a more appropriate alternative. Its HTML-based rendering allows agents to author videos directly, bypassing Remotion's React build step. The trade-off is that HyperFrames, being newer, has a smaller community and fewer established patterns than Remotion.\n\nWhen your goal is to generate high-quality video clips from text or image prompts without custom code, Luma Dream Machine offers native 1080p output and efficient iteration with its Draft Mode. PixVerse provides similar generative capabilities but with more granular control over camera movements and character consistency, which is critical for short-form narrative. Wan (Alibaba) also delivers comparable generative quality across a broader suite of tools. For fully automated social media content creation, including scheduling and publishing, Spira Maxima provides a complete agentic pipeline, exceeding the scope of single-task video generators like MoneyPrinterTurbo.",
+        "updated": "2026-11-02",
         "model": "gemini:gemini-2.5-flash",
         "covers": [
           "Google Flow",
@@ -325,6 +325,7 @@
           "Luma Dream Machine",
           "MoneyPrinterTurbo",
           "OpenMontage",
+          "PixVerse",
           "Remotion",
           "Spira Maxima",
           "Velo",
