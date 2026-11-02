@@ -810,7 +810,7 @@
       "category": "ai-design-skills",
       "summary": "A public Claude system prompt for design and prototyping, generating HTML artifacts and design systems.",
       "why_it_matters": "This prompt is a transparent, worked example for configuring Claude as a design agent. It offers more foundational control than pre-packaged skills like Impeccable for custom agent development.",
-      "last_verified": "2026-09-15",
+      "last_verified": "2026-11-02",
       "source": "human:felix",
       "added": "2026-05-11",
       "refined": "2026-10-12"
@@ -822,7 +822,7 @@
       "category": "open-weights",
       "summary": "Chinese AI lab shipping open-weight LLMs (R1, V3, V4-preview, Coder V2) with strong reasoning and aggressive pricing.",
       "why_it_matters": "When Claude or GPT's API bill bites, DeepSeek is the open-weight escape hatch with competitive reasoning. Frequently profiled by The AI Search.",
-      "last_verified": "2026-09-15",
+      "last_verified": "2026-11-02",
       "source": "human:felix+youtube:theAIsearch",
       "added": "2026-05-11"
     },
@@ -1983,18 +1983,6 @@
       "last_verified": "2026-11-01",
       "source": "curator:2026-09-14-1101",
       "added": "2026-09-14"
-    },
-    {
-      "id": "gpt-6-astra",
-      "name": "GPT-6 Astra",
-      "url": "https://openai.com/index/gpt-6-astra/",
-      "category": "hosted-apis",
-      "summary": "OpenAI's newest large language model, available via API and ChatGPT.",
-      "why_it_matters": "This is OpenAI's most capable model. Use it for general-purpose tasks exceeding GPT-5.6 Sol, or as a default unless specific multimodal features (Gemini) or agentic coding (Claude Opus 5) are critical.",
-      "last_verified": "2026-09-15",
-      "source": "curator:2026-09-15-1031",
-      "added": "2026-09-15",
-      "refined": "2026-10-05"
     },
     {
       "id": "tencent-browserskill",
