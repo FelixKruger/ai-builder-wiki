@@ -166,5 +166,12 @@
     "url": "https://www.perplexity.ai/",
     "removed_at": "2026-10-27",
     "reason": "HTTP 403 during daily refresh"
+  },
+  {
+    "id": "gpt-6-astra",
+    "name": "GPT-6 Astra",
+    "url": "https://openai.com/index/gpt-6-astra/",
+    "removed_at": "2026-11-02",
+    "reason": "HTTP 403 during daily refresh"
   }
 ]
