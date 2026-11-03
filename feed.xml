@@ -5,7 +5,15 @@
 <link>https://felixkruger.github.io/ai-builder-wiki/</link>
 <atom:link href="https://felixkruger.github.io/ai-builder-wiki/feed.xml" rel="self" type="application/rss+xml"/>
 <description>A daily-curated wiki of the tools, models, and patterns that AI power-users and builders actually reach for.</description>
-<lastBuildDate>Mon, 02 Nov 2026 13:55:54 +0000</lastBuildDate>
+<lastBuildDate>Tue, 03 Nov 2026 13:04:07 +0000</lastBuildDate>
+
+<item>
+  <title>Voiceflow</title>
+  <link>https://felixkruger.github.io/ai-builder-wiki/#voiceflow</link>
+  <guid isPermaLink="false">voiceflow-2026-11-03</guid>
+  <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+  <description><![CDATA[Voiceflow is an enterprise conversational AI platform for designing, testing, and deploying AI agents across chat and voice channels. — It offers a visual, collaborative workflow for building complex conversational flows, simplifying the development of interactive voice and chat experiences compared to code-centric approaches.]]></description>
+</item>
 
 <item>
   <title>Tencent Hy-SimulMT</title>
@@ -61,14 +69,6 @@
   <guid isPermaLink="false">google-gemini-agent-2026-10-10</guid>
   <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
   <description><![CDATA[A unified AI agent from Google designed for workplace tasks, capable of operating across various Google and third-party applications. — It functions as a proactive digital colleague, distinguishing itself from earlier AI assistants by autonomously completing multi-step assignments within enterprise workflows.]]></description>
-</item>
-
-<item>
-  <title>Agent-Reach</title>
-  <link>https://felixkruger.github.io/ai-builder-wiki/#agent-reach</link>
-  <guid isPermaLink="false">agent-reach-2026-10-04</guid>
-  <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-  <description><![CDATA[A CLI tool that grants AI agents access to search and read content from various internet platforms like Twitter, Reddit, and YouTube without API fees. — This provides a broad, free web-browsing capability for agents, expanding their information retrieval beyond traditional search APIs and specific vector stores.]]></description>
 </item>
 
 </channel>
