@@ -2152,6 +2152,17 @@
       "last_verified": "2026-10-28",
       "source": "curator:2026-10-28-1142",
       "added": "2026-10-28"
+    },
+    {
+      "id": "voiceflow",
+      "name": "Voiceflow",
+      "url": "https://www.voiceflow.com/",
+      "category": "voice-audio",
+      "summary": "Voiceflow is an enterprise conversational AI platform for designing, testing, and deploying AI agents across chat and voice channels.",
+      "why_it_matters": "It offers a visual, collaborative workflow for building complex conversational flows, simplifying the development of interactive voice and chat experiences compared to code-centric approaches.",
+      "last_verified": "2026-11-03",
+      "source": "curator:2026-11-03-1303",
+      "added": "2026-11-03"
     }
   ]
 }
