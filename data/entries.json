@@ -1355,7 +1355,7 @@
       "category": "voice-audio",
       "summary": "Meetily is a self-hosted, open-source AI meeting assistant providing live transcription, speaker diarization, and summarization.",
       "why_it_matters": "Meetily's 100% local processing ensures meeting data privacy, unlike cloud-dependent tools such as Kith or most commercial meeting assistants. This is critical for sensitive discussions where data must not leave your infrastructure.",
-      "last_verified": "2026-09-18",
+      "last_verified": "2026-11-05",
       "source": "curator:2026-07-06-0947",
       "added": "2026-07-06",
       "refined": "2026-10-15"
@@ -1367,7 +1367,7 @@
       "category": "agent-frameworks",
       "summary": "Google's Agent Development Kit (ADK) is an open-source, code-first framework for building, evaluating, and deploying sophisticated AI agents, optimized for the Google ecosystem.",
       "why_it_matters": "ADK provides a modular approach to agent development, enabling flexible orchestration of multi-agent systems and integrating with Google Cloud services for enterprise-scale deployment. This offers a comprehensive solution for developers already using Google's stack, similar to how Microsoft Agent Framework caters to its ecosystem.",
-      "last_verified": "2026-09-18",
+      "last_verified": "2026-11-05",
       "source": "curator:2026-07-07-0859",
       "added": "2026-07-07"
     },
@@ -1378,7 +1378,7 @@
       "category": "inference-platforms",
       "summary": "NVIDIA Dynamo is an open-source distributed inference framework for serving large language models efficiently across multi-node GPU environments.",
       "why_it_matters": "It significantly boosts throughput and reduces latency for LLM inference by introducing innovations like disaggregated prefill and decode, dynamic GPU scheduling, and KV cache management. This provides a high-performance solution for scaling generative AI models in production, offering a specialized alternative to general-purpose inference solutions.",
-      "last_verified": "2026-09-18",
+      "last_verified": "2026-11-05",
       "source": "curator:2026-07-07-0859",
       "added": "2026-07-07"
     },
