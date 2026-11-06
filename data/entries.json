@@ -1389,7 +1389,7 @@
       "category": "retrieval-search",
       "summary": "A web scraping and data extraction API designed to provide clean, structured web content for AI agents and developers.",
       "why_it_matters": "It streamlines the process of feeding high-quality, structured web data to AI agents, enhancing their ability to perform accurate information retrieval.",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-11-06",
       "source": "curator:2026-07-08-0801",
       "added": "2026-07-08"
     },
@@ -1400,7 +1400,7 @@
       "category": "evals",
       "summary": "A 3D simulation environment for visualizing, monitoring, and debugging AI agent workflows.",
       "why_it_matters": "It offers a unique visual approach to understanding complex agent interactions, providing more intuitive insights than traditional log-based debugging for multi-agent systems.",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-11-06",
       "source": "curator:2026-07-08-0801",
       "added": "2026-07-08"
     },
@@ -1992,7 +1992,7 @@
       "category": "retrieval-search",
       "summary": "Tencent BrowserSkill is a CLI and browser extension for AI agents to automate logged-in web interactions.",
       "why_it_matters": "This enables AI agents to automate complex, authenticated workflows within a browser, unlike generic web scraping APIs like Firecrawl or Context.dev. It handles logged-in sessions and background execution, which is critical for tasks requiring persistent state or direct interaction with web applications.",
-      "last_verified": "2026-09-18",
+      "last_verified": "2026-11-06",
       "source": "curator:2026-09-18-1006",
       "added": "2026-09-18",
       "refined": "2026-09-21"
