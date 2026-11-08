@@ -867,7 +867,7 @@
       "category": "inference-platforms",
       "summary": "Production-grade inference + fine-tuning platform for open-weight models, with proprietary speculative decoding and custom kernels.",
       "why_it_matters": "OpenRouter aggregates; Together engineers the stack. Pick Together when you need to fine-tune an OSS model and serve it at scale on the same platform.",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-11-08",
       "source": "human:felix",
       "added": "2026-05-11"
     },
@@ -1803,7 +1803,7 @@
       "category": "hosted-apis",
       "summary": "Anthropic's top-tier model for agentic coding, knowledge work, and visual understanding.",
       "why_it_matters": "This is Anthropic's most capable model for complex production workflows and long-running agent tasks. It offers higher reliability and performance than Opus 4.8 for these demanding applications.",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-11-08",
       "source": "curator:2026-08-09-1933",
       "added": "2026-08-09",
       "refined": "2026-08-13"
@@ -1826,7 +1826,7 @@
       "category": "open-weights",
       "summary": "Alibaba released Qwen3.8-Max, a 2.4 trillion parameter open-weight multimodal AI model with a 1 million token context window.",
       "why_it_matters": "This model significantly advances open-weight capabilities in coding, research, and visual intelligence, rivaling frontier models at a larger scale than previous Qwen iterations.",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-11-08",
       "source": "curator:2026-08-09-1938",
       "added": "2026-08-09"
     },
