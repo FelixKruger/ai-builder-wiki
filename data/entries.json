@@ -516,7 +516,7 @@
       "category": "evals",
       "summary": "Open-source eval framework from the UK AI Safety Institute for public model capability evaluations.",
       "why_it_matters": "Use Inspect if you are publishing model capability evaluations for public scrutiny and reproducibility. Unlike general-purpose eval frameworks like DeepEval or Braintrust, Inspect is the established standard for transparent, externally verifiable model assessments.",
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-11-12",
       "source": "seed",
       "added": "2026-04-27",
       "refined": "2026-08-22"
@@ -1168,7 +1168,7 @@
       "category": "app-builders",
       "summary": "Atoms is an AI-native platform that uses a team of specialized AI agents to build, deploy, and scale full-stack applications from natural language descriptions.",
       "why_it_matters": "It enables rapid prototyping and deployment of functional applications, offering a complete business building workflow from idea to live product, unlike simpler code generation tools.",
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-11-12",
       "source": "curator:2026-06-14-0727",
       "added": "2026-06-14"
     },
@@ -1433,7 +1433,7 @@
       "category": "mcp-tools",
       "summary": "OfficeCLI is an open-source command-line interface enabling AI agents to read, edit, and automate Microsoft Word, Excel, and PowerPoint files without requiring Office installation.",
       "why_it_matters": "This tool provides agents with direct, programmatic access to common office document formats, extending their utility beyond code-centric tasks to broader business process automation, unlike general coding agents.",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-11-12",
       "source": "curator:2026-07-10-0853",
       "added": "2026-07-10"
     },
