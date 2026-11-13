@@ -889,7 +889,7 @@
       "category": "agent-memory",
       "summary": "Drop-in memory infrastructure for AI agents — automatic learning from interactions, persistent context across sessions.",
       "why_it_matters": "If MemPalace and OB1 are the OSS DIY paths, Mem0 is the managed-service alternative. Faster to integrate when you don't want to host memory yourself.",
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-11-13",
       "source": "human:felix",
       "added": "2026-05-11"
     },
@@ -900,7 +900,7 @@
       "category": "agent-memory",
       "summary": "Persistent-agent framework with continual learning — direct descendant of UC Berkeley's MemGPT research.",
       "why_it_matters": "The research-backed approach to agent memory: hierarchical context, self-editing memory blocks. Different mental model from drop-in retrieval like Mem0.",
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-11-13",
       "source": "human:felix",
       "added": "2026-05-11"
     },
@@ -1179,7 +1179,7 @@
       "category": "mcp-tools",
       "summary": "Publora is a social media API and MCP server for AI agents, enabling programmatic scheduling and publishing of content across 10 platforms from a single endpoint.",
       "why_it_matters": "It simplifies social media management for AI agents by providing a unified API and MCP integration, eliminating the need to wire multiple OAuth flows for different platforms.",
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-11-13",
       "source": "curator:2026-06-14-0727",
       "added": "2026-06-14"
     },
