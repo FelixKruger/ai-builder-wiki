@@ -1190,7 +1190,7 @@
       "category": "inference-platforms",
       "summary": "Ollama allows developers to run large language models locally on their own machines, providing a self-hosted AI experience.",
       "why_it_matters": "It offers a way to experiment with and deploy open-weight models without cloud costs, contrasting with hosted inference platforms like Groq or Together AI.",
-      "last_verified": "2026-09-27",
+      "last_verified": "2026-11-14",
       "source": "curator:2026-06-15-0744",
       "added": "2026-06-15"
     },
@@ -1444,7 +1444,7 @@
       "category": "agent-memory",
       "summary": "Memory OS is a 7-layer, local-first memory operating system designed for Hermes Agent, providing persistent, surgically token-efficient memory.",
       "why_it_matters": "It addresses context loss in agentic AI by offering a private, provider-agnostic, and highly structured memory infrastructure that runs entirely on the user's machine.",
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-11-14",
       "source": "curator:2026-07-11-0727",
       "added": "2026-07-11"
     },
@@ -2037,7 +2037,7 @@
       "category": "mcp-tools",
       "summary": "Paperclip is an open-source \"Office Harness\" that provides a runtime environment for AI agents to manage work across spreadsheets, documents, and other office applications.",
       "why_it_matters": "It offers a unified platform for agents to interact with common office tools, enabling complex automated workflows that would otherwise require custom integrations for each application.",
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-11-14",
       "source": "curator:2026-09-26-1020",
       "added": "2026-09-26"
     },
