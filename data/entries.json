@@ -974,11 +974,11 @@
     {
       "id": "codewhale",
       "name": "CodeWhale",
-      "url": "https://github.com/Hmbown/CodeWhale",
+      "url": "https://github.com/codewhale-hq/Codewhale",
       "category": "ai-coding",
       "summary": "CodeWhale is a terminal-based AI coding agent designed for DeepSeek models, engineered for prefix-cache stability.",
       "why_it_matters": "Choose CodeWhale if you specifically use DeepSeek models. Its prefix-cache stability provides more consistent performance with DeepSeek than general-purpose agents like Aider or OpenCode, especially for iterative coding tasks in the terminal.",
-      "last_verified": "2026-09-28",
+      "last_verified": "2026-11-16",
       "source": "curator:2026-05-26-0703",
       "added": "2026-05-26",
       "refined": "2026-09-16"
@@ -1478,7 +1478,7 @@
       "category": "inference-platforms",
       "summary": "Colibri is a pure C, zero-dependency engine for running large open-weight models on consumer machines with limited RAM.",
       "why_it_matters": "Colibri is for running extremely large open-weight models (e.g., 700B+ MoE) on consumer machines with limited RAM. Its pure C, zero-dependency design offers a lower-level, more resource-efficient option than tools like Ollama or AirLLM for highly constrained local environments.",
-      "last_verified": "2026-09-28",
+      "last_verified": "2026-11-16",
       "source": "curator:2026-07-13-0838",
       "added": "2026-07-13",
       "refined": "2026-08-19"
@@ -2048,7 +2048,7 @@
       "category": "ai-video",
       "summary": "Google Flow is an AI tool for creating and refining AI-generated videos and scenes, offering features like scene extension, first-and-last-frame interpolation, and 4K upscaling.",
       "why_it_matters": "It provides advanced control and higher fidelity outputs for video generation, enabling more precise creative direction compared to simpler text-to-video alternatives.",
-      "last_verified": "2026-09-28",
+      "last_verified": "2026-11-16",
       "source": "curator:2026-09-28-1204",
       "added": "2026-09-28"
     },
