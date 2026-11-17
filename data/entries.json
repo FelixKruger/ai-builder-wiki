@@ -990,7 +990,7 @@
       "category": "ai-design-skills",
       "summary": "Open Design is a local-first, open-source tool for generating prototypes and media.",
       "why_it_matters": "Use this over Claude Design if local execution and open-source control are non-negotiable for design generation.",
-      "last_verified": "2026-09-29",
+      "last_verified": "2026-11-17",
       "source": "curator:2026-05-26-0703",
       "added": "2026-05-26",
       "refined": "2026-10-22"
@@ -1201,7 +1201,7 @@
       "category": "inference-platforms",
       "summary": "LMCache is an open-source inference caching system designed to enhance language model serving efficiency by reducing redundant computations.",
       "why_it_matters": "It optimizes the cost and latency of running LLMs in production, offering a critical component for scaling AI applications more efficiently than uncached inference.",
-      "last_verified": "2026-09-29",
+      "last_verified": "2026-11-17",
       "source": "curator:2026-06-16-0747",
       "added": "2026-06-16"
     },
@@ -1490,7 +1490,7 @@
       "category": "retrieval-search",
       "summary": "Context.dev provides an API to extract structured data from any website, enabling agents and applications to programmatically access web content.",
       "why_it_matters": "It offers a standardized way for AI agents to gather and process information from the web, crucial for tasks requiring up-to-date or specific data that traditional search engines may not structure effectively.",
-      "last_verified": "2026-09-29",
+      "last_verified": "2026-11-17",
       "source": "curator:2026-07-13-0838",
       "added": "2026-07-13"
     },
