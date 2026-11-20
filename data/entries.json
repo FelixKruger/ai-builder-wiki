@@ -576,7 +576,7 @@
       "category": "app-builders",
       "summary": "Generate React/Next.js UIs from prompts — full-stack mode, git sync, deploy to Vercel in one click.",
       "why_it_matters": "Use this for rapid React/Next.js UI scaffolding directly deployable to Vercel. It beats general-purpose app builders like Atoms for Vercel-native component generation, but is limited to that stack.",
-      "last_verified": "2026-10-03",
+      "last_verified": "2026-11-20",
       "source": "seed",
       "added": "2026-04-27",
       "refined": "2026-09-20"
@@ -1223,7 +1223,7 @@
       "category": "agent-frameworks",
       "summary": "LlamaIndex is a data framework for LLM applications, providing tools to ingest, structure, and access private or domain-specific data for context-aware AI agents.",
       "why_it_matters": "It simplifies the integration of external data with LLMs for retrieval-augmented generation (RAG), serving as a foundational framework for many data-aware agent applications.",
-      "last_verified": "2026-10-03",
+      "last_verified": "2026-11-20",
       "source": "curator:2026-06-17-0738",
       "added": "2026-06-17"
     },
@@ -2059,7 +2059,7 @@
       "category": "hosted-apis",
       "summary": "Jev is a specialized \"System One\" model from TypeSafe AI that offers fast, low-cost, structured, probabilistic decisions for software automation via API.",
       "why_it_matters": "Unlike general-purpose LLMs, Jev is optimized for machine-to-machine consumption, providing significantly faster response times and lower costs for bounded decision-making in agentic workflows.",
-      "last_verified": "2026-10-02",
+      "last_verified": "2026-11-20",
       "source": "curator:2026-10-02-1124",
       "added": "2026-10-02"
     },
