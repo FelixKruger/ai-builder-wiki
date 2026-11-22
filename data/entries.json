@@ -1013,7 +1013,7 @@
       "category": "ai-coding",
       "summary": "OpenCode is an open-source, terminal-based AI coding agent that integrates with Git for commit-level code edits and supports over 100 languages.",
       "why_it_matters": "Unlike commercial AI coding assistants, OpenCode offers a free, self-hosted option with broad language support and deep codebase context for developers.",
-      "last_verified": "2026-10-05",
+      "last_verified": "2026-11-22",
       "source": "curator:2026-05-28-0710",
       "added": "2026-05-28"
     },
@@ -1557,7 +1557,7 @@
       "category": "hosted-apis",
       "summary": "OpenAI launched GPT-5.6, a new family of frontier AI models available in three tiers: Sol (top), Terra (mid-range), and Luna (fast, cheap).",
       "why_it_matters": "This release introduces OpenAI's most capable models to date, with tiered access designed to provide options for various performance and cost requirements.",
-      "last_verified": "2026-10-04",
+      "last_verified": "2026-11-22",
       "source": "curator:2026-07-17-0747",
       "added": "2026-07-17"
     },
@@ -2070,7 +2070,7 @@
       "category": "retrieval-search",
       "summary": "A CLI tool that grants AI agents access to search and read content from various internet platforms like Twitter, Reddit, and YouTube without API fees.",
       "why_it_matters": "This provides a broad, free web-browsing capability for agents, expanding their information retrieval beyond traditional search APIs and specific vector stores.",
-      "last_verified": "2026-10-04",
+      "last_verified": "2026-11-22",
       "source": "curator:2026-10-04-1122",
       "added": "2026-10-04"
     },
