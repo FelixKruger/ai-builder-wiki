@@ -385,7 +385,7 @@
       "category": "ai-coding",
       "summary": "Anthropic's official terminal-native coding agent — reads your repo, edits files, runs commands, talks to MCP servers.",
       "why_it_matters": "The reference implementation for agentic coding: full-context repo understanding, permissions model, hooks, and skills. If you're building developer agents, study how it ships.",
-      "last_verified": "2026-10-06",
+      "last_verified": "2026-11-23",
       "source": "seed",
       "added": "2026-04-27"
     },
@@ -1568,7 +1568,7 @@
       "category": "evals",
       "summary": "Traceforce provides company-wide security monitoring for AI applications by offering visibility and control over AI app activity and detecting security risks.",
       "why_it_matters": "It addresses the growing concern of AI-assisted attacks and supply chain risks by providing real-time monitoring and controls that traditional security tools often miss.",
-      "last_verified": "2026-10-05",
+      "last_verified": "2026-11-23",
       "source": "curator:2026-07-17-0747",
       "added": "2026-07-17"
     },
@@ -1871,7 +1871,7 @@
       "category": "ai-video",
       "summary": "A tool that generates high-definition short videos from a given topic or keyword using large AI models and automated workflows.",
       "why_it_matters": "It offers a complete workflow for AI video creation, including native audio, which simplifies the process of producing high-quality video content compared to tools requiring separate audio integration.",
-      "last_verified": "2026-10-05",
+      "last_verified": "2026-11-23",
       "source": "curator:2026-08-23-0617",
       "added": "2026-08-23"
     },
