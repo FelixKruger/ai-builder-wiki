@@ -612,7 +612,7 @@
       "category": "voice-audio",
       "summary": "Cartesia provides streaming Text-to-Speech (TTS) with sub-100ms latency using state-space models.",
       "why_it_matters": "For voice agents requiring minimal latency, Cartesia offers lower response times than alternatives like ElevenLabs. It is the default choice when sub-100ms streaming TTS is a hard requirement.",
-      "last_verified": "2026-10-07",
+      "last_verified": "2026-11-24",
       "source": "seed",
       "added": "2026-04-27",
       "refined": "2026-08-21"
@@ -624,7 +624,7 @@
       "category": "mcp-tools",
       "summary": "An open standard for connecting LLMs to tools, data, and prompts.",
       "why_it_matters": "This is the de facto standard for agent-tool communication. It ensures interoperability with the broader agent ecosystem, a benefit custom or proprietary interfaces cannot offer.",
-      "last_verified": "2026-10-08",
+      "last_verified": "2026-11-24",
       "source": "seed",
       "added": "2026-04-27",
       "refined": "2026-09-05"
@@ -1245,7 +1245,7 @@
       "category": "mcp-tools",
       "summary": "A high-performance Model Context Protocol (MCP) server designed for indexing codebases into a persistent knowledge graph.",
       "why_it_matters": "It enables coding agents to quickly query entire codebases as context, significantly improving efficiency and reducing token costs for code-related tasks.",
-      "last_verified": "2026-10-07",
+      "last_verified": "2026-11-24",
       "source": "curator:2026-06-19-0742",
       "added": "2026-06-19"
     },
