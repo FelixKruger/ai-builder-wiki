@@ -600,7 +600,7 @@
       "category": "voice-audio",
       "summary": "ElevenLabs offers text-to-speech, voice cloning, and a platform for real-time voice agents.",
       "why_it_matters": "For synthetic voice quality, ElevenLabs remains the standard. Its Agents platform offers the quickest deployment for phone-callable voice agents, a feature not present in other TTS offerings like Cartesia or VoiceStudio.",
-      "last_verified": "2026-10-07",
+      "last_verified": "2026-11-24",
       "source": "seed",
       "added": "2026-04-27",
       "refined": "2026-09-18"
@@ -1024,7 +1024,7 @@
       "category": "evals",
       "summary": "RAMPART is a Pytest-native, open-source framework from Microsoft for testing the safety and security of AI agents during development.",
       "why_it_matters": "It provides a structured way to red-team AI agents early in the development lifecycle, complementing existing observability tools by focusing on security vulnerabilities.",
-      "last_verified": "2026-10-06",
+      "last_verified": "2026-11-24",
       "source": "curator:2026-05-28-0710",
       "added": "2026-05-28"
     },
@@ -1579,7 +1579,7 @@
       "category": "agent-frameworks",
       "summary": "A minimalist, self-evolving autonomous agent framework that grants LLMs system-level control over a local computer with high token efficiency.",
       "why_it_matters": "It provides a lean, efficient, and self-improving approach to agent development by evolving skills from a minimal core, offering an alternative to more complex frameworks.",
-      "last_verified": "2026-10-06",
+      "last_verified": "2026-11-24",
       "source": "curator:2026-07-18-0721",
       "added": "2026-07-18"
     },
