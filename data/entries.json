@@ -408,7 +408,7 @@
       "category": "ai-coding",
       "summary": "Open-source CLI pair-programmer — git-native, model-agnostic, and the benchmark for many leaderboards.",
       "why_it_matters": "Most other agents focus on direct coding assistance. Aider's primary value is as the open-source baseline for evaluating new coding agents, offering a transparent, git-native comparison point.",
-      "last_verified": "2026-10-10",
+      "last_verified": "2026-11-25",
       "source": "seed",
       "added": "2026-04-27",
       "refined": "2026-08-30"
@@ -1035,7 +1035,7 @@
       "category": "agent-frameworks",
       "summary": "OpenClaw is a free and open-source personal AI assistant that runs locally on users' devices, connecting AI models to numerous integrations.",
       "why_it_matters": "It offers a privacy-focused, local-first approach to AI assistance with extensive integration capabilities and self-extending skill development, contrasting with cloud-dependent alternatives.",
-      "last_verified": "2026-10-09",
+      "last_verified": "2026-11-25",
       "source": "curator:2026-05-30-0654",
       "added": "2026-05-30"
     },
@@ -1601,7 +1601,7 @@
       "category": "retrieval-search",
       "summary": "RAGFlow is an open-source, end-to-end RAG engine for document processing, retrieval, and generation with LLMs.",
       "why_it_matters": "Most tools here are single-purpose components like `pgvector` or `Anydoc`. RAGFlow provides an integrated system for document RAG, handling parsing, chunking, embedding, and retrieval within one stack, suitable for teams needing a complete, self-contained pipeline for internal documents.",
-      "last_verified": "2026-10-09",
+      "last_verified": "2026-11-25",
       "source": "curator:2026-07-21-0801",
       "added": "2026-07-21",
       "refined": "2026-08-16"
