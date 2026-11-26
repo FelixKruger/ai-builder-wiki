@@ -1046,7 +1046,7 @@
       "category": "ai-video",
       "summary": "Velo is an AI video creation platform that transforms raw screen recordings into polished, shareable video messages with automated scripts and AI avatars.",
       "why_it_matters": "It simplifies video production for demos and explainers by automating scriptwriting and avatar generation, reducing the need for extensive editing compared to traditional video tools.",
-      "last_verified": "2026-10-10",
+      "last_verified": "2026-11-26",
       "source": "curator:2026-05-31-0711",
       "added": "2026-05-31"
     },
@@ -1256,7 +1256,7 @@
       "category": "open-weights",
       "summary": "Kimi K2.6 is an open-source, multimodal agentic model from Moonshot AI, excelling in long-horizon coding, coding-driven design, and orchestrating large agent swarms.",
       "why_it_matters": "This model pushes the boundaries for open-weight capabilities in complex, multi-step coding and agentic tasks, offering advanced features comparable to some closed-source frontier models.",
-      "last_verified": "2026-10-10",
+      "last_verified": "2026-11-26",
       "source": "curator:2026-06-21-0729",
       "added": "2026-06-21"
     },
@@ -2081,7 +2081,7 @@
       "category": "app-builders",
       "summary": "A unified AI agent from Google designed for workplace tasks, capable of operating across various Google and third-party applications.",
       "why_it_matters": "It functions as a proactive digital colleague, distinguishing itself from earlier AI assistants by autonomously completing multi-step assignments within enterprise workflows.",
-      "last_verified": "2026-10-10",
+      "last_verified": "2026-11-26",
       "source": "curator:2026-10-10-1125",
       "added": "2026-10-10"
     },
