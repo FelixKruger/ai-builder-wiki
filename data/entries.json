@@ -444,7 +444,7 @@
       "category": "hosted-apis",
       "summary": "OpenAI API provides access to their language models, supporting structured outputs and agentic primitives.",
       "why_it_matters": "It is the default choice for general-purpose language model integration. Its broad ecosystem and tooling simplify development compared to newer alternatives.",
-      "last_verified": "2026-10-13",
+      "last_verified": "2026-11-27",
       "source": "seed",
       "added": "2026-04-27",
       "refined": "2026-09-10"
@@ -1893,7 +1893,7 @@
       "category": "open-weights",
       "summary": "NVIDIA Nemotron 3.5 Lightning is an open-weight 30B mixture-of-experts model optimized for high-volume, low-latency execution in long-running AI agents.",
       "why_it_matters": "This model provides a cost-efficient and customizable open-weight solution for self-hosted inference, delivering faster output and agentic task completion for specialized workflows.",
-      "last_verified": "2026-10-12",
+      "last_verified": "2026-11-27",
       "source": "curator:2026-08-28-1744",
       "added": "2026-08-28"
     },
@@ -2103,7 +2103,7 @@
       "category": "hosted-apis",
       "summary": "Meta Muse Spark 1.3 is a multimodal reasoning model from Meta, tuned for agentic workflows and coding, available through Meta Model API.",
       "why_it_matters": "It offers advanced capabilities for multi-step tasks and tool use, establishing Meta as a new major provider in the hosted frontier model space.",
-      "last_verified": "2026-10-12",
+      "last_verified": "2026-11-27",
       "source": "curator:2026-10-12-1336",
       "added": "2026-10-12"
     },
