@@ -1057,7 +1057,7 @@
       "category": "evals",
       "summary": "DeepEval is an open-source, Python-first LLM evaluation framework that provides a pytest-native testing experience for AI applications.",
       "why_it_matters": "It offers over 50 research-backed metrics for evaluating RAG, agents, and chatbots, enabling developers to integrate LLM evaluation into CI/CD workflows.",
-      "last_verified": "2026-10-15",
+      "last_verified": "2026-11-28",
       "source": "curator:2026-06-01-0733",
       "added": "2026-06-01"
     },
@@ -1904,7 +1904,7 @@
       "category": "ai-design-skills",
       "summary": "An agent skill for generating verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams as self-contained HTML.",
       "why_it_matters": "It allows AI coding agents to produce clear and verifiable visual documentation, which enhances the understanding and communication of complex AI-generated system designs.",
-      "last_verified": "2026-10-14",
+      "last_verified": "2026-11-28",
       "source": "curator:2026-08-29-0052",
       "added": "2026-08-29"
     },
@@ -1915,7 +1915,7 @@
       "category": "voice-audio",
       "summary": "Kith generates clinical notes for therapists using AI from ambient session audio.",
       "why_it_matters": "This tool automates the laborious task of note-taking in clinical settings, streamlining workflows more efficiently than traditional transcription services.",
-      "last_verified": "2026-10-14",
+      "last_verified": "2026-11-28",
       "source": "curator:2026-08-29-1148",
       "added": "2026-08-29"
     },
